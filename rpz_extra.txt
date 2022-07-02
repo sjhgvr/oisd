@@ -1,12 +1,12 @@
-; Version: 202207021954
+; Version: 202207022022
 ; Title: oisd extra
-; Last modified: 2 Jul 2022 19:54 UTC
+; Last modified: 2 Jul 2022 20:22 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                    
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656791297 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656793001 86400 3600 604800 30
  NS localhost.
 
 0.0.0.0.beeglivesex.com CNAME .
@@ -45,8 +45,6 @@ $TTL 30
 *.51.la CNAME .
 5150ab4aa5.com CNAME .
 *.5150ab4aa5.com CNAME .
-51yes.com CNAME .
-*.51yes.com CNAME .
 6likosy.com CNAME .
 *.6likosy.com CNAME .
 7-7-7-partner.com CNAME .
@@ -491,8 +489,6 @@ clicktale.net CNAME .
 *.clicktale.net CNAME .
 clicktale.net.edgekey.net CNAME .
 *.clicktale.net.edgekey.net CNAME .
-client-event-reporter.twitch.tv CNAME .
-*.client-event-reporter.twitch.tv CNAME .
 clientsdk.luminati.io CNAME .
 *.clientsdk.luminati.io CNAME .
 cloudflareinsights.com CNAME .
@@ -505,8 +501,6 @@ cnzz.com CNAME .
 *.cnzz.com CNAME .
 cohesionapps.com CNAME .
 *.cohesionapps.com CNAME .
-collect.igodigital.com CNAME .
-*.collect.igodigital.com CNAME .
 collecting-consent.g5e.com CNAME .
 *.collecting-consent.g5e.com CNAME .
 collector-main.trafficmanager.net CNAME .
@@ -603,6 +597,8 @@ data.mistat.intl.xiaomi.com CNAME .
 *.data.mistat.intl.xiaomi.com CNAME .
 data.mistat.rus.xiaomi.com CNAME .
 *.data.mistat.rus.xiaomi.com CNAME .
+data.mistat.xiaomi.com CNAME .
+*.data.mistat.xiaomi.com CNAME .
 datacaciques.com CNAME .
 *.datacaciques.com CNAME .
 datadoghq-browser-agent.com CNAME .
@@ -675,8 +671,6 @@ eguo.info CNAME .
 *.eguo.info CNAME .
 eisys-bcs.jp CNAME .
 *.eisys-bcs.jp CNAME .
-ekeide.com CNAME .
-*.ekeide.com CNAME .
 elastx.net CNAME .
 *.elastx.net CNAME .
 elevagant.club CNAME .
@@ -1037,8 +1031,6 @@ js.gleam.io CNAME .
 *.js.gleam.io CNAME .
 jswxwofumjg.com CNAME .
 *.jswxwofumjg.com CNAME .
-jsyzw132.com CNAME .
-*.jsyzw132.com CNAME .
 jvicdngqyf.com CNAME .
 *.jvicdngqyf.com CNAME .
 jwpltx.com CNAME .
@@ -1197,20 +1189,14 @@ mimizet.ru CNAME .
 *.mimizet.ru CNAME .
 mindtake.com CNAME .
 *.mindtake.com CNAME .
-mistat.xiaomi.com CNAME .
-*.mistat.xiaomi.com CNAME .
 mixi.media CNAME .
 *.mixi.media CNAME .
-mkazanc.com CNAME .
-*.mkazanc.com CNAME .
 mkt51.net CNAME .
 *.mkt51.net CNAME .
 mmstat.com CNAME .
 *.mmstat.com CNAME .
 mmtro.com CNAME .
 *.mmtro.com CNAME .
-mobalyzer.net CNAME .
-*.mobalyzer.net CNAME .
 mobivity.com CNAME .
 *.mobivity.com CNAME .
 moengage.com CNAME .
@@ -1227,8 +1213,6 @@ mopinion.com CNAME .
 *.mopinion.com CNAME .
 movable-ink-397.com CNAME .
 *.movable-ink-397.com CNAME .
-mp.huangye.miui.com CNAME .
-*.mp.huangye.miui.com CNAME .
 mparticle.com CNAME .
 *.mparticle.com CNAME .
 mparticle.map.fastly.net CNAME .
@@ -1283,8 +1267,6 @@ mywot.com CNAME .
 *.mywot.com CNAME .
 naiadsystems.com CNAME .
 *.naiadsystems.com CNAME .
-nanovisor.io CNAME .
-*.nanovisor.io CNAME .
 narwhal.mobidia.com CNAME .
 *.narwhal.mobidia.com CNAME .
 nasapaul.com CNAME .
@@ -1423,8 +1405,6 @@ picura.it CNAME .
 *.picura.it CNAME .
 pidorg.ru CNAME .
 *.pidorg.ru CNAME .
-pillsmoney.com CNAME .
-*.pillsmoney.com CNAME .
 pipe.aria.microsoft.com CNAME .
 *.pipe.aria.microsoft.com CNAME .
 piwik.org CNAME .
@@ -1523,8 +1503,6 @@ researchnow.co.uk CNAME .
 *.researchnow.co.uk CNAME .
 researchnow.com CNAME .
 *.researchnow.com CNAME .
-resolver.gslb.mi-idc.com CNAME .
-*.resolver.gslb.mi-idc.com CNAME .
 resolver.msg.xiaomi.net CNAME .
 *.resolver.msg.xiaomi.net CNAME .
 resu8.hjfile.cn CNAME .
@@ -1569,8 +1547,6 @@ s8.addthis.com CNAME .
 *.s8.addthis.com CNAME .
 sa.bbc.co.uk CNAME .
 *.sa.bbc.co.uk CNAME .
-sa.bbc.com CNAME .
-*.sa.bbc.com CNAME .
 sail-horizon.com CNAME .
 *.sail-horizon.com CNAME .
 sakura.goguardian.com CNAME .
@@ -1613,8 +1589,6 @@ securitymetrics.com CNAME .
 *.securitymetrics.com CNAME .
 sedoparking.com CNAME .
 *.sedoparking.com CNAME .
-seductionprofits.com CNAME .
-*.seductionprofits.com CNAME .
 seed.bitcoin.sipa.be CNAME .
 *.seed.bitcoin.sipa.be CNAME .
 seed.bitcoinstats.com CNAME .
@@ -1641,8 +1615,6 @@ serving-sys.com CNAME .
 *.serving-sys.com CNAME .
 sgsnssdk.com.edgekey.net CNAME .
 *.sgsnssdk.com.edgekey.net CNAME .
-shandongaosen.cn CNAME .
-*.shandongaosen.cn CNAME .
 shopperapproved.com CNAME .
 *.shopperapproved.com CNAME .
 siamzone.com CNAME .
@@ -1851,8 +1823,6 @@ us-1.gladly.com CNAME .
 *.us-1.gladly.com CNAME .
 us.i1.yimg.com CNAME .
 *.us.i1.yimg.com CNAME .
-us04logfiles-va.zoom.us CNAME .
-*.us04logfiles-va.zoom.us CNAME .
 us04logfiles.zoom.us CNAME .
 *.us04logfiles.zoom.us CNAME .
 us6odtasve.ru CNAME .
@@ -1935,8 +1905,6 @@ widget.trustpilot.com CNAME .
 *.widget.trustpilot.com CNAME .
 widgets.trustedshops.com CNAME .
 *.widgets.trustedshops.com CNAME .
-wikiodeliv.com CNAME .
-*.wikiodeliv.com CNAME .
 wojv.club CNAME .
 *.wojv.club CNAME .
 woodpecker.uc.cn CNAME .
@@ -2009,8 +1977,6 @@ ymrseiueff.com CNAME .
 *.ymrseiueff.com CNAME .
 youvisit.com CNAME .
 *.youvisit.com CNAME .
-yuailairuci.com CNAME .
-*.yuailairuci.com CNAME .
 zarget.com CNAME .
 *.zarget.com CNAME .
 zenaps.com CNAME .
