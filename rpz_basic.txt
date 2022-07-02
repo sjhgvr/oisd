@@ -1,12 +1,12 @@
-; Version: 202207022021
+; Version: 202207022204
 ; Title: oisd basic
-; Last modified: 2 Jul 2022 20:21 UTC
+; Last modified: 2 Jul 2022 22:04 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                    
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656793001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656799201 86400 3600 604800 30
  NS localhost.
 
 0.code.cotsta.ru CNAME .
@@ -12241,8 +12241,6 @@ api-keks.com CNAME .
 *.api-keks.com CNAME .
 api-live.outgrow.co CNAME .
 *.api-live.outgrow.co CNAME .
-api-marketolog.mts.ru CNAME .
-*.api-marketolog.mts.ru CNAME .
 api-ms.cobainaja.id CNAME .
 *.api-ms.cobainaja.id CNAME .
 api-n.outgrow.co CNAME .
