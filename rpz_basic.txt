@@ -1,12 +1,12 @@
-; Version: 202207031038
+; Version: 202207031623
 ; Title: oisd basic
-; Last modified: 3 Jul 2022 10:38 UTC
+; Last modified: 3 Jul 2022 16:23 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                    
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656842401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656865439 86400 3600 604800 30
  NS localhost.
 
 0.code.cotsta.ru CNAME .
@@ -41839,8 +41839,6 @@ geoinfo.i2w.io CNAME .
 *.geoinfo.i2w.io CNAME .
 geoinventory.com CNAME .
 *.geoinventory.com CNAME .
-geoip-js.com CNAME .
-*.geoip-js.com CNAME .
 geoip-lookup.vice.com CNAME .
 *.geoip-lookup.vice.com CNAME .
 geoip.al.com CNAME .
@@ -101363,3 +101361,4 @@ zzz.pissrip.net CNAME .
 *.zzz.pissrip.net CNAME .
 zzznews.ru CNAME .
 *.zzznews.ru CNAME .
+
