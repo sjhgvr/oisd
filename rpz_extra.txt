@@ -1,12 +1,12 @@
-; Version: 202207031039
+; Version: 202207031638
 ; Title: oisd extra
-; Last modified: 3 Jul 2022 10:39 UTC
+; Last modified: 3 Jul 2022 16:38 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                    
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656842401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1656865930 86400 3600 604800 30
  NS localhost.
 
 0.0.0.0.beeglivesex.com CNAME .
@@ -943,6 +943,8 @@ geo.nbcsports.com CNAME .
 *.geo.nbcsports.com CNAME .
 geoip-db.com CNAME .
 *.geoip-db.com CNAME .
+geoip-js.com CNAME .
+*.geoip-js.com CNAME .
 geojs.io CNAME .
 *.geojs.io CNAME .
 geolocation-db.com CNAME .
@@ -1445,8 +1447,6 @@ mplxtms.com CNAME .
 *.mplxtms.com CNAME .
 mrzikj.com CNAME .
 *.mrzikj.com CNAME .
-ms-shopplus.su CNAME .
-*.ms-shopplus.su CNAME .
 msdk.qq.com CNAME .
 *.msdk.qq.com CNAME .
 mtburn.com CNAME .
@@ -1875,8 +1875,6 @@ shareaholic.com CNAME .
 *.shareaholic.com CNAME .
 shareasale.com CNAME .
 *.shareasale.com CNAME .
-shockgore.com CNAME .
-*.shockgore.com CNAME .
 shopperapproved.com CNAME .
 *.shopperapproved.com CNAME .
 shorte.st CNAME .
@@ -1985,6 +1983,8 @@ tacticalrepublic.com CNAME .
 *.tacticalrepublic.com CNAME .
 tag.getdrip.com CNAME .
 *.tag.getdrip.com CNAME .
+tag.search.sensefuel.live CNAME .
+*.tag.search.sensefuel.live CNAME .
 tag.shopping-feed.com CNAME .
 *.tag.shopping-feed.com CNAME .
 tagcommander.com CNAME .
@@ -2061,8 +2061,6 @@ tradedoubler.com CNAME .
 *.tradedoubler.com CNAME .
 tradetracker.net CNAME .
 *.tradetracker.net CNAME .
-tradingtactics.win CNAME .
-*.tradingtactics.win CNAME .
 traffic.spot.im CNAME .
 *.traffic.spot.im CNAME .
 trafficguard.ai CNAME .
