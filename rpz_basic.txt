@@ -1,12 +1,12 @@
-; Version: 202207180413
+; Version: 202207181659
 ; Title: oisd basic
-; Last modified: 18 Jul 2022 04:13 UTC
+; Last modified: 18 Jul 2022 16:59 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                   
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1658117341 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1658163310 86400 3600 604800 30
  NS localhost.
 
 0.code.cotsta.ru CNAME .
@@ -62473,6 +62473,8 @@ notificationallow.com CNAME .
 *.notificationallow.com CNAME .
 notifpush.com CNAME .
 *.notifpush.com CNAME .
+notifscreen.com CNAME .
+*.notifscreen.com CNAME .
 notify-bugs-fra1.rtl.de CNAME .
 *.notify-bugs-fra1.rtl.de CNAME .
 notify-guru.com CNAME .
