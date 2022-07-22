@@ -1,12 +1,12 @@
-; Version: 202207212209
+; Version: 202207221030
 ; Title: oisd extra
-; Last modified: 21 Jul 2022 22:09 UTC
+; Last modified: 22 Jul 2022 10:30 UTC
 ; Expires: 1 days (update frequency)
 ; Homepage: https://oisd.nl
 ; Syntax: Response Policy Zone                                   
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1658440801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1658484001 86400 3600 604800 30
  NS localhost.
 
 0.0.0.0.beeglivesex.com CNAME .
@@ -1643,8 +1643,6 @@ ue.flipboard.com CNAME .
 *.ue.flipboard.com CNAME .
 uid.mavencoalition.io CNAME .
 *.uid.mavencoalition.io CNAME .
-unbi.ba CNAME .
-*.unbi.ba CNAME .
 unurbs.com CNAME .
 *.unurbs.com CNAME .
 updatesecure.pro CNAME .
