@@ -1,7 +1,7 @@
-; Version: 202312271637
+; Version: 202312271808
 ; Title: oisd small
 ; Description: Block. Don't break.
-; Last modified: 2023-12-27T16:37:17+0000
+; Last modified: 2023-12-27T18:08:04+0000
 ; Expires: 1 hours
 ; Homepage: https://oisd.nl
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
@@ -10,7 +10,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1703694589 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1703700001 86400 3600 604800 30
  NS localhost.
 0.101tubeporn.com CNAME .
 *.0.101tubeporn.com CNAME .
@@ -66410,6 +66410,8 @@ static-ads.akamaized.net CNAME .
 *.static-ads.akamaized.net CNAME .
 static-ads.zaloapp.com CNAME .
 *.static-ads.zaloapp.com CNAME .
+static-srv.com CNAME .
+*.static-srv.com CNAME .
 static-ssp.yidianzixun.com CNAME .
 *.static-ssp.yidianzixun.com CNAME .
 static-trackers.adtarget.me CNAME .
@@ -78368,8 +78370,6 @@ www.qqqqbdma.com CNAME .
 *.www.qqqqbdma.com CNAME .
 www.rpzbfftekjdz.com CNAME .
 *.www.rpzbfftekjdz.com CNAME .
-www.static-srv.com CNAME .
-*.www.static-srv.com CNAME .
 www4.hentai-rpg.com CNAME .
 *.www4.hentai-rpg.com CNAME .
 www4.hentaigamecg.com CNAME .
