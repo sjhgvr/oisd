@@ -1,9 +1,9 @@
-; Version: 202402181037
+; Version: 202402181107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90024
-; Last modified: 2024-02-18T10:37:08+0000
+; Entries: 90022
+; Last modified: 2024-02-18T11:07:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1708251361 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1708254445 86400 3600 604800 30
  NS localhost.
 0.101tubeporn.com CNAME .
 *.0.101tubeporn.com CNAME .
@@ -32859,8 +32859,6 @@ eventsbands.com CNAME .
 *.eventsbands.com CNAME .
 eventsink.api.redbee.live CNAME .
 *.eventsink.api.redbee.live CNAME .
-eventstream.dodopizza.com CNAME .
-*.eventstream.dodopizza.com CNAME .
 eventtracking.hubapi.com CNAME .
 *.eventtracking.hubapi.com CNAME .
 evenuewasadi.xyz CNAME .
