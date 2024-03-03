@@ -1,9 +1,9 @@
-; Version: 202403030415
+; Version: 202403030417
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 85238
-; Last modified: 2024-03-03T04:15:16+0000
+; Entries: 85236
+; Last modified: 2024-03-03T04:17:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1709439310 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1709439448 86400 3600 604800 30
  NS localhost.
 0.101tubeporn.com CNAME .
 *.0.101tubeporn.com CNAME .
@@ -19239,8 +19239,6 @@ coderformylife.info CNAME .
 *.coderformylife.info CNAME .
 codes.royalad.pl CNAME .
 *.codes.royalad.pl CNAME .
-codesandbox.io CNAME .
-*.codesandbox.io CNAME .
 codesbro.com CNAME .
 *.codesbro.com CNAME .
 codezap.com CNAME .
