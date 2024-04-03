@@ -1,9 +1,9 @@
-; Version: 202404030935
+; Version: 202404031206
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91254
-; Last modified: 2024-04-03T09:35:07+0000
+; Entries: 91250
+; Last modified: 2024-04-03T12:06:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712134801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712145601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2151,8 +2151,6 @@ a.ladipage.com CNAME .
 *.a.ladipage.com CNAME .
 a.letsjerk.org CNAME .
 *.a.letsjerk.org CNAME .
-a.letsjerk.to CNAME .
-*.a.letsjerk.to CNAME .
 a.letsjerk.tv CNAME .
 *.a.letsjerk.tv CNAME .
 a.mabipa.com CNAME .
@@ -68067,8 +68065,6 @@ rogligh.ehrydnmdoe.com CNAME .
 *.rogligh.ehrydnmdoe.com CNAME .
 rogueschedule.com CNAME .
 *.rogueschedule.com CNAME .
-roi.ediscom.it CNAME .
-*.roi.ediscom.it CNAME .
 roia.biz CNAME .
 *.roia.biz CNAME .
 roikingdom.com CNAME .
