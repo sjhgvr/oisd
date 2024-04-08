@@ -1,9 +1,9 @@
-; Version: 202404080605
+; Version: 202404080906
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91506
-; Last modified: 2024-04-08T06:05:48+0000
+; Entries: 91518
+; Last modified: 2024-04-08T09:06:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712556001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712566801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -517,6 +517,8 @@ $TTL 30
 *.1f7wwaex9rbh.com CNAME .
 1f802c96ea.com CNAME .
 *.1f802c96ea.com CNAME .
+1f84e33459.com CNAME .
+*.1f84e33459.com CNAME .
 1fastredownload.com CNAME .
 *.1fastredownload.com CNAME .
 1fd92n6t8.de CNAME .
@@ -21129,6 +21131,8 @@ collector.vhx.tv CNAME .
 *.collector.vhx.tv CNAME .
 collector.wawlabs.com CNAME .
 *.collector.wawlabs.com CNAME .
+collector.xhaccess.com CNAME .
+*.collector.xhaccess.com CNAME .
 collector.xhofficial.com CNAME .
 *.collector.xhofficial.com CNAME .
 collector.xhwide1.com CNAME .
@@ -38917,6 +38921,8 @@ gtm.skrz.cz CNAME .
 *.gtm.skrz.cz CNAME .
 gtm.taginstall.com CNAME .
 *.gtm.taginstall.com CNAME .
+gtm.thefeed.com CNAME .
+*.gtm.thefeed.com CNAME .
 gtm.thermondo.de CNAME .
 *.gtm.thermondo.de CNAME .
 gtm.tipranks.com CNAME .
@@ -41043,6 +41049,8 @@ hooliganmedia.com CNAME .
 *.hooliganmedia.com CNAME .
 hooligapps.com CNAME .
 *.hooligapps.com CNAME .
+hoomigri.com CNAME .
+*.hoomigri.com CNAME .
 hoood.info CNAME .
 *.hoood.info CNAME .
 hoopbeingsmigraine.com CNAME .
@@ -52137,6 +52145,8 @@ metrics.svc.conholdate.cloud CNAME .
 *.metrics.svc.conholdate.cloud CNAME .
 metrics.ted.com CNAME .
 *.metrics.ted.com CNAME .
+metrics.thefeed.com CNAME .
+*.metrics.thefeed.com CNAME .
 metrics.timewarnercable.com CNAME .
 *.metrics.timewarnercable.com CNAME .
 metrics.toysrus.com CNAME .
@@ -85937,6 +85947,8 @@ vwtjvd.xyz CNAME .
 *.vwtjvd.xyz CNAME .
 vwuyuahqf.com CNAME .
 *.vwuyuahqf.com CNAME .
+vwyycnq.cn CNAME .
+*.vwyycnq.cn CNAME .
 vx.azuresjukes.com CNAME .
 *.vx.azuresjukes.com CNAME .
 vxdgsgdsvlwz.com CNAME .
