@@ -1,9 +1,9 @@
-; Version: 202404090606
+; Version: 202404090906
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91760
-; Last modified: 2024-04-09T06:06:21+0000
+; Entries: 91764
+; Last modified: 2024-04-09T09:06:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712642401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1712653201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -8873,6 +8873,8 @@ analytics-events.inshorts.com CNAME .
 *.analytics-events.inshorts.com CNAME .
 analytics-gateway.delta.dp.lightricks.com CNAME .
 *.analytics-gateway.delta.dp.lightricks.com CNAME .
+analytics-ingestion.pbpms.de CNAME .
+*.analytics-ingestion.pbpms.de CNAME .
 analytics-ingestion.production-public.tubi.io CNAME .
 *.analytics-ingestion.production-public.tubi.io CNAME .
 analytics-ingress-global.bitmovin.com CNAME .
@@ -9987,6 +9989,8 @@ anywaybreeches.com CNAME .
 *.anywaybreeches.com CNAME .
 anywaysreives.com CNAME .
 *.anywaysreives.com CNAME .
+aoakss.com CNAME .
+*.aoakss.com CNAME .
 aoalmfwinbsstec23.com CNAME .
 *.aoalmfwinbsstec23.com CNAME .
 aoihaizo.xyz CNAME .
@@ -11461,8 +11465,6 @@ astonishmentfuneral.com CNAME .
 *.astonishmentfuneral.com CNAME .
 astra9dlya10.com CNAME .
 *.astra9dlya10.com CNAME .
-astral.nicovideo.jp CNAME .
-*.astral.nicovideo.jp CNAME .
 astrandconifer.com CNAME .
 *.astrandconifer.com CNAME .
 astronomycrawlingcol.com CNAME .
@@ -54067,8 +54069,6 @@ mummydiverseprovided.com CNAME .
 *.mummydiverseprovided.com CNAME .
 munchkin.marketo.net CNAME .
 *.munchkin.marketo.net CNAME .
-mungfali.com CNAME .
-*.mungfali.com CNAME .
 munilf.com CNAME .
 *.munilf.com CNAME .
 munpracticalwh.info CNAME .
@@ -68231,6 +68231,8 @@ rlomivunesqal.com CNAME .
 *.rlomivunesqal.com CNAME .
 rlornextthefirean.com CNAME .
 *.rlornextthefirean.com CNAME .
+rlxhbff.cn CNAME .
+*.rlxhbff.cn CNAME .
 rmads.msn.com CNAME .
 *.rmads.msn.com CNAME .
 rmagugarmk.com CNAME .
@@ -90205,6 +90207,8 @@ yddbysa.xyz CNAME .
 *.yddbysa.xyz CNAME .
 yddjmpjo.xyz CNAME .
 *.yddjmpjo.xyz CNAME .
+yddrqwq.xyz CNAME .
+*.yddrqwq.xyz CNAME .
 ydenknowled.com CNAME .
 *.ydenknowled.com CNAME .
 ydevelelasticals.info CNAME .
