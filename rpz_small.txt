@@ -1,9 +1,9 @@
-; Version: 202405071805
+; Version: 202405071959
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96992
-; Last modified: 2024-05-07T18:05:36+0000
+; Entries: 96990
+; Last modified: 2024-05-07T19:59:13+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715104802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715111944 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -62577,8 +62577,6 @@ paasvalhall.top CNAME .
 *.paasvalhall.top CNAME .
 pac.thesun.co.uk CNAME .
 *.pac.thesun.co.uk CNAME .
-pac.thetimes.co.uk CNAME .
-*.pac.thetimes.co.uk CNAME .
 pacaelector.guru CNAME .
 *.pacaelector.guru CNAME .
 pacaka.conxxx.pro CNAME .
