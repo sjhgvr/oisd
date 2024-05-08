@@ -1,9 +1,9 @@
-; Version: 202405080330
+; Version: 202405080606
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 97046
-; Last modified: 2024-05-08T03:30:19+0000
+; Entries: 97034
+; Last modified: 2024-05-08T06:06:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715137202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715148001 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2281,8 +2281,6 @@ a.digitalgiftshopping.com CNAME .
 *.a.digitalgiftshopping.com CNAME .
 a.doganburda.com CNAME .
 *.a.doganburda.com CNAME .
-a.donyandmark.xyz CNAME .
-*.a.donyandmark.xyz CNAME .
 a.dyjqd.com CNAME .
 *.a.dyjqd.com CNAME .
 a.etology.com CNAME .
@@ -9151,6 +9149,8 @@ analytics-conomi.line.me CNAME .
 *.analytics-conomi.line.me CNAME .
 analytics-dataplane.invideo.io CNAME .
 *.analytics-dataplane.invideo.io CNAME .
+analytics-egain.com CNAME .
+*.analytics-egain.com CNAME .
 analytics-events.inshorts.com CNAME .
 *.analytics-events.inshorts.com CNAME .
 analytics-gateway.delta.dp.lightricks.com CNAME .
@@ -9215,8 +9215,6 @@ analytics.aklamio.com CNAME .
 *.analytics.aklamio.com CNAME .
 analytics.algolia.com CNAME .
 *.analytics.algolia.com CNAME .
-analytics.analytics-egain.com CNAME .
-*.analytics.analytics-egain.com CNAME .
 analytics.any.do CNAME .
 *.analytics.any.do CNAME .
 analytics.api.justeattakeaway.com CNAME .
@@ -30011,6 +30009,8 @@ dontent.powzerz.lol CNAME .
 *.dontent.powzerz.lol CNAME .
 donttbeevils.de CNAME .
 *.donttbeevils.de CNAME .
+donyandmark.xyz CNAME .
+*.donyandmark.xyz CNAME .
 doo6pwib3qngu.cloudfront.net CNAME .
 *.doo6pwib3qngu.cloudfront.net CNAME .
 doo9gpa5xdov2.cloudfront.net CNAME .
@@ -37937,8 +37937,6 @@ fyvpzn.xyz CNAME .
 *.fyvpzn.xyz CNAME .
 fzamtef.com CNAME .
 *.fzamtef.com CNAME .
-fzasx.cn CNAME .
-*.fzasx.cn CNAME .
 fzdpvjatkwpg.com CNAME .
 *.fzdpvjatkwpg.com CNAME .
 fzgrpqktmq.com CNAME .
@@ -68853,8 +68851,6 @@ qmaacxajsovk.com CNAME .
 *.qmaacxajsovk.com CNAME .
 qmaobrsasck.com CNAME .
 *.qmaobrsasck.com CNAME .
-qmgria.cn CNAME .
-*.qmgria.cn CNAME .
 qmoxxhc.cn CNAME .
 *.qmoxxhc.cn CNAME .
 qmwx4.xyz CNAME .
@@ -89993,8 +89989,6 @@ videosvc.ezoic.com CNAME .
 *.videosvc.ezoic.com CNAME .
 videosworks.com CNAME .
 *.videosworks.com CNAME .
-videotouch88.info CNAME .
-*.videotouch88.info CNAME .
 vidghjlgkuyfk.site CNAME .
 *.vidghjlgkuyfk.site CNAME .
 vidigital.ru CNAME .
@@ -93923,8 +93917,6 @@ xad.com CNAME .
 *.xad.com CNAME .
 xad.dnoticias.pt CNAME .
 *.xad.dnoticias.pt CNAME .
-xadcentral.com CNAME .
-*.xadcentral.com CNAME .
 xads.joboko.com CNAME .
 *.xads.joboko.com CNAME .
 xads.one CNAME .
@@ -96783,8 +96775,6 @@ zouard.com CNAME .
 *.zouard.com CNAME .
 zougreek.com CNAME .
 *.zougreek.com CNAME .
-zoukooso.com CNAME .
-*.zoukooso.com CNAME .
 zouloafi.net CNAME .
 *.zouloafi.net CNAME .
 zoutubephaid.com CNAME .
@@ -97055,7 +97045,5 @@ zzux.com CNAME .
 *.zzux.com CNAME .
 zzxmcp.com CNAME .
 *.zzxmcp.com CNAME .
-zzyy17.top CNAME .
-*.zzyy17.top CNAME .
 zzztest.oisd.nl CNAME .
 *.zzztest.oisd.nl CNAME .
