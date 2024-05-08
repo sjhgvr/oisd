@@ -1,9 +1,9 @@
-; Version: 202405081506
+; Version: 202405081803
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 97030
-; Last modified: 2024-05-08T15:06:32+0000
+; Entries: 97028
+; Last modified: 2024-05-08T18:03:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715180401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1715191374 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -86089,8 +86089,6 @@ traung.com CNAME .
 *.traung.com CNAME .
 traveladvertising.com CNAME .
 *.traveladvertising.com CNAME .
-travelaudience.com CNAME .
-*.travelaudience.com CNAME .
 traveldurationbrings.com CNAME .
 *.traveldurationbrings.com CNAME .
 travelingbeggarlyregions.com CNAME .
