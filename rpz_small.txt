@@ -1,9 +1,9 @@
-; Version: 202405181511
+; Version: 202405181806
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96190
-; Last modified: 2024-05-18T15:11:30+0000
+; Entries: 96192
+; Last modified: 2024-05-18T18:06:18+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1716044401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1716055201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6315,8 +6315,6 @@ adsmart.com CNAME .
 *.adsmart.com CNAME .
 adsmart.net CNAME .
 *.adsmart.net CNAME .
-adsmaster.dev CNAME .
-*.adsmaster.dev CNAME .
 adsmeasurement.com CNAME .
 *.adsmeasurement.com CNAME .
 adsmetadata.mobileadexchange.net CNAME .
@@ -53561,6 +53559,10 @@ matomo.a1.by CNAME .
 *.matomo.a1.by CNAME .
 matomo.cloudfront.similarweb.io CNAME .
 *.matomo.cloudfront.similarweb.io CNAME .
+matomo.menshealth.de CNAME .
+*.matomo.menshealth.de CNAME .
+matomo.motorpresse.de CNAME .
+*.matomo.motorpresse.de CNAME .
 matomo.quan.hoabinh.vn CNAME .
 *.matomo.quan.hoabinh.vn CNAME .
 matomo.shoppersguide.com.ph CNAME .
