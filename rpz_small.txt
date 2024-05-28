@@ -1,9 +1,9 @@
-; Version: 202405272110
+; Version: 202405280024
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96970
-; Last modified: 2024-05-27T21:10:14+0000
+; Entries: 96968
+; Last modified: 2024-05-28T00:24:54+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1716843601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1716854407 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1743,6 +1743,8 @@ $TTL 30
 *.38227.79j68qav2.com CNAME .
 383e3851cf.0115b2b799.com CNAME .
 *.383e3851cf.0115b2b799.com CNAME .
+3854704790.com CNAME .
+*.3854704790.com CNAME .
 3867.5clo0xmbf.com CNAME .
 *.3867.5clo0xmbf.com CNAME .
 3897e90a2e.com CNAME .
@@ -3283,8 +3285,6 @@ $TTL 30
 *.9198.5clo0xmbf.com CNAME .
 91cd3khn.de CNAME .
 *.91cd3khn.de CNAME .
-91ceadfe3f.3854704790.com CNAME .
-*.91ceadfe3f.3854704790.com CNAME .
 9202.4puuqeh41.com CNAME .
 *.9202.4puuqeh41.com CNAME .
 9208.4puuqeh41.com CNAME .
@@ -3681,8 +3681,6 @@ a.mts.ru CNAME .
 *.a.mts.ru CNAME .
 a.myprettyads.one CNAME .
 *.a.myprettyads.one CNAME .
-a.n4m5x60.com CNAME .
-*.a.n4m5x60.com CNAME .
 a.nowscore.com CNAME .
 *.a.nowscore.com CNAME .
 a.o2u.jp CNAME .
@@ -58567,6 +58565,8 @@ n4403ad.doubleclick.net CNAME .
 *.n4403ad.doubleclick.net CNAME .
 n49seircas7r.com CNAME .
 *.n49seircas7r.com CNAME .
+n4m5x60.com CNAME .
+*.n4m5x60.com CNAME .
 n4pusher.com CNAME .
 *.n4pusher.com CNAME .
 n5725.com CNAME .
@@ -74213,8 +74213,6 @@ s.moccapedia.com CNAME .
 *.s.moccapedia.com CNAME .
 s.myangular.life CNAME .
 *.s.myangular.life CNAME .
-s.n4m5x60.com CNAME .
-*.s.n4m5x60.com CNAME .
 s.nowsrv.com CNAME .
 *.s.nowsrv.com CNAME .
 s.opti-digital.com CNAME .
