@@ -1,9 +1,9 @@
-; Version: 202405301506
+; Version: 202405301806
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 97092
-; Last modified: 2024-05-30T15:06:22+0000
+; Entries: 97094
+; Last modified: 2024-05-30T18:06:20+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1717081202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1717092001 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -41369,8 +41369,6 @@ goofy1x.xyz CNAME .
 *.goofy1x.xyz CNAME .
 google-ads.hara.vn CNAME .
 *.google-ads.hara.vn CNAME .
-google-analytics.com CNAME .
-*.google-analytics.com CNAME .
 google-shopping-v2.sapoapps.vn CNAME .
 *.google-shopping-v2.sapoapps.vn CNAME .
 google-shopping.sapoapps.vn CNAME .
@@ -47739,6 +47737,8 @@ isabellahopepancake.com CNAME .
 *.isabellahopepancake.com CNAME .
 isanalyze.com CNAME .
 *.isanalyze.com CNAME .
+isatonabench.com CNAME .
+*.isatonabench.com CNAME .
 isawthenews.com CNAME .
 *.isawthenews.com CNAME .
 isbnrs.com CNAME .
@@ -79423,6 +79423,8 @@ ssl-services.com CNAME .
 *.ssl-services.com CNAME .
 ssl.eroscomix.com CNAME .
 *.ssl.eroscomix.com CNAME .
+ssl.google-analytics.com CNAME .
+*.ssl.google-analytics.com CNAME .
 ssl.widgets.webengage.com CNAME .
 *.ssl.widgets.webengage.com CNAME .
 ssl2anyone5.com CNAME .
