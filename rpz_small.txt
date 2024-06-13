@@ -1,9 +1,9 @@
-; Version: 202406131506
+; Version: 202406131806
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92350
-; Last modified: 2024-06-13T15:06:12+0000
+; Entries: 92354
+; Last modified: 2024-06-13T18:06:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718290801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718301602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -25343,6 +25343,8 @@ cv-tracker.stanby.com CNAME .
 *.cv-tracker.stanby.com CNAME .
 cvbjctqs.xyz CNAME .
 *.cvbjctqs.xyz CNAME .
+cvfgere96.cn CNAME .
+*.cvfgere96.cn CNAME .
 cvgrszkg.xyz CNAME .
 *.cvgrszkg.xyz CNAME .
 cvk.supklik.com CNAME .
@@ -65821,6 +65823,8 @@ pushanya.net CNAME .
 *.pushanya.net CNAME .
 pusharest.com CNAME .
 *.pusharest.com CNAME .
+pushatomic.com CNAME .
+*.pushatomic.com CNAME .
 pushazam.com CNAME .
 *.pushazam.com CNAME .
 pushazer.com CNAME .
