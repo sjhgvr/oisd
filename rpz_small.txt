@@ -1,9 +1,9 @@
-; Version: 202406150006
+; Version: 202406150306
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92434
-; Last modified: 2024-06-15T00:06:06+0000
+; Entries: 92440
+; Last modified: 2024-06-15T03:06:07+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718409604 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718420401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -20585,6 +20585,8 @@ cdn.pranmcpkx.com CNAME .
 *.cdn.pranmcpkx.com CNAME .
 cdn.ptomw.com CNAME .
 *.cdn.ptomw.com CNAME .
+cdn.pubnub.com CNAME .
+*.cdn.pubnub.com CNAME .
 cdn.qc24h.com CNAME .
 *.cdn.qc24h.com CNAME .
 cdn.rawqel.com CNAME .
@@ -81687,6 +81689,8 @@ tracker.icerocket.com CNAME .
 *.tracker.icerocket.com CNAME .
 tracker.iltrovatore.it CNAME .
 *.tracker.iltrovatore.it CNAME .
+tracker.insurads.com CNAME .
+*.tracker.insurads.com CNAME .
 tracker.iplocation.net CNAME .
 *.tracker.iplocation.net CNAME .
 tracker.joongang.co.kr CNAME .
@@ -91987,6 +91991,8 @@ zitscassias.top CNAME .
 *.zitscassias.top CNAME .
 zivtux.com CNAME .
 *.zivtux.com CNAME .
+ziwelatum.com CNAME .
+*.ziwelatum.com CNAME .
 ziziasonable.top CNAME .
 *.ziziasonable.top CNAME .
 zizoxozoox.com CNAME .
