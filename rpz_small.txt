@@ -1,9 +1,9 @@
-; Version: 202406180305
+; Version: 202406180606
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91528
-; Last modified: 2024-06-18T03:05:51+0000
+; Entries: 91532
+; Last modified: 2024-06-18T06:06:01+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718679601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718690401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -33015,6 +33015,8 @@ eph-adsjutarnji.cdn.sysbee.net CNAME .
 *.eph-adsjutarnji.cdn.sysbee.net CNAME .
 ephebedori.life CNAME .
 *.ephebedori.life CNAME .
+ephemeralcounters.api.roblox.com CNAME .
+*.ephemeralcounters.api.roblox.com CNAME .
 epicgameads.com CNAME .
 *.epicgameads.com CNAME .
 epipialbeheira.com CNAME .
@@ -79547,6 +79549,8 @@ tjappzvz.xyz CNAME .
 *.tjappzvz.xyz CNAME .
 tjfot.com CNAME .
 *.tjfot.com CNAME .
+tjk-njk.com CNAME .
+*.tjk-njk.com CNAME .
 tjuhdrm.com CNAME .
 *.tjuhdrm.com CNAME .
 tjuspyk.icu CNAME .
