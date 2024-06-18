@@ -1,9 +1,9 @@
-; Version: 202406180606
+; Version: 202406180905
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91532
-; Last modified: 2024-06-18T06:06:01+0000
+; Entries: 91530
+; Last modified: 2024-06-18T09:05:45+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718690401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1718701201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2525,8 +2525,6 @@ $TTL 30
 *.6d23bc0c0e.com CNAME .
 6d39809b4a.com CNAME .
 *.6d39809b4a.com CNAME .
-6dd83d1cf6.8a00fb3fc1.com CNAME .
-*.6dd83d1cf6.8a00fb3fc1.com CNAME .
 6de72955d8.com CNAME .
 *.6de72955d8.com CNAME .
 6e.co.kr CNAME .
@@ -3031,6 +3029,8 @@ $TTL 30
 *.899aa6e01c.com CNAME .
 89dfa3575e.com CNAME .
 *.89dfa3575e.com CNAME .
+8a00fb3fc1.com CNAME .
+*.8a00fb3fc1.com CNAME .
 8a40179356.com CNAME .
 *.8a40179356.com CNAME .
 8b2f59b83b.55ef6cccfc.com CNAME .
@@ -46935,8 +46935,6 @@ kapitalrus.ru CNAME .
 *.kapitalrus.ru CNAME .
 kaplanindex.com CNAME .
 *.kaplanindex.com CNAME .
-kapvu.cn CNAME .
-*.kapvu.cn CNAME .
 karafutem.com CNAME .
 *.karafutem.com CNAME .
 karayarillock.cam CNAME .
