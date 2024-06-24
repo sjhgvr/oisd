@@ -1,9 +1,9 @@
-; Version: 202406241806
+; Version: 202406242106
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91584
-; Last modified: 2024-06-24T18:06:01+0000
+; Entries: 91586
+; Last modified: 2024-06-24T21:06:05+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1719252001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1719262801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1237,8 +1237,6 @@ $TTL 30
 *.27c784b8b7.b58e782dc5.com CNAME .
 27c83c607f.40aa881a9f.com CNAME .
 *.27c83c607f.40aa881a9f.com CNAME .
-27cac6453c.bcd8072b72.com CNAME .
-*.27cac6453c.bcd8072b72.com CNAME .
 27d8ec8a23.7737d3a561.com CNAME .
 *.27d8ec8a23.7737d3a561.com CNAME .
 27igqr8b.de CNAME .
@@ -2429,6 +2427,8 @@ $TTL 30
 *.65bfba9ad0.com CNAME .
 65d2bef787.com CNAME .
 *.65d2bef787.com CNAME .
+65f249bd43.com CNAME .
+*.65f249bd43.com CNAME .
 65mjvw6i1z.com CNAME .
 *.65mjvw6i1z.com CNAME .
 65u0tvf9l4.com CNAME .
@@ -2897,8 +2897,6 @@ $TTL 30
 *.83net.jp CNAME .
 84284a87a4.com CNAME .
 *.84284a87a4.com CNAME .
-843104bed7.65f249bd43.com CNAME .
-*.843104bed7.65f249bd43.com CNAME .
 845d6bbf60.com CNAME .
 *.845d6bbf60.com CNAME .
 84692db09f.com CNAME .
@@ -3161,6 +3159,8 @@ $TTL 30
 *.9127.4puuqeh41.com CNAME .
 914c3a3b5c.com CNAME .
 *.914c3a3b5c.com CNAME .
+9159f9a13d.com CNAME .
+*.9159f9a13d.com CNAME .
 91a8a068d5.com CNAME .
 *.91a8a068d5.com CNAME .
 91cd3khn.de CNAME .
@@ -15173,6 +15173,8 @@ bcczmm.com CNAME .
 *.bcczmm.com CNAME .
 bcd.esprit.de CNAME .
 *.bcd.esprit.de CNAME .
+bcd8072b72.com CNAME .
+*.bcd8072b72.com CNAME .
 bcdjcjjhgfiejgfjhah.world CNAME .
 *.bcdjcjjhgfiejgfjhah.world CNAME .
 bcec266926.5d22c28634.com CNAME .
@@ -20583,8 +20585,6 @@ cf76b8779a.com CNAME .
 *.cf76b8779a.com CNAME .
 cf7f345e1e.536e9f9126.com CNAME .
 *.cf7f345e1e.536e9f9126.com CNAME .
-cf95d2fe6b.9159f9a13d.com CNAME .
-*.cf95d2fe6b.9159f9a13d.com CNAME .
 cf9c86d5de.f33207dc6c.com CNAME .
 *.cf9c86d5de.f33207dc6c.com CNAME .
 cfateu.xyz CNAME .
@@ -62371,6 +62371,8 @@ platesworked.com CNAME .
 *.platesworked.com CNAME .
 platform-hetcash.com CNAME .
 *.platform-hetcash.com CNAME .
+platform.adlinknetwork.vn CNAME .
+*.platform.adlinknetwork.vn CNAME .
 platform.artilleryads.com CNAME .
 *.platform.artilleryads.com CNAME .
 platform.loyaltylion.com CNAME .
