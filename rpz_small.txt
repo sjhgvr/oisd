@@ -1,9 +1,9 @@
-; Version: 202406272105
+; Version: 202406280006
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91336
-; Last modified: 2024-06-27T21:05:51+0000
+; Entries: 91340
+; Last modified: 2024-06-28T00:06:11+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1719522001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1719532804 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -20257,6 +20257,8 @@ cdn.stray228.com CNAME .
 *.cdn.stray228.com CNAME .
 cdn.studiosis.in CNAME .
 *.cdn.studiosis.in CNAME .
+cdn.tameti.com CNAME .
+*.cdn.tameti.com CNAME .
 cdn.track.olx.com.br CNAME .
 *.cdn.track.olx.com.br CNAME .
 cdn.tracking.prepr.io CNAME .
@@ -32007,6 +32009,8 @@ eegookiz.com CNAME .
 *.eegookiz.com CNAME .
 eegroosoad.com CNAME .
 *.eegroosoad.com CNAME .
+eehhabacgieacfjeaacg.world CNAME .
+*.eehhabacgieacfjeaacg.world CNAME .
 eehuzaih.com CNAME .
 *.eehuzaih.com CNAME .
 eejwvwoo.xyz CNAME .
