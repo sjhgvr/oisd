@@ -1,9 +1,9 @@
-; Version: 202407292107
+; Version: 202407300007
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 90706
-; Last modified: 2024-07-29T21:07:18+0000
+; Last modified: 2024-07-30T00:07:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1722286802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1722297602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1121,6 +1121,8 @@ $TTL 30
 *.29dc237c9b.com CNAME .
 29s55bf2.de CNAME .
 *.29s55bf2.de CNAME .
+2a17f5b615.com CNAME .
+*.2a17f5b615.com CNAME .
 2a1b1657c6.com CNAME .
 *.2a1b1657c6.com CNAME .
 2a1b3d0e95.com CNAME .
@@ -1679,6 +1681,8 @@ $TTL 30
 *.42ce2b0955.com CNAME .
 42d61f012e27b36d53.com CNAME .
 *.42d61f012e27b36d53.com CNAME .
+42e228ef6f.com CNAME .
+*.42e228ef6f.com CNAME .
 42jdbcb.de CNAME .
 *.42jdbcb.de CNAME .
 43681e8af5.dde2488558.com CNAME .
@@ -3439,6 +3443,8 @@ a32fc87d2f.com CNAME .
 *.a32fc87d2f.com CNAME .
 a356ff8a25.com CNAME .
 *.a356ff8a25.com CNAME .
+a35e803f21.com CNAME .
+*.a35e803f21.com CNAME .
 a371383de0.a90da947c8.com CNAME .
 *.a371383de0.a90da947c8.com CNAME .
 a3yqjsrczwwp.com CNAME .
@@ -4289,8 +4295,6 @@ acerolawaists.com CNAME .
 *.acerolawaists.com CNAME .
 acertb.com CNAME .
 *.acertb.com CNAME .
-acf9a96aa8.a35e803f21.com CNAME .
-*.acf9a96aa8.a35e803f21.com CNAME .
 acfsxqoa.com CNAME .
 *.acfsxqoa.com CNAME .
 acglottku.com CNAME .
@@ -14025,8 +14029,6 @@ b97.yahoo.co.jp CNAME .
 *.b97.yahoo.co.jp CNAME .
 b99.yahoo.co.jp CNAME .
 *.b99.yahoo.co.jp CNAME .
-b99b5d43d7.42e228ef6f.com CNAME .
-*.b99b5d43d7.42e228ef6f.com CNAME .
 b9f4882bac.com CNAME .
 *.b9f4882bac.com CNAME .
 ba.afl.rakuten.co.jp CNAME .
@@ -18727,8 +18729,6 @@ c8.net.ua CNAME .
 *.c8.net.ua CNAME .
 c81.ipanocloud.com CNAME .
 *.c81.ipanocloud.com CNAME .
-c83c29be12.2a17f5b615.com CNAME .
-*.c83c29be12.2a17f5b615.com CNAME .
 c83cf15c4f.com CNAME .
 *.c83cf15c4f.com CNAME .
 c86e7c49a2.com CNAME .
