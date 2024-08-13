@@ -1,9 +1,9 @@
-; Version: 202408130007
+; Version: 202408130330
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 89920
-; Last modified: 2024-08-13T00:07:08+0000
+; Last modified: 2024-08-13T03:30:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723507206 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723518002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -693,6 +693,8 @@ $TTL 30
 *.1cpbac.ru CNAME .
 1d0ec98437.com CNAME .
 *.1d0ec98437.com CNAME .
+1d12e1e0de.com CNAME .
+*.1d12e1e0de.com CNAME .
 1db10dd33b.com CNAME .
 *.1db10dd33b.com CNAME .
 1dtdsln1j.de CNAME .
@@ -1033,6 +1035,8 @@ $TTL 30
 *.258c1408fb.90e2545579.com CNAME .
 25d83d2f3d.com CNAME .
 *.25d83d2f3d.com CNAME .
+25f5d4f39c.com CNAME .
+*.25f5d4f39c.com CNAME .
 25ff18d2d5.com CNAME .
 *.25ff18d2d5.com CNAME .
 25obpfr.de CNAME .
@@ -1135,8 +1139,6 @@ $TTL 30
 *.2cnjuh34jbstar.com CNAME .
 2d363be680.abf77420f8.com CNAME .
 *.2d363be680.abf77420f8.com CNAME .
-2d5e92979c.3622911ae3.com CNAME .
-*.2d5e92979c.3622911ae3.com CNAME .
 2d6g0ag5l.de CNAME .
 *.2d6g0ag5l.de CNAME .
 2da69cc358.com CNAME .
@@ -1455,6 +1457,8 @@ $TTL 30
 *.360protected.com CNAME .
 360yield.com CNAME .
 *.360yield.com CNAME .
+3622911ae3.com CNAME .
+*.3622911ae3.com CNAME .
 362728tdg.com CNAME .
 *.362728tdg.com CNAME .
 362e373497.4a5936c82e.com CNAME .
@@ -2113,8 +2117,6 @@ $TTL 30
 *.609999.xyz CNAME .
 61598081d6.com CNAME .
 *.61598081d6.com CNAME .
-6170b1649f.25f5d4f39c.com CNAME .
-*.6170b1649f.25f5d4f39c.com CNAME .
 61739011039d41a.com CNAME .
 *.61739011039d41a.com CNAME .
 61c3d331bf.com CNAME .
@@ -2697,8 +2699,6 @@ $TTL 30
 *.8961.jianbihua.com CNAME .
 89dfa3575e.com CNAME .
 *.89dfa3575e.com CNAME .
-89eff626ff.1d12e1e0de.com CNAME .
-*.89eff626ff.1d12e1e0de.com CNAME .
 89mtdab.xyz CNAME .
 *.89mtdab.xyz CNAME .
 8a40179356.com CNAME .
@@ -13985,6 +13985,8 @@ ba.jeux-gratuits.com CNAME .
 *.ba.jeux-gratuits.com CNAME .
 ba.journaldesfemmes.com CNAME .
 *.ba.journaldesfemmes.com CNAME .
+ba46b70722.com CNAME .
+*.ba46b70722.com CNAME .
 ba488608ee.com CNAME .
 *.ba488608ee.com CNAME .
 ba83df6e74.com CNAME .
@@ -15245,8 +15247,6 @@ bedaslonejul.cc CNAME .
 *.bedaslonejul.cc CNAME .
 bedbaatvdc.com CNAME .
 *.bedbaatvdc.com CNAME .
-bedca535f3.ba46b70722.com CNAME .
-*.bedca535f3.ba46b70722.com CNAME .
 bedevilglare.com CNAME .
 *.bedevilglare.com CNAME .
 bedodrioer.com CNAME .
