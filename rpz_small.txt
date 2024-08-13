@@ -1,9 +1,9 @@
-; Version: 202408131813
+; Version: 202408132107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90126
-; Last modified: 2024-08-13T18:13:46+0000
+; Entries: 90134
+; Last modified: 2024-08-13T21:07:08+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723572001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723582802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1085,6 +1085,8 @@ $TTL 30
 *.29s55bf2.de CNAME .
 2a17f5b615.com CNAME .
 *.2a17f5b615.com CNAME .
+2a1b1657c6.com CNAME .
+*.2a1b1657c6.com CNAME .
 2a1b3d0e95.com CNAME .
 *.2a1b3d0e95.com CNAME .
 2a2k3aom6.de CNAME .
@@ -1683,8 +1685,6 @@ $TTL 30
 *.443f6269ce.com CNAME .
 44629.com CNAME .
 *.44629.com CNAME .
-4483fb711d.9130ec9212.com CNAME .
-*.4483fb711d.9130ec9212.com CNAME .
 44e29c19ac.com CNAME .
 *.44e29c19ac.com CNAME .
 44ffd27303.com CNAME .
@@ -2799,6 +2799,8 @@ $TTL 30
 *.9119fa4031.com CNAME .
 911b02b03b.com CNAME .
 *.911b02b03b.com CNAME .
+9130ec9212.com CNAME .
+*.9130ec9212.com CNAME .
 914c3a3b5c.com CNAME .
 *.914c3a3b5c.com CNAME .
 9168bb21b4.com CNAME .
@@ -13953,8 +13955,6 @@ b8118ff927.806cb9d130.com CNAME .
 *.b8118ff927.806cb9d130.com CNAME .
 b81oidrmy82w.com CNAME .
 *.b81oidrmy82w.com CNAME .
-b845371683.2a1b1657c6.com CNAME .
-*.b845371683.2a1b1657c6.com CNAME .
 b87d56d579.com CNAME .
 *.b87d56d579.com CNAME .
 b8ms7gkwq7g.crocotube.com CNAME .
@@ -32897,6 +32897,8 @@ event-listener.air.tv CNAME .
 *.event-listener.air.tv CNAME .
 event-reporting-dot-webylytics.appspot.com CNAME .
 *.event-reporting-dot-webylytics.appspot.com CNAME .
+event-router.chime.com CNAME .
+*.event-router.chime.com CNAME .
 event-router.olympics.com CNAME .
 *.event-router.olympics.com CNAME .
 event-search.jorte.com CNAME .
@@ -74611,6 +74613,8 @@ stats.rip CNAME .
 *.stats.rip CNAME .
 stats.rustica.fr CNAME .
 *.stats.rustica.fr CNAME .
+stats.rustore.ru CNAME .
+*.stats.rustore.ru CNAME .
 stats.searchftps.net CNAME .
 *.stats.searchftps.net CNAME .
 stats.searchftps.org CNAME .
@@ -76589,6 +76593,8 @@ t2zc6vo8zj2ch6sh6kvu5vq8cjz4iv8v2aj1ckjy8zktaj8vm6visk6als8l.me CNAME .
 *.t2zc6vo8zj2ch6sh6kvu5vq8cjz4iv8v2aj1ckjy8zktaj8vm6visk6als8l.me CNAME .
 t2zfyxjj.icu CNAME .
 *.t2zfyxjj.icu CNAME .
+t3.cdnpure.com CNAME .
+*.t3.cdnpure.com CNAME .
 t6.china-xian.com CNAME .
 *.t6.china-xian.com CNAME .
 t733.wjcl.com CNAME .
@@ -84465,6 +84471,8 @@ vjzlgtnaov.com CNAME .
 *.vjzlgtnaov.com CNAME .
 vk-ads.ru CNAME .
 *.vk-ads.ru CNAME .
+vk-analytics.ru CNAME .
+*.vk-analytics.ru CNAME .
 vkarrc.com CNAME .
 *.vkarrc.com CNAME .
 vkcdnservice.com CNAME .
