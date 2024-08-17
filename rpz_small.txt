@@ -1,9 +1,9 @@
-; Version: 202408171207
+; Version: 202408171529
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 89546
-; Last modified: 2024-08-17T12:07:11+0000
+; Last modified: 2024-08-17T15:29:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723896001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1723906802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -19595,8 +19595,6 @@ cdn.insta.playbryte.com CNAME .
 *.cdn.insta.playbryte.com CNAME .
 cdn.insurads.com CNAME .
 *.cdn.insurads.com CNAME .
-cdn.iople.com CNAME .
-*.cdn.iople.com CNAME .
 cdn.jampp.com CNAME .
 *.cdn.jampp.com CNAME .
 cdn.jhoncj.com CNAME .
@@ -43913,6 +43911,8 @@ iontent.powzerz.lol CNAME .
 *.iontent.powzerz.lol CNAME .
 ionwindonpetropic.info CNAME .
 *.ionwindonpetropic.info CNAME .
+iople.com CNAME .
+*.iople.com CNAME .
 ioredi.com CNAME .
 *.ioredi.com CNAME .
 ios.426g.com CNAME .
