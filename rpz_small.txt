@@ -1,9 +1,9 @@
-; Version: 202408271107
+; Version: 202408271207
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89050
-; Last modified: 2024-08-27T11:07:34+0000
+; Entries: 89030
+; Last modified: 2024-08-27T12:07:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724756401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724760002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -587,6 +587,8 @@ $TTL 30
 *.17dc91dc49.com CNAME .
 17do048qm.de CNAME .
 *.17do048qm.de CNAME .
+17fffd951d.com CNAME .
+*.17fffd951d.com CNAME .
 18.uyybde07w.com CNAME .
 *.18.uyybde07w.com CNAME .
 180hits.de CNAME .
@@ -1407,8 +1409,6 @@ $TTL 30
 *.34.gs CNAME .
 341k4gu76ywe.top CNAME .
 *.341k4gu76ywe.top CNAME .
-3423b141ae.com CNAME .
-*.3423b141ae.com CNAME .
 3459e0cbdc.e1bb62d865.com CNAME .
 *.3459e0cbdc.e1bb62d865.com CNAME .
 3467b7d02e.com CNAME .
@@ -2215,8 +2215,6 @@ $TTL 30
 *.691c37268a.com CNAME .
 692881.com CNAME .
 *.692881.com CNAME .
-695f6f8e2d.17fffd951d.com CNAME .
-*.695f6f8e2d.17fffd951d.com CNAME .
 69688qp.com CNAME .
 *.69688qp.com CNAME .
 6969.javher.com CNAME .
@@ -3865,8 +3863,6 @@ abqjst.com CNAME .
 *.abqjst.com CNAME .
 abqmfewisf.com CNAME .
 *.abqmfewisf.com CNAME .
-abqnupogcwhi.com CNAME .
-*.abqnupogcwhi.com CNAME .
 abrasivefirsthandsadly.com CNAME .
 *.abrasivefirsthandsadly.com CNAME .
 abrasivematch.com CNAME .
@@ -10541,8 +10537,6 @@ analytics.slidesai.io CNAME .
 *.analytics.slidesai.io CNAME .
 analytics.sohatv.vn CNAME .
 *.analytics.sohatv.vn CNAME .
-analytics.sonjj.com CNAME .
-*.analytics.sonjj.com CNAME .
 analytics.spankbang.com CNAME .
 *.analytics.spankbang.com CNAME .
 analytics.sports.ru CNAME .
@@ -18685,8 +18679,6 @@ candiedguilty.com CNAME .
 *.candiedguilty.com CNAME .
 candiedsquall.com CNAME .
 *.candiedsquall.com CNAME .
-candiedvolatilepeep.com CNAME .
-*.candiedvolatilepeep.com CNAME .
 candleannihilationretrieval.com CNAME .
 *.candleannihilationretrieval.com CNAME .
 candlingtremble.com CNAME .
@@ -29823,8 +29815,6 @@ dreamsoppressive.com CNAME .
 *.dreamsoppressive.com CNAME .
 dreamteamaffiliates.com CNAME .
 *.dreamteamaffiliates.com CNAME .
-drearlyknifes.com CNAME .
-*.drearlyknifes.com CNAME .
 drearypassport.com CNAME .
 *.drearypassport.com CNAME .
 drenchsealed.com CNAME .
@@ -30625,8 +30615,6 @@ e6wwd.top CNAME .
 *.e6wwd.top CNAME .
 e702fa7de9d35c37.com CNAME .
 *.e702fa7de9d35c37.com CNAME .
-e732bfae2a.com CNAME .
-*.e732bfae2a.com CNAME .
 e76e75ed51.com CNAME .
 *.e76e75ed51.com CNAME .
 e7z9t4x6a0v5mk3zo1a0xj2z7c6g8sa6js5z7s2c3h9x0s5fh3a6sjwb8q7m.xyz CNAME .
@@ -37723,8 +37711,6 @@ glo-glo-oom.com CNAME .
 *.glo-glo-oom.com CNAME .
 gloacmug.net CNAME .
 *.gloacmug.net CNAME .
-gloacmug.xyz CNAME .
-*.gloacmug.xyz CNAME .
 gloaftil.com CNAME .
 *.gloaftil.com CNAME .
 gloagaus.xyz CNAME .
@@ -60231,8 +60217,6 @@ pipiska221net.shop CNAME .
 *.pipiska221net.shop CNAME .
 pippio.com CNAME .
 *.pippio.com CNAME .
-pipprfvhpykpvk.com CNAME .
-*.pipprfvhpykpvk.com CNAME .
 pips.taboola.com CNAME .
 *.pips.taboola.com CNAME .
 piqtpbxo.icu CNAME .
@@ -72677,8 +72661,6 @@ sprinkletxt.com CNAME .
 *.sprinkletxt.com CNAME .
 sprinlof.com CNAME .
 *.sprinlof.com CNAME .
-spritfrees.com CNAME .
-*.spritfrees.com CNAME .
 sprkl.io CNAME .
 *.sprkl.io CNAME .
 sprocket-ping.s3.amazonaws.com CNAME .
@@ -80189,8 +80171,6 @@ tujourda.net CNAME .
 *.tujourda.net CNAME .
 tulipmagazinesempire.com CNAME .
 *.tulipmagazinesempire.com CNAME .
-tulipsameedge.com CNAME .
-*.tulipsameedge.com CNAME .
 tumblebit.com CNAME .
 *.tumblebit.com CNAME .
 tumblebit.org CNAME .
