@@ -1,9 +1,9 @@
-; Version: 202408281607
+; Version: 202408281713
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89856
-; Last modified: 2024-08-28T16:07:07+0000
+; Entries: 89854
+; Last modified: 2024-08-28T17:13:19+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724860802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724864401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -175,8 +175,6 @@ $TTL 30
 *.0941.org CNAME .
 09482aec5d.com CNAME .
 *.09482aec5d.com CNAME .
-097cfe5997.4d9e86640a.com CNAME .
-*.097cfe5997.4d9e86640a.com CNAME .
 09b074f4cf.com CNAME .
 *.09b074f4cf.com CNAME .
 09b1fcc95e.com CNAME .
@@ -1791,6 +1789,8 @@ $TTL 30
 *.4d716774ff.7d3906347f.com CNAME .
 4d76a0f3a8.com CNAME .
 *.4d76a0f3a8.com CNAME .
+4d9e86640a.com CNAME .
+*.4d9e86640a.com CNAME .
 4da1c65ac2.com CNAME .
 *.4da1c65ac2.com CNAME .
 4dsbanner.net CNAME .
@@ -77153,8 +77153,6 @@ tetrylscullion.com CNAME .
 *.tetrylscullion.com CNAME .
 tevermotoriesmyst.info CNAME .
 *.tevermotoriesmyst.info CNAME .
-tewruti.top CNAME .
-*.tewruti.top CNAME .
 text-link-ads.com CNAME .
 *.text-link-ads.com CNAME .
 textad.sexsearch.com CNAME .
