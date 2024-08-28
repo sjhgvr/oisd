@@ -1,9 +1,9 @@
-; Version: 202408280807
+; Version: 202408280907
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89852
-; Last modified: 2024-08-28T08:07:24+0000
+; Entries: 89860
+; Last modified: 2024-08-28T09:07:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724832001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724835602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -43623,6 +43623,8 @@ insights.algolia.io CNAME .
 *.insights.algolia.io CNAME .
 insights.hotjar.com CNAME .
 *.insights.hotjar.com CNAME .
+insights.zennioptical.com CNAME .
+*.insights.zennioptical.com CNAME .
 insigit.com CNAME .
 *.insigit.com CNAME .
 insignificantretained.com CNAME .
@@ -69095,6 +69097,8 @@ santuao.xyz CNAME .
 *.santuao.xyz CNAME .
 sapfailedfelon.com CNAME .
 *.sapfailedfelon.com CNAME .
+sapi.tremendous.com CNAME .
+*.sapi.tremendous.com CNAME .
 saptiledispatch.com CNAME .
 *.saptiledispatch.com CNAME .
 saptorge.com CNAME .
@@ -70305,6 +70309,8 @@ services.aomg5bzv7.com CNAME .
 *.services.aomg5bzv7.com CNAME .
 services.bionika-digital.ru CNAME .
 *.services.bionika-digital.ru CNAME .
+services.haaretz.com CNAME .
+*.services.haaretz.com CNAME .
 services.hearstmags.com CNAME .
 *.services.hearstmags.com CNAME .
 services.sdiapi.com CNAME .
@@ -79127,6 +79133,8 @@ track.hubspot.com CNAME .
 *.track.hubspot.com CNAME .
 track.hujiang.com CNAME .
 *.track.hujiang.com CNAME .
+track.hydro.online CNAME .
+*.track.hydro.online CNAME .
 track.icheck.com.vn CNAME .
 *.track.icheck.com.vn CNAME .
 track.juststarz.com CNAME .
