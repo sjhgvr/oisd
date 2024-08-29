@@ -1,9 +1,9 @@
-; Version: 202408291107
+; Version: 202408291234
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 89948
-; Last modified: 2024-08-29T11:07:15+0000
+; Last modified: 2024-08-29T12:34:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724929201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1724932801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -573,8 +573,6 @@ $TTL 30
 *.15e2d4089d.a1c08555bc.com CNAME .
 15f7a5a67a.com CNAME .
 *.15f7a5a67a.com CNAME .
-15fa3bc177.bd33500074.com CNAME .
-*.15fa3bc177.bd33500074.com CNAME .
 16-merchant-s.com CNAME .
 *.16-merchant-s.com CNAME .
 165tchuang.com CNAME .
@@ -14971,6 +14969,8 @@ bd11.nipic.com CNAME .
 *.bd11.nipic.com CNAME .
 bd3.chuiyue.com CNAME .
 *.bd3.chuiyue.com CNAME .
+bd33500074.com CNAME .
+*.bd33500074.com CNAME .
 bd51static.com CNAME .
 *.bd51static.com CNAME .
 bd742.com CNAME .
@@ -45723,8 +45723,6 @@ jsyefc.com CNAME .
 *.jsyefc.com CNAME .
 jsyrynq.com CNAME .
 *.jsyrynq.com CNAME .
-jt.whunpainty.com CNAME .
-*.jt.whunpainty.com CNAME .
 jtdqxsfzi.com CNAME .
 *.jtdqxsfzi.com CNAME .
 jtienla.top CNAME .
@@ -85985,6 +85983,8 @@ whukroal.net CNAME .
 *.whukroal.net CNAME .
 whulsaux.com CNAME .
 *.whulsaux.com CNAME .
+whunpainty.com CNAME .
+*.whunpainty.com CNAME .
 whupsoza.xyz CNAME .
 *.whupsoza.xyz CNAME .
 whuptaiz.net CNAME .
