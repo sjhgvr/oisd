@@ -1,9 +1,9 @@
-; Version: 202408310908
+; Version: 202408311009
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91772
-; Last modified: 2024-08-31T09:08:02+0000
+; Entries: 91780
+; Last modified: 2024-08-31T10:09:59+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725094802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725098401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -10703,6 +10703,8 @@ analytics.pixels.ai CNAME .
 *.analytics.pixels.ai CNAME .
 analytics.plaid.com CNAME .
 *.analytics.plaid.com CNAME .
+analytics.plasmic.app CNAME .
+*.analytics.plasmic.app CNAME .
 analytics.plex.tv CNAME .
 *.analytics.plex.tv CNAME .
 analytics.poferries.com CNAME .
@@ -20053,6 +20055,8 @@ cdn.ptomw.com CNAME .
 *.cdn.ptomw.com CNAME .
 cdn.qc24h.com CNAME .
 *.cdn.qc24h.com CNAME .
+cdn.ravm.tv CNAME .
+*.cdn.ravm.tv CNAME .
 cdn.rawqel.com CNAME .
 *.cdn.rawqel.com CNAME .
 cdn.responsiq.com CNAME .
@@ -70007,6 +70011,8 @@ s.tuoitre.vn CNAME .
 *.s.tuoitre.vn CNAME .
 s.valuemedia-ltd.com CNAME .
 *.s.valuemedia-ltd.com CNAME .
+s.vibe.co CNAME .
+*.s.vibe.co CNAME .
 s.vlink6.com CNAME .
 *.s.vlink6.com CNAME .
 s.vws4brkfst.com CNAME .
@@ -77817,6 +77823,8 @@ tag.myplay.com CNAME .
 *.tag.myplay.com CNAME .
 tag.nifty.com CNAME .
 *.tag.nifty.com CNAME .
+tag.pearldiver.io CNAME .
+*.tag.pearldiver.io CNAME .
 tag.pprl.io CNAME .
 *.tag.pprl.io CNAME .
 tag.regieci.com CNAME .
