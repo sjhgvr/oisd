@@ -1,9 +1,9 @@
-; Version: 202409060207
+; Version: 202409060307
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 92498
-; Last modified: 2024-09-06T02:07:32+0000
+; Last modified: 2024-09-06T03:07:45+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725588001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725591602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -90855,8 +90855,6 @@ yacurlik.com CNAME .
 *.yacurlik.com CNAME .
 yads.yahoo.co.jp CNAME .
 *.yads.yahoo.co.jp CNAME .
-yads.yjtag.yahoo.co.jp CNAME .
-*.yads.yjtag.yahoo.co.jp CNAME .
 yaefddu.com CNAME .
 *.yaefddu.com CNAME .
 yafastdie.live CNAME .
@@ -91163,6 +91161,8 @@ yjrlciff.com CNAME .
 *.yjrlciff.com CNAME .
 yjrrwchaz.com CNAME .
 *.yjrrwchaz.com CNAME .
+yjtag.yahoo.co.jp CNAME .
+*.yjtag.yahoo.co.jp CNAME .
 yjxzvqy.xyz CNAME .
 *.yjxzvqy.xyz CNAME .
 yjyfxgoasocy.com CNAME .
