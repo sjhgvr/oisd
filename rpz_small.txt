@@ -1,9 +1,9 @@
-; Version: 202409091707
+; Version: 202409091808
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92870
-; Last modified: 2024-09-09T17:07:50+0000
+; Entries: 92868
+; Last modified: 2024-09-09T18:08:06+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725901202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725904801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -75,8 +75,6 @@ $TTL 30
 *.01d0c91c0d.com CNAME .
 01jud3v55z.com CNAME .
 *.01jud3v55z.com CNAME .
-021f9bc640.6a34d15d38.com CNAME .
-*.021f9bc640.6a34d15d38.com CNAME .
 023hysj.com CNAME .
 *.023hysj.com CNAME .
 0265331.com CNAME .
@@ -2351,6 +2349,8 @@ $TTL 30
 *.69v.club CNAME .
 6a0d38e347.com CNAME .
 *.6a0d38e347.com CNAME .
+6a34d15d38.com CNAME .
+*.6a34d15d38.com CNAME .
 6a3a727872.com CNAME .
 *.6a3a727872.com CNAME .
 6ac78725fd.com CNAME .
@@ -2381,8 +2381,8 @@ $TTL 30
 *.6dffc00153.com CNAME .
 6e.co.kr CNAME .
 *.6e.co.kr CNAME .
-6e8a9948e0.6e391732a2.com CNAME .
-*.6e8a9948e0.6e391732a2.com CNAME .
+6e391732a2.com CNAME .
+*.6e391732a2.com CNAME .
 6e8db01a49.26c42ca1c2.com CNAME .
 *.6e8db01a49.26c42ca1c2.com CNAME .
 6ec5c9fcec.com CNAME .
@@ -63451,8 +63451,6 @@ pogyreflush.com CNAME .
 *.pogyreflush.com CNAME .
 pohsoneche.info CNAME .
 *.pohsoneche.info CNAME .
-poiejdhmkjcnd.top CNAME .
-*.poiejdhmkjcnd.top CNAME .
 poignantsensitivenessforming.com CNAME .
 *.poignantsensitivenessforming.com CNAME .
 poinct.com CNAME .
