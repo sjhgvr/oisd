@@ -1,9 +1,9 @@
-; Version: 202409092107
+; Version: 202409092229
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 92868
-; Last modified: 2024-09-09T21:07:31+0000
+; Last modified: 2024-09-09T22:29:39+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725915601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1725919202 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1043,6 +1043,8 @@ $TTL 30
 *.258c1408fb.90e2545579.com CNAME .
 25d83d2f3d.com CNAME .
 *.25d83d2f3d.com CNAME .
+25eaeccf95.com CNAME .
+*.25eaeccf95.com CNAME .
 25f5d4f39c.com CNAME .
 *.25f5d4f39c.com CNAME .
 25ff18d2d5.com CNAME .
@@ -27571,8 +27573,6 @@ d7tst6bnt99p2.cloudfront.net CNAME .
 *.d7tst6bnt99p2.cloudfront.net CNAME .
 d81mfvml8p5ml.cloudfront.net CNAME .
 *.d81mfvml8p5ml.cloudfront.net CNAME .
-d82c09157a.25eaeccf95.com CNAME .
-*.d82c09157a.25eaeccf95.com CNAME .
 d830x8j3o1b2k.cloudfront.net CNAME .
 *.d830x8j3o1b2k.cloudfront.net CNAME .
 d84e37ab9e.e55971de17.com CNAME .
