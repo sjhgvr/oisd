@@ -1,9 +1,9 @@
-; Version: 202409182106
+; Version: 202409182206
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91494
-; Last modified: 2024-09-18T21:06:38+0000
+; Entries: 91486
+; Last modified: 2024-09-18T22:06:36+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1726693201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1726696801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1739,6 +1739,8 @@ $TTL 30
 *.453130fa9e.com CNAME .
 45ba1be349.com CNAME .
 *.45ba1be349.com CNAME .
+45cb7b8453.com CNAME .
+*.45cb7b8453.com CNAME .
 45cf2c258c.a272118d17.com CNAME .
 *.45cf2c258c.a272118d17.com CNAME .
 45d31559c9.26fc91ec79.com CNAME .
@@ -8223,8 +8225,6 @@ adzs.com CNAME .
 *.adzs.com CNAME .
 ae1a1e258b8b016.com CNAME .
 *.ae1a1e258b8b016.com CNAME .
-ae277b422a.45cb7b8453.com CNAME .
-*.ae277b422a.45cb7b8453.com CNAME .
 ae2f6a33e6.com CNAME .
 *.ae2f6a33e6.com CNAME .
 aeace15a82.com CNAME .
@@ -14331,8 +14331,6 @@ ba.journaldesfemmes.com CNAME .
 *.ba.journaldesfemmes.com CNAME .
 ba46b70722.com CNAME .
 *.ba46b70722.com CNAME .
-ba488608ee.com CNAME .
-*.ba488608ee.com CNAME .
 baaomenaltho.com CNAME .
 *.baaomenaltho.com CNAME .
 baarspo.ru CNAME .
@@ -23273,8 +23271,6 @@ constellation3x.fun CNAME .
 *.constellation3x.fun CNAME .
 constellationtrafficdenounce.com CNAME .
 *.constellationtrafficdenounce.com CNAME .
-consternationbale.com CNAME .
-*.consternationbale.com CNAME .
 consternationmysticalstuff.com CNAME .
 *.consternationmysticalstuff.com CNAME .
 constintptr.com CNAME .
@@ -41871,8 +41867,6 @@ hk.aomg5bzv7.com CNAME .
 *.hk.aomg5bzv7.com CNAME .
 hkilops.com CNAME .
 *.hkilops.com CNAME .
-hkiztcykfb.com CNAME .
-*.hkiztcykfb.com CNAME .
 hkpeghqu.icu CNAME .
 *.hkpeghqu.icu CNAME .
 hkrpg-log-upload-os.hoyoverse.com CNAME .
@@ -68309,8 +68303,6 @@ rkskillsombineukd.com CNAME .
 *.rkskillsombineukd.com CNAME .
 rkwithcatuk.org CNAME .
 *.rkwithcatuk.org CNAME .
-rl.fracturmeropia.com CNAME .
-*.rl.fracturmeropia.com CNAME .
 rldwideorgani.org CNAME .
 *.rldwideorgani.org CNAME .
 rldwideorganizat.org CNAME .
