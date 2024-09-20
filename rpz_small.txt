@@ -1,9 +1,9 @@
-; Version: 202409202023
+; Version: 202409202107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91932
-; Last modified: 2024-09-20T20:23:37+0000
+; Entries: 91936
+; Last modified: 2024-09-20T21:07:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1726863327 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1726866002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -39477,6 +39477,8 @@ googie-anaiytics.com CNAME .
 *.googie-anaiytics.com CNAME .
 google-ads.hara.vn CNAME .
 *.google-ads.hara.vn CNAME .
+google-analytics.bi.owox.com CNAME .
+*.google-analytics.bi.owox.com CNAME .
 google-shopping-v2.sapoapps.vn CNAME .
 *.google-shopping-v2.sapoapps.vn CNAME .
 google-shopping.sapoapps.vn CNAME .
@@ -54829,6 +54831,8 @@ mshues.com CNAME .
 *.mshues.com CNAME .
 msioi.steeelm.xyz CNAME .
 *.msioi.steeelm.xyz CNAME .
+msite.baidu.com CNAME .
+*.msite.baidu.com CNAME .
 msmetrics.ws.sonos.com CNAME .
 *.msmetrics.ws.sonos.com CNAME .
 msrehcmpeme.com CNAME .
