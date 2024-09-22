@@ -1,9 +1,9 @@
-; Version: 202409221506
+; Version: 202409221611
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91566
-; Last modified: 2024-09-22T15:06:39+0000
+; Entries: 91558
+; Last modified: 2024-09-22T16:11:41+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727017201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727020802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -9591,6 +9591,8 @@ allosponsor.com CNAME .
 *.allosponsor.com CNAME .
 allotnegate.com CNAME .
 *.allotnegate.com CNAME .
+allotshyoides.com CNAME .
+*.allotshyoides.com CNAME .
 allotupwardmalicious.com CNAME .
 *.allotupwardmalicious.com CNAME .
 allow-to-continue.com CNAME .
@@ -12261,8 +12263,6 @@ apv-launcher.minute.ly CNAME .
 *.apv-launcher.minute.ly CNAME .
 apxlv.com CNAME .
 *.apxlv.com CNAME .
-aq.theurgyopine.com CNAME .
-*.aq.theurgyopine.com CNAME .
 aq2e.com CNAME .
 *.aq2e.com CNAME .
 aq30me9nw.com CNAME .
@@ -18197,8 +18197,6 @@ bswakciowtsmnm.com CNAME .
 *.bswakciowtsmnm.com CNAME .
 bsxmuny.wp.pl CNAME .
 *.bsxmuny.wp.pl CNAME .
-bt.allotshyoides.com CNAME .
-*.bt.allotshyoides.com CNAME .
 bt.mediaimpact.de CNAME .
 *.bt.mediaimpact.de CNAME .
 bt1.patexplorer.com CNAME .
@@ -19837,8 +19835,6 @@ cawedburial.com CNAME .
 *.cawedburial.com CNAME .
 cb.baidu.com CNAME .
 *.cb.baidu.com CNAME .
-cb.momistmatico.com CNAME .
-*.cb.momistmatico.com CNAME .
 cb054d7b93.1d06891ad5.com CNAME .
 *.cb054d7b93.1d06891ad5.com CNAME .
 cb1d14ec96.c38f521ff4.com CNAME .
@@ -20547,8 +20543,6 @@ cf76b8779a.com CNAME .
 *.cf76b8779a.com CNAME .
 cf7f345e1e.536e9f9126.com CNAME .
 *.cf7f345e1e.536e9f9126.com CNAME .
-cf97134c89.com CNAME .
-*.cf97134c89.com CNAME .
 cf9c86d5de.f33207dc6c.com CNAME .
 *.cf9c86d5de.f33207dc6c.com CNAME .
 cfateu.xyz CNAME .
@@ -22727,8 +22721,6 @@ com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809702.com CNAME .
-*.com-id809702.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-wkejf32ljd23409system.net CNAME .
@@ -27873,8 +27865,6 @@ dc.banggood.com CNAME .
 *.dc.banggood.com CNAME .
 dc.letv.com CNAME .
 *.dc.letv.com CNAME .
-dc.swartlybeebee.com CNAME .
-*.dc.swartlybeebee.com CNAME .
 dc08i221b0n8a.cloudfront.net CNAME .
 *.dc08i221b0n8a.cloudfront.net CNAME .
 dc471cf7d1.9bbde61d72.com CNAME .
@@ -38391,8 +38381,6 @@ ggxwb.miguvideo.com CNAME .
 *.ggxwb.miguvideo.com CNAME .
 ggzkgfe.com CNAME .
 *.ggzkgfe.com CNAME .
-gh.outswumvinose.com CNAME .
-*.gh.outswumvinose.com CNAME .
 ghbdsbfd.com CNAME .
 *.ghbdsbfd.com CNAME .
 gheraosonger.com CNAME .
@@ -54039,6 +54027,8 @@ momhomicidalspa.com CNAME .
 *.momhomicidalspa.com CNAME .
 momijoy.ru CNAME .
 *.momijoy.ru CNAME .
+momistmatico.com CNAME .
+*.momistmatico.com CNAME .
 mommiesgranule.com CNAME .
 *.mommiesgranule.com CNAME .
 mommygravelyslime.com CNAME .
@@ -58651,8 +58641,6 @@ opentecs.com CNAME .
 *.opentecs.com CNAME .
 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
 *.opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
-openwwws.space CNAME .
-*.openwwws.space CNAME .
 openx.angelsgroup.org.uk CNAME .
 *.openx.angelsgroup.org.uk CNAME .
 openx.mondiale.co.uk CNAME .
@@ -59333,6 +59321,8 @@ outstandingsubconsciousaudience.com CNAME .
 *.outstandingsubconsciousaudience.com CNAME .
 outstantewq.info CNAME .
 *.outstantewq.info CNAME .
+outswumvinose.com CNAME .
+*.outswumvinose.com CNAME .
 outtimburrtor.com CNAME .
 *.outtimburrtor.com CNAME .
 outtunova.com CNAME .
@@ -66359,8 +66349,6 @@ rapolok.com CNAME .
 *.rapolok.com CNAME .
 rapradwye.live CNAME .
 *.rapradwye.live CNAME .
-raptingy.net CNAME .
-*.raptingy.net CNAME .
 rapturemeddle.com CNAME .
 *.rapturemeddle.com CNAME .
 rar-vpn.com CNAME .
@@ -77001,6 +76989,8 @@ swarthyamong.com CNAME .
 *.swarthyamong.com CNAME .
 swarthymacula.com CNAME .
 *.swarthymacula.com CNAME .
+swartlybeebee.com CNAME .
+*.swartlybeebee.com CNAME .
 swatad.com CNAME .
 *.swatad.com CNAME .
 swatledgesling.com CNAME .
@@ -78953,6 +78943,8 @@ thetreuntalle.com CNAME .
 *.thetreuntalle.com CNAME .
 theupgradedata.com CNAME .
 *.theupgradedata.com CNAME .
+theurgyopine.com CNAME .
+*.theurgyopine.com CNAME .
 theusualsuspects.biz CNAME .
 *.theusualsuspects.biz CNAME .
 theusualsuspectz.biz CNAME .
