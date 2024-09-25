@@ -1,9 +1,9 @@
-; Version: 202409251506
+; Version: 202409251606
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92626
-; Last modified: 2024-09-25T15:06:21+0000
+; Entries: 92620
+; Last modified: 2024-09-25T16:06:23+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727276401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727280002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6551,6 +6551,8 @@ ads.cbc.ca CNAME .
 *.ads.cbc.ca CNAME .
 ads.cc CNAME .
 *.ads.cc CNAME .
+ads.cdn2-img.net CNAME .
+*.ads.cdn2-img.net CNAME .
 ads.cdvn.vip CNAME .
 *.ads.cdvn.vip CNAME .
 ads.centraliprom.com CNAME .
@@ -17523,8 +17525,6 @@ bongauns.xyz CNAME .
 *.bongauns.xyz CNAME .
 bongdadem.net CNAME .
 *.bongdadem.net CNAME .
-bongosstygian.click CNAME .
-*.bongosstygian.click CNAME .
 bonicus.com CNAME .
 *.bonicus.com CNAME .
 bonnetacademy.com CNAME .
@@ -20311,8 +20311,6 @@ cdn.datateam.co.uk CNAME .
 *.cdn.datateam.co.uk CNAME .
 cdn.defractal.com CNAME .
 *.cdn.defractal.com CNAME .
-cdn.dircont3.com CNAME .
-*.cdn.dircont3.com CNAME .
 cdn.dsmstats.com CNAME .
 *.cdn.dsmstats.com CNAME .
 cdn.dsspn.com CNAME .
@@ -34241,8 +34239,6 @@ ewallowi.buzz CNAME .
 *.ewallowi.buzz CNAME .
 ewasgilded.info CNAME .
 *.ewasgilded.info CNAME .
-ewaterw.top CNAME .
-*.ewaterw.top CNAME .
 ewdxisdrc.com CNAME .
 *.ewdxisdrc.com CNAME .
 eweconciliate.com CNAME .
@@ -61921,6 +61917,8 @@ phialedamende.com CNAME .
 *.phialedamende.com CNAME .
 phicmune.net CNAME .
 *.phicmune.net CNAME .
+phidianowlet.com CNAME .
+*.phidianowlet.com CNAME .
 phiduvuka.pro CNAME .
 *.phiduvuka.pro CNAME .
 phignubsordy.com CNAME .
@@ -76743,8 +76741,6 @@ stinkwrestle.com CNAME .
 *.stinkwrestle.com CNAME .
 stinkyloadeddoctor.com CNAME .
 *.stinkyloadeddoctor.com CNAME .
-stinkyrepetition.com CNAME .
-*.stinkyrepetition.com CNAME .
 stiondecide.shop CNAME .
 *.stiondecide.shop CNAME .
 stirdevelopingefficiency.com CNAME .
@@ -86313,8 +86309,6 @@ viidirectory.com CNAME .
 *.viidirectory.com CNAME .
 viidsyej.com CNAME .
 *.viidsyej.com CNAME .
-viiexe.com CNAME .
-*.viiexe.com CNAME .
 viifixi.com CNAME .
 *.viifixi.com CNAME .
 viifogyp.com CNAME .
