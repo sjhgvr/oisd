@@ -1,9 +1,9 @@
-; Version: 202410011806
+; Version: 202410011935
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92658
-; Last modified: 2024-10-01T18:06:07+0000
+; Entries: 92648
+; Last modified: 2024-10-01T19:35:07+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727805602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727809201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1737,6 +1737,8 @@ $TTL 30
 *.42d61f012e27b36d53.com CNAME .
 42jdbcb.de CNAME .
 *.42jdbcb.de CNAME .
+433bcaa83b.com CNAME .
+*.433bcaa83b.com CNAME .
 435d243e12.com CNAME .
 *.435d243e12.com CNAME .
 43681e8af5.dde2488558.com CNAME .
@@ -2277,8 +2279,6 @@ $TTL 30
 *.6593167243.com CNAME .
 65bfba9ad0.com CNAME .
 *.65bfba9ad0.com CNAME .
-65d9b4a4ad.433bcaa83b.com CNAME .
-*.65d9b4a4ad.433bcaa83b.com CNAME .
 65f249bd43.com CNAME .
 *.65f249bd43.com CNAME .
 65spy7rgcu.com CNAME .
@@ -16093,8 +16093,6 @@ beneficialviewedallude.com CNAME .
 *.beneficialviewedallude.com CNAME .
 benefitanna.com CNAME .
 *.benefitanna.com CNAME .
-benelph.de CNAME .
-*.benelph.de CNAME .
 benengagewriggle.com CNAME .
 *.benengagewriggle.com CNAME .
 benevolencepair.com CNAME .
@@ -42241,8 +42239,6 @@ hitchimmerse.com CNAME .
 *.hitchimmerse.com CNAME .
 hitchprivilege.com CNAME .
 *.hitchprivilege.com CNAME .
-hitchrational.com CNAME .
-*.hitchrational.com CNAME .
 hitcpm.com CNAME .
 *.hitcpm.com CNAME .
 hithertodeform.com CNAME .
@@ -44217,8 +44213,6 @@ impactslam.com CNAME .
 *.impactslam.com CNAME .
 impala.vnv.nl CNAME .
 *.impala.vnv.nl CNAME .
-impartial-steal.pro CNAME .
-*.impartial-steal.pro CNAME .
 impartialnettle.com CNAME .
 *.impartialnettle.com CNAME .
 impartialpath.com CNAME .
@@ -45423,8 +45417,6 @@ ipmentrandingsw.com CNAME .
 *.ipmentrandingsw.com CNAME .
 ipmtermon.top CNAME .
 *.ipmtermon.top CNAME .
-ipnyx.com CNAME .
-*.ipnyx.com CNAME .
 ipoavoawhemt.com CNAME .
 *.ipoavoawhemt.com CNAME .
 ippcodepink.com CNAME .
@@ -74963,8 +74955,6 @@ spider.scottw.com CNAME .
 *.spider.scottw.com CNAME .
 spider.storiesofchang.com CNAME .
 *.spider.storiesofchang.com CNAME .
-spiderspresident.com CNAME .
-*.spiderspresident.com CNAME .
 spidersprimary.com CNAME .
 *.spidersprimary.com CNAME .
 spignutgoggan.com CNAME .
