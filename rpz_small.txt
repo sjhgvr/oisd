@@ -1,9 +1,9 @@
-; Version: 202410020113
+; Version: 202410020118
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92674
-; Last modified: 2024-10-02T01:13:04+0000
+; Entries: 92672
+; Last modified: 2024-10-02T01:18:55+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727830801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1727831930 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -73633,8 +73633,6 @@ slideslive.at CNAME .
 *.slideslive.at CNAME .
 slideslive.ch CNAME .
 *.slideslive.ch CNAME .
-slideslive.com CNAME .
-*.slideslive.com CNAME .
 slideslive.cz CNAME .
 *.slideslive.cz CNAME .
 slietap.com CNAME .
