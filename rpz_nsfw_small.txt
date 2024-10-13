@@ -1,9 +1,9 @@
-; Version: 202410130610
+; Version: 202410130710
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 47262
-; Last modified: 2024-10-13T06:10:27+0000
+; Entries: 47260
+; Last modified: 2024-10-13T07:10:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1728799201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1728802801 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -10433,8 +10433,6 @@ entrainchat.it CNAME .
 *.entrainchat.it CNAME .
 entrecoquins.com CNAME .
 *.entrecoquins.com CNAME .
-entreprises-et-quartiers.fr CNAME .
-*.entreprises-et-quartiers.fr CNAME .
 enviecharnelle.com CNAME .
 *.enviecharnelle.com CNAME .
 enviesensuelle.com CNAME .
