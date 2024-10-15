@@ -1,9 +1,9 @@
-; Version: 202410151406
+; Version: 202410151506
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 93840
-; Last modified: 2024-10-15T14:06:44+0000
+; Entries: 93832
+; Last modified: 2024-10-15T15:06:43+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729000801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729004403 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1651,6 +1651,8 @@ $TTL 30
 *.42d61f012e27b36d53.com CNAME .
 42jdbcb.de CNAME .
 *.42jdbcb.de CNAME .
+433bcaa83b.com CNAME .
+*.433bcaa83b.com CNAME .
 435d243e12.com CNAME .
 *.435d243e12.com CNAME .
 43e1628a5f.com CNAME .
@@ -2173,8 +2175,6 @@ $TTL 30
 *.6585.url25fatm.com CNAME .
 65bfba9ad0.com CNAME .
 *.65bfba9ad0.com CNAME .
-65d9b4a4ad.433bcaa83b.com CNAME .
-*.65d9b4a4ad.433bcaa83b.com CNAME .
 65f249bd43.com CNAME .
 *.65f249bd43.com CNAME .
 65spy7rgcu.com CNAME .
@@ -31825,8 +31825,6 @@ dwightadjoining.com CNAME .
 *.dwightadjoining.com CNAME .
 dwightbridesmaid.com CNAME .
 *.dwightbridesmaid.com CNAME .
-dwlmjxf.com CNAME .
-*.dwlmjxf.com CNAME .
 dwnm2295blvjq.cloudfront.net CNAME .
 *.dwnm2295blvjq.cloudfront.net CNAME .
 dwp3ce9c.top CNAME .
@@ -54983,8 +54981,6 @@ mobilelog.ws.pho.to CNAME .
 *.mobilelog.ws.pho.to CNAME .
 mobileoffers-7-j-download.com CNAME .
 *.mobileoffers-7-j-download.com CNAME .
-mobileoffers-dld-download.com CNAME .
-*.mobileoffers-dld-download.com CNAME .
 mobilepreviouswicked.com CNAME .
 *.mobilepreviouswicked.com CNAME .
 mobiletelemetry.ebay.com CNAME .
@@ -78221,8 +78217,6 @@ submarinestooped.com CNAME .
 *.submarinestooped.com CNAME .
 submissionheartyprior.com CNAME .
 *.submissionheartyprior.com CNAME .
-submissionspurtgleamed.com CNAME .
-*.submissionspurtgleamed.com CNAME .
 submissivejuice.com CNAME .
 *.submissivejuice.com CNAME .
 subot.hellobacsi.com CNAME .
@@ -86937,8 +86931,6 @@ venusfritter.com CNAME .
 *.venusfritter.com CNAME .
 veoxphl.com CNAME .
 *.veoxphl.com CNAME .
-vepemtuphul.net CNAME .
-*.vepemtuphul.net CNAME .
 ver-pelis.me CNAME .
 *.ver-pelis.me CNAME .
 verandahcrease.com CNAME .
