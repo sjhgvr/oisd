@@ -1,9 +1,9 @@
-; Version: 202410160606
+; Version: 202410160706
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 93746
-; Last modified: 2024-10-16T06:06:28+0000
+; Entries: 93744
+; Last modified: 2024-10-16T07:06:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729058402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729062001 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2577,8 +2577,6 @@ $TTL 30
 *.7minuteworkout.com CNAME .
 7nt9p4d4.de CNAME .
 *.7nt9p4d4.de CNAME .
-7ojpduj32u1zuxlz.aromaticunderstanding.pro CNAME .
-*.7ojpduj32u1zuxlz.aromaticunderstanding.pro CNAME .
 7q1z79gxsi.global.ssl.fastly.net CNAME .
 *.7q1z79gxsi.global.ssl.fastly.net CNAME .
 7rjln8orgh.com CNAME .
@@ -12689,6 +12687,8 @@ aromamidland.com CNAME .
 *.aromamidland.com CNAME .
 aromatic-possibility.pro CNAME .
 *.aromatic-possibility.pro CNAME .
+aromaticunderstanding.pro CNAME .
+*.aromaticunderstanding.pro CNAME .
 aroseexploit.com CNAME .
 *.aroseexploit.com CNAME .
 arosefairfaxadditional.com CNAME .
@@ -63297,8 +63297,6 @@ pixoctopus.pixnet.net CNAME .
 *.pixoctopus.pixnet.net CNAME .
 pixxur.com CNAME .
 *.pixxur.com CNAME .
-piybineqejjswp.com CNAME .
-*.piybineqejjswp.com CNAME .
 piz7ohhujogi.com CNAME .
 *.piz7ohhujogi.com CNAME .
 pizzasocalled.com CNAME .
