@@ -1,9 +1,9 @@
-; Version: 202410160109
+; Version: 202410160209
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 47258
-; Last modified: 2024-10-16T01:09:48+0000
+; Entries: 47260
+; Last modified: 2024-10-16T02:09:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729040401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729044001 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -19847,6 +19847,8 @@ javsubindo.com CNAME .
 *.javsubindo.com CNAME .
 javsubindo.me CNAME .
 *.javsubindo.me CNAME .
+javsubindo.sx CNAME .
+*.javsubindo.sx CNAME .
 javtai.com CNAME .
 *.javtai.com CNAME .
 javteen.net CNAME .
