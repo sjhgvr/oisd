@@ -1,9 +1,9 @@
-; Version: 202410210507
+; Version: 202410210607
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 93054
-; Last modified: 2024-10-21T05:07:15+0000
+; Entries: 93044
+; Last modified: 2024-10-21T06:07:11+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729486802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729490402 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -5077,6 +5077,8 @@ ad.wynk.in CNAME .
 *.ad.wynk.in CNAME .
 ad.wz.cz CNAME .
 *.ad.wz.cz CNAME .
+ad.xiaomi.com CNAME .
+*.ad.xiaomi.com CNAME .
 ad.xrea.com CNAME .
 *.ad.xrea.com CNAME .
 ad.xxam.org CNAME .
@@ -11811,8 +11813,6 @@ api.ad-locus.com CNAME .
 *.api.ad-locus.com CNAME .
 api.ad-platform.jmty.jp CNAME .
 *.api.ad-platform.jmty.jp CNAME .
-api.ad.xiaomi.com CNAME .
-*.api.ad.xiaomi.com CNAME .
 api.adnation.com CNAME .
 *.api.adnation.com CNAME .
 api.ads.newsdigest.jp CNAME .
@@ -31239,8 +31239,6 @@ dtch.brunel.nl CNAME .
 *.dtch.brunel.nl CNAME .
 dtedpypskgbdap.com CNAME .
 *.dtedpypskgbdap.com CNAME .
-dthablbrl.com CNAME .
-*.dthablbrl.com CNAME .
 dtheharityhild.info CNAME .
 *.dtheharityhild.info CNAME .
 dthepeoplewhoc.org CNAME .
@@ -34489,8 +34487,6 @@ experiments.sparanoid.net CNAME .
 *.experiments.sparanoid.net CNAME .
 expertnifg.com CNAME .
 *.expertnifg.com CNAME .
-expiry-renewal.click CNAME .
-*.expiry-renewal.click CNAME .
 explainpompeywistful.com CNAME .
 *.explainpompeywistful.com CNAME .
 expleates.pro CNAME .
@@ -71891,8 +71887,6 @@ sdk.starbolt.io CNAME .
 *.sdk.starbolt.io CNAME .
 sdk.stats-locations.com CNAME .
 *.sdk.stats-locations.com CNAME .
-sdkconfig.ad.xiaomi.com CNAME .
-*.sdkconfig.ad.xiaomi.com CNAME .
 sdkfjxjertertry.com CNAME .
 *.sdkfjxjertertry.com CNAME .
 sdkl.info CNAME .
@@ -72813,8 +72807,6 @@ sh0w-me-how.com CNAME .
 *.sh0w-me-how.com CNAME .
 shackapple.com CNAME .
 *.shackapple.com CNAME .
-shackdialectsense.com CNAME .
-*.shackdialectsense.com CNAME .
 shacsda.name CNAME .
 *.shacsda.name CNAME .
 shadeapologies.com CNAME .
@@ -91063,8 +91055,6 @@ xq1.net CNAME .
 *.xq1.net CNAME .
 xqbjjh.xyz CNAME .
 *.xqbjjh.xyz CNAME .
-xqdfnqfgixjwpdb.xyz CNAME .
-*.xqdfnqfgixjwpdb.xyz CNAME .
 xqeoitqw.site CNAME .
 *.xqeoitqw.site CNAME .
 xqmvzmt.com CNAME .
