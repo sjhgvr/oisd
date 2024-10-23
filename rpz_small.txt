@@ -1,9 +1,9 @@
-; Version: 202410231206
+; Version: 202410231307
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 92744
-; Last modified: 2024-10-23T12:06:46+0000
+; Entries: 92728
+; Last modified: 2024-10-23T13:07:06+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729684802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1729688402 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -539,6 +539,8 @@ $TTL 30
 *.159f70698e.e806dd6aba.com CNAME .
 15d113e19a.com CNAME .
 *.15d113e19a.com CNAME .
+15f7a5a67a.com CNAME .
+*.15f7a5a67a.com CNAME .
 15x.info CNAME .
 *.15x.info CNAME .
 16-merchant-s.com CNAME .
@@ -1799,8 +1801,6 @@ $TTL 30
 *.4e26d342b8.com CNAME .
 4e2c896383.com CNAME .
 *.4e2c896383.com CNAME .
-4e5aac7959.15f7a5a67a.com CNAME .
-*.4e5aac7959.15f7a5a67a.com CNAME .
 4ed196b502.com CNAME .
 *.4ed196b502.com CNAME .
 4ed5560812.com CNAME .
@@ -36293,8 +36293,6 @@ flatepicbats.com CNAME .
 *.flatepicbats.com CNAME .
 flatteringscanty.com CNAME .
 *.flatteringscanty.com CNAME .
-flatterpopulum.click CNAME .
-*.flatterpopulum.click CNAME .
 flaviusemulsor.com CNAME .
 *.flaviusemulsor.com CNAME .
 flavourforgave.com CNAME .
@@ -48941,8 +48939,6 @@ laughingrecordinggossipy.com CNAME .
 *.laughingrecordinggossipy.com CNAME .
 laughteroccasionallywarp.com CNAME .
 *.laughteroccasionallywarp.com CNAME .
-lauglaph.net CNAME .
-*.lauglaph.net CNAME .
 laugoust.com CNAME .
 *.laugoust.com CNAME .
 lauhefoo.com CNAME .
@@ -58607,8 +58603,6 @@ ointmentbarely.com CNAME .
 *.ointmentbarely.com CNAME .
 oipzyrzffum.ovh CNAME .
 *.oipzyrzffum.ovh CNAME .
-oiu09.cn CNAME .
-*.oiu09.cn CNAME .
 oiuuuc.xyz CNAME .
 *.oiuuuc.xyz CNAME .
 oiya.ru CNAME .
@@ -69617,8 +69611,6 @@ rovion.com CNAME .
 *.rovion.com CNAME .
 rovno.xyz CNAME .
 *.rovno.xyz CNAME .
-rowingzipper.com CNAME .
-*.rowingzipper.com CNAME .
 rowlnk.com CNAME .
 *.rowlnk.com CNAME .
 roxfrv.xyz CNAME .
@@ -71897,8 +71889,6 @@ seekmymatch.com CNAME .
 *.seekmymatch.com CNAME .
 seekoflol.com CNAME .
 *.seekoflol.com CNAME .
-seeluphill.shop CNAME .
-*.seeluphill.shop CNAME .
 seemingverticallyheartbreak.com CNAME .
 *.seemingverticallyheartbreak.com CNAME .
 seemoraldisobey.com CNAME .
@@ -72005,8 +71995,6 @@ selwrite.com CNAME .
 *.selwrite.com CNAME .
 semblanceindulgebellamy.com CNAME .
 *.semblanceindulgebellamy.com CNAME .
-semeeclots.top CNAME .
-*.semeeclots.top CNAME .
 semenaonline.sk CNAME .
 *.semenaonline.sk CNAME .
 semhgk.xyz CNAME .
@@ -85139,8 +85127,6 @@ uslsxe.com CNAME .
 *.uslsxe.com CNAME .
 usltmus.cn CNAME .
 *.usltmus.cn CNAME .
-usmgoxe.cn CNAME .
-*.usmgoxe.cn CNAME .
 usninicsooey.com CNAME .
 *.usninicsooey.com CNAME .
 usonar.jp CNAME .
@@ -92679,8 +92665,6 @@ zwnoeqzsuz.com CNAME .
 *.zwnoeqzsuz.com CNAME .
 zwsxsqp.com CNAME .
 *.zwsxsqp.com CNAME .
-zwuqvpi.com CNAME .
-*.zwuqvpi.com CNAME .
 zwyjpyocwv.com CNAME .
 *.zwyjpyocwv.com CNAME .
 zwzdjb.xyz CNAME .
