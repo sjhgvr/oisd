@@ -1,9 +1,9 @@
-; Version: 202411191729
+; Version: 202411191730
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49340
-; Last modified: 2024-11-19T17:29:01+0000
+; Entries: 49338
+; Last modified: 2024-11-19T17:30:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732037326 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732037414 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -30095,8 +30095,6 @@ pop6.com CNAME .
 *.pop6.com CNAME .
 popa.tv CNAME .
 *.popa.tv CNAME .
-popbela.com CNAME .
-*.popbela.com CNAME .
 popdust.com CNAME .
 *.popdust.com CNAME .
 popersmag.com CNAME .
