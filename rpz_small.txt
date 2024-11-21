@@ -1,9 +1,9 @@
-; Version: 202411211407
+; Version: 202411211507
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91870
-; Last modified: 2024-11-21T14:07:44+0000
+; Entries: 91866
+; Last modified: 2024-11-21T15:07:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732197601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732201201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1125,8 +1125,6 @@ $TTL 30
 *.2c4rrl8pe.de CNAME .
 2c5d30b6f1.com CNAME .
 *.2c5d30b6f1.com CNAME .
-2c6bcbbb82ce911.com CNAME .
-*.2c6bcbbb82ce911.com CNAME .
 2c948bc4ef.8426208bdb.com CNAME .
 *.2c948bc4ef.8426208bdb.com CNAME .
 2ce7a79e64.f2a2ddbb84.com CNAME .
@@ -33527,8 +33525,6 @@ ethophipek.com CNAME .
 *.ethophipek.com CNAME .
 etingplansfo.buzz CNAME .
 *.etingplansfo.buzz CNAME .
-etingplansfor.org CNAME .
-*.etingplansfor.org CNAME .
 etiquettegrapesdoleful.com CNAME .
 *.etiquettegrapesdoleful.com CNAME .
 etisalatebill.net CNAME .
