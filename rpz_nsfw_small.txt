@@ -1,9 +1,9 @@
-; Version: 202411230110
+; Version: 202411230210
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49262
-; Last modified: 2024-11-23T01:10:08+0000
+; Entries: 49258
+; Last modified: 2024-11-23T02:10:11+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732323601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732327202 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -69,8 +69,6 @@ $TTL 30
 *.108read.com CNAME .
 108teen.com CNAME .
 *.108teen.com CNAME .
-10online.ru CNAME .
-*.10online.ru CNAME .
 114av.one CNAME .
 *.114av.one CNAME .
 11teamsports.hr CNAME .
@@ -335,8 +333,6 @@ $TTL 30
 *.1wum.ru CNAME .
 1x1xx11xx1xxx-bet-win.pw CNAME .
 *.1x1xx11xx1xxx-bet-win.pw CNAME .
-1xbetmovies.gay CNAME .
-*.1xbetmovies.gay CNAME .
 1xbettc.top CNAME .
 *.1xbettc.top CNAME .
 1xnxx.net CNAME .
