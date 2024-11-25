@@ -1,9 +1,9 @@
-; Version: 202411252007
+; Version: 202411252107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90558
-; Last modified: 2024-11-25T20:07:46+0000
+; Entries: 90554
+; Last modified: 2024-11-25T21:07:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732564801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732568401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -44485,8 +44485,6 @@ iptautup.com CNAME .
 *.iptautup.com CNAME .
 ipvertnet.com CNAME .
 *.ipvertnet.com CNAME .
-iq.lutrineextant.com CNAME .
-*.iq.lutrineextant.com CNAME .
 iq.sixaxisllc.com CNAME .
 *.iq.sixaxisllc.com CNAME .
 iqcxhe04fnic.com CNAME .
@@ -47281,8 +47279,6 @@ ktureukworekto.com CNAME .
 *.ktureukworekto.com CNAME .
 ktvjpmi.xyz CNAME .
 *.ktvjpmi.xyz CNAME .
-ktvtxir.xyz CNAME .
-*.ktvtxir.xyz CNAME .
 ktwwzqdx.xyz CNAME .
 *.ktwwzqdx.xyz CNAME .
 ktzvyiia.xyz CNAME .
@@ -50449,6 +50445,8 @@ lutoorgourgi.com CNAME .
 *.lutoorgourgi.com CNAME .
 lutrbr.xyz CNAME .
 *.lutrbr.xyz CNAME .
+lutrineextant.com CNAME .
+*.lutrineextant.com CNAME .
 luuming.com CNAME .
 *.luuming.com CNAME .
 luvaihoo.com CNAME .
@@ -60899,8 +60897,6 @@ pipenv.org CNAME .
 *.pipenv.org CNAME .
 pipeofferear.com CNAME .
 *.pipeofferear.com CNAME .
-pipeoverwhelm.com CNAME .
-*.pipeoverwhelm.com CNAME .
 piper.amocrm.ru CNAME .
 *.piper.amocrm.ru CNAME .
 pipeschannels.com CNAME .
