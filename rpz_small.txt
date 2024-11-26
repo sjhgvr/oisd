@@ -1,9 +1,9 @@
-; Version: 202411260807
+; Version: 202411260907
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90442
-; Last modified: 2024-11-26T08:07:13+0000
+; Entries: 90430
+; Last modified: 2024-11-26T09:07:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732608002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732611601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -717,8 +717,6 @@ $TTL 30
 *.1f98dc1262.com CNAME .
 1fa028dea6.com CNAME .
 *.1fa028dea6.com CNAME .
-1facd1b75f.com CNAME .
-*.1facd1b75f.com CNAME .
 1fd92n6t8.de CNAME .
 *.1fd92n6t8.de CNAME .
 1fkx796mw.com CNAME .
@@ -1021,8 +1019,6 @@ $TTL 30
 *.256bb4a81a.com CNAME .
 258a912d15.com CNAME .
 *.258a912d15.com CNAME .
-2594d03911.639c909d45.com CNAME .
-*.2594d03911.639c909d45.com CNAME .
 25eaeccf95.com CNAME .
 *.25eaeccf95.com CNAME .
 25f5d4f39c.com CNAME .
@@ -1539,8 +1535,6 @@ $TTL 30
 *.39236100.lotre.io CNAME .
 39268ea911.com CNAME .
 *.39268ea911.com CNAME .
-3927797c1f.94789b3f8f.com CNAME .
-*.3927797c1f.94789b3f8f.com CNAME .
 3963da983f.54176897ed.com CNAME .
 *.3963da983f.54176897ed.com CNAME .
 39e6p9p7.de CNAME .
@@ -1991,8 +1985,6 @@ $TTL 30
 *.54a5b53903.2ace95e2ce.com CNAME .
 54d6a7edfb.218cc08472.com CNAME .
 *.54d6a7edfb.218cc08472.com CNAME .
-54dea33c1b.ac35e1ff43.com CNAME .
-*.54dea33c1b.ac35e1ff43.com CNAME .
 54e4e31106.6e10268cd2.com CNAME .
 *.54e4e31106.6e10268cd2.com CNAME .
 5502fb67e7.e395ce5e52.com CNAME .
@@ -2237,6 +2229,8 @@ $TTL 30
 *.638236rpn.com CNAME .
 63912b9175.com CNAME .
 *.63912b9175.com CNAME .
+639c909d45.com CNAME .
+*.639c909d45.com CNAME .
 63r2vxacp0pr.com CNAME .
 *.63r2vxacp0pr.com CNAME .
 63voy9ciyi14.com CNAME .
@@ -2961,6 +2955,8 @@ $TTL 30
 *.938az.xyz CNAME .
 943d6e0643.com CNAME .
 *.943d6e0643.com CNAME .
+94789b3f8f.com CNAME .
+*.94789b3f8f.com CNAME .
 94870bbbc9.com CNAME .
 *.94870bbbc9.com CNAME .
 94cdn.com CNAME .
@@ -4217,6 +4213,8 @@ ac27f8353e.c81cd15a01.com CNAME .
 *.ac27f8353e.c81cd15a01.com CNAME .
 ac2e1eb9bd.ee4f80c11d.com CNAME .
 *.ac2e1eb9bd.ee4f80c11d.com CNAME .
+ac35e1ff43.com CNAME .
+*.ac35e1ff43.com CNAME .
 acacdn.com CNAME .
 *.acacdn.com CNAME .
 acaciaarraydebate.com CNAME .
@@ -16611,8 +16609,6 @@ bisozkfiv.com CNAME .
 *.bisozkfiv.com CNAME .
 bissailre.com CNAME .
 *.bissailre.com CNAME .
-bissonprevoid.website CNAME .
-*.bissonprevoid.website CNAME .
 bit-ad.com CNAME .
 *.bit-ad.com CNAME .
 bitads.net CNAME .
@@ -42715,8 +42711,6 @@ idioticskinner.com CNAME .
 *.idioticskinner.com CNAME .
 idioticstoop.com CNAME .
 *.idioticstoop.com CNAME .
-idiotproprietary.com CNAME .
-*.idiotproprietary.com CNAME .
 idkom.com CNAME .
 *.idkom.com CNAME .
 idl.pl CNAME .
@@ -46543,8 +46537,6 @@ keywordsconnect.com CNAME .
 *.keywordsconnect.com CNAME .
 kfeuewvbd.com CNAME .
 *.kfeuewvbd.com CNAME .
-kfgqfjledfy.xyz CNAME .
-*.kfgqfjledfy.xyz CNAME .
 kfiopkln.com CNAME .
 *.kfiopkln.com CNAME .
 kfjhd.com CNAME .
@@ -48939,8 +48931,6 @@ lndonclkds.com CNAME .
 *.lndonclkds.com CNAME .
 lnhamforma.info CNAME .
 *.lnhamforma.info CNAME .
-lnhdlukiketg.info CNAME .
-*.lnhdlukiketg.info CNAME .
 lnk2.cfd CNAME .
 *.lnk2.cfd CNAME .
 lnkfast.com CNAME .
@@ -64733,8 +64723,6 @@ qqguvmf.com CNAME .
 *.qqguvmf.com CNAME .
 qqhuhu.com CNAME .
 *.qqhuhu.com CNAME .
-qqlnvwjtjhve.com CNAME .
-*.qqlnvwjtjhve.com CNAME .
 qqmhh.com CNAME .
 *.qqmhh.com CNAME .
 qqqwes.com CNAME .
