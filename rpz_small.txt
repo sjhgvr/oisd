@@ -1,9 +1,9 @@
-; Version: 202411260555
+; Version: 202411260607
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90478
-; Last modified: 2024-11-26T05:55:03+0000
+; Entries: 90468
+; Last modified: 2024-11-26T06:07:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732600489 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732600803 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -909,6 +909,8 @@ $TTL 30
 *.214ef3ad99.ab728d9dc8.com CNAME .
 2153bf35df.com CNAME .
 *.2153bf35df.com CNAME .
+216c2f7039.b7bf007bbe.com CNAME .
+*.216c2f7039.b7bf007bbe.com CNAME .
 218emo1t.de CNAME .
 *.218emo1t.de CNAME .
 21hn4b64m.de CNAME .
@@ -14365,8 +14367,6 @@ b73uszzq3g9h.com CNAME .
 *.b73uszzq3g9h.com CNAME .
 b7ab7d0f42.30d52e951d.com CNAME .
 *.b7ab7d0f42.30d52e951d.com CNAME .
-b7bf007bbe.com CNAME .
-*.b7bf007bbe.com CNAME .
 b7tp47v2nb3x-a.akamaihd.net CNAME .
 *.b7tp47v2nb3x-a.akamaihd.net CNAME .
 b8118ff927.806cb9d130.com CNAME .
@@ -30229,8 +30229,6 @@ dot.texastribune.org CNAME .
 *.dot.texastribune.org CNAME .
 dot.wp.pl CNAME .
 *.dot.wp.pl CNAME .
-dotaillowan.com CNAME .
-*.dotaillowan.com CNAME .
 dotandads.com CNAME .
 *.dotandads.com CNAME .
 dotappendixrooms.com CNAME .
@@ -32561,8 +32559,6 @@ endurancetransmitted.com CNAME .
 *.endurancetransmitted.com CNAME .
 enduresopens.com CNAME .
 *.enduresopens.com CNAME .
-endwaysdsname.com CNAME .
-*.endwaysdsname.com CNAME .
 endymehnth.info CNAME .
 *.endymehnth.info CNAME .
 enennsa.gushiwen.cn CNAME .
@@ -36501,8 +36497,6 @@ freesoftwarelive.com CNAME .
 *.freesoftwarelive.com CNAME .
 freestar.io CNAME .
 *.freestar.io CNAME .
-freestat.hu CNAME .
-*.freestat.hu CNAME .
 freestats.com CNAME .
 *.freestats.com CNAME .
 freestats.tv CNAME .
@@ -44725,8 +44719,6 @@ itrustzone.site CNAME .
 *.itrustzone.site CNAME .
 its-that-easy.com CNAME .
 *.its-that-easy.com CNAME .
-itselfheater.com CNAME .
-*.itselfheater.com CNAME .
 itselforder.com CNAME .
 *.itselforder.com CNAME .
 itsparedhonor.com CNAME .
@@ -82629,8 +82621,6 @@ unseenshingle.com CNAME .
 *.unseenshingle.com CNAME .
 unsettledfederalrefreshing.com CNAME .
 *.unsettledfederalrefreshing.com CNAME .
-unsettledfencing.com CNAME .
-*.unsettledfencing.com CNAME .
 unshellbrended.com CNAME .
 *.unshellbrended.com CNAME .
 unsigilyphor.com CNAME .
