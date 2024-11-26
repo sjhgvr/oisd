@@ -1,9 +1,9 @@
-; Version: 202411260407
+; Version: 202411260507
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90506
-; Last modified: 2024-11-26T04:07:02+0000
+; Entries: 90480
+; Last modified: 2024-11-26T05:07:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732593602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732597202 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1433,8 +1433,6 @@ $TTL 30
 *.32d3db0610.db35b0c4c1.com CNAME .
 32dcfb89c9.6ee4d8e440.com CNAME .
 *.32dcfb89c9.6ee4d8e440.com CNAME .
-32dea5a003.3467b7d02e.com CNAME .
-*.32dea5a003.3467b7d02e.com CNAME .
 32f689042e.com CNAME .
 *.32f689042e.com CNAME .
 332e4cb7aa.d0e564588b.com CNAME .
@@ -1459,6 +1457,8 @@ $TTL 30
 *.34.gs CNAME .
 341k4gu76ywe.top CNAME .
 *.341k4gu76ywe.top CNAME .
+3467b7d02e.com CNAME .
+*.3467b7d02e.com CNAME .
 34c828d354.9013e61823.com CNAME .
 *.34c828d354.9013e61823.com CNAME .
 34gwl8v1a.com CNAME .
@@ -2667,8 +2667,6 @@ $TTL 30
 *.7q1z79gxsi.global.ssl.fastly.net CNAME .
 7rjln8orgh.com CNAME .
 *.7rjln8orgh.com CNAME .
-7search.com CNAME .
-*.7search.com CNAME .
 7vnkf.online CNAME .
 *.7vnkf.online CNAME .
 7wind.ru CNAME .
@@ -2683,8 +2681,6 @@ $TTL 30
 *.7y7.us CNAME .
 801b52ee68.9da095044f.com CNAME .
 *.801b52ee68.9da095044f.com CNAME .
-80cbbd23e7.com CNAME .
-*.80cbbd23e7.com CNAME .
 80d42b11c9.com CNAME .
 *.80d42b11c9.com CNAME .
 80juqing.com CNAME .
@@ -9115,8 +9111,6 @@ aixcdn.com CNAME .
 *.aixcdn.com CNAME .
 aixuntupian.oss-cn-hongkong.aliyuncs.com CNAME .
 *.aixuntupian.oss-cn-hongkong.aliyuncs.com CNAME .
-aizhantj.com CNAME .
-*.aizhantj.com CNAME .
 aj1047.online CNAME .
 *.aj1047.online CNAME .
 aj1070.online CNAME .
@@ -13591,8 +13585,6 @@ aughableleade.info CNAME .
 *.aughableleade.info CNAME .
 augilrunie.net CNAME .
 *.augilrunie.net CNAME .
-augladraugne.com CNAME .
-*.augladraugne.com CNAME .
 augurersoilure.space CNAME .
 *.augurersoilure.space CNAME .
 august15download.com CNAME .
@@ -32519,8 +32511,6 @@ encouragedrealityirresponsible.com CNAME .
 *.encouragedrealityirresponsible.com CNAME .
 encouragedunrulyriddle.com CNAME .
 *.encouragedunrulyriddle.com CNAME .
-encourageidea.com CNAME .
-*.encourageidea.com CNAME .
 encourageshock.com CNAME .
 *.encourageshock.com CNAME .
 encouragingpistolassemble.com CNAME .
@@ -39117,8 +39107,6 @@ gqjdweqs.com CNAME .
 *.gqjdweqs.com CNAME .
 gqjeqaqrxexmd.com CNAME .
 *.gqjeqaqrxexmd.com CNAME .
-gqrvpwdps.com CNAME .
-*.gqrvpwdps.com CNAME .
 gquwuefddojikxo.xyz CNAME .
 *.gquwuefddojikxo.xyz CNAME .
 gr.hdream.cfd CNAME .
@@ -45441,8 +45429,6 @@ jgvkxp.xyz CNAME .
 *.jgvkxp.xyz CNAME .
 jhkfd.com CNAME .
 *.jhkfd.com CNAME .
-jhl1993.cn CNAME .
-*.jhl1993.cn CNAME .
 jhlnlt.xyz CNAME .
 *.jhlnlt.xyz CNAME .
 jhnnnb.xyz CNAME .
@@ -75227,8 +75213,6 @@ stpd.cloud CNAME .
 *.stpd.cloud CNAME .
 stpmgo.com CNAME .
 *.stpmgo.com CNAME .
-stpmneaywgib.com CNAME .
-*.stpmneaywgib.com CNAME .
 stqagmrylm.xyz CNAME .
 *.stqagmrylm.xyz CNAME .
 stquality.org CNAME .
@@ -75659,8 +75643,6 @@ suiteighteen.com CNAME .
 *.suiteighteen.com CNAME .
 sukcheatppwa.com CNAME .
 *.sukcheatppwa.com CNAME .
-sukedrevenued.org CNAME .
-*.sukedrevenued.org CNAME .
 sukultingecauy.info CNAME .
 *.sukultingecauy.info CNAME .
 sulkvulnerableexpecting.com CNAME .
@@ -78219,8 +78201,6 @@ thrzbf.xyz CNAME .
 *.thrzbf.xyz CNAME .
 thsantmirza.shop CNAME .
 *.thsantmirza.shop CNAME .
-thubanoa.com CNAME .
-*.thubanoa.com CNAME .
 thudsurdardu.net CNAME .
 *.thudsurdardu.net CNAME .
 thugjudgementpreparations.com CNAME .
@@ -83733,8 +83713,6 @@ vcdc.com CNAME .
 *.vcdc.com CNAME .
 vcdn.subiz-cdn.com CNAME .
 *.vcdn.subiz-cdn.com CNAME .
-vcjczwnc.xyz CNAME .
-*.vcjczwnc.xyz CNAME .
 vcmedia.com CNAME .
 *.vcmedia.com CNAME .
 vcngehm.com CNAME .
@@ -87509,8 +87487,6 @@ wwaowwonthco.com CNAME .
 *.wwaowwonthco.com CNAME .
 wwarvlorkeww.top CNAME .
 *.wwarvlorkeww.top CNAME .
-wweizae.top CNAME .
-*.wweizae.top CNAME .
 wwfx.xyz CNAME .
 *.wwfx.xyz CNAME .
 wwhnjrg.com CNAME .
@@ -90439,8 +90415,6 @@ zvvqprcjjnh.com CNAME .
 *.zvvqprcjjnh.com CNAME .
 zvwhrc.com CNAME .
 *.zvwhrc.com CNAME .
-zvzmzrarkvqyb.top CNAME .
-*.zvzmzrarkvqyb.top CNAME .
 zwaar.net CNAME .
 *.zwaar.net CNAME .
 zwdtvx.xyz CNAME .
