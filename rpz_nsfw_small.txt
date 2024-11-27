@@ -1,9 +1,9 @@
-; Version: 202411271243
+; Version: 202411271312
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49220
-; Last modified: 2024-11-27T12:43:14+0000
+; Entries: 49222
+; Last modified: 2024-11-27T13:12:19+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732708802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1732712401 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -38805,6 +38805,8 @@ sotwe.com CNAME .
 *.sotwe.com CNAME .
 sougouwiki.com CNAME .
 *.sougouwiki.com CNAME .
+soulfun.ai CNAME .
+*.soulfun.ai CNAME .
 soulgen.net CNAME .
 *.soulgen.net CNAME .
 soundsblog.it CNAME .
