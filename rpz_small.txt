@@ -1,9 +1,9 @@
-; Version: 202412030007
+; Version: 202412030107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91534
-; Last modified: 2024-12-03T00:07:08+0000
+; Entries: 91530
+; Last modified: 2024-12-03T01:07:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733184002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733187601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -941,8 +941,6 @@ $TTL 30
 *.23f19b241e.f7050945a4.com CNAME .
 23hssicm9.de CNAME .
 *.23hssicm9.de CNAME .
-23oct2023.site CNAME .
-*.23oct2023.site CNAME .
 24-sportnews.com CNAME .
 *.24-sportnews.com CNAME .
 24-xxx.biz CNAME .
@@ -2287,8 +2285,6 @@ $TTL 30
 *.65wenv5f.xyz CNAME .
 663008888.com CNAME .
 *.663008888.com CNAME .
-66308888.com CNAME .
-*.66308888.com CNAME .
 665166e5a9.com CNAME .
 *.665166e5a9.com CNAME .
 6651tp.com CNAME .
