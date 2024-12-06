@@ -1,9 +1,9 @@
-; Version: 202412062040
+; Version: 202412062107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90678
-; Last modified: 2024-12-06T20:40:13+0000
+; Entries: 90676
+; Last modified: 2024-12-06T21:07:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733515202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733518802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6911,6 +6911,8 @@ ads.sift.co.uk CNAME .
 *.ads.sift.co.uk CNAME .
 ads.smartclick.com CNAME .
 *.ads.smartclick.com CNAME .
+ads.smrtbid.com CNAME .
+*.ads.smrtbid.com CNAME .
 ads.soft32.com CNAME .
 *.ads.soft32.com CNAME .
 ads.sohu.com CNAME .
@@ -43819,8 +43821,6 @@ inhospitablededucefairness.com CNAME .
 *.inhospitablededucefairness.com CNAME .
 inhospitablemasculinerasp.com CNAME .
 *.inhospitablemasculinerasp.com CNAME .
-inhumanhuashi.com CNAME .
-*.inhumanhuashi.com CNAME .
 inhumanswancondo.com CNAME .
 *.inhumanswancondo.com CNAME .
 init.blackcrow.ai CNAME .
@@ -58343,8 +58343,6 @@ ospartners.xyz CNAME .
 *.ospartners.xyz CNAME .
 ospreyorceins.com CNAME .
 *.ospreyorceins.com CNAME .
-osrepwsysp.com CNAME .
-*.osrepwsysp.com CNAME .
 osrxzucira.com CNAME .
 *.osrxzucira.com CNAME .
 ossfloetteor.com CNAME .
