@@ -1,9 +1,9 @@
-; Version: 202412111307
+; Version: 202412111407
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 91282
-; Last modified: 2024-12-11T13:07:12+0000
+; Entries: 91278
+; Last modified: 2024-12-11T14:07:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733922001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1733925601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -30493,8 +30493,6 @@ download-adblock-zen.com CNAME .
 *.download-adblock-zen.com CNAME .
 download-alert.com CNAME .
 *.download-alert.com CNAME .
-download-ready.net CNAME .
-*.download-ready.net CNAME .
 download-stats.mozilla.org CNAME .
 *.download-stats.mozilla.org CNAME .
 download4.cfd CNAME .
@@ -47429,8 +47427,6 @@ koi.henrydennis.dev CNAME .
 *.koi.henrydennis.dev CNAME .
 koi.lkae.dev CNAME .
 *.koi.lkae.dev CNAME .
-koi.project-tampah.com CNAME .
-*.koi.project-tampah.com CNAME .
 koi.vyer.com CNAME .
 *.koi.vyer.com CNAME .
 koiaripolymny.com CNAME .
