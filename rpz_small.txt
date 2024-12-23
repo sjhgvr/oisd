@@ -1,9 +1,9 @@
-; Version: 202412230808
+; Version: 202412230908
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90940
-; Last modified: 2024-12-23T08:08:47+0000
+; Entries: 90928
+; Last modified: 2024-12-23T09:08:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1734940851 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1734944405 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1811,8 +1811,6 @@ $TTL 30
 *.4dtrk.com CNAME .
 4e0622e316.com CNAME .
 *.4e0622e316.com CNAME .
-4e645c7cf2.com CNAME .
-*.4e645c7cf2.com CNAME .
 4ed196b502.com CNAME .
 *.4ed196b502.com CNAME .
 4ed5560812.com CNAME .
@@ -10935,8 +10933,6 @@ analytics.liveact.cri-mw.jp CNAME .
 *.analytics.liveact.cri-mw.jp CNAME .
 analytics.livestream.com CNAME .
 *.analytics.livestream.com CNAME .
-analytics.logsss.com CNAME .
-*.analytics.logsss.com CNAME .
 analytics.lunaweb.cloud CNAME .
 *.analytics.lunaweb.cloud CNAME .
 analytics.m7g.twitch.tv CNAME .
@@ -50247,6 +50243,8 @@ logshort.xyz CNAME .
 *.logshort.xyz CNAME .
 logsink.zedge.net CNAME .
 *.logsink.zedge.net CNAME .
+logsss.com CNAME .
+*.logsss.com CNAME .
 logtake.weidian.com CNAME .
 *.logtake.weidian.com CNAME .
 logua.com CNAME .
@@ -51107,8 +51105,6 @@ m821.saratogian.com CNAME .
 *.m821.saratogian.com CNAME .
 m886.kmbc.com CNAME .
 *.m886.kmbc.com CNAME .
-ma.logsss.com CNAME .
-*.ma.logsss.com CNAME .
 ma.news.naver.com CNAME .
 *.ma.news.naver.com CNAME .
 ma.pediclenatuary.com CNAME .
@@ -63861,8 +63857,6 @@ psockapa.net CNAME .
 *.psockapa.net CNAME .
 psoftautha.com CNAME .
 *.psoftautha.com CNAME .
-psohemsinso.xyz CNAME .
-*.psohemsinso.xyz CNAME .
 psoltoanoucamte.net CNAME .
 *.psoltoanoucamte.net CNAME .
 psomtenga.net CNAME .
@@ -65527,8 +65521,6 @@ quilkinhulking.shop CNAME .
 *.quilkinhulking.shop CNAME .
 quillergassier.com CNAME .
 *.quillergassier.com CNAME .
-quilterdochter.shop CNAME .
-*.quilterdochter.shop CNAME .
 quinst.com CNAME .
 *.quinst.com CNAME .
 quintag.com CNAME .
@@ -69469,8 +69461,6 @@ s.linkw2e.com CNAME .
 *.s.linkw2e.com CNAME .
 s.linkw2g.com CNAME .
 *.s.linkw2g.com CNAME .
-s.logsss.com CNAME .
-*.s.logsss.com CNAME .
 s.myangular.life CNAME .
 *.s.myangular.life CNAME .
 s.native7.com CNAME .
@@ -88179,8 +88169,6 @@ xcowuheclvwryh.com CNAME .
 *.xcowuheclvwryh.com CNAME .
 xcuffrzha.com CNAME .
 *.xcuffrzha.com CNAME .
-xcvrdyjthpep.com CNAME .
-*.xcvrdyjthpep.com CNAME .
 xcypgd.icu CNAME .
 *.xcypgd.icu CNAME .
 xd.mobilbravish.com CNAME .
