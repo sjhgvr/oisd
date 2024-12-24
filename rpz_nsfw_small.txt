@@ -1,9 +1,9 @@
-; Version: 202412241709
+; Version: 202412241710
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49846
-; Last modified: 2024-12-24T17:09:47+0000
+; Entries: 49844
+; Last modified: 2024-12-24T17:10:21+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735060173 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735060207 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -18977,8 +18977,6 @@ ibdsmporn.com CNAME .
 *.ibdsmporn.com CNAME .
 ibg.bg CNAME .
 *.ibg.bg CNAME .
-ibiblio.org CNAME .
-*.ibiblio.org CNAME .
 ibis-dvd.com CNAME .
 *.ibis-dvd.com CNAME .
 ibizababes.com CNAME .
