@@ -1,9 +1,9 @@
-; Version: 202412250107
+; Version: 202412250207
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90950
-; Last modified: 2024-12-25T01:07:43+0000
+; Entries: 90948
+; Last modified: 2024-12-25T02:07:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735088402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735092005 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -46381,8 +46381,6 @@ junkrat-tire.overbuff.com CNAME .
 *.junkrat-tire.overbuff.com CNAME .
 junmediadirect.com CNAME .
 *.junmediadirect.com CNAME .
-junmediadirect1.com CNAME .
-*.junmediadirect1.com CNAME .
 jupabwmocgqxeo.com CNAME .
 *.jupabwmocgqxeo.com CNAME .
 jurgeeph.net CNAME .
