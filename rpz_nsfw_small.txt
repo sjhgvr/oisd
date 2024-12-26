@@ -1,9 +1,9 @@
-; Version: 202412260816
+; Version: 202412260938
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 50052
-; Last modified: 2024-12-26T08:16:03+0000
+; Entries: 50042
+; Last modified: 2024-12-26T09:38:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735200005 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735205866 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -1407,8 +1407,6 @@ adtarget.com.tr CNAME .
 *.adtarget.com.tr CNAME .
 adugames.com CNAME .
 *.adugames.com CNAME .
-adult CNAME .
-*.adult CNAME .
 adult-doujin-game.com CNAME .
 *.adult-doujin-game.com CNAME .
 adult-empire.com CNAME .
@@ -12307,8 +12305,6 @@ exoticuganda.com CNAME .
 *.exoticuganda.com CNAME .
 expage.com CNAME .
 *.expage.com CNAME .
-explainxkcd.com CNAME .
-*.explainxkcd.com CNAME .
 expli.top CNAME .
 *.expli.top CNAME .
 explicite-art.com CNAME .
@@ -30835,8 +30831,6 @@ porm.guru CNAME .
 *.porm.guru CNAME .
 pormo.cam CNAME .
 *.pormo.cam CNAME .
-porn CNAME .
-*.porn CNAME .
 porn-911.online CNAME .
 *.porn-911.online CNAME .
 porn-app.com CNAME .
@@ -36639,8 +36633,6 @@ severeporn.com CNAME .
 *.severeporn.com CNAME .
 severesexfilms.com CNAME .
 *.severesexfilms.com CNAME .
-sex CNAME .
-*.sex CNAME .
 sex-alarabi.com CNAME .
 *.sex-alarabi.com CNAME .
 sex-animals.site CNAME .
@@ -48075,8 +48067,6 @@ xxvn.cc CNAME .
 *.xxvn.cc CNAME .
 xxvnapi.com CNAME .
 *.xxvnapi.com CNAME .
-xxx CNAME .
-*.xxx CNAME .
 xxx-anime.net CNAME .
 *.xxx-anime.net CNAME .
 xxx-av.com CNAME .
