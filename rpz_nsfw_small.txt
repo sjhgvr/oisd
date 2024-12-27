@@ -1,9 +1,9 @@
-; Version: 202412272014
+; Version: 202412272116
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49878
-; Last modified: 2024-12-27T20:14:32+0000
+; Entries: 49884
+; Last modified: 2024-12-27T21:16:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735329610 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735333205 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -705,6 +705,8 @@ $TTL 30
 *.4len.net CNAME .
 4oito.com.br CNAME .
 *.4oito.com.br CNAME .
+4ox.pw CNAME .
+*.4ox.pw CNAME .
 4pig.com CNAME .
 *.4pig.com CNAME .
 4plaisir.cam CNAME .
@@ -11025,6 +11027,8 @@ elergonomista.com CNAME .
 *.elergonomista.com CNAME .
 elfocorojo.com CNAME .
 *.elfocorojo.com CNAME .
+elhacker.net CNAME .
+*.elhacker.net CNAME .
 elhombre.com.br CNAME .
 *.elhombre.com.br CNAME .
 elhorizonte.mx CNAME .
@@ -37055,6 +37059,8 @@ sexhay69.mobi CNAME .
 *.sexhay69.mobi CNAME .
 sexhay88.net CNAME .
 *.sexhay88.net CNAME .
+sexhayday.tv CNAME .
+*.sexhayday.tv CNAME .
 sexhaymoi.net CNAME .
 *.sexhaymoi.net CNAME .
 sexhb.com CNAME .
