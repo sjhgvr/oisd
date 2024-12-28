@@ -1,9 +1,9 @@
-; Version: 202412282108
+; Version: 202412282208
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90410
-; Last modified: 2024-12-28T21:08:30+0000
+; Entries: 90404
+; Last modified: 2024-12-28T22:08:23+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735419604 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735423202 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2873,8 +2873,6 @@ $TTL 30
 *.8e85eb0e5d.c6bbab50a3.com CNAME .
 8ea2468d09.com CNAME .
 *.8ea2468d09.com CNAME .
-8ec9b7706a.com CNAME .
-*.8ec9b7706a.com CNAME .
 8f2b4c98e7.com CNAME .
 *.8f2b4c98e7.com CNAME .
 8f30b5f042.58c526d99b.com CNAME .
@@ -38865,8 +38863,6 @@ gmossp-sp.jp CNAME .
 *.gmossp-sp.jp CNAME .
 gmso12251oka.top CNAME .
 *.gmso12251oka.top CNAME .
-gmso12261oka.top CNAME .
-*.gmso12261oka.top CNAME .
 gmso12271oka.top CNAME .
 *.gmso12271oka.top CNAME .
 gmxvmvptfm.com CNAME .
@@ -64233,8 +64229,6 @@ pushdy.com CNAME .
 *.pushdy.com CNAME .
 pushdy.vn CNAME .
 *.pushdy.vn CNAME .
-pushebrod.com CNAME .
-*.pushebrod.com CNAME .
 pusheddrain.com CNAME .
 *.pusheddrain.com CNAME .
 pushedwaistcoat.com CNAME .
