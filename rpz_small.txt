@@ -1,9 +1,9 @@
-; Version: 202412280910
+; Version: 202412281019
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 90434
-; Last modified: 2024-12-28T09:10:06+0000
+; Entries: 90438
+; Last modified: 2024-12-28T10:19:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735376406 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735380006 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -74085,6 +74085,8 @@ stat.pl CNAME .
 *.stat.pl CNAME .
 stat.play.zing.vn CNAME .
 *.stat.play.zing.vn CNAME .
+stat.pravdafrance.com CNAME .
+*.stat.pravdafrance.com CNAME .
 stat.rare.ru CNAME .
 *.stat.rare.ru CNAME .
 stat.ringier.sk CNAME .
@@ -77501,6 +77503,8 @@ telemetry.battle.net CNAME .
 *.telemetry.battle.net CNAME .
 telemetry.canva.com CNAME .
 *.telemetry.canva.com CNAME .
+telemetry.dzen.ru CNAME .
+*.telemetry.dzen.ru CNAME .
 telemetry.goodlifefitness.com CNAME .
 *.telemetry.goodlifefitness.com CNAME .
 telemetry.jivosite.com CNAME .
