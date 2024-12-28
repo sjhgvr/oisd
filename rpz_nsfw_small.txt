@@ -1,9 +1,9 @@
-; Version: 202412281512
+; Version: 202412281617
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49892
-; Last modified: 2024-12-28T15:12:58+0000
+; Entries: 49894
+; Last modified: 2024-12-28T16:17:14+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735398008 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735401606 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -11019,6 +11019,8 @@ elergonomista.com CNAME .
 *.elergonomista.com CNAME .
 elfocorojo.com CNAME .
 *.elfocorojo.com CNAME .
+elhacker.net CNAME .
+*.elhacker.net CNAME .
 elhombre.com.br CNAME .
 *.elhombre.com.br CNAME .
 elhorizonte.mx CNAME .
