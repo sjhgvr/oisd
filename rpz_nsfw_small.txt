@@ -1,9 +1,9 @@
-; Version: 202412280213
+; Version: 202412280314
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49936
-; Last modified: 2024-12-28T02:13:41+0000
+; Entries: 49938
+; Last modified: 2024-12-28T03:14:05+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735351205 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735354806 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -10873,6 +10873,8 @@ ebuchka.cc CNAME .
 *.ebuchka.cc CNAME .
 ebuha.cc CNAME .
 *.ebuha.cc CNAME .
+ebun.pro CNAME .
+*.ebun.pro CNAME .
 ebun.tv CNAME .
 *.ebun.tv CNAME .
 ebundei.com CNAME .
