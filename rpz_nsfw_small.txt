@@ -1,9 +1,9 @@
-; Version: 202412290313
+; Version: 202412290413
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49782
-; Last modified: 2024-12-29T03:13:23+0000
+; Entries: 49784
+; Last modified: 2024-12-29T04:13:45+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735441205 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735444803 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -18975,6 +18975,8 @@ idealwifes.com CNAME .
 *.idealwifes.com CNAME .
 idilis.ro CNAME .
 *.idilis.ro CNAME .
+idilys.com CNAME .
+*.idilys.com CNAME .
 idol-blog.com CNAME .
 *.idol-blog.com CNAME .
 idol-gakuen.jp CNAME .
