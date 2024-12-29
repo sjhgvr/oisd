@@ -1,9 +1,9 @@
-; Version: 202412290915
+; Version: 202412291015
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49802
-; Last modified: 2024-12-29T09:15:15+0000
+; Entries: 49806
+; Last modified: 2024-12-29T10:15:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735462803 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735466407 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -2707,6 +2707,8 @@ animeaddicts.hu CNAME .
 *.animeaddicts.hu CNAME .
 animefag.ru CNAME .
 *.animefag.ru CNAME .
+animefox.org CNAME .
+*.animefox.org CNAME .
 animehentaihub.com CNAME .
 *.animehentaihub.com CNAME .
 animehentaivideos2cn.com CNAME .
@@ -24621,6 +24623,8 @@ masa49.link CNAME .
 *.masa49.link CNAME .
 masa49.mba CNAME .
 *.masa49.mba CNAME .
+masa49.org CNAME .
+*.masa49.org CNAME .
 masa499.in CNAME .
 *.masa499.in CNAME .
 masafun.click CNAME .
