@@ -1,9 +1,9 @@
-; Version: 202412302215
+; Version: 202412302316
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49654
-; Last modified: 2024-12-30T22:15:22+0000
+; Entries: 49656
+; Last modified: 2024-12-30T23:16:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735596060 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735599607 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -42801,6 +42801,8 @@ tumbest.com CNAME .
 *.tumbest.com CNAME .
 tumbex.com CNAME .
 *.tumbex.com CNAME .
+tumblrgallery.xyz CNAME .
+*.tumblrgallery.xyz CNAME .
 tumentoday.ru CNAME .
 *.tumentoday.ru CNAME .
 tuoi18.tv CNAME .
