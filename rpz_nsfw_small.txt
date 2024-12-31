@@ -1,9 +1,9 @@
-; Version: 202412310315
+; Version: 202412310415
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49656
-; Last modified: 2024-12-31T03:15:04+0000
+; Entries: 49658
+; Last modified: 2024-12-31T04:15:19+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735614004 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735617606 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -27973,6 +27973,8 @@ nude-pics.org CNAME .
 *.nude-pics.org CNAME .
 nude-virgins.info CNAME .
 *.nude-virgins.info CNAME .
+nude.com CNAME .
+*.nude.com CNAME .
 nude.hu CNAME .
 *.nude.hu CNAME .
 nude1.eu CNAME .
