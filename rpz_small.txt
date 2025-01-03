@@ -1,9 +1,9 @@
-; Version: 202501031609
+; Version: 202501031757
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 90406
-; Last modified: 2025-01-03T16:09:14+0000
+; Last modified: 2025-01-03T17:57:23+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735920004 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1735923660 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -7371,6 +7371,8 @@ ads.tvb.com CNAME .
 *.ads.tvb.com CNAME .
 ads.tvp.pl CNAME .
 *.ads.tvp.pl CNAME .
+ads.twdcgrid.com CNAME .
+*.ads.twdcgrid.com CNAME .
 ads.ultimate-guitar.com CNAME .
 *.ads.ultimate-guitar.com CNAME .
 ads.ultraviewer.net CNAME .
@@ -81735,8 +81737,6 @@ twazzyoidwlfe.com CNAME .
 *.twazzyoidwlfe.com CNAME .
 twch.femina.ch CNAME .
 *.twch.femina.ch CNAME .
-twdcgrid.com CNAME .
-*.twdcgrid.com CNAME .
 tweakarrangement.com CNAME .
 *.tweakarrangement.com CNAME .
 tweedygirly.com CNAME .
