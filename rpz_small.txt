@@ -1,9 +1,9 @@
-; Version: 202501280009
+; Version: 202501280109
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88512
-; Last modified: 2025-01-28T00:09:06+0000
+; Entries: 88508
+; Last modified: 2025-01-28T01:09:15+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1738022409 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1738026002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -11057,8 +11057,6 @@ analytics.mobile.yandex.net CNAME .
 *.analytics.mobile.yandex.net CNAME .
 analytics.mobilegamestats.com CNAME .
 *.analytics.mobilegamestats.com CNAME .
-analytics.molistar.com CNAME .
-*.analytics.molistar.com CNAME .
 analytics.moneycat.vn CNAME .
 *.analytics.moneycat.vn CNAME .
 analytics.move.ru CNAME .
@@ -31529,8 +31527,6 @@ ecommstats.s3.amazonaws.com CNAME .
 *.ecommstats.s3.amazonaws.com CNAME .
 econenectedith.info CNAME .
 *.econenectedith.info CNAME .
-economicpizzas.com CNAME .
-*.economicpizzas.com CNAME .
 economyhave.com CNAME .
 *.economyhave.com CNAME .
 econsistentlyplea.com CNAME .
