@@ -1,9 +1,9 @@
-; Version: 202501301510
+; Version: 202501301721
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88026
-; Last modified: 2025-01-30T15:10:57+0000
+; Entries: 88020
+; Last modified: 2025-01-30T17:21:45+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1738249208 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1738256407 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -93,8 +93,6 @@ $TTL 30
 *.03p.info CNAME .
 04-f-bmf.com CNAME .
 *.04-f-bmf.com CNAME .
-0438336acf.0a74314cd1.com CNAME .
-*.0438336acf.0a74314cd1.com CNAME .
 04424170.xyz CNAME .
 *.04424170.xyz CNAME .
 044da016b3.com CNAME .
@@ -179,6 +177,8 @@ $TTL 30
 *.0a0d-d3l1vr.b-cdn.net CNAME .
 0a22eeac91.e46ece0a18.com CNAME .
 *.0a22eeac91.e46ece0a18.com CNAME .
+0a74314cd1.com CNAME .
+*.0a74314cd1.com CNAME .
 0ab8344566.51cd57d70c.com CNAME .
 *.0ab8344566.51cd57d70c.com CNAME .
 0af2a962b0102942d9a7df351b20be55.com CNAME .
@@ -2159,6 +2159,8 @@ $TTL 30
 *.56c30cd3c4.0d0e65883b.com CNAME .
 56rt2692.de CNAME .
 *.56rt2692.de CNAME .
+5707f9766c.com CNAME .
+*.5707f9766c.com CNAME .
 573569djd.com CNAME .
 *.573569djd.com CNAME .
 574ae48fe5.com CNAME .
@@ -17033,8 +17035,6 @@ bnrs.esexa.online CNAME .
 *.bnrs.esexa.online CNAME .
 bnrs.it CNAME .
 *.bnrs.it CNAME .
-bnrs.manrec.cc CNAME .
-*.bnrs.manrec.cc CNAME .
 bnrs.shemrec.cc CNAME .
 *.bnrs.shemrec.cc CNAME .
 bnrsis.com CNAME .
@@ -31523,8 +31523,6 @@ edwmpt.com CNAME .
 *.edwmpt.com CNAME .
 ee.sportacentrs.com CNAME .
 *.ee.sportacentrs.com CNAME .
-ee2eb00cc5.5707f9766c.com CNAME .
-*.ee2eb00cc5.5707f9766c.com CNAME .
 ee694ce73a.c11e6856d0.com CNAME .
 *.ee694ce73a.c11e6856d0.com CNAME .
 ee768d2e27.0f9be2e1ef.com CNAME .
@@ -50177,6 +50175,8 @@ manompas.com CNAME .
 *.manompas.com CNAME .
 manorfunctions.com CNAME .
 *.manorfunctions.com CNAME .
+manrec.cc CNAME .
+*.manrec.cc CNAME .
 manrootarbota.com CNAME .
 *.manrootarbota.com CNAME .
 mansfieldspurtvan.com CNAME .
@@ -53565,8 +53565,6 @@ nbcollectretry.kugou.com CNAME .
 *.nbcollectretry.kugou.com CNAME .
 nbmramf.de CNAME .
 *.nbmramf.de CNAME .
-nbnrsa.manrec.cc CNAME .
-*.nbnrsa.manrec.cc CNAME .
 nboclympics.com CNAME .
 *.nboclympics.com CNAME .
 nbottkauyy.com CNAME .
@@ -61431,8 +61429,6 @@ prolatecyclus.com CNAME .
 *.prolatecyclus.com CNAME .
 proll.esexa.online CNAME .
 *.proll.esexa.online CNAME .
-proll.manrec.cc CNAME .
-*.proll.manrec.cc CNAME .
 proll.shemrec.cc CNAME .
 *.proll.shemrec.cc CNAME .
 prologuerussialavender.com CNAME .
@@ -62335,8 +62331,6 @@ punctualflopsubquery.com CNAME .
 *.punctualflopsubquery.com CNAME .
 pundr.esexa.online CNAME .
 *.pundr.esexa.online CNAME .
-pundr.manrec.cc CNAME .
-*.pundr.manrec.cc CNAME .
 pundr.shemrec.cc CNAME .
 *.pundr.shemrec.cc CNAME .
 pungentsmartlyhoarse.com CNAME .
