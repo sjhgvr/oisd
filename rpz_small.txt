@@ -1,9 +1,9 @@
-; Version: 202502081010
+; Version: 202502081210
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88338
-; Last modified: 2025-02-08T10:10:13+0000
+; Entries: 88336
+; Last modified: 2025-02-08T12:10:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739008811 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739016002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -79491,8 +79491,6 @@ trucemallow.website CNAME .
 *.trucemallow.website CNAME .
 true.aahen.site CNAME .
 *.true.aahen.site CNAME .
-trueamouronline.com CNAME .
-*.trueamouronline.com CNAME .
 truehits.net CNAME .
 *.truehits.net CNAME .
 truehits1.gits.net.th CNAME .
