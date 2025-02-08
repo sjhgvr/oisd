@@ -1,9 +1,9 @@
-; Version: 202502080709
+; Version: 202502080809
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 88114
-; Last modified: 2025-02-08T07:09:46+0000
+; Last modified: 2025-02-08T08:09:49+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1738998013 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739001606 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -30009,8 +30009,6 @@ doubleclick.ctfile.com CNAME .
 *.doubleclick.ctfile.com CNAME .
 doubleclick.de CNAME .
 *.doubleclick.de CNAME .
-doubleclick.host CNAME .
-*.doubleclick.host CNAME .
 doubleclick.ne.jp CNAME .
 *.doubleclick.ne.jp CNAME .
 doublemax.net CNAME .
@@ -83651,6 +83649,8 @@ webpinp.com CNAME .
 *.webpinp.com CNAME .
 webpixel.smartmeapp.com CNAME .
 *.webpixel.smartmeapp.com CNAME .
+webpsts.com CNAME .
+*.webpsts.com CNAME .
 webpush.reachyield.com CNAME .
 *.webpush.reachyield.com CNAME .
 webpush.resultsmedia.com CNAME .
