@@ -1,9 +1,9 @@
-; Version: 202502091212
+; Version: 202502091312
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88332
-; Last modified: 2025-02-09T12:12:48+0000
+; Entries: 88324
+; Last modified: 2025-02-09T13:12:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739102406 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739106008 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -47469,6 +47469,8 @@ lenkmio.com CNAME .
 *.lenkmio.com CNAME .
 lenmit.com CNAME .
 *.lenmit.com CNAME .
+lensgard-2.online CNAME .
+*.lensgard-2.online CNAME .
 lenta.sparrow.ru CNAME .
 *.lenta.sparrow.ru CNAME .
 lentaopz.xyz CNAME .
@@ -77649,8 +77651,6 @@ tq-eu.clouback-4.online CNAME .
 *.tq-eu.clouback-4.online CNAME .
 tq-eu.foseller-a.online CNAME .
 *.tq-eu.foseller-a.online CNAME .
-tq-eu.lensgard-2.online CNAME .
-*.tq-eu.lensgard-2.online CNAME .
 tq-eu.minsonbar2.online CNAME .
 *.tq-eu.minsonbar2.online CNAME .
 tq-eu.mpds-smart1.online CNAME .
@@ -77689,8 +77689,6 @@ tq.foseller-a.online CNAME .
 *.tq.foseller-a.online CNAME .
 tq.ldnpointer.online CNAME .
 *.tq.ldnpointer.online CNAME .
-tq.lensgard-2.online CNAME .
-*.tq.lensgard-2.online CNAME .
 tq.minsonbar2.online CNAME .
 *.tq.minsonbar2.online CNAME .
 tq.mpds-smart1.online CNAME .
@@ -85999,8 +85997,6 @@ xml-eu-v4.insightadz.com CNAME .
 *.xml-eu-v4.insightadz.com CNAME .
 xml-eu-v4.ldnpointer.online CNAME .
 *.xml-eu-v4.ldnpointer.online CNAME .
-xml-eu-v4.lensgard-2.online CNAME .
-*.xml-eu-v4.lensgard-2.online CNAME .
 xml-eu-v4.minsonbar2.online CNAME .
 *.xml-eu-v4.minsonbar2.online CNAME .
 xml-eu-v4.mpds-smart1.online CNAME .
@@ -86175,8 +86171,6 @@ xml-v4.kvicads.com CNAME .
 *.xml-v4.kvicads.com CNAME .
 xml-v4.ldnpointer.online CNAME .
 *.xml-v4.ldnpointer.online CNAME .
-xml-v4.lensgard-2.online CNAME .
-*.xml-v4.lensgard-2.online CNAME .
 xml-v4.medialabs.info CNAME .
 *.xml-v4.medialabs.info CNAME .
 xml-v4.mediataggus.com CNAME .
@@ -86399,8 +86393,6 @@ xml.laheatads.com CNAME .
 *.xml.laheatads.com CNAME .
 xml.landingpaged.com CNAME .
 *.xml.landingpaged.com CNAME .
-xml.lensgard-2.online CNAME .
-*.xml.lensgard-2.online CNAME .
 xml.leoback.com CNAME .
 *.xml.leoback.com CNAME .
 xml.leofback.com CNAME .
