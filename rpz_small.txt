@@ -1,9 +1,9 @@
-; Version: 202502090710
+; Version: 202502090811
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88330
-; Last modified: 2025-02-09T07:10:59+0000
+; Entries: 88328
+; Last modified: 2025-02-09T08:11:08+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739084403 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739088003 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -30075,6 +30075,8 @@ doubleclick.ctfile.com CNAME .
 *.doubleclick.ctfile.com CNAME .
 doubleclick.de CNAME .
 *.doubleclick.de CNAME .
+doubleclick.host CNAME .
+*.doubleclick.host CNAME .
 doubleclick.ne.jp CNAME .
 *.doubleclick.ne.jp CNAME .
 doublemax.net CNAME .
@@ -40049,8 +40051,6 @@ harvester.hbpl.co.uk CNAME .
 *.harvester.hbpl.co.uk CNAME .
 harvester.hnonline.sk CNAME .
 *.harvester.hnonline.sk CNAME .
-hasdarot.info CNAME .
-*.hasdarot.info CNAME .
 hasdrs.com CNAME .
 *.hasdrs.com CNAME .
 hash-hash-tag.com CNAME .
@@ -83855,8 +83855,6 @@ webpinp.com CNAME .
 *.webpinp.com CNAME .
 webpixel.smartmeapp.com CNAME .
 *.webpixel.smartmeapp.com CNAME .
-webpsts.com CNAME .
-*.webpsts.com CNAME .
 webpush.reachyield.com CNAME .
 *.webpush.reachyield.com CNAME .
 webpush.resultsmedia.com CNAME .
