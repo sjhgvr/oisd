@@ -1,9 +1,9 @@
-; Version: 202502120710
+; Version: 202502120810
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88076
-; Last modified: 2025-02-12T07:10:34+0000
+; Entries: 88072
+; Last modified: 2025-02-12T08:10:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739343606 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739347208 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1139,8 +1139,6 @@ $TTL 30
 *.2jmis11eq.de CNAME .
 2jod3cl3j.de CNAME .
 *.2jod3cl3j.de CNAME .
-2jse6.icu CNAME .
-*.2jse6.icu CNAME .
 2k6eh90gs.de CNAME .
 *.2k6eh90gs.de CNAME .
 2kata.ru CNAME .
@@ -83301,8 +83299,6 @@ watcherworkingbrand.com CNAME .
 *.watcherworkingbrand.com CNAME .
 watchespounceinvolving.com CNAME .
 *.watchespounceinvolving.com CNAME .
-watchesthereupon.com CNAME .
-*.watchesthereupon.com CNAME .
 watchingthat.com CNAME .
 *.watchingthat.com CNAME .
 watchmarinerflint.com CNAME .
