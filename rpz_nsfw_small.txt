@@ -1,9 +1,9 @@
-; Version: 202502171122
+; Version: 202502171131
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 45634
-; Last modified: 2025-02-17T11:22:07+0000
+; Entries: 45632
+; Last modified: 2025-02-17T11:31:15+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739791308 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739791859 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -33325,8 +33325,6 @@ scandalbeauties.com CNAME .
 *.scandalbeauties.com CNAME .
 scandalplanet.com CNAME .
 *.scandalplanet.com CNAME .
-scarabresearch.com CNAME .
-*.scarabresearch.com CNAME .
 scarletamour.com CNAME .
 *.scarletamour.com CNAME .
 scarletblue.com.au CNAME .
