@@ -1,9 +1,9 @@
-; Version: 202502180654
+; Version: 202502180657
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42764
-; Last modified: 2025-02-18T06:54:49+0000
+; Entries: 42762
+; Last modified: 2025-02-18T06:57:11+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739861675 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739861817 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -25479,8 +25479,6 @@ pactoglobal.org.br CNAME .
 *.pactoglobal.org.br CNAME .
 pagalworld.asia CNAME .
 *.pagalworld.asia CNAME .
-pagar.me CNAME .
-*.pagar.me CNAME .
 paginelucirosse.it CNAME .
 *.paginelucirosse.it CNAME .
 paheal.net CNAME .
