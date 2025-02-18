@@ -1,9 +1,9 @@
-; Version: 202502180911
+; Version: 202502180914
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42804
-; Last modified: 2025-02-18T09:11:54+0000
+; Entries: 42802
+; Last modified: 2025-02-18T09:14:46+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739869899 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739870072 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -3779,8 +3779,6 @@ bananasfamosas.com.br CNAME .
 *.bananasfamosas.com.br CNAME .
 bananocams.com CNAME .
 *.bananocams.com CNAME .
-bandaancha.eu CNAME .
-*.bandaancha.eu CNAME .
 bandarsub.com CNAME .
 *.bandarsub.com CNAME .
 bandsworksconcerts.info CNAME .
