@@ -1,9 +1,9 @@
-; Version: 202502190109
+; Version: 202502190209
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88422
-; Last modified: 2025-02-19T01:09:07+0000
+; Entries: 88420
+; Last modified: 2025-02-19T02:09:18+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739926802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1739930406 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -42227,8 +42227,6 @@ ibikini.cyou CNAME .
 *.ibikini.cyou CNAME .
 ibkoiw.xyz CNAME .
 *.ibkoiw.xyz CNAME .
-ibmfunk.com CNAME .
-*.ibmfunk.com CNAME .
 iboobeelt.net CNAME .
 *.iboobeelt.net CNAME .
 ibqemk.icu CNAME .
