@@ -1,9 +1,9 @@
-; Version: 202502221423
+; Version: 202502221425
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49750
-; Last modified: 2025-02-22T14:23:31+0000
+; Entries: 49748
+; Last modified: 2025-02-22T14:25:13+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740234191 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740234292 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -41185,8 +41185,6 @@ ternatekota.go.id CNAME .
 *.ternatekota.go.id CNAME .
 ternity.net CNAME .
 *.ternity.net CNAME .
-terra.com.br CNAME .
-*.terra.com.br CNAME .
 terra.com.mx CNAME .
 *.terra.com.mx CNAME .
 terrafp.ru CNAME .
