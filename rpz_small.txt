@@ -1,9 +1,9 @@
-; Version: 202502231410
+; Version: 202502231510
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88280
-; Last modified: 2025-02-23T14:10:14+0000
+; Entries: 88276
+; Last modified: 2025-02-23T15:10:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740319201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740322802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -18427,6 +18427,8 @@ c.us.heap-api.com CNAME .
 *.c.us.heap-api.com CNAME .
 c.vrvm.com CNAME .
 *.c.vrvm.com CNAME .
+c.webp2p.letv.com CNAME .
+*.c.webp2p.letv.com CNAME .
 c.wen.ru CNAME .
 *.c.wen.ru CNAME .
 c.wort-suche.com CNAME .
@@ -69395,8 +69397,6 @@ sg.log.ulivetv.net CNAME .
 *.sg.log.ulivetv.net CNAME .
 sg01.rayjump.com CNAME .
 *.sg01.rayjump.com CNAME .
-sg7.pw CNAME .
-*.sg7.pw CNAME .
 sgadkc.xyz CNAME .
 *.sgadkc.xyz CNAME .
 sgcwoe.xyz CNAME .
@@ -83417,8 +83417,6 @@ wangfenxi.com CNAME .
 *.wangfenxi.com CNAME .
 wanintrudeabbey.com CNAME .
 *.wanintrudeabbey.com CNAME .
-wanionsoblongs.com CNAME .
-*.wanionsoblongs.com CNAME .
 wanlyavower.com CNAME .
 *.wanlyavower.com CNAME .
 wannessdebus.com CNAME .
@@ -83839,8 +83837,6 @@ webminepool.com CNAME .
 *.webminepool.com CNAME .
 webminerpool.com CNAME .
 *.webminerpool.com CNAME .
-webp2p.letv.com CNAME .
-*.webp2p.letv.com CNAME .
 webpinp.com CNAME .
 *.webpinp.com CNAME .
 webpixel.smartmeapp.com CNAME .
