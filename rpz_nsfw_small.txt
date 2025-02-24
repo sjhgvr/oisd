@@ -1,9 +1,9 @@
-; Version: 202502240547
+; Version: 202502240554
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 49900
-; Last modified: 2025-02-24T05:47:32+0000
+; Entries: 49898
+; Last modified: 2025-02-24T05:54:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740376035 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740376482 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -10105,8 +10105,6 @@ destacamos.com CNAME .
 *.destacamos.com CNAME .
 destinyporn.com CNAME .
 *.destinyporn.com CNAME .
-destructoid.com CNAME .
-*.destructoid.com CNAME .
 desu.me CNAME .
 *.desu.me CNAME .
 detalika.ru CNAME .
