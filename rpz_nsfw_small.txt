@@ -1,9 +1,9 @@
-; Version: 202502251915
+; Version: 202502251924
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40320
-; Last modified: 2025-02-25T19:15:35+0000
+; Entries: 40318
+; Last modified: 2025-02-25T19:24:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740510001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740511424 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -23557,8 +23557,6 @@ ollporn.club CNAME .
 *.ollporn.club CNAME .
 olo.cool CNAME .
 *.olo.cool CNAME .
-olx.ro CNAME .
-*.olx.ro CNAME .
 omahbokep.me CNAME .
 *.omahbokep.me CNAME .
 omaporno.net CNAME .
