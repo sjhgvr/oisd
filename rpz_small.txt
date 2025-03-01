@@ -1,9 +1,9 @@
-; Version: 202503011108
+; Version: 202503011208
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88836
-; Last modified: 2025-03-01T11:08:23+0000
+; Entries: 88834
+; Last modified: 2025-03-01T12:08:52+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740826802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740830401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -51465,8 +51465,6 @@ medicationneglectedshared.com CNAME .
 *.medicationneglectedshared.com CNAME .
 mediocrecount.com CNAME .
 *.mediocrecount.com CNAME .
-mediocrerope.pro CNAME .
-*.mediocrerope.pro CNAME .
 meditateenhancements.com CNAME .
 *.meditateenhancements.com CNAME .
 mediuln.com CNAME .
