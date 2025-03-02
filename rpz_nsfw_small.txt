@@ -1,9 +1,9 @@
-; Version: 202503021101
+; Version: 202503021105
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 50286
-; Last modified: 2025-03-02T11:01:06+0000
+; Entries: 50284
+; Last modified: 2025-03-02T11:05:05+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740913246 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1740913484 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -49977,8 +49977,6 @@ zinchanmanga.com CNAME .
 *.zinchanmanga.com CNAME .
 zing.vn CNAME .
 *.zing.vn CNAME .
-zingmp3.vn CNAME .
-*.zingmp3.vn CNAME .
 zingnews.vn CNAME .
 *.zingnews.vn CNAME .
 zip.net CNAME .
