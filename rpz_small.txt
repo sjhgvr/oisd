@@ -1,9 +1,9 @@
-; Version: 202503051909
+; Version: 202503052009
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88976
-; Last modified: 2025-03-05T19:09:59+0000
+; Entries: 88974
+; Last modified: 2025-03-05T20:09:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741201201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741204802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -21253,8 +21253,6 @@ ckrf1.com CNAME .
 *.ckrf1.com CNAME .
 ckynh.com CNAME .
 *.ckynh.com CNAME .
-ckywou.com CNAME .
-*.ckywou.com CNAME .
 cl-997764a8.gcdn.co CNAME .
 *.cl-997764a8.gcdn.co CNAME .
 cl-ad.x-flow.app CNAME .
