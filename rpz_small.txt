@@ -1,9 +1,9 @@
-; Version: 202503062309
+; Version: 202503070044
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89082
-; Last modified: 2025-03-06T23:09:10+0000
+; Entries: 89076
+; Last modified: 2025-03-07T00:44:24+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741302002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741305602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1553,6 +1553,8 @@ $TTL 30
 *.38167473.xyz CNAME .
 38835571.xyz CNAME .
 *.38835571.xyz CNAME .
+388533c5eb.com CNAME .
+*.388533c5eb.com CNAME .
 38941752.xyz CNAME .
 *.38941752.xyz CNAME .
 38a3a42162.25e1657c6a.com CNAME .
@@ -1611,8 +1613,6 @@ $TTL 30
 *.3e1898dbbe.com CNAME .
 3e6072834f.com CNAME .
 *.3e6072834f.com CNAME .
-3e9396098e.388533c5eb.com CNAME .
-*.3e9396098e.388533c5eb.com CNAME .
 3ead4fd497.com CNAME .
 *.3ead4fd497.com CNAME .
 3ez1ja1uq3.ru CNAME .
@@ -31911,8 +31911,6 @@ edirectuklyeco.info CNAME .
 *.edirectuklyeco.info CNAME .
 edition25.com CNAME .
 *.edition25.com CNAME .
-editionoverlookadvocate.com CNAME .
-*.editionoverlookadvocate.com CNAME .
 ediva.gr CNAME .
 *.ediva.gr CNAME .
 edixagnesag.net CNAME .
@@ -77797,8 +77795,6 @@ tizerclik.com CNAME .
 *.tizerclik.com CNAME .
 tizermy.net CNAME .
 *.tizermy.net CNAME .
-tjaard11.xyz CNAME .
-*.tjaard11.xyz CNAME .
 tjfot.com CNAME .
 *.tjfot.com CNAME .
 tjk-njk.com CNAME .
@@ -85967,8 +85963,6 @@ world-2012.info CNAME .
 *.world-2012.info CNAME .
 world-claim.org CNAME .
 *.world-claim.org CNAME .
-worldinform.ru CNAME .
-*.worldinform.ru CNAME .
 worldlyyouth.com CNAME .
 *.worldlyyouth.com CNAME .
 worldpraisedcloud.com CNAME .
