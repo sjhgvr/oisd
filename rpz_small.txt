@@ -1,9 +1,9 @@
-; Version: 202503080608
+; Version: 202503080708
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89108
-; Last modified: 2025-03-08T06:08:57+0000
+; Entries: 89104
+; Last modified: 2025-03-08T07:08:29+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741413601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741417202 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -27967,8 +27967,6 @@ dc.letv.com CNAME .
 *.dc.letv.com CNAME .
 dc08i221b0n8a.cloudfront.net CNAME .
 *.dc08i221b0n8a.cloudfront.net CNAME .
-dc22ef70e5.com CNAME .
-*.dc22ef70e5.com CNAME .
 dc471cf7d1.9bbde61d72.com CNAME .
 *.dc471cf7d1.9bbde61d72.com CNAME .
 dc5ig2fc8lg83.cloudfront.net CNAME .
@@ -32965,8 +32963,6 @@ equiptmullein.top CNAME .
 *.equiptmullein.top CNAME .
 equirekeither.xyz CNAME .
 *.equirekeither.xyz CNAME .
-equitydefault.com CNAME .
-*.equitydefault.com CNAME .
 er.search.naver.com CNAME .
 *.er.search.naver.com CNAME .
 er1h4.icu CNAME .
