@@ -1,9 +1,9 @@
-; Version: 202503081515
+; Version: 202503081613
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 47224
-; Last modified: 2025-03-08T15:15:46+0000
+; Entries: 47222
+; Last modified: 2025-03-08T16:13:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741446001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741450366 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -20477,8 +20477,6 @@ jblink.pk CNAME .
 *.jblink.pk CNAME .
 jbtube.co CNAME .
 *.jbtube.co CNAME .
-jcpenney.com CNAME .
-*.jcpenney.com CNAME .
 jda.ci CNAME .
 *.jda.ci CNAME .
 jdforum.net CNAME .
