@@ -1,9 +1,9 @@
-; Version: 202503090108
+; Version: 202503090248
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 89250
-; Last modified: 2025-03-09T01:08:13+0000
+; Last modified: 2025-03-09T02:48:38+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741482003 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741485601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -15305,8 +15305,6 @@ bawdynemas.click CNAME .
 *.bawdynemas.click CNAME .
 baxdcynptb.xyz CNAME .
 *.baxdcynptb.xyz CNAME .
-baxter.olx.org CNAME .
-*.baxter.olx.org CNAME .
 bayctrk.com CNAME .
 *.bayctrk.com CNAME .
 baywednesday.com CNAME .
@@ -20023,6 +20021,8 @@ cdn.sdtraff.com CNAME .
 *.cdn.sdtraff.com CNAME .
 cdn.shrtfly.vip CNAME .
 *.cdn.shrtfly.vip CNAME .
+cdn.slots.baxter.olx.org CNAME .
+*.cdn.slots.baxter.olx.org CNAME .
 cdn.smartnews-ads.com CNAME .
 *.cdn.smartnews-ads.com CNAME .
 cdn.smlog.co.kr CNAME .
