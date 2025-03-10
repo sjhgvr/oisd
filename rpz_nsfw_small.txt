@@ -1,9 +1,9 @@
-; Version: 202503101115
+; Version: 202503101128
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 50902
-; Last modified: 2025-03-10T11:15:42+0000
+; Entries: 50900
+; Last modified: 2025-03-10T11:28:59+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741604401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741606120 86400 3600 604800 30
  NS localhost.
 007.com CNAME .
 *.007.com CNAME .
@@ -9655,8 +9655,6 @@ dailyangels.com CNAME .
 *.dailyangels.com CNAME .
 dailydiapers.com CNAME .
 *.dailydiapers.com CNAME .
-dailydot.com CNAME .
-*.dailydot.com CNAME .
 dailyedge.ie CNAME .
 *.dailyedge.ie CNAME .
 dailykeeper.com CNAME .
