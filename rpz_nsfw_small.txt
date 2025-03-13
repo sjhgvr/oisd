@@ -1,9 +1,9 @@
-; Version: 202503130414
+; Version: 202503130548
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 47196
-; Last modified: 2025-03-13T04:14:08+0000
+; Entries: 47194
+; Last modified: 2025-03-13T05:48:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741838401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1741844890 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -42773,8 +42773,6 @@ warosu.org CNAME .
 *.warosu.org CNAME .
 wasd.ms CNAME .
 *.wasd.ms CNAME .
-washingtonpost.com CNAME .
-*.washingtonpost.com CNAME .
 waskucity.com CNAME .
 *.waskucity.com CNAME .
 wasteland.com CNAME .
