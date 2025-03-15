@@ -1,9 +1,9 @@
-; Version: 202503151410
+; Version: 202503151510
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89466
-; Last modified: 2025-03-15T14:10:30+0000
+; Entries: 89464
+; Last modified: 2025-03-15T15:10:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1742047202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1742050802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -17699,8 +17699,6 @@ brief-secret.com CNAME .
 *.brief-secret.com CNAME .
 briefaccusationaccess.com CNAME .
 *.briefaccusationaccess.com CNAME .
-briefcasebotany.com CNAME .
-*.briefcasebotany.com CNAME .
 briefcasebuoyduster.com CNAME .
 *.briefcasebuoyduster.com CNAME .
 briefengineer.pro CNAME .
