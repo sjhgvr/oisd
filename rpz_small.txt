@@ -1,9 +1,9 @@
-; Version: 202503202008
+; Version: 202503202109
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 89210
-; Last modified: 2025-03-20T20:08:37+0000
+; Entries: 89216
+; Last modified: 2025-03-20T21:09:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1742500801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1742504401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -51367,6 +51367,8 @@ mc.webvisor.com CNAME .
 *.mc.webvisor.com CNAME .
 mc.yandex.com CNAME .
 *.mc.yandex.com CNAME .
+mc.yandex.md CNAME .
+*.mc.yandex.md CNAME .
 mc.yandex.ru CNAME .
 *.mc.yandex.ru CNAME .
 mc7clurd09pla4nrtat7ion.com CNAME .
@@ -74271,6 +74273,8 @@ stats.tazeros.com CNAME .
 *.stats.tazeros.com CNAME .
 stats.tehila.gov.il CNAME .
 *.stats.tehila.gov.il CNAME .
+stats.tiktoker.win CNAME .
+*.stats.tiktoker.win CNAME .
 stats.tipser.com CNAME .
 *.stats.tipser.com CNAME .
 stats.tirexo.blue CNAME .
@@ -76257,6 +76261,8 @@ tags.master-perf-tools.com CNAME .
 *.tags.master-perf-tools.com CNAME .
 tags.op-palvelut.fi CNAME .
 *.tags.op-palvelut.fi CNAME .
+tags.pw.adn.cloud CNAME .
+*.tags.pw.adn.cloud CNAME .
 tags.refinery89.com CNAME .
 *.tags.refinery89.com CNAME .
 tags.soloway.ru CNAME .
