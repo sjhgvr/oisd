@@ -1,9 +1,9 @@
-; Version: 202503290918
+; Version: 202503291016
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 36034
-; Last modified: 2025-03-29T09:18:13+0000
+; Entries: 36036
+; Last modified: 2025-03-29T10:16:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
@@ -11,7 +11,7 @@
 ; Contact: contact@oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1743238802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1743242403 86400 3600 604800 30
  NS localhost.
 007moms.com CNAME .
 *.007moms.com CNAME .
@@ -2221,6 +2221,8 @@ ardienteplacer.com CNAME .
 *.ardienteplacer.com CNAME .
 area51.porn CNAME .
 *.area51.porn CNAME .
+area51.to CNAME .
+*.area51.to CNAME .
 area51porn.net CNAME .
 *.area51porn.net CNAME .
 area52.com CNAME .
