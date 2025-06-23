@@ -1,16 +1,16 @@
-; Version: 202506231227
+; Version: 202506231328
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42432
-; Last modified: 2025-06-23T12:27:28+0000
+; Entries: 42436
+; Last modified: 2025-06-23T13:28:36+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1750680721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1750684321 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -9194,6 +9194,8 @@ e-hentai.tube CNAME .
 *.e-hentai.tube CNAME .
 e-kei.pl CNAME .
 *.e-kei.pl CNAME .
+e-wdesign.eu CNAME .
+*.e-wdesign.eu CNAME .
 e621.net CNAME .
 *.e621.net CNAME .
 e6ai.net CNAME .
@@ -14362,6 +14364,8 @@ hath.network CNAME .
 *.hath.network CNAME .
 hayav.com CNAME .
 *.hayav.com CNAME .
+haylinkgame.com CNAME .
+*.haylinkgame.com CNAME .
 haysex.ai CNAME .
 *.haysex.ai CNAME .
 haysex.day CNAME .
