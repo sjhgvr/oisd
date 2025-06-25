@@ -1,16 +1,16 @@
-; Version: 202506251520
+; Version: 202506251620
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 86422
-; Last modified: 2025-06-25T15:20:12+0000
+; Entries: 86420
+; Last modified: 2025-06-25T16:20:05+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1750864322 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1750867922 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -20536,8 +20536,6 @@ celeritascdn.com CNAME .
 *.celeritascdn.com CNAME .
 celewasgildedal.org CNAME .
 *.celewasgildedal.org CNAME .
-celiteselsyn.life CNAME .
-*.celiteselsyn.life CNAME .
 cellar-analytics.mapion.co.jp CNAME .
 *.cellar-analytics.mapion.co.jp CNAME .
 cellaraudacityslack.com CNAME .
