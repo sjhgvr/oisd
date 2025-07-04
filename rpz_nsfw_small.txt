@@ -1,16 +1,16 @@
-; Version: 202507041452
+; Version: 202507041830
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41770
-; Last modified: 2025-07-04T14:52:27+0000
+; Entries: 41772
+; Last modified: 2025-07-04T18:30:27+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1751638321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1751652721 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -22214,6 +22214,8 @@ mybokep.link CNAME .
 *.mybokep.link CNAME .
 mybro.tv CNAME .
 *.mybro.tv CNAME .
+mycam.buzz CNAME .
+*.mycam.buzz CNAME .
 mycams.com CNAME .
 *.mycams.com CNAME .
 mycamtv.com CNAME .
