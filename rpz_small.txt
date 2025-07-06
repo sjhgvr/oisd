@@ -1,16 +1,16 @@
-; Version: 202507060419
+; Version: 202507061437
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 84128
-; Last modified: 2025-07-06T04:19:04+0000
+; Last modified: 2025-07-06T14:37:21+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1751775121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1751811122 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -19550,8 +19550,6 @@ cdn.faspox.com CNAME .
 *.cdn.faspox.com CNAME .
 cdn.fedsy.xyz CNAME .
 *.cdn.fedsy.xyz CNAME .
-cdn.fedykr.com CNAME .
-*.cdn.fedykr.com CNAME .
 cdn.fqkwn.com CNAME .
 *.cdn.fqkwn.com CNAME .
 cdn.haocaa.com CNAME .
@@ -19606,8 +19604,6 @@ cdn.mypcbackup.com CNAME .
 *.cdn.mypcbackup.com CNAME .
 cdn.neon.click CNAME .
 *.cdn.neon.click CNAME .
-cdn.norymo.com CNAME .
-*.cdn.norymo.com CNAME .
 cdn.nuqwe.com CNAME .
 *.cdn.nuqwe.com CNAME .
 cdn.odoscope.cloud CNAME .
@@ -33592,6 +33588,8 @@ fedirresponsibilityface.com CNAME .
 *.fedirresponsibilityface.com CNAME .
 fedot.site CNAME .
 *.fedot.site CNAME .
+fedykr.com CNAME .
+*.fedykr.com CNAME .
 feechoojaigeep.net CNAME .
 *.feechoojaigeep.net CNAME .
 feed-ads.com CNAME .
@@ -52756,6 +52754,8 @@ norsinceexactlyamongplait.com CNAME .
 *.norsinceexactlyamongplait.com CNAME .
 northwestdiddived.com CNAME .
 *.northwestdiddived.com CNAME .
+norymo.com CNAME .
+*.norymo.com CNAME .
 nossairt.net CNAME .
 *.nossairt.net CNAME .
 nostalgia.onego.ru CNAME .
