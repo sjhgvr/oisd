@@ -1,16 +1,16 @@
-; Version: 202507162320
+; Version: 202507170056
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 85056
-; Last modified: 2025-07-16T23:20:18+0000
+; Entries: 85054
+; Last modified: 2025-07-17T00:56:13+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752707521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752711121 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -2004,8 +2004,6 @@ $TTL 30
 *.50368ce0a6.com CNAME .
 50873vmk3263-7sk.xyz CNAME .
 *.50873vmk3263-7sk.xyz CNAME .
-50a4d26c52.99d5318452.com CNAME .
-*.50a4d26c52.99d5318452.com CNAME .
 50e57be19a.b0ff04e647.com CNAME .
 *.50e57be19a.b0ff04e647.com CNAME .
 50f0ac5daf.com CNAME .
@@ -3236,6 +3234,8 @@ $TTL 30
 *.999xx999kk.com CNAME .
 99count.com CNAME .
 *.99count.com CNAME .
+99d5318452.com CNAME .
+*.99d5318452.com CNAME .
 99ef5999fe.ff73564366.com CNAME .
 *.99ef5999fe.ff73564366.com CNAME .
 99ef859a06.com CNAME .
@@ -33214,8 +33214,6 @@ extremetracking.com CNAME .
 *.extremetracking.com CNAME .
 extsoft.info CNAME .
 *.extsoft.info CNAME .
-exurbdaimiel.com CNAME .
-*.exurbdaimiel.com CNAME .
 exuviafigged.qpon CNAME .
 *.exuviafigged.qpon CNAME .
 exweuxkvvckho.website CNAME .
