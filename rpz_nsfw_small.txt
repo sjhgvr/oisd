@@ -1,16 +1,16 @@
-; Version: 202507172329
+; Version: 202507180028
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40840
-; Last modified: 2025-07-17T23:29:23+0000
+; Entries: 40842
+; Last modified: 2025-07-18T00:28:01+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752793921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752797522 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -598,6 +598,8 @@ $TTL 30
 *.4porn.com CNAME .
 4porn.pro CNAME .
 *.4porn.pro CNAME .
+4serial.com CNAME .
+*.4serial.com CNAME .
 4tube.com CNAME .
 *.4tube.com CNAME .
 4tube.live CNAME .
@@ -21416,6 +21418,8 @@ morehardporn.com CNAME .
 *.morehardporn.com CNAME .
 morehqporn.com CNAME .
 *.morehqporn.com CNAME .
+moreporn.club CNAME .
+*.moreporn.club CNAME .
 moresexvideo.com CNAME .
 *.moresexvideo.com CNAME .
 moreystudio.com CNAME .
@@ -37124,8 +37128,6 @@ wikifeet.com CNAME .
 *.wikifeet.com CNAME .
 wikifeetx.com CNAME .
 *.wikifeetx.com CNAME .
-wikihentai.com CNAME .
-*.wikihentai.com CNAME .
 wikiporno.org CNAME .
 *.wikiporno.org CNAME .
 wikipornxxx.com CNAME .
