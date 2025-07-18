@@ -1,16 +1,16 @@
-; Version: 202507181229
+; Version: 202507181329
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41016
-; Last modified: 2025-07-18T12:29:45+0000
+; Entries: 41020
+; Last modified: 2025-07-18T13:29:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752840721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1752844321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -32778,6 +32778,8 @@ streamen.com CNAME .
 *.streamen.com CNAME .
 streamingwhore.com CNAME .
 *.streamingwhore.com CNAME .
+streamoupload.xyz CNAME .
+*.streamoupload.xyz CNAME .
 streamporn.li CNAME .
 *.streamporn.li CNAME .
 streamporn.org CNAME .
@@ -33926,6 +33928,8 @@ thefappening2015.com CNAME .
 *.thefappening2015.com CNAME .
 thefappeningblog.com CNAME .
 *.thefappeningblog.com CNAME .
+thefappeningnew.com CNAME .
+*.thefappeningnew.com CNAME .
 theflourishxxx.com CNAME .
 *.theflourishxxx.com CNAME .
 thegay.com CNAME .
