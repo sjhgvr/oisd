@@ -1,16 +1,16 @@
-; Version: 202507220019
+; Version: 202507220557
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 86134
-; Last modified: 2025-07-22T00:19:59+0000
+; Last modified: 2025-07-22T05:57:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753143121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753161122 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -94,6 +94,8 @@ $TTL 30
 *.03t441b8w.com CNAME .
 04-f-bmf.com CNAME .
 *.04-f-bmf.com CNAME .
+0407137f3d.com CNAME .
+*.0407137f3d.com CNAME .
 04424170.xyz CNAME .
 *.04424170.xyz CNAME .
 044da016b3.com CNAME .
@@ -224,8 +226,6 @@ $TTL 30
 *.0f85bcb09c.97f477047f.com CNAME .
 0f997ecbe1.892fa3d127.com CNAME .
 *.0f997ecbe1.892fa3d127.com CNAME .
-0fc36ae691.0407137f3d.com CNAME .
-*.0fc36ae691.0407137f3d.com CNAME .
 0fe5096a4c.com CNAME .
 *.0fe5096a4c.com CNAME .
 0ffaf504b2.com CNAME .
@@ -14844,6 +14844,8 @@ b666.penzainform.ru CNAME .
 *.b666.penzainform.ru CNAME .
 b668.record-bee.com CNAME .
 *.b668.record-bee.com CNAME .
+b69b92742d.com CNAME .
+*.b69b92742d.com CNAME .
 b6b381f428.9dcae3bd13.com CNAME .
 *.b6b381f428.9dcae3bd13.com CNAME .
 b6c215cd84.38e5270423.com CNAME .
@@ -30196,6 +30198,8 @@ ds8ect.com CNAME .
 *.ds8ect.com CNAME .
 ds8fc0.com CNAME .
 *.ds8fc0.com CNAME .
+dsa8h7.com CNAME .
+*.dsa8h7.com CNAME .
 dsadghrthysdfadwr3sdffsdaghedsa2gf.xyz CNAME .
 *.dsadghrthysdfadwr3sdffsdaghedsa2gf.xyz CNAME .
 dsas.danawa.com CNAME .
@@ -34334,8 +34338,6 @@ ff.trakerton.com CNAME .
 *.ff.trakerton.com CNAME .
 ff2f72443e.096f5e98aa.com CNAME .
 *.ff2f72443e.096f5e98aa.com CNAME .
-ff413e4e51.b69b92742d.com CNAME .
-*.ff413e4e51.b69b92742d.com CNAME .
 ffbdbx.xyz CNAME .
 *.ffbdbx.xyz CNAME .
 ffjevt.icu CNAME .
@@ -65690,8 +65692,6 @@ s.ds8wql.com CNAME .
 *.s.ds8wql.com CNAME .
 s.ds96gk.com CNAME .
 *.s.ds96gk.com CNAME .
-s.dsa8h7.com CNAME .
-*.s.dsa8h7.com CNAME .
 s.dsa9k5.com CNAME .
 *.s.dsa9k5.com CNAME .
 s.dsajir.com CNAME .
