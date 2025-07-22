@@ -1,16 +1,16 @@
-; Version: 202507221741
+; Version: 202507221833
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41608
-; Last modified: 2025-07-22T17:41:56+0000
+; Entries: 41610
+; Last modified: 2025-07-22T18:33:55+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753204321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753207921 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -8320,6 +8320,8 @@ devilhard.com CNAME .
 *.devilhard.com CNAME .
 devilsfilm.com CNAME .
 *.devilsfilm.com CNAME .
+devison-matras.ru CNAME .
+*.devison-matras.ru CNAME .
 devki-sterlitamak.club CNAME .
 *.devki-sterlitamak.club CNAME .
 devki.net CNAME .
