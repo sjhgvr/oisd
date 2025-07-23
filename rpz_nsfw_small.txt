@@ -1,16 +1,16 @@
-; Version: 202507231844
+; Version: 202507231929
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41410
-; Last modified: 2025-07-23T18:44:24+0000
+; Entries: 41412
+; Last modified: 2025-07-23T19:29:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753294321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753297922 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -15030,6 +15030,8 @@ hlebo.mobi CNAME .
 *.hlebo.mobi CNAME .
 hmanga.asia CNAME .
 *.hmanga.asia CNAME .
+hmanga.org CNAME .
+*.hmanga.org CNAME .
 hmporn.net CNAME .
 *.hmporn.net CNAME .
 hmvmania.com CNAME .
