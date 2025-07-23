@@ -1,16 +1,16 @@
-; Version: 202507231529
+; Version: 202507231606
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41718
-; Last modified: 2025-07-23T15:29:54+0000
+; Entries: 41716
+; Last modified: 2025-07-23T16:06:08+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753283522 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753286750 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -5588,8 +5588,6 @@ bufazoo.com CNAME .
 *.bufazoo.com CNAME .
 bufera.pro CNAME .
 *.bufera.pro CNAME .
-buffmuff.com CNAME .
-*.buffmuff.com CNAME .
 bugilonly.com CNAME .
 *.bugilonly.com CNAME .
 bukaporn.com CNAME .
