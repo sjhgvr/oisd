@@ -1,16 +1,16 @@
-; Version: 202507231421
+; Version: 202507231621
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 86954
-; Last modified: 2025-07-23T14:21:07+0000
+; Entries: 86958
+; Last modified: 2025-07-23T16:21:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753279921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753287121 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -18858,6 +18858,10 @@ c2c4aecf0a.0073a85a5d.com CNAME .
 *.c2c4aecf0a.0073a85a5d.com CNAME .
 c2ec494150.8681b70da0.com CNAME .
 *.c2ec494150.8681b70da0.com CNAME .
+c2i.startappnetwork.com CNAME .
+*.c2i.startappnetwork.com CNAME .
+c2s.startappnetwork.com CNAME .
+*.c2s.startappnetwork.com CNAME .
 c2shb.pubgw.yahoo.com CNAME .
 *.c2shb.pubgw.yahoo.com CNAME .
 c32b5da600.ffbaa86cc9.com CNAME .
@@ -51670,8 +51674,6 @@ mobiyield.com CNAME .
 *.mobiyield.com CNAME .
 mobondhrd.appspot.com CNAME .
 *.mobondhrd.appspot.com CNAME .
-mobopay.baidu.com CNAME .
-*.mobopay.baidu.com CNAME .
 mobotoolpush.moboapps.io CNAME .
 *.mobotoolpush.moboapps.io CNAME .
 mobpowertech.com CNAME .
@@ -52684,6 +52686,10 @@ mxpl.9gag.com CNAME .
 *.mxpl.9gag.com CNAME .
 mxptint.net CNAME .
 *.mxptint.net CNAME .
+mxvp-ad-config-prod-1.zenmxapps.com CNAME .
+*.mxvp-ad-config-prod-1.zenmxapps.com CNAME .
+mxvp-feature-toggle-prod-1.zenmxapps.com CNAME .
+*.mxvp-feature-toggle-prod-1.zenmxapps.com CNAME .
 mxyvivvbwiwclm.com CNAME .
 *.mxyvivvbwiwclm.com CNAME .
 mxzijg.com CNAME .
@@ -59432,6 +59438,8 @@ pluffdoodah.com CNAME .
 *.pluffdoodah.com CNAME .
 plugerr.com CNAME .
 *.plugerr.com CNAME .
+plugin.mobopay.baidu.com CNAME .
+*.plugin.mobopay.baidu.com CNAME .
 plugkenneth.com CNAME .
 *.plugkenneth.com CNAME .
 plugrush.com CNAME .
@@ -70800,8 +70808,6 @@ start.sexpartnercommunity.com CNAME .
 *.start.sexpartnercommunity.com CNAME .
 startappexchange.com CNAME .
 *.startappexchange.com CNAME .
-startappnetwork.com CNAME .
-*.startappnetwork.com CNAME .
 startappservice.com CNAME .
 *.startappservice.com CNAME .
 startnewtab.com CNAME .
@@ -86370,8 +86376,6 @@ zendplace.pro CNAME .
 *.zendplace.pro CNAME .
 zenkreka.com CNAME .
 *.zenkreka.com CNAME .
-zenmxapps.com CNAME .
-*.zenmxapps.com CNAME .
 zenoviagroup.com CNAME .
 *.zenoviagroup.com CNAME .
 zentrixads.com CNAME .
