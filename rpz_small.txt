@@ -1,16 +1,16 @@
-; Version: 202507230219
+; Version: 202507230420
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 86720
-; Last modified: 2025-07-23T02:19:51+0000
+; Entries: 86728
+; Last modified: 2025-07-23T04:20:22+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753236721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753243921 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -5020,8 +5020,6 @@ ad-score.com CNAME .
 *.ad-score.com CNAME .
 ad-sdk-config.youdao.com CNAME .
 *.ad-sdk-config.youdao.com CNAME .
-ad-sdk.huxiu.com CNAME .
-*.ad-sdk.huxiu.com CNAME .
 ad-seek.jp CNAME .
 *.ad-seek.jp CNAME .
 ad-serve.b-cdn.net CNAME .
@@ -7292,8 +7290,6 @@ ads.multimania.lycos.fr CNAME .
 *.ads.multimania.lycos.fr CNAME .
 ads.museum.or.jp CNAME .
 *.ads.museum.or.jp CNAME .
-ads.music.126.net CNAME .
-*.ads.music.126.net CNAME .
 ads.networksolutions.com CNAME .
 *.ads.networksolutions.com CNAME .
 ads.newgrounds.com CNAME .
@@ -51032,8 +51028,6 @@ miltlametta.com CNAME .
 *.miltlametta.com CNAME .
 miluwo.com CNAME .
 *.miluwo.com CNAME .
-mime.baidu.com CNAME .
-*.mime.baidu.com CNAME .
 mimekitab.shop CNAME .
 *.mimekitab.shop CNAME .
 mimerestates.top CNAME .
@@ -52858,8 +52852,6 @@ n0usvkb1x.com CNAME .
 *.n0usvkb1x.com CNAME .
 n0v1cdn.com CNAME .
 *.n0v1cdn.com CNAME .
-n10.xyz CNAME .
-*.n10.xyz CNAME .
 n1307adserv.xyz CNAME .
 *.n1307adserv.xyz CNAME .
 n152adserv.com CNAME .
@@ -54410,8 +54402,6 @@ nsis.bisrv.com CNAME .
 *.nsis.bisrv.com CNAME .
 nskyfqigltino.space CNAME .
 *.nskyfqigltino.space CNAME .
-nsmedia-advertising.com CNAME .
-*.nsmedia-advertising.com CNAME .
 nsmpydfe.net CNAME .
 *.nsmpydfe.net CNAME .
 nspmotion.com CNAME .
@@ -60644,6 +60634,8 @@ promoted.soundcloud.com CNAME .
 *.promoted.soundcloud.com CNAME .
 promotion-en.xmeye.net CNAME .
 *.promotion-en.xmeye.net CNAME .
+promotion-partner.kuaishou.com CNAME .
+*.promotion-partner.kuaishou.com CNAME .
 promotion-quicker.jftechsoft.com CNAME .
 *.promotion-quicker.jftechsoft.com CNAME .
 promotion.haravan.com CNAME .
@@ -75122,20 +75114,36 @@ tnc-boot.capcutapi.com CNAME .
 *.tnc-boot.capcutapi.com CNAME .
 tnc-sg.capcutapi.com CNAME .
 *.tnc-sg.capcutapi.com CNAME .
+tnc0-aliec2.zijieapi.com CNAME .
+*.tnc0-aliec2.zijieapi.com CNAME .
+tnc0-alisc1.zijieapi.com CNAME .
+*.tnc0-alisc1.zijieapi.com CNAME .
+tnc0-bjlgy.zijieapi.com CNAME .
+*.tnc0-bjlgy.zijieapi.com CNAME .
 tnc16-alisg.isnssdk.com CNAME .
 *.tnc16-alisg.isnssdk.com CNAME .
 tnc16-useast1a.isnssdk.com CNAME .
 *.tnc16-useast1a.isnssdk.com CNAME .
 tnc3-aliec2.bytedance.com CNAME .
 *.tnc3-aliec2.bytedance.com CNAME .
+tnc3-aliec2.snssdk.com CNAME .
+*.tnc3-aliec2.snssdk.com CNAME .
 tnc3-aliec2.toutiaoapi.com CNAME .
 *.tnc3-aliec2.toutiaoapi.com CNAME .
+tnc3-aliec2.zijieapi.com CNAME .
+*.tnc3-aliec2.zijieapi.com CNAME .
 tnc3-alisc1.bytedance.com CNAME .
 *.tnc3-alisc1.bytedance.com CNAME .
+tnc3-alisc1.snssdk.com CNAME .
+*.tnc3-alisc1.snssdk.com CNAME .
+tnc3-alisc1.toutiaoapi.com CNAME .
+*.tnc3-alisc1.toutiaoapi.com CNAME .
 tnc3-alisc1.zijieapi.com CNAME .
 *.tnc3-alisc1.zijieapi.com CNAME .
 tnc3-bjlgy.bytedance.com CNAME .
 *.tnc3-bjlgy.bytedance.com CNAME .
+tnc3-bjlgy.snssdk.com CNAME .
+*.tnc3-bjlgy.snssdk.com CNAME .
 tnc3-bjlgy.toutiaoapi.com CNAME .
 *.tnc3-bjlgy.toutiaoapi.com CNAME .
 tnc3-bjlgy.zijieapi.com CNAME .
