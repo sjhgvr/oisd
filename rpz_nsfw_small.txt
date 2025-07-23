@@ -1,16 +1,16 @@
-; Version: 202507232029
+; Version: 202507232128
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41418
-; Last modified: 2025-07-23T20:29:23+0000
+; Entries: 41420
+; Last modified: 2025-07-23T21:28:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753301521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753305121 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -5960,6 +5960,8 @@ camsaovivo.com CNAME .
 *.camsaovivo.com CNAME .
 camschat.net CNAME .
 *.camschat.net CNAME .
+camschatxxx.com CNAME .
+*.camschatxxx.com CNAME .
 camsclips.biz CNAME .
 *.camsclips.biz CNAME .
 camsclips.co CNAME .
