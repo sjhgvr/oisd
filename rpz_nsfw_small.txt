@@ -1,16 +1,16 @@
-; Version: 202507241328
+; Version: 202507241429
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41544
-; Last modified: 2025-07-24T13:28:48+0000
+; Entries: 41546
+; Last modified: 2025-07-24T14:29:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753362721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753366321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -35428,6 +35428,8 @@ truyenhentai.xyz CNAME .
 *.truyenhentai.xyz CNAME .
 truyenhentai88.com CNAME .
 *.truyenhentai88.com CNAME .
+truyenhentaivn.club CNAME .
+*.truyenhentaivn.club CNAME .
 truyenhentaivn.icu CNAME .
 *.truyenhentaivn.icu CNAME .
 truyenhentaiz.net CNAME .
