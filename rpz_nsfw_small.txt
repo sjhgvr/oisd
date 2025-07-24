@@ -1,16 +1,16 @@
-; Version: 202507241027
+; Version: 202507241129
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41528
-; Last modified: 2025-07-24T10:27:10+0000
+; Entries: 41530
+; Last modified: 2025-07-24T11:29:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753351921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753355521 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -5700,6 +5700,8 @@ bwin.it CNAME .
 *.bwin.it CNAME .
 bworldporn.com CNAME .
 *.bworldporn.com CNAME .
+bycoo.buzz CNAME .
+*.bycoo.buzz CNAME .
 byethost13.com CNAME .
 *.byethost13.com CNAME .
 byethost3.com CNAME .
