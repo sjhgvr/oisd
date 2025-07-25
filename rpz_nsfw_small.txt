@@ -1,16 +1,16 @@
-; Version: 202507250929
+; Version: 202507251028
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41730
-; Last modified: 2025-07-25T09:29:18+0000
+; Entries: 41728
+; Last modified: 2025-07-25T10:28:41+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753434722 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753438321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -8824,8 +8824,6 @@ dosug.cz CNAME .
 *.dosug.cz CNAME .
 dosug2.info CNAME .
 *.dosug2.info CNAME .
-dosug33.net CNAME .
-*.dosug33.net CNAME .
 dosugbarbel.com CNAME .
 *.dosugbarbel.com CNAME .
 dosugbarchi.com CNAME .
