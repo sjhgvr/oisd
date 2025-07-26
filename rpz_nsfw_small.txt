@@ -1,16 +1,16 @@
-; Version: 202507260528
+; Version: 202507260629
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 41800
-; Last modified: 2025-07-26T05:28:14+0000
+; Last modified: 2025-07-26T06:29:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753506721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753510322 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -6506,6 +6506,8 @@ cfnmpics.com CNAME .
 *.cfnmpics.com CNAME .
 cfwives.com CNAME .
 *.cfwives.com CNAME .
+cgwebnews.in CNAME .
+*.cgwebnews.in CNAME .
 chaat.fr CNAME .
 *.chaat.fr CNAME .
 chacal69.com CNAME .
@@ -6902,8 +6904,6 @@ citas10.net CNAME .
 *.citas10.net CNAME .
 citebeur.com CNAME .
 *.citebeur.com CNAME .
-citrt.ru CNAME .
-*.citrt.ru CNAME .
 cityhotties.com CNAME .
 *.cityhotties.com CNAME .
 cityoflove.com CNAME .
