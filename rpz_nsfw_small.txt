@@ -1,16 +1,16 @@
-; Version: 202507261529
+; Version: 202507261630
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41766
-; Last modified: 2025-07-26T15:29:49+0000
+; Entries: 41768
+; Last modified: 2025-07-26T16:30:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753542721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753546322 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -19676,6 +19676,8 @@ linkmetoporn.com CNAME .
 *.linkmetoporn.com CNAME .
 linknet.be CNAME .
 *.linknet.be CNAME .
+linkoverzicht.be CNAME .
+*.linkoverzicht.be CNAME .
 linkparty.info CNAME .
 *.linkparty.info CNAME .
 links.net CNAME .
