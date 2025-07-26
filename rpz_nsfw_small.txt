@@ -1,16 +1,16 @@
-; Version: 202507261830
+; Version: 202507261929
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41870
-; Last modified: 2025-07-26T18:30:45+0000
+; Entries: 41876
+; Last modified: 2025-07-26T19:29:22+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753553521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753557121 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -6510,6 +6510,8 @@ ceskeporno.cz CNAME .
 *.ceskeporno.cz CNAME .
 cfake.com CNAME .
 *.cfake.com CNAME .
+cfbx.jp CNAME .
+*.cfbx.jp CNAME .
 cfnmpics.com CNAME .
 *.cfnmpics.com CNAME .
 cfwives.com CNAME .
@@ -7132,6 +7134,8 @@ cocomic.co CNAME .
 *.cocomic.co CNAME .
 cocomilfs.com CNAME .
 *.cocomilfs.com CNAME .
+code.blog CNAME .
+*.code.blog CNAME .
 codedruns.com CNAME .
 *.codedruns.com CNAME .
 codella.biz CNAME .
@@ -36468,6 +36472,8 @@ umblr.com CNAME .
 *.umblr.com CNAME .
 umd.net CNAME .
 *.umd.net CNAME .
+unblog.fr CNAME .
+*.unblog.fr CNAME .
 uncams.com CNAME .
 *.uncams.com CNAME .
 uncen.org CNAME .
