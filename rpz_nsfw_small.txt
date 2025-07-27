@@ -1,16 +1,16 @@
-; Version: 202507270329
+; Version: 202507270428
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41894
-; Last modified: 2025-07-27T03:29:16+0000
+; Entries: 41896
+; Last modified: 2025-07-27T04:28:22+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753585921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753589521 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -24184,6 +24184,8 @@ omsk.com CNAME .
 *.omsk.com CNAME .
 onanibang.com CNAME .
 *.onanibang.com CNAME .
+onanizm.club CNAME .
+*.onanizm.club CNAME .
 onanthebarbarian.com CNAME .
 *.onanthebarbarian.com CNAME .
 ondeugend-daten.nl CNAME .
