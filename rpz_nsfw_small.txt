@@ -1,16 +1,16 @@
-; Version: 202507271106
+; Version: 202507271132
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41928
-; Last modified: 2025-07-27T11:06:00+0000
+; Entries: 41930
+; Last modified: 2025-07-27T11:32:07+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753611121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753614722 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -29806,6 +29806,8 @@ rocktie.com CNAME .
 *.rocktie.com CNAME .
 roddelpraat.nl CNAME .
 *.roddelpraat.nl CNAME .
+roemerforum.com CNAME .
+*.roemerforum.com CNAME .
 rokuhentai.com CNAME .
 *.rokuhentai.com CNAME .
 role-me.ru CNAME .
