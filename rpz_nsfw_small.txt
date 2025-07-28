@@ -1,16 +1,16 @@
-; Version: 202507282247
+; Version: 202507282329
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41982
-; Last modified: 2025-07-28T22:47:13+0000
+; Entries: 41986
+; Last modified: 2025-07-28T23:29:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753740721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753744321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -20804,6 +20804,8 @@ masterpaj.com CNAME .
 *.masterpaj.com CNAME .
 mastertgp.net CNAME .
 *.mastertgp.net CNAME .
+masthindistory.com CNAME .
+*.masthindistory.com CNAME .
 mastibaba.com CNAME .
 *.mastibaba.com CNAME .
 masticlubs.com CNAME .
@@ -33268,6 +33270,8 @@ spbinfinity.ru CNAME .
 *.spbinfinity.ru CNAME .
 spdate.com CNAME .
 *.spdate.com CNAME .
+special-offers.online CNAME .
+*.special-offers.online CNAME .
 spectrumboutique.com CNAME .
 *.spectrumboutique.com CNAME .
 speedlinq.nl CNAME .
