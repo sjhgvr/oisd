@@ -1,16 +1,16 @@
-; Version: 202507291330
+; Version: 202507291431
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42034
-; Last modified: 2025-07-29T13:30:14+0000
+; Entries: 42036
+; Last modified: 2025-07-29T14:31:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753794722 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753798321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -6498,6 +6498,8 @@ celebsunmasked.com CNAME .
 *.celebsunmasked.com CNAME .
 celebuncut.com CNAME .
 *.celebuncut.com CNAME .
+celebuzz.com CNAME .
+*.celebuzz.com CNAME .
 celibatairesduweb.com CNAME .
 *.celibatairesduweb.com CNAME .
 celibest.com CNAME .
@@ -36350,6 +36352,8 @@ tvchix.com CNAME .
 *.tvchix.com CNAME .
 tvigle.ru CNAME .
 *.tvigle.ru CNAME .
+tvn.hu CNAME .
+*.tvn.hu CNAME .
 tvoisex.ru CNAME .
 *.tvoisex.ru CNAME .
 tvojerande.cz CNAME .
@@ -39542,8 +39546,6 @@ xnxx.forex CNAME .
 *.xnxx.forex CNAME .
 xnxx.gold CNAME .
 *.xnxx.gold CNAME .
-xnxx.golf CNAME .
-*.xnxx.golf CNAME .
 xnxx.haus CNAME .
 *.xnxx.haus CNAME .
 xnxx.health CNAME .
