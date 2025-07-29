@@ -1,16 +1,16 @@
-; Version: 202507291030
+; Version: 202507291130
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 42020
-; Last modified: 2025-07-29T10:30:14+0000
+; Last modified: 2025-07-29T11:30:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753783921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753787521 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -10212,8 +10212,6 @@ exehotels.ru CNAME .
 *.exehotels.ru CNAME .
 exeporn.net CNAME .
 *.exeporn.net CNAME .
-exevid.com CNAME .
-*.exevid.com CNAME .
 exgirlfriendmarket.com CNAME .
 *.exgirlfriendmarket.com CNAME .
 exhilawriting.com CNAME .
@@ -32698,6 +32696,8 @@ shooshtime.com CNAME .
 *.shooshtime.com CNAME .
 shopix.me CNAME .
 *.shopix.me CNAME .
+shopkiss.vn CNAME .
+*.shopkiss.vn CNAME .
 shoplyfter.com CNAME .
 *.shoplyfter.com CNAME .
 shoplyfter1.com CNAME .
