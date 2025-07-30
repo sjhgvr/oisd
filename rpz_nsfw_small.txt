@@ -1,16 +1,16 @@
-; Version: 202507292341
+; Version: 202507300127
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 42126
-; Last modified: 2025-07-29T23:41:59+0000
+; Last modified: 2025-07-30T01:27:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753830721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753837922 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -6336,6 +6336,8 @@ castlemegastore.com CNAME .
 *.castlemegastore.com CNAME .
 casual-dating-uk.co.uk CNAME .
 *.casual-dating-uk.co.uk CNAME .
+casual-escorts.com CNAME .
+*.casual-escorts.com CNAME .
 casualdating.com CNAME .
 *.casualdating.com CNAME .
 casualhookup.com CNAME .
@@ -28104,8 +28106,6 @@ pornstarstart.com CNAME .
 *.pornstarstart.com CNAME .
 pornstartoday.com CNAME .
 *.pornstartoday.com CNAME .
-pornstarvision.com CNAME .
-*.pornstarvision.com CNAME .
 pornsteak.com CNAME .
 *.pornsteak.com CNAME .
 pornsticky.com CNAME .
