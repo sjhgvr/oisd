@@ -1,16 +1,16 @@
-; Version: 202507300528
+; Version: 202507300628
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42142
-; Last modified: 2025-07-30T05:28:01+0000
+; Entries: 42146
+; Last modified: 2025-07-30T06:28:59+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753852322 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753855922 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -500,6 +500,8 @@ $TTL 30
 *.3gpkings.info CNAME .
 3hentai.net CNAME .
 *.3hentai.net CNAME .
+3iks.net CNAME .
+*.3iks.net CNAME .
 3iks.ru CNAME .
 *.3iks.ru CNAME .
 3indo3gp.top CNAME .
@@ -16482,6 +16484,8 @@ imageflea.com CNAME .
 *.imageflea.com CNAME .
 imagepost.com CNAME .
 *.imagepost.com CNAME .
+imagepost.ru CNAME .
+*.imagepost.ru CNAME .
 imagetwistcams.com CNAME .
 *.imagetwistcams.com CNAME .
 imake.porn CNAME .
