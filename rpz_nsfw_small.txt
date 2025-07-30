@@ -1,16 +1,16 @@
-; Version: 202507300328
+; Version: 202507300437
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 42128
-; Last modified: 2025-07-30T03:28:19+0000
+; Last modified: 2025-07-30T04:37:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753845121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753848721 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -10004,6 +10004,8 @@ escortbabylon.de CNAME .
 *.escortbabylon.de CNAME .
 escortbabylon.net CNAME .
 *.escortbabylon.net CNAME .
+escortbayanlariz.net CNAME .
+*.escortbayanlariz.net CNAME .
 escortboard.de CNAME .
 *.escortboard.de CNAME .
 escortbodrum.org CNAME .
@@ -38798,8 +38800,6 @@ xchina.store CNAME .
 *.xchina.store CNAME .
 xcity.jp CNAME .
 *.xcity.jp CNAME .
-xclip.vip CNAME .
-*.xclip.vip CNAME .
 xcomics.se CNAME .
 *.xcomics.se CNAME .
 xconfessions.com CNAME .
