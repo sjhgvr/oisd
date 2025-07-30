@@ -1,16 +1,16 @@
-; Version: 202507300929
+; Version: 202507301029
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42152
-; Last modified: 2025-07-30T09:29:54+0000
+; Entries: 42154
+; Last modified: 2025-07-30T10:29:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753866721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753870321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -9776,6 +9776,8 @@ erosguia.com CNAME .
 *.erosguia.com CNAME .
 erosguia.com.br CNAME .
 *.erosguia.com.br CNAME .
+erosnow.com CNAME .
+*.erosnow.com CNAME .
 erospark.de CNAME .
 *.erospark.de CNAME .
 erota2.com CNAME .
