@@ -1,16 +1,16 @@
-; Version: 202507311506
+; Version: 202507311532
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41886
-; Last modified: 2025-07-31T15:06:32+0000
+; Entries: 41888
+; Last modified: 2025-07-31T15:32:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753971122 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1753974722 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -2630,6 +2630,8 @@ archivebate.com CNAME .
 *.archivebate.com CNAME .
 archivebate.live CNAME .
 *.archivebate.live CNAME .
+archivebate.store CNAME .
+*.archivebate.store CNAME .
 archiveofsins.com CNAME .
 *.archiveofsins.com CNAME .
 archiveonline.eu CNAME .
