@@ -1,16 +1,16 @@
-; Version: 202508020328
+; Version: 202508020428
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42110
-; Last modified: 2025-08-02T03:28:37+0000
+; Entries: 42116
+; Last modified: 2025-08-02T04:28:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754104322 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754107922 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -454,6 +454,8 @@ $TTL 30
 *.33yr.com CNAME .
 35p-cheap-phone-sex.com CNAME .
 *.35p-cheap-phone-sex.com CNAME .
+35photo.ru CNAME .
+*.35photo.ru CNAME .
 365pornmovs.com CNAME .
 *.365pornmovs.com CNAME .
 36717.info CNAME .
@@ -21550,6 +21552,8 @@ milfbook.com CNAME .
 *.milfbook.com CNAME .
 milfcaps.com CNAME .
 *.milfcaps.com CNAME .
+milfcerca.it CNAME .
+*.milfcerca.it CNAME .
 milfchat.app CNAME .
 *.milfchat.app CNAME .
 milfed.com CNAME .
@@ -22062,6 +22066,8 @@ monkey.app CNAME .
 *.monkey.app CNAME .
 monkey.cool CNAME .
 *.monkey.cool CNAME .
+monlapinrose.com CNAME .
+*.monlapinrose.com CNAME .
 monroo.com CNAME .
 *.monroo.com CNAME .
 monsnode.com CNAME .
