@@ -1,16 +1,16 @@
-; Version: 202508021230
+; Version: 202508021331
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42124
-; Last modified: 2025-08-02T12:30:44+0000
+; Entries: 42126
+; Last modified: 2025-08-02T13:31:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754136722 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754140321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -2998,6 +2998,8 @@ ass4all.com CNAME .
 *.ass4all.com CNAME .
 assamesesexstory.co.in CNAME .
 *.assamesesexstory.co.in CNAME .
+assamesesexstory.xyz CNAME .
+*.assamesesexstory.xyz CNAME .
 assamesesexvideos.com CNAME .
 *.assamesesexvideos.com CNAME .
 asscj.com CNAME .
