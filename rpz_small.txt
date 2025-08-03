@@ -1,16 +1,16 @@
-; Version: 202508031921
+; Version: 202508031938
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 88310
-; Last modified: 2025-08-03T19:21:09+0000
+; Entries: 88308
+; Last modified: 2025-08-03T19:38:49+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754248321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754249920 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -41786,8 +41786,6 @@ htrace.wetvinfo.com CNAME .
 *.htrace.wetvinfo.com CNAME .
 htrem.site CNAME .
 *.htrem.site CNAME .
-httpdns-push.heytapmobile.com CNAME .
-*.httpdns-push.heytapmobile.com CNAME .
 httpdns.bcelive.com CNAME .
 *.httpdns.bcelive.com CNAME .
 httpdns.ocloud.oppomobile.com CNAME .
