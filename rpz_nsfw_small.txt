@@ -1,16 +1,16 @@
-; Version: 202508030729
+; Version: 202508030930
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42262
-; Last modified: 2025-08-03T07:29:37+0000
+; Entries: 42264
+; Last modified: 2025-08-03T09:30:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754205122 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754212321 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -32148,6 +32148,8 @@ sextulip.com CNAME .
 *.sextulip.com CNAME .
 sextut24.com CNAME .
 *.sextut24.com CNAME .
+sextuyenchon.blog CNAME .
+*.sextuyenchon.blog CNAME .
 sextvx.com CNAME .
 *.sextvx.com CNAME .
 sextwat.com CNAME .
