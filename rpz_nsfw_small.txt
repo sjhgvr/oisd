@@ -1,16 +1,16 @@
-; Version: 202508040729
+; Version: 202508040830
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42042
-; Last modified: 2025-08-04T07:29:40+0000
+; Entries: 42046
+; Last modified: 2025-08-04T08:30:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754291521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754295122 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -19366,6 +19366,8 @@ laufhaus-valentin.at CNAME .
 *.laufhaus-valentin.at CNAME .
 laufhaus-zeltweg.at CNAME .
 *.laufhaus-zeltweg.at CNAME .
+lauvette.ph CNAME .
+*.lauvette.ph CNAME .
 lavalife.com CNAME .
 *.lavalife.com CNAME .
 lavaplace.com CNAME .
@@ -30814,6 +30816,8 @@ sex-shop69.hu CNAME .
 *.sex-shop69.hu CNAME .
 sex-studentki.art CNAME .
 *.sex-studentki.art CNAME .
+sex-studentki.beer CNAME .
+*.sex-studentki.beer CNAME .
 sex-studentki.city CNAME .
 *.sex-studentki.city CNAME .
 sex-studentki.click CNAME .
