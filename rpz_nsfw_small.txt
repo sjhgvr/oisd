@@ -1,16 +1,16 @@
-; Version: 202508040228
+; Version: 202508040529
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42038
-; Last modified: 2025-08-04T02:28:52+0000
+; Entries: 42042
+; Last modified: 2025-08-04T05:29:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754273521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754284322 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -14818,6 +14818,8 @@ hentaili.com CNAME .
 *.hentaili.com CNAME .
 hentailib.me CNAME .
 *.hentailib.me CNAME .
+hentailib.net CNAME .
+*.hentailib.net CNAME .
 hentailib.org CNAME .
 *.hentailib.org CNAME .
 hentailoop.com CNAME .
@@ -29336,6 +29338,8 @@ readbeast.blog CNAME .
 *.readbeast.blog CNAME .
 readfreecomics.com CNAME .
 *.readfreecomics.com CNAME .
+readmanga18.com CNAME .
+*.readmanga18.com CNAME .
 readonlymind.com CNAME .
 *.readonlymind.com CNAME .
 readtelugusexstories.com CNAME .
