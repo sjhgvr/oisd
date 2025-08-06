@@ -1,16 +1,16 @@
-; Version: 202508061733
+; Version: 202508061832
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42022
-; Last modified: 2025-08-06T17:33:09+0000
+; Entries: 42020
+; Last modified: 2025-08-06T18:32:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754500321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754503921 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -37074,8 +37074,6 @@ videojav.com CNAME .
 *.videojav.com CNAME .
 videolaba.click CNAME .
 *.videolaba.click CNAME .
-videolaba.link CNAME .
-*.videolaba.link CNAME .
 videolaba.top CNAME .
 *.videolaba.top CNAME .
 videolucah.biz CNAME .
