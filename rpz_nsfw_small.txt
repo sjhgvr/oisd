@@ -1,16 +1,16 @@
-; Version: 202508052330
+; Version: 202508060029
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42028
-; Last modified: 2025-08-05T23:30:41+0000
+; Entries: 42030
+; Last modified: 2025-08-06T00:29:21+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754435521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754439121 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -7762,6 +7762,8 @@ dailyxxx.ink CNAME .
 *.dailyxxx.ink CNAME .
 daju-spravku.ru CNAME .
 *.daju-spravku.ru CNAME .
+dakotadice.com.au CNAME .
+*.dakotadice.com.au CNAME .
 dalechatea.me CNAME .
 *.dalechatea.me CNAME .
 daleporno.com CNAME .
