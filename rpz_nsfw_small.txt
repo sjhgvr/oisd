@@ -1,16 +1,16 @@
-; Version: 202508070635
+; Version: 202508070929
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41978
-; Last modified: 2025-08-07T06:35:31+0000
+; Entries: 41980
+; Last modified: 2025-08-07T09:29:31+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754547121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754557921 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -19044,6 +19044,8 @@ konachan.com CNAME .
 *.konachan.com CNAME .
 konachan.net CNAME .
 *.konachan.net CNAME .
+konbaz.com CNAME .
+*.konbaz.com CNAME .
 kongumanamalai.com CNAME .
 *.kongumanamalai.com CNAME .
 konimbo.co.il CNAME .
