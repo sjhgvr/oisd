@@ -1,16 +1,16 @@
-; Version: 202508070329
+; Version: 202508070429
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41968
-; Last modified: 2025-08-07T03:29:40+0000
+; Entries: 41966
+; Last modified: 2025-08-07T04:29:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754536321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754539921 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -35358,8 +35358,6 @@ topporn.me CNAME .
 *.topporn.me CNAME .
 toppornbox.com CNAME .
 *.toppornbox.com CNAME .
-topporno.club CNAME .
-*.topporno.club CNAME .
 topporno.net CNAME .
 *.topporno.net CNAME .
 toppornoduro.com CNAME .
