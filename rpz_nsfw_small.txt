@@ -1,16 +1,16 @@
-; Version: 202508090628
+; Version: 202508091029
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42056
-; Last modified: 2025-08-09T06:28:41+0000
+; Entries: 42058
+; Last modified: 2025-08-09T10:29:19+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754719922 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754734322 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -21362,6 +21362,8 @@ mepega.com.br CNAME .
 *.mepega.com.br CNAME .
 mephimsex.me CNAME .
 *.mephimsex.me CNAME .
+meragana.com CNAME .
+*.meragana.com CNAME .
 merisexkahani.com CNAME .
 *.merisexkahani.com CNAME .
 mersin24.com CNAME .
