@@ -1,16 +1,16 @@
-; Version: 202508102329
+; Version: 202508110328
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 42086
-; Last modified: 2025-08-10T23:29:45+0000
+; Last modified: 2025-08-11T03:28:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754867521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1754881922 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -572,6 +572,8 @@ $TTL 30
 *.44yu.cc CNAME .
 4545.to CNAME .
 *.4545.to CNAME .
+4ani.uk CNAME .
+*.4ani.uk CNAME .
 4ats.ru CNAME .
 *.4ats.ru CNAME .
 4based.com CNAME .
@@ -14850,8 +14852,6 @@ hentaimanga.me CNAME .
 *.hentaimanga.me CNAME .
 hentaimania.org CNAME .
 *.hentaimania.org CNAME .
-hentaimedia.net CNAME .
-*.hentaimedia.net CNAME .
 hentaimoi3.top CNAME .
 *.hentaimoi3.top CNAME .
 hentaimy.com CNAME .
