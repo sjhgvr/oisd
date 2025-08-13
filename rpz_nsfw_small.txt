@@ -1,16 +1,16 @@
-; Version: 202508131537
+; Version: 202508131732
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42340
-; Last modified: 2025-08-13T15:37:07+0000
+; Entries: 42338
+; Last modified: 2025-08-13T17:32:11+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755097922 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755105121 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -27572,8 +27572,6 @@ pornoklad.info CNAME .
 *.pornoklad.info CNAME .
 pornoklad.ink CNAME .
 *.pornoklad.ink CNAME .
-pornoklad.online CNAME .
-*.pornoklad.online CNAME .
 pornoklinge.com CNAME .
 *.pornoklinge.com CNAME .
 pornoklipove.org CNAME .
