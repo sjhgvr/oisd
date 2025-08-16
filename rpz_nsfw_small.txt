@@ -1,16 +1,16 @@
-; Version: 202508161631
+; Version: 202508162139
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42960
-; Last modified: 2025-08-16T16:31:59+0000
+; Entries: 42962
+; Last modified: 2025-08-16T21:39:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755360721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755378721 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -11450,6 +11450,8 @@ findasianwomen.net CNAME .
 *.findasianwomen.net CNAME .
 findcams.live CNAME .
 *.findcams.live CNAME .
+findedates.com CNAME .
+*.findedates.com CNAME .
 findemeinenschwarm.com CNAME .
 *.findemeinenschwarm.com CNAME .
 findfree.xxx CNAME .
