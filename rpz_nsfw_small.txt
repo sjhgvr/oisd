@@ -1,16 +1,16 @@
-; Version: 202508160329
+; Version: 202508160429
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42408
-; Last modified: 2025-08-16T03:29:07+0000
+; Entries: 42410
+; Last modified: 2025-08-16T04:29:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755313921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1755317521 86400 3600 604800 30
  NS localhost.
 000.pe CNAME .
 *.000.pe CNAME .
@@ -15644,6 +15644,8 @@ hornysimp.com.lv CNAME .
 *.hornysimp.com.lv CNAME .
 hornysimp.org CNAME .
 *.hornysimp.org CNAME .
+hornysoul.com CNAME .
+*.hornysoul.com CNAME .
 hornytoon.com CNAME .
 *.hornytoon.com CNAME .
 hornytransgirls.com CNAME .
