@@ -1,16 +1,16 @@
-; Version: 202509062148
+; Version: 202509062226
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42816
-; Last modified: 2025-09-06T21:48:52+0000
+; Entries: 42820
+; Last modified: 2025-09-06T22:26:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1757193121 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1757196721 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -1066,6 +1066,8 @@ ad-extremesite.com CNAME .
 *.ad-extremesite.com CNAME .
 ad-live.com CNAME .
 *.ad-live.com CNAME .
+ad.org.vn CNAME .
+*.ad.org.vn CNAME .
 ad4game.com CNAME .
 *.ad4game.com CNAME .
 ad69.com CNAME .
@@ -22314,6 +22316,8 @@ mnvv2.info CNAME .
 *.mnvv2.info CNAME .
 moartraffic.com CNAME .
 *.moartraffic.com CNAME .
+mob2ham.com CNAME .
+*.mob2ham.com CNAME .
 mobahot.com CNAME .
 *.mobahot.com CNAME .
 mobi-sat.ru CNAME .
