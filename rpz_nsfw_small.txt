@@ -1,16 +1,16 @@
-; Version: 202509070826
+; Version: 202509070927
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42896
-; Last modified: 2025-09-07T08:26:45+0000
+; Entries: 42900
+; Last modified: 2025-09-07T09:27:21+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1757232722 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1757236321 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -24076,6 +24076,8 @@ nokephub.com CNAME .
 *.nokephub.com CNAME .
 nomi.ai CNAME .
 *.nomi.ai CNAME .
+noname.chat CNAME .
+*.noname.chat CNAME .
 nonktube.com CNAME .
 *.nonktube.com CNAME .
 nonnetroie.com CNAME .
@@ -25782,6 +25784,8 @@ phe18.vip CNAME .
 *.phe18.vip CNAME .
 phil-flash.com CNAME .
 *.phil-flash.com CNAME .
+phim-set.info CNAME .
+*.phim-set.info CNAME .
 phim-sex-xxx.com CNAME .
 *.phim-sex-xxx.com CNAME .
 phim-sex.io CNAME .
