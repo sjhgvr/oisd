@@ -1,16 +1,16 @@
-; Version: 202510100626
+; Version: 202510100827
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 41768
-; Last modified: 2025-10-10T06:26:06+0000
+; Last modified: 2025-10-10T08:27:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760076721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760083921 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -17622,6 +17622,8 @@ javdb.com CNAME .
 *.javdb.com CNAME .
 javdb456.com CNAME .
 *.javdb456.com CNAME .
+javdb457.com CNAME .
+*.javdb457.com CNAME .
 javdb458.com CNAME .
 *.javdb458.com CNAME .
 javdb459.com CNAME .
@@ -29120,8 +29122,6 @@ raovatnailsalon.com CNAME .
 *.raovatnailsalon.com CNAME .
 raparigaslocais.com CNAME .
 *.raparigaslocais.com CNAME .
-rapbeh.net CNAME .
-*.rapbeh.net CNAME .
 rapeathome.com CNAME .
 *.rapeathome.com CNAME .
 raped.ws CNAME .
