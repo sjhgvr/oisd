@@ -1,16 +1,16 @@
-; Version: 202510092327
+; Version: 202510100030
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41762
-; Last modified: 2025-10-09T23:27:17+0000
+; Entries: 41764
+; Last modified: 2025-10-10T00:30:41+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760051521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760055122 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -16912,6 +16912,8 @@ indo18.online CNAME .
 *.indo18.online CNAME .
 indo18.vip CNAME .
 *.indo18.vip CNAME .
+indobokep.vip CNAME .
+*.indobokep.vip CNAME .
 indobokepin.com CNAME .
 *.indobokepin.com CNAME .
 indojavid.com CNAME .
