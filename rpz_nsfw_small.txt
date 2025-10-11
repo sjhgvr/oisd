@@ -1,16 +1,16 @@
-; Version: 202510111527
+; Version: 202510111628
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41754
-; Last modified: 2025-10-11T15:27:34+0000
+; Entries: 41756
+; Last modified: 2025-10-11T16:28:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760195522 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760199121 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -22150,6 +22150,8 @@ mrdeepfakes.com CNAME .
 *.mrdeepfakes.com CNAME .
 mrdeepfakes.xyz CNAME .
 *.mrdeepfakes.xyz CNAME .
+mrds66.com CNAME .
+*.mrds66.com CNAME .
 mrgay.com CNAME .
 *.mrgay.com CNAME .
 mrgay.tube CNAME .
