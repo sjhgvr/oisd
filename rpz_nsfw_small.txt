@@ -1,16 +1,16 @@
-; Version: 202510111026
+; Version: 202510111126
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41752
-; Last modified: 2025-10-11T10:26:07+0000
+; Entries: 41754
+; Last modified: 2025-10-11T11:26:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760177521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1760181121 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -22252,6 +22252,8 @@ mult-porno.page CNAME .
 *.mult-porno.page CNAME .
 mult-porno.vip CNAME .
 *.mult-porno.vip CNAME .
+mult-porno.world CNAME .
+*.mult-porno.world CNAME .
 mult-xxx.top CNAME .
 *.mult-xxx.top CNAME .
 mult34.com CNAME .
