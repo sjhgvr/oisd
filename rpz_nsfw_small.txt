@@ -1,16 +1,16 @@
-; Version: 202511021427
+; Version: 202511021852
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40906
-; Last modified: 2025-11-02T14:27:03+0000
+; Entries: 40904
+; Last modified: 2025-11-02T18:52:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762092721 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762109515 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -31592,8 +31592,6 @@ shamelesscelebrities.com CNAME .
 *.shamelesscelebrities.com CNAME .
 share-image.com CNAME .
 *.share-image.com CNAME .
-share.google CNAME .
-*.share.google CNAME .
 shareanynudes.com CNAME .
 *.shareanynudes.com CNAME .
 shareanynudes.net CNAME .
