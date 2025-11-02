@@ -1,16 +1,16 @@
-; Version: 202511020812
+; Version: 202511020843
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 95848
-; Last modified: 2025-11-02T08:12:17+0000
+; Entries: 95846
+; Last modified: 2025-11-02T08:43:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762067521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762072523 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6804,6 +6804,8 @@ adpointbreakrtb.com CNAME .
 *.adpointbreakrtb.com CNAME .
 adpone.com CNAME .
 *.adpone.com CNAME .
+adpool.bet CNAME .
+*.adpool.bet CNAME .
 adpopcorn.com CNAME .
 *.adpopcorn.com CNAME .
 adpostback.headlines.pw CNAME .
@@ -17442,6 +17444,8 @@ bmmads.com CNAME .
 *.bmmads.com CNAME .
 bmmwa.info CNAME .
 *.bmmwa.info CNAME .
+bmndx.com CNAME .
+*.bmndx.com CNAME .
 bmpdm3z282.com CNAME .
 *.bmpdm3z282.com CNAME .
 bmqzsaqomgymv.site CNAME .
@@ -32200,6 +32204,8 @@ dynsrvtbg.com CNAME .
 *.dynsrvtbg.com CNAME .
 dynsrvtyu.com CNAME .
 *.dynsrvtyu.com CNAME .
+dynsrvwer.com CNAME .
+*.dynsrvwer.com CNAME .
 dyodrs1kxvg6o.cloudfront.net CNAME .
 *.dyodrs1kxvg6o.cloudfront.net CNAME .
 dyogndyfpctbo.xyz CNAME .
@@ -44402,8 +44408,6 @@ icon.eu.awmndw.com CNAME .
 *.icon.eu.awmndw.com CNAME .
 icon.eu.bbmnd.com CNAME .
 *.icon.eu.bbmnd.com CNAME .
-icon.eu.bmndx.com CNAME .
-*.icon.eu.bmndx.com CNAME .
 icon.eu.cpmndl.com CNAME .
 *.icon.eu.cpmndl.com CNAME .
 icon.eu.eemnd.com CNAME .
@@ -69846,8 +69850,6 @@ rirteelraibsou.net CNAME .
 *.rirteelraibsou.net CNAME .
 risalathirds.shop CNAME .
 *.risalathirds.shop CNAME .
-riscati.com CNAME .
-*.riscati.com CNAME .
 risesvocalic.click CNAME .
 *.risesvocalic.click CNAME .
 riseup-t-code.com CNAME .
@@ -72268,20 +72270,12 @@ s.zixuntop.com CNAME .
 *.s.zixuntop.com CNAME .
 s.zlink0.com CNAME .
 *.s.zlink0.com CNAME .
-s.zlink1.com CNAME .
-*.s.zlink1.com CNAME .
 s.zlink3.com CNAME .
 *.s.zlink3.com CNAME .
 s.zlink4.com CNAME .
 *.s.zlink4.com CNAME .
 s.zlink7.com CNAME .
 *.s.zlink7.com CNAME .
-s.zlink8.com CNAME .
-*.s.zlink8.com CNAME .
-s.zlink9.com CNAME .
-*.s.zlink9.com CNAME .
-s.zlinkb.com CNAME .
-*.s.zlinkb.com CNAME .
 s.zlinkl.com CNAME .
 *.s.zlinkl.com CNAME .
 s.zlinkn.com CNAME .
@@ -79654,8 +79648,6 @@ syndicatedsearch.goog CNAME .
 *.syndicatedsearch.goog CNAME .
 syndication.adlinknetwork.vn CNAME .
 *.syndication.adlinknetwork.vn CNAME .
-syndication.dynsrvwer.com CNAME .
-*.syndication.dynsrvwer.com CNAME .
 syndication.elink12.com CNAME .
 *.syndication.elink12.com CNAME .
 syndication.elink4.com CNAME .
@@ -94780,8 +94772,6 @@ z-eaazoov.top CNAME .
 *.z-eaazoov.top CNAME .
 z.allopurinoll.shop CNAME .
 *.z.allopurinoll.shop CNAME .
-z.cdn.adpool.bet CNAME .
-*.z.cdn.adpool.bet CNAME .
 z.cdn.protect-ad.com CNAME .
 *.z.cdn.protect-ad.com CNAME .
 z.grfyw.com CNAME .
@@ -95348,10 +95338,18 @@ zlacraft.com CNAME .
 *.zlacraft.com CNAME .
 zlaosdshglcjt.space CNAME .
 *.zlaosdshglcjt.space CNAME .
+zlink1.com CNAME .
+*.zlink1.com CNAME .
 zlink2.com CNAME .
 *.zlink2.com CNAME .
 zlink6.com CNAME .
 *.zlink6.com CNAME .
+zlink8.com CNAME .
+*.zlink8.com CNAME .
+zlink9.com CNAME .
+*.zlink9.com CNAME .
+zlinkb.com CNAME .
+*.zlinkb.com CNAME .
 zlinkc.com CNAME .
 *.zlinkc.com CNAME .
 zlinkd.com CNAME .
