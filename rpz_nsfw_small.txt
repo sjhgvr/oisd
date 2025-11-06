@@ -1,16 +1,16 @@
-; Version: 202511061628
+; Version: 202511061828
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40716
-; Last modified: 2025-11-06T16:28:57+0000
+; Entries: 40718
+; Last modified: 2025-11-06T18:28:08+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762445521 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1762452722 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -9422,6 +9422,8 @@ erome.vip CNAME .
 *.erome.vip CNAME .
 eromelive.com CNAME .
 *.eromelive.com CNAME .
+eromenovinha.blog CNAME .
+*.eromenovinha.blog CNAME .
 eromeporno.com CNAME .
 *.eromeporno.com CNAME .
 eromexxx.com CNAME .
