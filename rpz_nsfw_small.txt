@@ -1,16 +1,16 @@
-; Version: 202511161928
+; Version: 202511170126
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40102
-; Last modified: 2025-11-16T19:28:20+0000
+; Entries: 40104
+; Last modified: 2025-11-17T01:26:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763320322 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763341921 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -18436,6 +18436,8 @@ lacomics.net CNAME .
 *.lacomics.net CNAME .
 ladano.it CNAME .
 *.ladano.it CNAME .
+ladies-cdn.de CNAME .
+*.ladies-cdn.de CNAME .
 ladies-forum.de CNAME .
 *.ladies-forum.de CNAME .
 ladies.de CNAME .
