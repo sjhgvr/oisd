@@ -1,16 +1,16 @@
-; Version: 202511170525
+; Version: 202511170625
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40102
-; Last modified: 2025-11-17T05:25:33+0000
+; Entries: 40100
+; Last modified: 2025-11-17T06:25:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763356321 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763359921 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -13264,8 +13264,6 @@ grupos.top CNAME .
 *.grupos.top CNAME .
 gruposadultostelegram.com CNAME .
 *.gruposadultostelegram.com CNAME .
-gruposde.net CNAME .
-*.gruposde.net CNAME .
 gruposdeputaria.blog CNAME .
 *.gruposdeputaria.blog CNAME .
 gruposdeputariatelegram.com CNAME .
