@@ -1,16 +1,16 @@
-; Version: 202511190521
+; Version: 202511191022
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96294
-; Last modified: 2025-11-19T05:21:58+0000
+; Entries: 96296
+; Last modified: 2025-11-19T10:22:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763529122 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763547122 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -58936,6 +58936,8 @@ notificaciones-web.com CNAME .
 *.notificaciones-web.com CNAME .
 notificationallow.com CNAME .
 *.notificationallow.com CNAME .
+notifications.viafoura.co CNAME .
+*.notifications.viafoura.co CNAME .
 notify-bugs-fra1.rtl.de CNAME .
 *.notify-bugs-fra1.rtl.de CNAME .
 notify.bugsnag.com CNAME .
