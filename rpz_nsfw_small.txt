@@ -1,16 +1,16 @@
-; Version: 202511201728
+; Version: 202511201928
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40104
-; Last modified: 2025-11-20T17:28:24+0000
+; Entries: 40106
+; Last modified: 2025-11-20T19:28:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763658722 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763665921 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -21012,6 +21012,8 @@ mmsdose.us CNAME .
 *.mmsdose.us CNAME .
 mmshunt.com CNAME .
 *.mmshunt.com CNAME .
+mmsleak.com CNAME .
+*.mmsleak.com CNAME .
 mmsmaza.org CNAME .
 *.mmsmaza.org CNAME .
 mmstown.com CNAME .
