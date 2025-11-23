@@ -1,16 +1,16 @@
-; Version: 202511230726
+; Version: 202511230825
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 39940
-; Last modified: 2025-11-23T07:26:29+0000
+; Entries: 39938
+; Last modified: 2025-11-23T08:25:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763881921 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1763885522 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -32820,8 +32820,6 @@ temancoli.org CNAME .
 *.temancoli.org CNAME .
 tempocams.com CNAME .
 *.tempocams.com CNAME .
-temporary.site CNAME .
-*.temporary.site CNAME .
 temptingangels.org CNAME .
 *.temptingangels.org CNAME .
 temptingtown.com CNAME .
