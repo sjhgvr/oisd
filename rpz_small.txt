@@ -1,16 +1,16 @@
-; Version: 202512180310
+; Version: 202512181631
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 94808
-; Last modified: 2025-12-18T03:10:00+0000
+; Entries: 94810
+; Last modified: 2025-12-18T16:31:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766026801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766070002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -72132,6 +72132,8 @@ sdkapi-prod.dfinery.ai CNAME .
 *.sdkapi-prod.dfinery.ai CNAME .
 sdkauth.hpplay.cn CNAME .
 *.sdkauth.hpplay.cn CNAME .
+sdkc.vervegroupinc.net CNAME .
+*.sdkc.vervegroupinc.net CNAME .
 sdkconf.avlyun.com CNAME .
 *.sdkconf.avlyun.com CNAME .
 sdkconfig.video.qq.com CNAME .
