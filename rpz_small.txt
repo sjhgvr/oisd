@@ -1,16 +1,16 @@
-; Version: 202512212007
+; Version: 202512212105
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96024
-; Last modified: 2025-12-21T20:07:12+0000
+; Entries: 96022
+; Last modified: 2025-12-21T21:05:24+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766347211 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766350802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -47798,8 +47798,6 @@ juicycontext.com CNAME .
 *.juicycontext.com CNAME .
 juicymortgage.com CNAME .
 *.juicymortgage.com CNAME .
-juicymotor.pro CNAME .
-*.juicymotor.pro CNAME .
 jujokaibse.net CNAME .
 *.jujokaibse.net CNAME .
 jullyambery.net CNAME .
