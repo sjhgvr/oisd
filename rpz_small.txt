@@ -1,16 +1,16 @@
-; Version: 202512211947
+; Version: 202512212007
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 96024
-; Last modified: 2025-12-21T19:47:17+0000
+; Last modified: 2025-12-21T20:07:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766343611 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766347211 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1164,8 +1164,6 @@ $TTL 30
 *.2a2k3aom6.de CNAME .
 2a4snhmtm.de CNAME .
 *.2a4snhmtm.de CNAME .
-2ad.wtf CNAME .
-*.2ad.wtf CNAME .
 2aefgbf.de CNAME .
 *.2aefgbf.de CNAME .
 2b178ee32a.com CNAME .
@@ -5406,6 +5404,8 @@ ad.mgd.de CNAME .
 *.ad.mgd.de CNAME .
 ad.moe.video CNAME .
 *.ad.moe.video CNAME .
+ad.mojisead.co.kr CNAME .
+*.ad.mojisead.co.kr CNAME .
 ad.moo-mam-tai.com CNAME .
 *.ad.moo-mam-tai.com CNAME .
 ad.mox.tv CNAME .
