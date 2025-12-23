@@ -1,16 +1,16 @@
-; Version: 202512231105
+; Version: 202512231205
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 97060
-; Last modified: 2025-12-23T11:05:34+0000
+; Entries: 97058
+; Last modified: 2025-12-23T12:05:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766487604 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766491204 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -64214,8 +64214,6 @@ pixel.yola.com CNAME .
 *.pixel.yola.com CNAME .
 pixeladszone.top CNAME .
 *.pixeladszone.top CNAME .
-pixelappcollector.thesun.co.uk CNAME .
-*.pixelappcollector.thesun.co.uk CNAME .
 pixelcounter.marca.com CNAME .
 *.pixelcounter.marca.com CNAME .
 pixelhere.com CNAME .
