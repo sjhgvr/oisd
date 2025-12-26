@@ -1,16 +1,16 @@
-; Version: 202512261405
+; Version: 202512261505
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 98622
-; Last modified: 2025-12-26T14:05:44+0000
+; Entries: 98620
+; Last modified: 2025-12-26T15:05:13+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766757601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1766761201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -30082,8 +30082,6 @@ dimmerlingowashable.com CNAME .
 *.dimmerlingowashable.com CNAME .
 dimmockvanglo.com CNAME .
 *.dimmockvanglo.com CNAME .
-dimmosit.live CNAME .
-*.dimmosit.live CNAME .
 dimnessslatecosmetic.com CNAME .
 *.dimnessslatecosmetic.com CNAME .
 dimpled-dig.pro CNAME .
