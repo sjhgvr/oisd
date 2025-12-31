@@ -1,16 +1,16 @@
-; Version: 202512310605
+; Version: 202512310705
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 101216
-; Last modified: 2025-12-31T06:05:31+0000
+; Entries: 101214
+; Last modified: 2025-12-31T07:05:49+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767160810 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767164413 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -88728,8 +88728,6 @@ trusting-produce.com CNAME .
 *.trusting-produce.com CNAME .
 trustinghurt.pro CNAME .
 *.trustinghurt.pro CNAME .
-trustingself.com CNAME .
-*.trustingself.com CNAME .
 trustiseverything.de CNAME .
 *.trustiseverything.de CNAME .
 trustmaxonline.com CNAME .
