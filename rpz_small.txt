@@ -1,16 +1,16 @@
-; Version: 202601011806
+; Version: 202601012008
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 101784
-; Last modified: 2026-01-01T18:06:16+0000
+; Entries: 101782
+; Last modified: 2026-01-01T20:08:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767290404 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767297602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -80228,8 +80228,6 @@ sp.floridatoday.com CNAME .
 *.sp.floridatoday.com CNAME .
 sp.freep.com CNAME .
 *.sp.freep.com CNAME .
-sp.freshlooklens.pk CNAME .
-*.sp.freshlooklens.pk CNAME .
 sp.fsunews.com CNAME .
 *.sp.fsunews.com CNAME .
 sp.gametimepa.com CNAME .
