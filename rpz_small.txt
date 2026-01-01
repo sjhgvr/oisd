@@ -1,16 +1,16 @@
-; Version: 202512312306
+; Version: 202601010005
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 101140
-; Last modified: 2025-12-31T23:06:47+0000
+; Entries: 101138
+; Last modified: 2026-01-01T00:05:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767222017 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767225603 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -25354,8 +25354,6 @@ crta.metro.co.uk CNAME .
 *.crta.metro.co.uk CNAME .
 crtracklink.com CNAME .
 *.crtracklink.com CNAME .
-crtv.mate1.com CNAME .
-*.crtv.mate1.com CNAME .
 crucesslummer.cyou CNAME .
 *.crucesslummer.cyou CNAME .
 crucialostensiblestops.com CNAME .
