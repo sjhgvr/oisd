@@ -1,16 +1,16 @@
-; Version: 202601061142
+; Version: 202601061356
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 34758
-; Last modified: 2026-01-06T11:42:19+0000
+; Entries: 34760
+; Last modified: 2026-01-06T13:56:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767697201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767704401 86400 3600 604800 30
  NS localhost.
 001tube8.com CNAME .
 *.001tube8.com CNAME .
@@ -4296,6 +4296,8 @@ bodyshopclubs.com CNAME .
 *.bodyshopclubs.com CNAME .
 bodyswapfiction.com CNAME .
 *.bodyswapfiction.com CNAME .
+bogorkab.go.id CNAME .
+*.bogorkab.go.id CNAME .
 boing.es CNAME .
 *.boing.es CNAME .
 boingtv.it CNAME .
