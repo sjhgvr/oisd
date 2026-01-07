@@ -1,16 +1,16 @@
-; Version: 202601071237
+; Version: 202601072305
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96524
-; Last modified: 2026-01-07T12:37:28+0000
+; Entries: 96530
+; Last modified: 2026-01-07T23:05:52+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767787211 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1767826801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1986,6 +1986,8 @@ $TTL 30
 *.4yl3e3fmv.com CNAME .
 4z50jczq2.com CNAME .
 *.4z50jczq2.com CNAME .
+5.content-loader.com CNAME .
+*.5.content-loader.com CNAME .
 5.gzfenda.com CNAME .
 *.5.gzfenda.com CNAME .
 5.www.cheetahhowevertowardsfrom.com CNAME .
@@ -2274,6 +2276,8 @@ $TTL 30
 *.5y9nfpes.52pk.com CNAME .
 6-partner.com CNAME .
 *.6-partner.com CNAME .
+6.content-loader.com CNAME .
+*.6.content-loader.com CNAME .
 6.www.cheetahhowevertowardsfrom.com CNAME .
 *.6.www.cheetahhowevertowardsfrom.com CNAME .
 600977f9ec.com CNAME .
@@ -43472,6 +43476,8 @@ htlbid.com CNAME .
 *.htlbid.com CNAME .
 htliaproject.com CNAME .
 *.htliaproject.com CNAME .
+html-load.cc CNAME .
+*.html-load.cc CNAME .
 html-load.com CNAME .
 *.html-load.com CNAME .
 htmlhubing.xyz CNAME .
