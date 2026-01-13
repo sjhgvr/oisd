@@ -1,16 +1,16 @@
-; Version: 202601130505
+; Version: 202601130605
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 96942
-; Last modified: 2026-01-13T05:05:22+0000
+; Entries: 96944
+; Last modified: 2026-01-13T06:05:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768280401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768284002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -65416,6 +65416,8 @@ prerogativeducksbroke.com CNAME .
 *.prerogativeducksbroke.com CNAME .
 preroll.hostave3.net CNAME .
 *.preroll.hostave3.net CNAME .
+preroll.omroepvenlo.nl CNAME .
+*.preroll.omroepvenlo.nl CNAME .
 presage.io CNAME .
 *.presage.io CNAME .
 prescriptionadulatorylimelight.com CNAME .
