@@ -1,16 +1,16 @@
-; Version: 202601151738
+; Version: 202601151740
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 97114
-; Last modified: 2026-01-15T17:38:52+0000
+; Entries: 97112
+; Last modified: 2026-01-15T17:40:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768498677 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768498812 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -63214,8 +63214,6 @@ peresentacconette.com CNAME .
 *.peresentacconette.com CNAME .
 perf-events.cloud.unity3d.com CNAME .
 *.perf-events.cloud.unity3d.com CNAME .
-perf.bblmw.com CNAME .
-*.perf.bblmw.com CNAME .
 perf.hsforms.com CNAME .
 *.perf.hsforms.com CNAME .
 perfectgrandmother.com CNAME .
