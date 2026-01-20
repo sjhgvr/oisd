@@ -1,16 +1,16 @@
-; Version: 202601192105
+; Version: 202601200115
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 98320
-; Last modified: 2026-01-19T21:05:17+0000
+; Last modified: 2026-01-20T01:15:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768856401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1768870802 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -960,8 +960,6 @@ $TTL 30
 *.203a382a60.403dee4b16.com CNAME .
 206ads.com CNAME .
 *.206ads.com CNAME .
-20cf12ac8e.de2bdad928.com CNAME .
-*.20cf12ac8e.de2bdad928.com CNAME .
 20dollars2surf.com CNAME .
 *.20dollars2surf.com CNAME .
 20l2ldrn2.de CNAME .
@@ -28652,6 +28650,8 @@ de.as.pptv.com CNAME .
 *.de.as.pptv.com CNAME .
 de17a.com CNAME .
 *.de17a.com CNAME .
+de2bdad928.com CNAME .
+*.de2bdad928.com CNAME .
 de2nsnw1i3egd.cloudfront.net CNAME .
 *.de2nsnw1i3egd.cloudfront.net CNAME .
 de3hzpms0kfq9.cloudfront.net CNAME .
