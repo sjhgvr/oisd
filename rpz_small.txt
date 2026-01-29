@@ -1,16 +1,16 @@
-; Version: 202601281806
+; Version: 202601290107
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 99516
-; Last modified: 2026-01-28T18:06:13+0000
+; Entries: 99520
+; Last modified: 2026-01-29T01:07:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769623202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769648401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -7286,6 +7286,8 @@ ads.as4x.tmcs.net CNAME .
 *.ads.as4x.tmcs.net CNAME .
 ads.as4x.tmcs.ticketmaster.com CNAME .
 *.ads.as4x.tmcs.ticketmaster.com CNAME .
+ads.auctions.yahoo.com CNAME .
+*.ads.auctions.yahoo.com CNAME .
 ads.baddiesonlyporn.com CNAME .
 *.ads.baddiesonlyporn.com CNAME .
 ads.baoangiang.com.vn CNAME .
@@ -25104,6 +25106,8 @@ cryweb.github.io CNAME .
 *.cryweb.github.io CNAME .
 cs-gra.pl CNAME .
 *.cs-gra.pl CNAME .
+cs.avito.ru CNAME .
+*.cs.avito.ru CNAME .
 cs.luckyorange.net CNAME .
 *.cs.luckyorange.net CNAME .
 cs.nakanohito.jp CNAME .
@@ -65572,8 +65576,6 @@ pinniped.spacecountdown.com CNAME .
 *.pinniped.spacecountdown.com CNAME .
 pinnulepagedom.com CNAME .
 *.pinnulepagedom.com CNAME .
-pinpoint.espn.com CNAME .
-*.pinpoint.espn.com CNAME .
 pintfunnel.com CNAME .
 *.pintfunnel.com CNAME .
 pintlouisa.com CNAME .
@@ -85784,6 +85786,8 @@ track.notsy.io CNAME .
 *.track.notsy.io CNAME .
 track.oasis.magictavern.com CNAME .
 *.track.oasis.magictavern.com CNAME .
+track.onef.pro CNAME .
+*.track.onef.pro CNAME .
 track.opentable.com CNAME .
 *.track.opentable.com CNAME .
 track.peavoidud.com CNAME .
