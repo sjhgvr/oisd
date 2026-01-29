@@ -1,16 +1,16 @@
-; Version: 202601290807
+; Version: 202601290904
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41480
-; Last modified: 2026-01-29T08:07:17+0000
+; Entries: 41478
+; Last modified: 2026-01-29T09:04:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769673601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769677426 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -2058,8 +2058,6 @@ amayzine.com CNAME .
 *.amayzine.com CNAME .
 amazon.co.uk CNAME .
 *.amazon.co.uk CNAME .
-amazon.de CNAME .
-*.amazon.de CNAME .
 amazon.es CNAME .
 *.amazon.es CNAME .
 amazonlogistics.eu CNAME .
