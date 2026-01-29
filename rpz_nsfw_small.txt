@@ -1,16 +1,16 @@
-; Version: 202601292017
+; Version: 202601292020
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42248
-; Last modified: 2026-01-29T20:17:41+0000
+; Entries: 42246
+; Last modified: 2026-01-29T20:20:05+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769717813 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769717961 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -33046,8 +33046,6 @@ skokka.com.au CNAME .
 *.skokka.com.au CNAME .
 sksarab.top CNAME .
 *.sksarab.top CNAME .
-skybet.com CNAME .
-*.skybet.com CNAME .
 skymanga.work CNAME .
 *.skymanga.work CNAME .
 skypixel.com CNAME .
