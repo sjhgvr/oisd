@@ -1,16 +1,16 @@
-; Version: 202601302026
+; Version: 202601310205
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 100396
-; Last modified: 2026-01-30T20:26:35+0000
+; Entries: 100404
+; Last modified: 2026-01-31T02:05:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769804765 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769824801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -888,6 +888,8 @@ $TTL 30
 *.1mp.mobi CNAME .
 1mrmsp0ki.de CNAME .
 *.1mrmsp0ki.de CNAME .
+1mythtracker.xyz CNAME .
+*.1mythtracker.xyz CNAME .
 1nfltpsbk.de CNAME .
 *.1nfltpsbk.de CNAME .
 1nimo.com CNAME .
@@ -35214,6 +35216,8 @@ event-dot-learning-piano.appspot.com CNAME .
 *.event-dot-learning-piano.appspot.com CNAME .
 event-dot-procolor-backend.appspot.com CNAME .
 *.event-dot-procolor-backend.appspot.com CNAME .
+event-gateway.data.karrotmarket.com CNAME .
+*.event-gateway.data.karrotmarket.com CNAME .
 event-log-api-data-platform-data-lake-prod.gryphline.com CNAME .
 *.event-log-api-data-platform-data-lake-prod.gryphline.com CNAME .
 event-log-api-ipv6.gryphline.com CNAME .
@@ -40750,6 +40754,8 @@ gjqlxuffmatsp.online CNAME .
 *.gjqlxuffmatsp.online CNAME .
 gjtrack.uc.cn CNAME .
 *.gjtrack.uc.cn CNAME .
+gjtrack.ucweb.com CNAME .
+*.gjtrack.ucweb.com CNAME .
 gjubvembrxsot.space CNAME .
 *.gjubvembrxsot.space CNAME .
 gjwos.org CNAME .
@@ -42726,6 +42732,8 @@ h-adashx.ut.alibaba.com CNAME .
 *.h-adashx.ut.alibaba.com CNAME .
 h-adashx.ut.taobao.com CNAME .
 *.h-adashx.ut.taobao.com CNAME .
+h-adashx4id.ut.taobao.com CNAME .
+*.h-adashx4id.ut.taobao.com CNAME .
 h.itvnet.lv CNAME .
 *.h.itvnet.lv CNAME .
 h019.wtae.com CNAME .
