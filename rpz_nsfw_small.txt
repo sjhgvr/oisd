@@ -1,16 +1,16 @@
-; Version: 202601302307
+; Version: 202601310004
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 44148
-; Last modified: 2026-01-30T23:07:37+0000
+; Entries: 44146
+; Last modified: 2026-01-31T00:04:45+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769814001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1769817841 86400 3600 604800 30
  NS localhost.
 000a.biz CNAME .
 *.000a.biz CNAME .
@@ -40552,8 +40552,6 @@ wildthumbs.com CNAME .
 *.wildthumbs.com CNAME .
 wilhelmina.com CNAME .
 *.wilhelmina.com CNAME .
-willyweather.com.au CNAME .
-*.willyweather.com.au CNAME .
 wilwheaton.net CNAME .
 *.wilwheaton.net CNAME .
 win4you.net CNAME .
