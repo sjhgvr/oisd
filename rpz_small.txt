@@ -1,16 +1,16 @@
-; Version: 202602021806
+; Version: 202602021816
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 99528
-; Last modified: 2026-02-02T18:06:06+0000
+; Entries: 99532
+; Last modified: 2026-02-02T18:16:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1770055201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1770055740 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -8770,8 +8770,6 @@ advertising-cdn.com CNAME .
 *.advertising-cdn.com CNAME .
 advertising-cdn.dpgmedia.cloud CNAME .
 *.advertising-cdn.dpgmedia.cloud CNAME .
-advertising.a2z.com CNAME .
-*.advertising.a2z.com CNAME .
 advertising.apple.com CNAME .
 *.advertising.apple.com CNAME .
 advertising.goldseek.com CNAME .
@@ -66262,6 +66260,8 @@ pmzer.com CNAME .
 *.pmzer.com CNAME .
 pmzhtd.icu CNAME .
 *.pmzhtd.icu CNAME .
+pn.ybp.yahoo.com CNAME .
+*.pn.ybp.yahoo.com CNAME .
 pnajcjelrjxnm.website CNAME .
 *.pnajcjelrjxnm.website CNAME .
 pnd.gs CNAME .
@@ -66978,6 +66978,8 @@ pqzplntcvsxvm.store CNAME .
 *.pqzplntcvsxvm.store CNAME .
 pqzyzircitnva.top CNAME .
 *.pqzyzircitnva.top CNAME .
+pr-bh.ybp.yahoo.com CNAME .
+*.pr-bh.ybp.yahoo.com CNAME .
 pr-star.de CNAME .
 *.pr-star.de CNAME .
 pr.blogflux.com CNAME .
@@ -67528,6 +67530,8 @@ prod-sponsoredads.mkt.zappos.com CNAME .
 *.prod-sponsoredads.mkt.zappos.com CNAME .
 prod.adjoe.zone CNAME .
 *.prod.adjoe.zone CNAME .
+prod.cm.publishers.advertising.a2z.com CNAME .
+*.prod.cm.publishers.advertising.a2z.com CNAME .
 prod.event.mwm-asset-manager.mwmwebapis.com CNAME .
 *.prod.event.mwm-asset-manager.mwmwebapis.com CNAME .
 prod.fennec.atp.fox CNAME .
@@ -67540,6 +67544,8 @@ prod.otel.kaizen.nvidia.com CNAME .
 *.prod.otel.kaizen.nvidia.com CNAME .
 prod.report.nacustomerexperience.citi.com CNAME .
 *.prod.report.nacustomerexperience.citi.com CNAME .
+prod.tahoe-analytics.publishers.advertising.a2z.com CNAME .
+*.prod.tahoe-analytics.publishers.advertising.a2z.com CNAME .
 prod.us-east-1.cxm-bcn.publisher-services.amazon.dev CNAME .
 *.prod.us-east-1.cxm-bcn.publisher-services.amazon.dev CNAME .
 prodigiouseducation.com CNAME .
@@ -97266,8 +97272,6 @@ ybowcyskuemsj.store CNAME .
 *.ybowcyskuemsj.store CNAME .
 ybozjqsojrktu.online CNAME .
 *.ybozjqsojrktu.online CNAME .
-ybp.yahoo.com CNAME .
-*.ybp.yahoo.com CNAME .
 ybrvrws2p9.com CNAME .
 *.ybrvrws2p9.com CNAME .
 ybs2ffs7v.com CNAME .
