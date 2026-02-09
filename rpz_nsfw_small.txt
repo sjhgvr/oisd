@@ -1,16 +1,16 @@
-; Version: 202602091807
+; Version: 202602091903
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 35646
-; Last modified: 2026-02-09T18:07:55+0000
+; Entries: 35644
+; Last modified: 2026-02-09T19:03:18+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1770660001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1770663661 86400 3600 604800 30
  NS localhost.
 001tube8.com CNAME .
 *.001tube8.com CNAME .
@@ -31900,8 +31900,6 @@ vnsexmup.blog CNAME .
 *.vnsexmup.blog CNAME .
 vocaall.com CNAME .
 *.vocaall.com CNAME .
-vodafone.nl CNAME .
-*.vodafone.nl CNAME .
 vodotehna.hr CNAME .
 *.vodotehna.hr CNAME .
 voffka.com CNAME .
