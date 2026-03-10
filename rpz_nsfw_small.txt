@@ -1,16 +1,16 @@
-; Version: 202603101023
+; Version: 202603101032
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41068
-; Last modified: 2026-03-10T10:23:14+0000
+; Entries: 41066
+; Last modified: 2026-03-10T10:32:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773136801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773138739 86400 3600 604800 30
  NS localhost.
 001joke.com CNAME .
 *.001joke.com CNAME .
@@ -24554,8 +24554,6 @@ partneri.sk CNAME .
 *.partneri.sk CNAME .
 partnersinprivate.com CNAME .
 *.partnersinprivate.com CNAME .
-partslink24.com CNAME .
-*.partslink24.com CNAME .
 party-cams.com CNAME .
 *.party-cams.com CNAME .
 partycelebs.com CNAME .
