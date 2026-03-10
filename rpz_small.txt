@@ -1,16 +1,16 @@
-; Version: 202603100111
+; Version: 202603100608
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 99906
-; Last modified: 2026-03-10T01:11:56+0000
+; Entries: 99910
+; Last modified: 2026-03-10T06:08:40+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773104401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773122541 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -20996,6 +20996,8 @@ click-eu-v4.exmnclk.com CNAME .
 *.click-eu-v4.exmnclk.com CNAME .
 click-eu-v4.exoclkneu.com CNAME .
 *.click-eu-v4.exoclkneu.com CNAME .
+click-eu-v4.expmclck.com CNAME .
+*.click-eu-v4.expmclck.com CNAME .
 click-eu-v4.expmidclk.com CNAME .
 *.click-eu-v4.expmidclk.com CNAME .
 click-eu-v4.exppxxclck.com CNAME .
@@ -21044,6 +21046,8 @@ click-v4.exoclkneu.com CNAME .
 *.click-v4.exoclkneu.com CNAME .
 click-v4.explodnmainclck.com CNAME .
 *.click-v4.explodnmainclck.com CNAME .
+click-v4.expmclck.com CNAME .
+*.click-v4.expmclck.com CNAME .
 click-v4.expmidclk.com CNAME .
 *.click-v4.expmidclk.com CNAME .
 click-v4.exppxxclck.com CNAME .
@@ -21094,6 +21098,8 @@ click.exmnclk.com CNAME .
 *.click.exmnclk.com CNAME .
 click.exoclkneu.com CNAME .
 *.click.exoclkneu.com CNAME .
+click.expmclck.com CNAME .
+*.click.expmclck.com CNAME .
 click.expmidclk.com CNAME .
 *.click.expmidclk.com CNAME .
 click.exppxxclck.com CNAME .
@@ -34736,8 +34742,6 @@ explorerapiecebachelor.com CNAME .
 *.explorerapiecebachelor.com CNAME .
 explorerippledisperse.com CNAME .
 *.explorerippledisperse.com CNAME .
-expmclck.com CNAME .
-*.expmclck.com CNAME .
 expmnclick.com CNAME .
 *.expmnclick.com CNAME .
 expoclknu.com CNAME .
