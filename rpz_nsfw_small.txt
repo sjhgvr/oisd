@@ -1,16 +1,16 @@
-; Version: 202603151736
+; Version: 202603151844
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43198
-; Last modified: 2026-03-15T17:36:42+0000
+; Entries: 43196
+; Last modified: 2026-03-15T18:44:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773594001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773600241 86400 3600 604800 30
  NS localhost.
 001joke.com CNAME .
 *.001joke.com CNAME .
@@ -35904,8 +35904,6 @@ tiaoxingunzi.com CNAME .
 *.tiaoxingunzi.com CNAME .
 tiava.com CNAME .
 *.tiava.com CNAME .
-tickets.com CNAME .
-*.tickets.com CNAME .
 tickle.porn CNAME .
 *.tickle.porn CNAME .
 tickling-videos.net CNAME .
