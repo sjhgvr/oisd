@@ -1,16 +1,16 @@
-; Version: 202603180521
+; Version: 202603180724
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 46012
-; Last modified: 2026-03-18T05:21:40+0000
+; Entries: 46014
+; Last modified: 2026-03-18T07:24:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773810001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773817201 86400 3600 604800 30
  NS localhost.
 001joke.com CNAME .
 *.001joke.com CNAME .
@@ -42826,6 +42826,8 @@ xmyshj.com CNAME .
 *.xmyshj.com CNAME .
 xn----3mci2aha3gqbzb.com CNAME .
 *.xn----3mci2aha3gqbzb.com CNAME .
+xn----btbvrebejfhmbj1j.net CNAME .
+*.xn----btbvrebejfhmbj1j.net CNAME .
 xn----itbkgb9adccau2a.name CNAME .
 *.xn----itbkgb9adccau2a.name CNAME .
 xn----jnchag1g5a.com CNAME .
