@@ -1,16 +1,16 @@
-; Version: 202603191117
+; Version: 202603191220
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 101758
-; Last modified: 2026-03-19T11:17:34+0000
+; Last modified: 2026-03-19T12:20:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773918001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773921601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -9588,6 +9588,8 @@ alexa-sitestats.s3.amazonaws.com CNAME .
 *.alexa-sitestats.s3.amazonaws.com CNAME .
 alexabyte.site CNAME .
 *.alexabyte.site CNAME .
+alexajstrack.com CNAME .
+*.alexajstrack.com CNAME .
 alexandria.marfeelcdn.com CNAME .
 *.alexandria.marfeelcdn.com CNAME .
 alexatracker.com CNAME .
@@ -92998,8 +93000,6 @@ vmxckyomhbtcz.space CNAME .
 *.vmxckyomhbtcz.space CNAME .
 vmxneqttwxhcv.site CNAME .
 *.vmxneqttwxhcv.site CNAME .
-vn.alexajstrack.com CNAME .
-*.vn.alexajstrack.com CNAME .
 vn12345.mvapspdmpg.com CNAME .
 *.vn12345.mvapspdmpg.com CNAME .
 vnaeqsorsffzh.online CNAME .
