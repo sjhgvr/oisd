@@ -1,16 +1,16 @@
-; Version: 202603191621
+; Version: 202603191705
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 47858
-; Last modified: 2026-03-19T16:21:49+0000
+; Entries: 47856
+; Last modified: 2026-03-19T17:05:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773936001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1773939927 86400 3600 604800 30
  NS localhost.
 001joke.com CNAME .
 *.001joke.com CNAME .
@@ -38526,8 +38526,6 @@ tabdeal.org CNAME .
 *.tabdeal.org CNAME .
 tablago.com CNAME .
 *.tablago.com CNAME .
-tabnews.com.br CNAME .
-*.tabnews.com.br CNAME .
 taboo-game.com CNAME .
 *.taboo-game.com CNAME .
 taboodaddy.com CNAME .
