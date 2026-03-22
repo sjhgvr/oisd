@@ -1,16 +1,16 @@
-; Version: 202603222226
+; Version: 202603222328
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32860
-; Last modified: 2026-03-22T22:26:04+0000
+; Entries: 32866
+; Last modified: 2026-03-22T23:28:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1774216802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1774220401 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -584,6 +584,8 @@ $TTL 30
 *.6vids.com CNAME .
 6xnxx.pro CNAME .
 *.6xnxx.pro CNAME .
+6ytube.com CNAME .
+*.6ytube.com CNAME .
 777.porn CNAME .
 *.777.porn CNAME .
 777livecams.com CNAME .
@@ -11478,6 +11480,8 @@ hentaitk.net CNAME .
 *.hentaitk.net CNAME .
 hentaitokyo.net CNAME .
 *.hentaitokyo.net CNAME .
+hentaitorrents.com CNAME .
+*.hentaitorrents.com CNAME .
 hentaitube.online CNAME .
 *.hentaitube.online CNAME .
 hentaiukr.com CNAME .
@@ -22216,6 +22220,8 @@ proxxxtube.com CNAME .
 *.proxxxtube.com CNAME .
 proxyadult.org CNAME .
 *.proxyadult.org CNAME .
+proxyporn.org CNAME .
+*.proxyporn.org CNAME .
 prstej.com CNAME .
 *.prstej.com CNAME .
 ps0z.com CNAME .
