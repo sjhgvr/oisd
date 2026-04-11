@@ -1,16 +1,16 @@
-; Version: 202604110841
+; Version: 202604111108
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40886
-; Last modified: 2026-04-11T08:41:57+0000
+; Entries: 40890
+; Last modified: 2026-04-11T11:08:24+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1775894401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1775905201 86400 3600 604800 30
  NS localhost.
 007xf.com CNAME .
 *.007xf.com CNAME .
@@ -792,6 +792,8 @@ $TTL 30
 *.634.tv CNAME .
 636av.com CNAME .
 *.636av.com CNAME .
+66manhua.cc CNAME .
+*.66manhua.cc CNAME .
 671cy.com CNAME .
 *.671cy.com CNAME .
 69.com.py CNAME .
@@ -1300,6 +1302,8 @@ adptube.com CNAME .
 *.adptube.com CNAME .
 adresmedikal.net CNAME .
 *.adresmedikal.net CNAME .
+adseek.site CNAME .
+*.adseek.site CNAME .
 adugames.com CNAME .
 *.adugames.com CNAME .
 adult CNAME .
