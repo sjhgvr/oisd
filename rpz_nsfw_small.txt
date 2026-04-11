@@ -1,16 +1,16 @@
-; Version: 202604110434
+; Version: 202604110528
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41054
-; Last modified: 2026-04-11T04:34:28+0000
+; Entries: 41052
+; Last modified: 2026-04-11T05:28:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1775880002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1775885322 86400 3600 604800 30
  NS localhost.
 001joke.com CNAME .
 *.001joke.com CNAME .
@@ -3812,8 +3812,6 @@ banglachotikahinii.com CNAME .
 *.banglachotikahinii.com CNAME .
 banglachotix.com CNAME .
 *.banglachotix.com CNAME .
-bangladesh.gov.bd CNAME .
-*.bangladesh.gov.bd CNAME .
 banglahunt.com CNAME .
 *.banglahunt.com CNAME .
 banglanews24.com CNAME .
