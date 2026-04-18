@@ -1,16 +1,16 @@
-; Version: 202604181942
+; Version: 202604181946
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 48816
-; Last modified: 2026-04-18T19:42:23+0000
+; Entries: 48814
+; Last modified: 2026-04-18T19:46:39+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1776541333 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1776541589 86400 3600 604800 30
  NS localhost.
 000xnxx.foundation CNAME .
 *.000xnxx.foundation CNAME .
@@ -28112,8 +28112,6 @@ musicc.ir CNAME .
 *.musicc.ir CNAME .
 musicetiii.com CNAME .
 *.musicetiii.com CNAME .
-musicpd.org CNAME .
-*.musicpd.org CNAME .
 musicviral.ir CNAME .
 *.musicviral.ir CNAME .
 muslima.com CNAME .
