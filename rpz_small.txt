@@ -1,16 +1,16 @@
-; Version: 202604261906
+; Version: 202604262225
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 114190
-; Last modified: 2026-04-26T19:06:31+0000
+; Entries: 114188
+; Last modified: 2026-04-26T22:25:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777230001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777240801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6580,6 +6580,8 @@ adloox.com CNAME .
 *.adloox.com CNAME .
 adlooxtracking.com CNAME .
 *.adlooxtracking.com CNAME .
+adlpo.com CNAME .
+*.adlpo.com CNAME .
 adlserq.com CNAME .
 *.adlserq.com CNAME .
 adlure.net CNAME .
@@ -26718,8 +26720,6 @@ d-test.39.net CNAME .
 *.d-test.39.net CNAME .
 d.8181zx.com CNAME .
 *.d.8181zx.com CNAME .
-d.adlpo.com CNAME .
-*.d.adlpo.com CNAME .
 d.adroll.com CNAME .
 *.d.adroll.com CNAME .
 d.adtriba.com CNAME .
@@ -92550,8 +92550,6 @@ t.adclr.jp CNAME .
 *.t.adclr.jp CNAME .
 t.adii.se CNAME .
 *.t.adii.se CNAME .
-t.adlpo.com CNAME .
-*.t.adlpo.com CNAME .
 t.adtrckr.uno CNAME .
 *.t.adtrckr.uno CNAME .
 t.aftermath.site CNAME .
