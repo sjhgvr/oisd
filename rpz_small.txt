@@ -1,16 +1,16 @@
-; Version: 202605032107
+; Version: 202605032208
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 116106
-; Last modified: 2026-05-03T21:07:02+0000
+; Entries: 116104
+; Last modified: 2026-05-03T22:08:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777842001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777845601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -51336,8 +51336,6 @@ intelliads.com CNAME .
 *.intelliads.com CNAME .
 intellibanners.com CNAME .
 *.intellibanners.com CNAME .
-intelligence.xnews.one CNAME .
-*.intelligence.xnews.one CNAME .
 intelligenceadx.com CNAME .
 *.intelligenceadx.com CNAME .
 intelligent-black.com CNAME .
