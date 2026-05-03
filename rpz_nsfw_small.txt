@@ -1,16 +1,16 @@
-; Version: 202605031935
+; Version: 202605032010
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32988
-; Last modified: 2026-05-03T19:35:45+0000
+; Entries: 32990
+; Last modified: 2026-05-03T20:10:54+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777834802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777838402 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -32738,6 +32738,8 @@ zo3x.online CNAME .
 *.zo3x.online CNAME .
 zodogporno.autos CNAME .
 *.zodogporno.autos CNAME .
+zoekvinden.nl CNAME .
+*.zoekvinden.nl CNAME .
 zoig.com CNAME .
 *.zoig.com CNAME .
 zoig1.com CNAME .
