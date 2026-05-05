@@ -1,16 +1,16 @@
-; Version: 202605050639
+; Version: 202605050745
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32906
-; Last modified: 2026-05-05T06:39:24+0000
+; Entries: 32908
+; Last modified: 2026-05-05T07:45:31+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777953601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1777964402 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -17778,6 +17778,8 @@ netfapx.com CNAME .
 *.netfapx.com CNAME .
 netfapx.net CNAME .
 *.netfapx.net CNAME .
+netflav5.com CNAME .
+*.netflav5.com CNAME .
 netki.club CNAME .
 *.netki.club CNAME .
 netki.org CNAME .
