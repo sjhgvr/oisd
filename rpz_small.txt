@@ -1,16 +1,16 @@
-; Version: 202605052055
+; Version: 202605060022
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 113694
-; Last modified: 2026-05-05T20:55:33+0000
+; Entries: 113692
+; Last modified: 2026-05-06T00:22:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778011202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778025602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -64556,8 +64556,6 @@ native-adserver.com CNAME .
 *.native-adserver.com CNAME .
 native-log-collect.gryphline.com CNAME .
 *.native-log-collect.gryphline.com CNAME .
-native-track.com CNAME .
-*.native-track.com CNAME .
 native.cli.bz CNAME .
 *.native.cli.bz CNAME .
 native.com CNAME .
