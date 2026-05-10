@@ -1,16 +1,16 @@
-; Version: 202605092331
+; Version: 202605100035
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32972
-; Last modified: 2026-05-09T23:31:58+0000
+; Entries: 32978
+; Last modified: 2026-05-10T00:35:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778367601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778371201 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -13588,6 +13588,8 @@ javhd.icu CNAME .
 *.javhd.icu CNAME .
 javhd.im CNAME .
 *.javhd.im CNAME .
+javhd.name CNAME .
+*.javhd.name CNAME .
 javhd.net CNAME .
 *.javhd.net CNAME .
 javhd.pics CNAME .
@@ -27784,6 +27786,8 @@ uncutmasti.world CNAME .
 *.uncutmasti.world CNAME .
 uncutmaza.co.im CNAME .
 *.uncutmaza.co.im CNAME .
+uncutmaza.com.co CNAME .
+*.uncutmaza.com.co CNAME .
 uncutmaza.hair CNAME .
 *.uncutmaza.hair CNAME .
 uncutmaza.org CNAME .
@@ -30152,6 +30156,8 @@ xn--1682-keo9kodo.com CNAME .
 *.xn--1682-keo9kodo.com CNAME .
 xn--18-3qi3czap1ixbe1f6j.com CNAME .
 *.xn--18-3qi3czap1ixbe1f6j.com CNAME .
+xn--18-uqi0ga2dzf3e3c.com CNAME .
+*.xn--18-uqi0ga2dzf3e3c.com CNAME .
 xn--2-5wf2bba1ap9j6b6d2dwa0dm6b.com CNAME .
 *.xn--2-5wf2bba1ap9j6b6d2dwa0dm6b.com CNAME .
 xn--2-twfrr1evb2a2dua2b0c2hxd6c.com CNAME .
