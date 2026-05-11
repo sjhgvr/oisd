@@ -1,16 +1,16 @@
-; Version: 202605112107
+; Version: 202605112208
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 33318
-; Last modified: 2026-05-11T21:07:54+0000
+; Entries: 33322
+; Last modified: 2026-05-11T22:08:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778533201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1778536801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -23452,6 +23452,8 @@ s-forum.biz CNAME .
 *.s-forum.biz CNAME .
 s-pass.org CNAME .
 *.s-pass.org CNAME .
+sa.com CNAME .
+*.sa.com CNAME .
 sabormazatlan.com CNAME .
 *.sabormazatlan.com CNAME .
 sacduc.net CNAME .
@@ -27868,6 +27870,8 @@ twistys.com CNAME .
 *.twistys.com CNAME .
 twistysnetwork.com CNAME .
 *.twistysnetwork.com CNAME .
+twlesbian.com CNAME .
+*.twlesbian.com CNAME .
 twomance.com CNAME .
 *.twomance.com CNAME .
 twopuresoul.com CNAME .
