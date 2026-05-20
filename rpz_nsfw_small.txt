@@ -1,16 +1,16 @@
-; Version: 202605200704
+; Version: 202605200808
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 34168
-; Last modified: 2026-05-20T07:04:51+0000
+; Entries: 34172
+; Last modified: 2026-05-20T08:08:39+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779249601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779264002 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -11620,6 +11620,8 @@ hentai0day.com CNAME .
 *.hentai0day.com CNAME .
 hentai18.net CNAME .
 *.hentai18.net CNAME .
+hentai2.net CNAME .
+*.hentai2.net CNAME .
 hentai20.io CNAME .
 *.hentai20.io CNAME .
 hentai20.lol CNAME .
@@ -18474,6 +18476,8 @@ nhentai.io CNAME .
 *.nhentai.io CNAME .
 nhentai.net CNAME .
 *.nhentai.net CNAME .
+nhentai.net.br CNAME .
+*.nhentai.net.br CNAME .
 nhentai.one CNAME .
 *.nhentai.one CNAME .
 nhentai.to CNAME .
