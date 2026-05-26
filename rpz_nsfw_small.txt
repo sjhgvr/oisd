@@ -1,16 +1,16 @@
-; Version: 202605261109
+; Version: 202605261209
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32950
-; Last modified: 2026-05-26T11:09:06+0000
+; Entries: 32954
+; Last modified: 2026-05-26T12:09:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779793201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779796801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -30278,6 +30278,8 @@ xn--72c9ahmp9c1bm4lpcta.net CNAME .
 *.xn--72c9ahmp9c1bm4lpcta.net CNAME .
 xn--72ca2bsl7gxbd4m7c.net CNAME .
 *.xn--72ca2bsl7gxbd4m7c.net CNAME .
+xn--72ca6cja6gxbd4m7c.net CNAME .
+*.xn--72ca6cja6gxbd4m7c.net CNAME .
 xn--72cz3a0d5ec.net CNAME .
 *.xn--72cz3a0d5ec.net CNAME .
 xn--72cz9dvb6c.com CNAME .
@@ -30286,6 +30288,8 @@ xn--72czbs0cxce8b1b6a0f2d.com CNAME .
 *.xn--72czbs0cxce8b1b6a0f2d.com CNAME .
 xn--72czpfe7gxb9cveycua.com CNAME .
 *.xn--72czpfe7gxb9cveycua.com CNAME .
+xn--72czpj1fd3b9a3a8g3d.cc CNAME .
+*.xn--72czpj1fd3b9a3a8g3d.cc CNAME .
 xn--72czpj4a8cd9b4d0em6dwa.cc CNAME .
 *.xn--72czpj4a8cd9b4d0em6dwa.cc CNAME .
 xn--72czpj4a8cxbe3e0e3d.com CNAME .
