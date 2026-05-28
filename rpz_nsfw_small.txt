@@ -1,16 +1,16 @@
-; Version: 202605280908
+; Version: 202605281008
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 33202
-; Last modified: 2026-05-28T09:08:20+0000
+; Entries: 33204
+; Last modified: 2026-05-28T10:08:37+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779958801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1779962401 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -3164,6 +3164,8 @@ bellesa.co CNAME .
 *.bellesa.co CNAME .
 bellesaplus.co CNAME .
 *.bellesaplus.co CNAME .
+bellezashot.com CNAME .
+*.bellezashot.com CNAME .
 beluus.com CNAME .
 *.beluus.com CNAME .
 bembang.tv CNAME .
