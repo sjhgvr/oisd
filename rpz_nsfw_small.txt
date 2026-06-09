@@ -1,16 +1,16 @@
-; Version: 202606090134
+; Version: 202606090233
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 30532
-; Last modified: 2026-06-09T01:34:03+0000
+; Entries: 30534
+; Last modified: 2026-06-09T02:33:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1780966801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1780970402 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -30502,6 +30502,8 @@ zorox.sex CNAME .
 *.zorox.sex CNAME .
 zproxy.org CNAME .
 *.zproxy.org CNAME .
+zrelaya.website CNAME .
+*.zrelaya.website CNAME .
 zrelieporno.live CNAME .
 *.zrelieporno.live CNAME .
 zreliy.ru CNAME .
