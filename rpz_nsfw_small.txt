@@ -1,16 +1,16 @@
-; Version: 202606092008
+; Version: 202606092108
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 30480
-; Last modified: 2026-06-09T20:08:38+0000
+; Entries: 30482
+; Last modified: 2026-06-09T21:08:54+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781035201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781038802 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -18086,6 +18086,8 @@ pinayflixtvs.com CNAME .
 *.pinayflixtvs.com CNAME .
 pinayhub.bz CNAME .
 *.pinayhub.bz CNAME .
+pinayhubvideo.xyz CNAME .
+*.pinayhubvideo.xyz CNAME .
 pinaylulu.cz CNAME .
 *.pinaylulu.cz CNAME .
 pinayluluvids.xyz CNAME .
