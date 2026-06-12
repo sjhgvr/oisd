@@ -1,16 +1,16 @@
-; Version: 202606121036
+; Version: 202606121506
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 118500
-; Last modified: 2026-06-12T10:36:15+0000
+; Entries: 118502
+; Last modified: 2026-06-12T15:06:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781260563 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781276401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -65862,6 +65862,8 @@ mobi.yanosik.pl CNAME .
 *.mobi.yanosik.pl CNAME .
 mobiads.ru CNAME .
 *.mobiads.ru CNAME .
+mobiadvert.livesportmedia.eu CNAME .
+*.mobiadvert.livesportmedia.eu CNAME .
 mobicow.com CNAME .
 *.mobicow.com CNAME .
 mobidriven.com CNAME .
