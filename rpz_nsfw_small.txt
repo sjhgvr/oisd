@@ -1,16 +1,16 @@
-; Version: 202606150107
+; Version: 202606150219
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 31588
-; Last modified: 2026-06-15T01:07:10+0000
+; Entries: 31594
+; Last modified: 2026-06-15T02:19:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781485202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781488801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -10532,6 +10532,10 @@ hdhotmovix.com CNAME .
 *.hdhotmovix.com CNAME .
 hdhq.xxx CNAME .
 *.hdhq.xxx CNAME .
+hdhubs.my CNAME .
+*.hdhubs.my CNAME .
+hdhubs.online CNAME .
+*.hdhubs.online CNAME .
 hdindiantube.com CNAME .
 *.hdindiantube.com CNAME .
 hdmaal.hot CNAME .
@@ -26360,6 +26364,8 @@ tubered69.com CNAME .
 *.tubered69.com CNAME .
 tubereef.com CNAME .
 *.tubereef.com CNAME .
+tuberxxx.ru CNAME .
+*.tuberxxx.ru CNAME .
 tubesafari.com CNAME .
 *.tubesafari.com CNAME .
 tubesex.me CNAME .
