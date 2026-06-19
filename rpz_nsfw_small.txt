@@ -1,16 +1,16 @@
-; Version: 202606191327
+; Version: 202606191427
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32746
-; Last modified: 2026-06-19T13:27:58+0000
+; Entries: 32750
+; Last modified: 2026-06-19T14:27:50+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781874001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781877601 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -4766,6 +4766,8 @@ camsho.ws CNAME .
 *.camsho.ws CNAME .
 camshowarchives.com CNAME .
 *.camshowarchives.com CNAME .
+camshowdownload.com CNAME .
+*.camshowdownload.com CNAME .
 camshowrecordings.com CNAME .
 *.camshowrecordings.com CNAME .
 camshowrecordings.net CNAME .
@@ -10758,6 +10760,8 @@ harsh-art.com CNAME .
 *.harsh-art.com CNAME .
 hayav.com CNAME .
 *.hayav.com CNAME .
+haysexcdn.net CNAME .
+*.haysexcdn.net CNAME .
 hboav.com CNAME .
 *.hboav.com CNAME .
 hcbdsm.com CNAME .
