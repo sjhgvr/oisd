@@ -1,16 +1,16 @@
-; Version: 202606191427
+; Version: 202606191609
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 32750
-; Last modified: 2026-06-19T14:27:50+0000
+; Entries: 32754
+; Last modified: 2026-06-19T16:09:24+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781877601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1781884801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -30064,6 +30064,8 @@ xn--72czbs0cxce8b1b6a0f2d.com CNAME .
 *.xn--72czbs0cxce8b1b6a0f2d.com CNAME .
 xn--72czpfe7gxb9cveycua.com CNAME .
 *.xn--72czpfe7gxb9cveycua.com CNAME .
+xn--72czpj1fd3b9a3a8g3d.cc CNAME .
+*.xn--72czpj1fd3b9a3a8g3d.cc CNAME .
 xn--72czpj4a8cd9b4d0em6dwa.cc CNAME .
 *.xn--72czpj4a8cd9b4d0em6dwa.cc CNAME .
 xn--72czpj4aa9de4cn4ewfqa6eya.com CNAME .
@@ -32528,6 +32530,8 @@ zmav.tv CNAME .
 *.zmav.tv CNAME .
 zmero.com CNAME .
 *.zmero.com CNAME .
+zo3x.online CNAME .
+*.zo3x.online CNAME .
 zoekvinden.nl CNAME .
 *.zoekvinden.nl CNAME .
 zoig.com CNAME .
