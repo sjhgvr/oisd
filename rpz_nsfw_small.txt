@@ -1,16 +1,16 @@
-; Version: 202606270007
+; Version: 202606270106
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 35014
-; Last modified: 2026-06-27T00:07:05+0000
+; Entries: 35016
+; Last modified: 2026-06-27T01:06:22+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782518401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782522001 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -30686,6 +30686,8 @@ wanktip.com CNAME .
 *.wanktip.com CNAME .
 wanktube.tv CNAME .
 *.wanktube.tv CNAME .
+wankworld.com CNAME .
+*.wankworld.com CNAME .
 wankz.com CNAME .
 *.wankz.com CNAME .
 wankzvr.com CNAME .
