@@ -1,16 +1,16 @@
-; Version: 202606281128
+; Version: 202606281223
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 680474
-; Last modified: 2026-06-28T11:28:51+0000
+; Entries: 680476
+; Last modified: 2026-06-28T12:23:27+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782644401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782648002 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -577552,6 +577552,8 @@ telefonsexkontakte.biz CNAME .
 *.telefonsexkontakte.biz CNAME .
 telefonsexkontakte.net CNAME .
 *.telefonsexkontakte.net CNAME .
+telefonsexland.de CNAME .
+*.telefonsexland.de CNAME .
 telefonsexlinje.nu CNAME .
 *.telefonsexlinje.nu CNAME .
 telefonsexlinje.se CNAME .
