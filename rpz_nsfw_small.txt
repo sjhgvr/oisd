@@ -1,16 +1,16 @@
-; Version: 202606301106
+; Version: 202606301330
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 35450
-; Last modified: 2026-06-30T11:06:28+0000
+; Entries: 35452
+; Last modified: 2026-06-30T13:30:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782817201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782824401 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -10780,6 +10780,8 @@ genaporn.com CNAME .
 *.genaporn.com CNAME .
 genderxfilms.com CNAME .
 *.genderxfilms.com CNAME .
+gensura.net CNAME .
+*.gensura.net CNAME .
 genteelflair.com CNAME .
 *.genteelflair.com CNAME .
 gentledom.de CNAME .
