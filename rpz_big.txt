@@ -1,16 +1,16 @@
-; Version: 202606301908
+; Version: 202606301954
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 665508
-; Last modified: 2026-06-30T19:08:11+0000
+; Entries: 665506
+; Last modified: 2026-06-30T19:54:29+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782846001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782849262 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -119542,8 +119542,6 @@ captcha.hk CNAME .
 *.captcha.hk CNAME .
 captcha.id CNAME .
 *.captcha.id CNAME .
-captcha.la CNAME .
-*.captcha.la CNAME .
 captcha.legal CNAME .
 *.captcha.legal CNAME .
 captcha.life CNAME .
