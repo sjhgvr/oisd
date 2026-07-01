@@ -1,16 +1,16 @@
-; Version: 202607011206
+; Version: 202607011305
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 691378
-; Last modified: 2026-07-01T12:06:45+0000
+; Entries: 691380
+; Last modified: 2026-07-01T13:05:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782907201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782910801 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -654674,6 +654674,8 @@ xiaolan.lol CNAME .
 *.xiaolan.lol CNAME .
 xiaolan.mom CNAME .
 *.xiaolan.mom CNAME .
+xiaolan.sbs CNAME .
+*.xiaolan.sbs CNAME .
 xiaolanvideo.com CNAME .
 *.xiaolanvideo.com CNAME .
 xiaolanvideo.net CNAME .
