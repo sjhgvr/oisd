@@ -1,16 +1,16 @@
-; Version: 202607010106
+; Version: 202607010206
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 35482
-; Last modified: 2026-07-01T01:06:14+0000
+; Entries: 35488
+; Last modified: 2026-07-01T02:06:47+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782867601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1782871201 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -24492,6 +24492,10 @@ relaxmovs.com CNAME .
 *.relaxmovs.com CNAME .
 relayblog.com CNAME .
 *.relayblog.com CNAME .
+remax.ch CNAME .
+*.remax.ch CNAME .
+remax.de CNAME .
+*.remax.de CNAME .
 remaxhd.ai.in CNAME .
 *.remaxhd.ai.in CNAME .
 remaxhd.tv.in CNAME .
@@ -33208,6 +33212,8 @@ xoacgai.net CNAME .
 *.xoacgai.net CNAME .
 xoffline.com CNAME .
 *.xoffline.com CNAME .
+xogx.com CNAME .
+*.xogx.com CNAME .
 xojav.tv CNAME .
 *.xojav.tv CNAME .
 xok.xxx CNAME .
