@@ -1,16 +1,16 @@
-; Version: 202607030105
+; Version: 202607030206
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 651384
-; Last modified: 2026-07-03T01:05:59+0000
+; Entries: 651382
+; Last modified: 2026-07-03T02:06:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783040402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783044002 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -572226,8 +572226,6 @@ track-10083.firebaseapp.com CNAME .
 *.track-10083.firebaseapp.com CNAME .
 track-10083.web.app CNAME .
 *.track-10083.web.app CNAME .
-track-api.gamesight.io CNAME .
-*.track-api.gamesight.io CNAME .
 track-apple.com CNAME .
 *.track-apple.com CNAME .
 track-apple.id CNAME .
