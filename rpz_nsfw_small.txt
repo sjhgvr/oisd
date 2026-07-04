@@ -1,16 +1,16 @@
-; Version: 202607041426
+; Version: 202607041627
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 36740
-; Last modified: 2026-07-04T14:26:38+0000
+; Entries: 36742
+; Last modified: 2026-07-04T16:27:41+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783173601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783180801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -17634,6 +17634,8 @@ manysex.vip CNAME .
 *.manysex.vip CNAME .
 manyvids.com CNAME .
 *.manyvids.com CNAME .
+maplefling.com CNAME .
+*.maplefling.com CNAME .
 maqola.ru CNAME .
 *.maqola.ru CNAME .
 marathihotkatha.com CNAME .
