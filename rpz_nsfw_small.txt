@@ -1,16 +1,16 @@
-; Version: 202607051338
+; Version: 202607051435
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 36650
-; Last modified: 2026-07-05T13:38:53+0000
+; Entries: 36654
+; Last modified: 2026-07-05T14:35:31+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783256401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783260001 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -842,6 +842,8 @@ $TTL 30
 *.9xmovie.lat CNAME .
 9xmovies.bayern CNAME .
 *.9xmovies.bayern CNAME .
+9xmovies.fan CNAME .
+*.9xmovies.fan CNAME .
 9xmovies.flights CNAME .
 *.9xmovies.flights CNAME .
 9xmovies.menu CNAME .
@@ -8882,6 +8884,8 @@ fapdu.com CNAME .
 *.fapdu.com CNAME .
 fapdungeon.com CNAME .
 *.fapdungeon.com CNAME .
+fapellas.com CNAME .
+*.fapellas.com CNAME .
 fapellino.com CNAME .
 *.fapellino.com CNAME .
 fapello.blog.br CNAME .
