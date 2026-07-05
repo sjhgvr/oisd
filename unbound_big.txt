@@ -1,9 +1,9 @@
-# Version: 202607050810
+# Version: 202607050908
 # Title: oisd big
 # Description: Block. Don't break.
 # Syntax: Unbound
-# Entries: 351411
-# Last modified: 2026-07-05T08:10:48+0000
+# Entries: 351222
+# Last modified: 2026-07-05T09:08:13+0000
 # Expires: 1 hours
 # License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 # Maintainer: Stephan van Ruth
@@ -26,7 +26,6 @@ local-zone: "0-10.binance.com." always_null
 local-zone: "0-10.dev.api.binance.com." always_null
 local-zone: "0-10.eu.api.binance.com." always_null
 local-zone: "0-10.us.api.binance.com." always_null
-local-zone: "0-100-newbi.ikpool.com." always_null
 local-zone: "0-100-pool.abseits.ski." always_null
 local-zone: "0-100-pool.api.b3pool.com." always_null
 local-zone: "0-100-pool.b3pool.com." always_null
@@ -535,7 +534,6 @@ local-zone: "0004.eu.api.binance.com." always_null
 local-zone: "0004.us.api.binance.com." always_null
 local-zone: "00044.workers.dev." always_null
 local-zone: "000491b06a.com." always_null
-local-zone: "00050682.openvpn.www.eth.bw.com." always_null
 local-zone: "000550-8.us.api.binance.com." always_null
 local-zone: "000550-8.us.binance.com." always_null
 local-zone: "000550-8.us.dev.api.binance.com." always_null
@@ -1564,7 +1562,6 @@ local-zone: "0326-ekq.pages.dev." always_null
 local-zone: "032admin-test-dev.api.gethash.cc." always_null
 local-zone: "032amsterdam03.api.gethash.cc." always_null
 local-zone: "032amsterdamnew.api.gethash.cc." always_null
-local-zone: "032api.btcguild.com." always_null
 local-zone: "032au05.api.gethash.cc." always_null
 local-zone: "032auth.api.cryptopool.eu." always_null
 local-zone: "032c802b11b043f7b826e13f747f8879.bitcoin.com." always_null
@@ -1578,8 +1575,6 @@ local-zone: "032dfz.pms.pms.btc.to." always_null
 local-zone: "032doge.rapidhash.net." always_null
 local-zone: "032eml.api.cryptopool.eu." always_null
 local-zone: "032eml.cryptopool.eu." always_null
-local-zone: "032eu-stratum-lb489kj.btcguild.com." always_null
-local-zone: "032eu-stratum.btcguild.com." always_null
 local-zone: "032eu2.api.gethash.cc." always_null
 local-zone: "032exchange.api.cryptopool.eu." always_null
 local-zone: "032explorer.customspeed.nl." always_null
@@ -1591,13 +1586,11 @@ local-zone: "032italo.api.gethash.cc." always_null
 local-zone: "032mail.customspeed.nl." always_null
 local-zone: "032mail9.api.cryptopool.eu." always_null
 local-zone: "032mailer.api.cryptopool.eu." always_null
-local-zone: "032mine2.btcguild.com." always_null
 local-zone: "032mining.bitcoin.cz." always_null
 local-zone: "032msr.dark-mine.su." always_null
 local-zone: "032my.api.gethash.cc." always_null
 local-zone: "032nmc.bitcoins.sk." always_null
 local-zone: "032nmc2.bitcoins.sk." always_null
-local-zone: "032nmergedmining.btcguild.com." always_null
 local-zone: "032nnode-8.minercircle.com." always_null
 local-zone: "032node-11.minercircle.com." always_null
 local-zone: "032ns2.triplemining.com." always_null
@@ -1615,7 +1608,6 @@ local-zone: "032pool.finbits.net." always_null
 local-zone: "032pool.letshash.online." always_null
 local-zone: "032pools.rapidhash.net." always_null
 local-zone: "032poste.finbits.net." always_null
-local-zone: "032qww.btcguild.com." always_null
 local-zone: "032router.api.gethash.cc." always_null
 local-zone: "032s79.as.bitcoin.com." always_null
 local-zone: "032s79.as.seeds.bitcoin.com." always_null
@@ -1627,16 +1619,12 @@ local-zone: "032server1.api.cryptopool.eu." always_null
 local-zone: "032service.api.cryptopool.eu." always_null
 local-zone: "032shibe.api.cryptopool.eu." always_null
 local-zone: "032smtp01.api.cryptopool.eu." always_null
-local-zone: "032stratum.btcguild.com." always_null
 local-zone: "032support.api.gethash.cc." always_null
 local-zone: "032test.pkr.api.cryptopool.eu." always_null
 local-zone: "032tw.api.cryptopool.eu." always_null
 local-zone: "032u.forre.st." always_null
 local-zone: "032uscentral.api.gethash.cc." always_null
-local-zone: "032uscentral.btcguild.com." always_null
-local-zone: "032useast.btcguild.com." always_null
 local-zone: "032vip.api.cryptopool.eu." always_null
-local-zone: "032w.btcguild.com." always_null
 local-zone: "032w.w.w.bitcoin.com." always_null
 local-zone: "032w.w.w.seeds.bitcoin.com." always_null
 local-zone: "032ww1.api.gethash.cc." always_null
@@ -1659,7 +1647,6 @@ local-zone: "032www.au.hashhot.com." always_null
 local-zone: "032www.bp.bitcoin.com." always_null
 local-zone: "032www.bp.seeds.bitcoin.com." always_null
 local-zone: "032www.bs.hashhot.com." always_null
-local-zone: "032www.btcguild.com." always_null
 local-zone: "032www.customspeed.nl." always_null
 local-zone: "032www.dark-mine.su." always_null
 local-zone: "032www.g.bitcoin.com." always_null
@@ -1906,7 +1893,6 @@ local-zone: "04b3f9.ethosdistro.com." always_null
 local-zone: "04b9055b2a.com." always_null
 local-zone: "04c.bitcoin.com." always_null
 local-zone: "04cbdddeea3.bitcoin.com." always_null
-local-zone: "04cbf4193b.com." always_null
 local-zone: "04cc5c.ethosdistro.com." always_null
 local-zone: "04cdtwl7jm4e.apac-1-6.binance.com." always_null
 local-zone: "04consultanovidadebr.fr." always_null
@@ -2256,7 +2242,6 @@ local-zone: "066b97ae.flyjasper.ca." always_null
 local-zone: "066bocaiezu.bitcoin.com." always_null
 local-zone: "067.bitcoin.com." always_null
 local-zone: "067cccb153.bitcoin.com." always_null
-local-zone: "067f87da09.com." always_null
 local-zone: "067f8b99e4.bitcoin.com." always_null
 local-zone: "067oij53m.com." always_null
 local-zone: "0682.openvpn.www.eth.bw.com." always_null
@@ -2911,7 +2896,6 @@ local-zone: "0791.bitcoin.com." always_null
 local-zone: "0793.bitcoin.com." always_null
 local-zone: "0794.info." always_null
 local-zone: "0796223.weebly.com." always_null
-local-zone: "0798.openvpn.www.eth.bw.com." always_null
 local-zone: "079kk.com." always_null
 local-zone: "07aba.bitcoin.com." always_null
 local-zone: "07agenjoker123.weebly.com." always_null
@@ -3319,7 +3303,6 @@ local-zone: "0937jyg.com." always_null
 local-zone: "0938jp.weebly.com." always_null
 local-zone: "0938roundcube.weebly.com." always_null
 local-zone: "09392.weebly.com." always_null
-local-zone: "09399d89cc.com." always_null
 local-zone: "094.bitcoin.com." always_null
 local-zone: "0941.org." always_null
 local-zone: "094847.webflow.io." always_null
@@ -3712,7 +3695,6 @@ local-zone: "0alpha.ccminer.org." always_null
 local-zone: "0alpha.crypto-webminer.com." always_null
 local-zone: "0alpha1.abseits.ski." always_null
 local-zone: "0alpha4.gethash.cc." always_null
-local-zone: "0alpha5.beeppool.org." always_null
 local-zone: "0alpha6.abseits.ski." always_null
 local-zone: "0alpha6.gethash.cc." always_null
 local-zone: "0alphadecor.minexca.com." always_null
@@ -3829,7 +3811,6 @@ local-zone: "0antispam.cryptopool.eu." always_null
 local-zone: "0antispam.suremine.com." always_null
 local-zone: "0antispam.theblocksfactory.com." always_null
 local-zone: "0antispam.uralscoin.info." always_null
-local-zone: "0antispam.xmrminingpro.com." always_null
 local-zone: "0antivirus-secure.binance.com." always_null
 local-zone: "0anyone.triplemining.com." always_null
 local-zone: "0anzbank.eu.api.binance.com." always_null
@@ -3898,7 +3879,6 @@ local-zone: "0api-dev.abseits.ski." always_null
 local-zone: "0api-etnx.abseits.ski." always_null
 local-zone: "0api-fno.abseits.ski." always_null
 local-zone: "0api-ita.abseits.ski." always_null
-local-zone: "0api-krb.easyhash.io." always_null
 local-zone: "0api-mobile.58coin.com." always_null
 local-zone: "0api-nhbottest.hashing.com." always_null
 local-zone: "0api-sha256.coinminers.net." always_null
@@ -4104,11 +4084,9 @@ local-zone: "0asia-mine.abseits.ski." always_null
 local-zone: "0asia.abseits.ski." always_null
 local-zone: "0asia.chunkypools.com." always_null
 local-zone: "0asia.cryptoknight.cc." always_null
-local-zone: "0asia.equihub.pro." always_null
 local-zone: "0asia.gethash.cc." always_null
 local-zone: "0asia.mecrypto.club." always_null
 local-zone: "0asia.mine.zpool.ca." always_null
-local-zone: "0asia.veriblockpool.com." always_null
 local-zone: "0asia1.coinking.io." always_null
 local-zone: "0asia1.nanopool.org." always_null
 local-zone: "0asia2.coinking.io." always_null
@@ -4173,7 +4151,6 @@ local-zone: "0aur.dedicatedpool.com." always_null
 local-zone: "0aur.hashfaster.com." always_null
 local-zone: "0aura.abseits.ski." always_null
 local-zone: "0aus.hashhot.com." always_null
-local-zone: "0aus.obfuscode.net." always_null
 local-zone: "0aus01.abseits.ski." always_null
 local-zone: "0auth.803mine.com." always_null
 local-zone: "0auth.acc-pool.pw." always_null
@@ -4225,7 +4202,6 @@ local-zone: "0autodiscover.crypto-webminer.com." always_null
 local-zone: "0autodiscover.cryptobender.com." always_null
 local-zone: "0autodiscover.fb.ru.bitcoin.com." always_null
 local-zone: "0autodiscover.gethash.cc." always_null
-local-zone: "0autodiscover.minerpool.net." always_null
 local-zone: "0autodiscover.pool.gntl.co.uk." always_null
 local-zone: "0autovraky.sigmapool.com." always_null
 local-zone: "0av.ccminer.org." always_null
@@ -4285,7 +4261,6 @@ local-zone: "0b03e5.ethosdistro.com." always_null
 local-zone: "0b04.bitcoin.com." always_null
 local-zone: "0b0b1b48882.bitcoin.com." always_null
 local-zone: "0b0c57.binance.com." always_null
-local-zone: "0b1.btcguild.com." always_null
 local-zone: "0b1.duckdns.org." always_null
 local-zone: "0b17.api.binance.com." always_null
 local-zone: "0b2b.cryptonight.net." always_null
@@ -4465,7 +4440,6 @@ local-zone: "0be50dff.bitcoin.com." always_null
 local-zone: "0be5d81c3eea.bitcoin.com." always_null
 local-zone: "0beam-asia.abseits.ski." always_null
 local-zone: "0beam.666pool.cn." always_null
-local-zone: "0beam.cool-pool.net." always_null
 local-zone: "0beautifulglow.nanopool.org." always_null
 local-zone: "0beauty.bitcoin.com." always_null
 local-zone: "0beauvais-front.eu.api.binance.com." always_null
@@ -4635,7 +4609,6 @@ local-zone: "0blog.atomminer.com." always_null
 local-zone: "0blog.bitcoin.cz." always_null
 local-zone: "0blog.bytecoins.world." always_null
 local-zone: "0blog.ccminer.org." always_null
-local-zone: "0blog.chunkypools.com." always_null
 local-zone: "0blog.coinking.io." always_null
 local-zone: "0blog.extremehash.com." always_null
 local-zone: "0blog.gethash.cc." always_null
@@ -4777,7 +4750,6 @@ local-zone: "0btf.coinminers.net." always_null
 local-zone: "0btg.abseits.ski." always_null
 local-zone: "0btg.gethash.cc." always_null
 local-zone: "0btg.hashcity.org." always_null
-local-zone: "0bth-test.equihub.pro." always_null
 local-zone: "0btl.poolerino.com." always_null
 local-zone: "0btls.hashhot.com." always_null
 local-zone: "0btm.gethash.cc." always_null
@@ -4867,7 +4839,6 @@ local-zone: "0c4n10.triplemining.com." always_null
 local-zone: "0c4nvlibepdtdy5n.sftp12.binance.com." always_null
 local-zone: "0c5.nanopool.org." always_null
 local-zone: "0c6bdc3ecc.cfabf1ef11.com." always_null
-local-zone: "0c6dd161e9.com." always_null
 local-zone: "0c7677.ethosdistro.com." always_null
 local-zone: "0c885f9b7fce9d.bitcoin.com." always_null
 local-zone: "0c88a6.ethosdistro.com." always_null
@@ -4925,7 +4896,6 @@ local-zone: "0cas.cryptonight.net." always_null
 local-zone: "0cash.abseits.ski." always_null
 local-zone: "0cash.dedicatedpool.com." always_null
 local-zone: "0cash.my-mining-pool.de." always_null
-local-zone: "0cash.org." always_null
 local-zone: "0cash2.bitcoin.com." always_null
 local-zone: "0cashexplorer.bitcoin.com." always_null
 local-zone: "0casitaroja.no-ip.biz." always_null
@@ -5022,7 +4992,6 @@ local-zone: "0cfx.666pool.cn." always_null
 local-zone: "0cg.bitcoin.com." always_null
 local-zone: "0cgb.abseits.ski." always_null
 local-zone: "0cge.exx.com." always_null
-local-zone: "0cgminer.btcguild.com." always_null
 local-zone: "0ch.abseits.ski." always_null
 local-zone: "0ch.api.binance.com." always_null
 local-zone: "0ch4x.bitcoin.com." always_null
@@ -5037,7 +5006,6 @@ local-zone: "0charlie.803mine.com." always_null
 local-zone: "0charlie.hiveon.net." always_null
 local-zone: "0charlos93.triplemining.com." always_null
 local-zone: "0charlotte.binance.com." always_null
-local-zone: "0chart.bytecoins.world." always_null
 local-zone: "0charts.gethash.cc." always_null
 local-zone: "0chat-0-2.eu.api.binance.com." always_null
 local-zone: "0chat-0-26.eu.api.binance.com." always_null
@@ -5170,7 +5138,6 @@ local-zone: "0checkpoint.italocoin.com." always_null
 local-zone: "0checkpoints.italocoin.com." always_null
 local-zone: "0chef.binance.com." always_null
 local-zone: "0cher.nanopool.org." always_null
-local-zone: "0chicago.btcguild.com." always_null
 local-zone: "0chicks.acc-pool.pw." always_null
 local-zone: "0chinesepoker.abseits.ski." always_null
 local-zone: "0chip.miningpool.cc." always_null
@@ -5240,7 +5207,6 @@ local-zone: "0cloud.gethash.cc." always_null
 local-zone: "0cloud.ja.mine.zpool.ca." always_null
 local-zone: "0cloud.jp.mine.zpool.ca." always_null
 local-zone: "0cloud.mine.zpool.ca." always_null
-local-zone: "0cloud.minerpool.net." always_null
 local-zone: "0cloud.pool.gntl.co.uk." always_null
 local-zone: "0cloud.us.mine.zpool.ca." always_null
 local-zone: "0cloudflare-resolve-to.ccminer.org." always_null
@@ -5640,7 +5606,6 @@ local-zone: "0d.i4.us.bitcoin.com." always_null
 local-zone: "0d0.eu.api.binance.com." always_null
 local-zone: "0d0.us.api.binance.com." always_null
 local-zone: "0d09ca.ethosdistro.com." always_null
-local-zone: "0d0kice53fwifxvwbci.btcguild.com." always_null
 local-zone: "0d11.api.binance.com." always_null
 local-zone: "0d11.dev.api.binance.com." always_null
 local-zone: "0d11.eu.api.binance.com." always_null
@@ -5683,7 +5648,6 @@ local-zone: "0d7f1.bitcoin.com." always_null
 local-zone: "0d82.bitcoin.com." always_null
 local-zone: "0d835.bitcoin.com." always_null
 local-zone: "0d83e4b.bitcoin.com." always_null
-local-zone: "0d8is908gby1.www.terraform.com.ar." always_null
 local-zone: "0d9063412c.com." always_null
 local-zone: "0d95ba.ethosdistro.com." always_null
 local-zone: "0d9a56c5-6a18-4f41-9dcf-1fa0531f9645-00-3s6jlesunorig.riker.replit.dev." always_null
@@ -5692,14 +5656,12 @@ local-zone: "0da-dk.exx.com." always_null
 local-zone: "0da.ccminer.org." always_null
 local-zone: "0daedelous.triplemining.com." always_null
 local-zone: "0daemon.pool.gntl.co.uk." always_null
-local-zone: "0daemons.cryptopool.space." always_null
 local-zone: "0daga.sigmapool.com." always_null
 local-zone: "0dailysteals-pledge-shopify-app.us.api.binance.com." always_null
 local-zone: "0daima.dev.api.binance.com." always_null
 local-zone: "0daima.eu.api.binance.com." always_null
 local-zone: "0daima.us.api.binance.com." always_null
 local-zone: "0dal.dev.api.binance.com." always_null
-local-zone: "0dallas.btcguild.com." always_null
 local-zone: "0damar0.no-ip.org." always_null
 local-zone: "0danbuk.triplemining.com." always_null
 local-zone: "0danieapp.gethash.cc." always_null
@@ -5750,7 +5712,6 @@ local-zone: "0day.myvnc.com." always_null
 local-zone: "0dayrock.bitcoin.com." always_null
 local-zone: "0db.abseits.ski." always_null
 local-zone: "0db.bitcoin.com." always_null
-local-zone: "0db.btcguild.com." always_null
 local-zone: "0db.crypto-webminer.com." always_null
 local-zone: "0db.cryptonight.net." always_null
 local-zone: "0db.cryptopoolmining.com." always_null
@@ -5817,9 +5778,7 @@ local-zone: "0ddh.dev.api.binance.com." always_null
 local-zone: "0ddh.eu.api.binance.com." always_null
 local-zone: "0ddh.us.api.binance.com." always_null
 local-zone: "0ddzp.bitcoin.com." always_null
-local-zone: "0de-cluster.btcguild.com." always_null
 local-zone: "0de.50btc.com." always_null
-local-zone: "0de.btcguild.com." always_null
 local-zone: "0de.cryptonight.net." always_null
 local-zone: "0de.hashcity.org." always_null
 local-zone: "0de.minerxmr.com." always_null
@@ -5827,8 +5786,6 @@ local-zone: "0de.us.api.binance.com." always_null
 local-zone: "0de01.abseits.ski." always_null
 local-zone: "0de01.coinminers.net." always_null
 local-zone: "0de02.abseits.ski." always_null
-local-zone: "0de2-old.btcguild.com." always_null
-local-zone: "0de2.btcguild.com." always_null
 local-zone: "0de5h.bitcoin.com." always_null
 local-zone: "0deadrianf.triplemining.com." always_null
 local-zone: "0dec.nanopool.org." always_null
@@ -5891,11 +5848,9 @@ local-zone: "0dev.api.cryptopool.eu." always_null
 local-zone: "0dev.ar.eu.api.binance.com." always_null
 local-zone: "0dev.argoneum.net." always_null
 local-zone: "0dev.atomminer.com." always_null
-local-zone: "0dev.bytecoins.world." always_null
 local-zone: "0dev.ccminer.org." always_null
 local-zone: "0dev.crypto-webminer.com." always_null
 local-zone: "0dev.cryptonight.net." always_null
-local-zone: "0dev.equihub.pro." always_null
 local-zone: "0dev.gethash.cc." always_null
 local-zone: "0dev.hashfaster.com." always_null
 local-zone: "0dev.sigmapool.com." always_null
@@ -6051,7 +6006,6 @@ local-zone: "0dns1.ccminer.org." always_null
 local-zone: "0dns1.cryptonight.net." always_null
 local-zone: "0dns1.gethash.cc." always_null
 local-zone: "0dns1.hiveon.net." always_null
-local-zone: "0dns2.asicminer.co." always_null
 local-zone: "0dns2.cryptonight.net." always_null
 local-zone: "0dns2.gethash.cc." always_null
 local-zone: "0dns2.nanopool.org." always_null
@@ -6429,7 +6383,6 @@ local-zone: "0eg.hashcity.org." always_null
 local-zone: "0egapi.bitcoin.com." always_null
 local-zone: "0egem-solo.cryptodig.ru." always_null
 local-zone: "0egem.abseits.ski." always_null
-local-zone: "0egem.europool.me." always_null
 local-zone: "0egem.gethash.cc." always_null
 local-zone: "0egillauthor.sigmapool.com." always_null
 local-zone: "0egistry.cluster.bitfex.trade." always_null
@@ -6513,7 +6466,6 @@ local-zone: "0emy.bitcoin.com." always_null
 local-zone: "0en.atomminer.com." always_null
 local-zone: "0en.binance.com." always_null
 local-zone: "0en.bitcoin.com." always_null
-local-zone: "0en.btczpool.com." always_null
 local-zone: "0en.ccminer.org." always_null
 local-zone: "0en.crypto-webminer.com." always_null
 local-zone: "0en.eu.api.binance.com." always_null
@@ -6668,7 +6620,6 @@ local-zone: "0ethman.ethosdistro.com." always_null
 local-zone: "0etho.abseits.ski." always_null
 local-zone: "0ethos1.ethosdistro.com." always_null
 local-zone: "0ethosd.ethosdistro.com." always_null
-local-zone: "0ethscan.helpico.tech." always_null
 local-zone: "0ethsno.ethosdistro.com." always_null
 local-zone: "0ethus-east1.nanopool.org." always_null
 local-zone: "0etig.gethash.cc." always_null
@@ -6701,15 +6652,10 @@ local-zone: "0etr.fairhash.org." always_null
 local-zone: "0etrx.abseits.ski." always_null
 local-zone: "0ets.nanopool.org." always_null
 local-zone: "0etx.nanopool.org." always_null
-local-zone: "0eu-haproxy1.btcguild.com." always_null
 local-zone: "0eu-mine.abseits.ski." always_null
 local-zone: "0eu-pool.give-me-ltc.com." always_null
-local-zone: "0eu-stratum-lb192lo.btcguild.com." always_null
-local-zone: "0eu-stratum-lb489kj.btcguild.com." always_null
 local-zone: "0eu-stratum.bitcoin.cz." always_null
-local-zone: "0eu-stratum.btcguild.com." always_null
 local-zone: "0eu-stratum2.btcguild.com." always_null
-local-zone: "0eu-stratut.btcguild.com." always_null
 local-zone: "0eu-xmr-2.viaxmr.com." always_null
 local-zone: "0eu-zil.rustpool.xyz." always_null
 local-zone: "0eu.adaminers.com." always_null
@@ -6717,7 +6663,6 @@ local-zone: "0eu.altpool.eu." always_null
 local-zone: "0eu.api.crypto.ba." always_null
 local-zone: "0eu.bitcoin.cz." always_null
 local-zone: "0eu.bohemianpool.com." always_null
-local-zone: "0eu.btcguild.com." always_null
 local-zone: "0eu.crypto.ba." always_null
 local-zone: "0eu.cryptopoolmining.com." always_null
 local-zone: "0eu.eu.api.binance.com." always_null
@@ -6726,7 +6671,6 @@ local-zone: "0eu.hashfaster.com." always_null
 local-zone: "0eu.mecrypto.club." always_null
 local-zone: "0eu.mine.zpool.ca." always_null
 local-zone: "0eu.mining.eligius.st." always_null
-local-zone: "0eu.n-engine.com." always_null
 local-zone: "0eu.poolerino.com." always_null
 local-zone: "0eu.rapidhash.net." always_null
 local-zone: "0eu.sigmapool.com." always_null
@@ -6765,7 +6709,6 @@ local-zone: "0europe.bitcoin.com." always_null
 local-zone: "0europe.minexca.com." always_null
 local-zone: "0eus.cluster.bitfex.trade." always_null
 local-zone: "0eus.cluster.cluster.bitfex.trade." always_null
-local-zone: "0eustratum.btcguild.com." always_null
 local-zone: "0euuk.btcguild.com." always_null
 local-zone: "0ev.bitcoin.com." always_null
 local-zone: "0ev.eu.bitcoin.com." always_null
@@ -7039,7 +6982,6 @@ local-zone: "0fonero.my-mining-pool.de." always_null
 local-zone: "0footer.58coin.com." always_null
 local-zone: "0force.abseits.ski." always_null
 local-zone: "0forms.cryptonight.net." always_null
-local-zone: "0formsyy.pms.btc.top." always_null
 local-zone: "0fornex.api.binance.com." always_null
 local-zone: "0foro.cryptonight.net." always_null
 local-zone: "0foros.ccminer.org." always_null
@@ -7051,7 +6993,6 @@ local-zone: "0forum.api.crypto.ba." always_null
 local-zone: "0forum.argoneum.net." always_null
 local-zone: "0forum.atomminer.com." always_null
 local-zone: "0forum.bitcoin.cz." always_null
-local-zone: "0forum.btcguild.com." always_null
 local-zone: "0forum.ccminer.org." always_null
 local-zone: "0forum.crypto-webminer.com." always_null
 local-zone: "0forum.crypto.ba." always_null
@@ -7140,7 +7081,6 @@ local-zone: "0ftp.api.agryt.ru." always_null
 local-zone: "0ftp.api.cryptopool.eu." always_null
 local-zone: "0ftp.atomminer.com." always_null
 local-zone: "0ftp.bitcoin.cz." always_null
-local-zone: "0ftp.btcguild.com." always_null
 local-zone: "0ftp.bubblemine.com." always_null
 local-zone: "0ftp.coincave.nl." always_null
 local-zone: "0ftp.coinking.io." always_null
@@ -7564,7 +7504,6 @@ local-zone: "0get3.ethosdistro.com." always_null
 local-zone: "0get4.ethosdistro.com." always_null
 local-zone: "0getbze.abseits.ski." always_null
 local-zone: "0gets.bitcoin.com." always_null
-local-zone: "0getwork.btcguild.com." always_null
 local-zone: "0getwork.mining.eligius.st." always_null
 local-zone: "0gg.binance.com." always_null
 local-zone: "0gg.hiveon.net." always_null
@@ -7909,7 +7848,6 @@ local-zone: "0hermes.ccminer.org." always_null
 local-zone: "0hermes.cryptonight.net." always_null
 local-zone: "0hermes.dark-mine.su." always_null
 local-zone: "0hermes.supportaeon.com." always_null
-local-zone: "0hermes.xmr.org.uk." always_null
 local-zone: "0hex.abseits.ski." always_null
 local-zone: "0hex.eu.mine.mine.mine.zpool.ca." always_null
 local-zone: "0hex.eu.mine.zpool.ca." always_null
@@ -8084,7 +8022,6 @@ local-zone: "0hostmaster.clot.poolerino.com." always_null
 local-zone: "0hostmaster.coinking.io." always_null
 local-zone: "0hostmaster.coinpool.net." always_null
 local-zone: "0hostmaster.corecenter.triplemining.com." always_null
-local-zone: "0hostmaster.cryptoescrow.eu." always_null
 local-zone: "0hostmaster.cryptonotepool.org.uk." always_null
 local-zone: "0hostmaster.cryptosales.eu." always_null
 local-zone: "0hostmaster.dashminer.com." always_null
@@ -8119,7 +8056,6 @@ local-zone: "0hostmaster.triplemining.com." always_null
 local-zone: "0hostmaster.tydirocks.triplemining.com." always_null
 local-zone: "0hostmaster.volt.dedicatedpool.com." always_null
 local-zone: "0hostmaster.webmail.bitcoin-pool.de." always_null
-local-zone: "0hostmaster.www.b2g.europool.me." always_null
 local-zone: "0hostmaster.www.ltcmine.ru." always_null
 local-zone: "0hot.dev.api.binance.com." always_null
 local-zone: "0hot.eu.api.binance.com." always_null
@@ -8211,7 +8147,6 @@ local-zone: "0i.us.mine.zpool.ca." always_null
 local-zone: "0i0.api.binance.com." always_null
 local-zone: "0i0.eu.api.binance.com." always_null
 local-zone: "0i0.us.api.binance.com." always_null
-local-zone: "0i0guild.btcguild.com." always_null
 local-zone: "0i0i0i0.com." always_null
 local-zone: "0i0rr3u5dlkqgpa0uxe13fz7f-q7l93.m.api.binance.com." always_null
 local-zone: "0i0rr3u5dlkqgpa0uxe13fz7f-q7l93.m.binance.com." always_null
@@ -8286,7 +8221,6 @@ local-zone: "0image.ccminer.org." always_null
 local-zone: "0image.cryptonight.net." always_null
 local-zone: "0image.nanopool.org." always_null
 local-zone: "0images.ccminer.org." always_null
-local-zone: "0images.chunkypools.com." always_null
 local-zone: "0images.cryptonight.net." always_null
 local-zone: "0images.hiveon.net." always_null
 local-zone: "0images.kanpool.com." always_null
@@ -8331,7 +8265,6 @@ local-zone: "0imap1.api.cryptopool.eu." always_null
 local-zone: "0imap1.dashminer.com." always_null
 local-zone: "0imap1.emeraldcrypto.de." always_null
 local-zone: "0imap1.hashfaster.com." always_null
-local-zone: "0imap1.nexious.com." always_null
 local-zone: "0imap1.supportcryptonight.com." always_null
 local-zone: "0imap1.teamdoge.com." always_null
 local-zone: "0imap1.uralscoin.info." always_null
@@ -8446,8 +8379,6 @@ local-zone: "0intucoin.crypto-webminer.com." always_null
 local-zone: "0intucoin.my-mining-pool.de." always_null
 local-zone: "0invalid.hiveon.net." always_null
 local-zone: "0invc.abseits.ski." always_null
-local-zone: "0invc.veriblockpool.com." always_null
-local-zone: "0io.btcguild.com." always_null
 local-zone: "0io.hiveon.net." always_null
 local-zone: "0ioi.net." always_null
 local-zone: "0ios.binance.com." always_null
@@ -8555,7 +8486,6 @@ local-zone: "0j.ccminer.org." always_null
 local-zone: "0j.eu.api.binance.com." always_null
 local-zone: "0j13.atomminer.com." always_null
 local-zone: "0j15.atomminer.com." always_null
-local-zone: "0j2wkomsf86842ekzc0.btcguild.com." always_null
 local-zone: "0j4.api.binance.com." always_null
 local-zone: "0j4.dev.api.binance.com." always_null
 local-zone: "0j9.dev.api.binance.com." always_null
@@ -8740,7 +8670,6 @@ local-zone: "0keksos.ethosdistro.com." always_null
 local-zone: "0kend.bitcoin.com." always_null
 local-zone: "0kenji0.ethosdistro.com." always_null
 local-zone: "0keno.bitcoin.com." always_null
-local-zone: "0kerberos.btcguild.com." always_null
 local-zone: "0kerberos.cryptonight.net." always_null
 local-zone: "0kets.bitcoin.com." always_null
 local-zone: "0kfb.nanopool.org." always_null
@@ -9066,7 +8995,6 @@ local-zone: "0loki.51pool.online." always_null
 local-zone: "0loki.aussie-pools.com." always_null
 local-zone: "0loki.blockcruncher.com." always_null
 local-zone: "0loki.dark-mine.su." always_null
-local-zone: "0loki.europool.me." always_null
 local-zone: "0loki.fairhash.org." always_null
 local-zone: "0loki.gethash.cc." always_null
 local-zone: "0loki.minercountry.com." always_null
@@ -9084,7 +9012,6 @@ local-zone: "0lorer.bitcoin.com." always_null
 local-zone: "0lot.coincave.nl." always_null
 local-zone: "0lot.dedicatedpool.com." always_null
 local-zone: "0lot.hashfaster.com." always_null
-local-zone: "0lottery.bytecoins.world." always_null
 local-zone: "0lottery.mecrypto.club." always_null
 local-zone: "0lottery2.mecrypto.club." always_null
 local-zone: "0lotus.hiveon.net." always_null
@@ -9176,7 +9103,6 @@ local-zone: "0m.api.cryptopool.eu." always_null
 local-zone: "0m.atomminer.com." always_null
 local-zone: "0m.bitcoin.com." always_null
 local-zone: "0m.bitcoin.cz." always_null
-local-zone: "0m.btcguild.com." always_null
 local-zone: "0m.ccminer.org." always_null
 local-zone: "0m.cluster.bitfex.trade." always_null
 local-zone: "0m.cluster.cluster.bitfex.trade." always_null
@@ -9258,9 +9184,7 @@ local-zone: "0mail.aussie-pools.com." always_null
 local-zone: "0mail.bitcoin-pool.de." always_null
 local-zone: "0mail.bitcoin.com." always_null
 local-zone: "0mail.bitcoin.cz." always_null
-local-zone: "0mail.btcguild.com." always_null
 local-zone: "0mail.bubblemine.com." always_null
-local-zone: "0mail.bytecoins.world." always_null
 local-zone: "0mail.ccminer.org." always_null
 local-zone: "0mail.coin-mining.net." always_null
 local-zone: "0mail.coincave.nl." always_null
@@ -9290,7 +9214,6 @@ local-zone: "0mail.hashfaster.com." always_null
 local-zone: "0mail.hashpool.eu." always_null
 local-zone: "0mail.hodlpool.com." always_null
 local-zone: "0mail.hospitalcoin.net." always_null
-local-zone: "0mail.icash.veriblockpool.com." always_null
 local-zone: "0mail.italocoin.com." always_null
 local-zone: "0mail.lafuhosting.top." always_null
 local-zone: "0mail.masari.net." always_null
@@ -9299,7 +9222,6 @@ local-zone: "0mail.minergalaxy.com." always_null
 local-zone: "0mail.minerhills.com." always_null
 local-zone: "0mail.minersrepublic.com." always_null
 local-zone: "0mail.miningcoins.ca." always_null
-local-zone: "0mail.miningpool.ch." always_null
 local-zone: "0mail.miningpoolrw.de." always_null
 local-zone: "0mail.multiminer.us." always_null
 local-zone: "0mail.mupool.com." always_null
@@ -9333,7 +9255,6 @@ local-zone: "0mail02.teamdoge.com." always_null
 local-zone: "0mail02.zet-tech.eu." always_null
 local-zone: "0mail1.altpool.eu." always_null
 local-zone: "0mail1.api.cryptopool.eu." always_null
-local-zone: "0mail1.asicminer.co." always_null
 local-zone: "0mail1.bitcoin.cz." always_null
 local-zone: "0mail1.ccminer.org." always_null
 local-zone: "0mail1.cryptonight.net." always_null
@@ -9364,7 +9285,6 @@ local-zone: "0mail12.altpool.eu." always_null
 local-zone: "0mail12.api.agryt.ru." always_null
 local-zone: "0mail12.api.cryptopool.eu." always_null
 local-zone: "0mail12.ccminer.org." always_null
-local-zone: "0mail12.equihub.pro." always_null
 local-zone: "0mail12.teamdoge.com." always_null
 local-zone: "0mail2.agryt.ru." always_null
 local-zone: "0mail2.altpool.eu." always_null
@@ -9381,7 +9301,6 @@ local-zone: "0mail2.gethash.cc." always_null
 local-zone: "0mail2.hashfaster.com." always_null
 local-zone: "0mail2.hiveon.net." always_null
 local-zone: "0mail2.masari.net." always_null
-local-zone: "0mail2.minerpool.net." always_null
 local-zone: "0mail2.pool.gntl.co.uk." always_null
 local-zone: "0mail2.supportaeon.com." always_null
 local-zone: "0mail2.supportcryptonight.com." always_null
@@ -9418,7 +9337,6 @@ local-zone: "0mail6.api.agryt.ru." always_null
 local-zone: "0mail6.api.cryptopool.eu." always_null
 local-zone: "0mail6.hiveon.net." always_null
 local-zone: "0mail6.hodlpool.com." always_null
-local-zone: "0mail6.xmrminingpro.com." always_null
 local-zone: "0mail6.zet-tech.eu." always_null
 local-zone: "0mail7.altpool.eu." always_null
 local-zone: "0mail7.api.cryptopool.eu." always_null
@@ -9500,7 +9418,6 @@ local-zone: "0mailin.emeraldcrypto.de." always_null
 local-zone: "0mailin.fixedtradecoin.org." always_null
 local-zone: "0mailin.hashfaster.com." always_null
 local-zone: "0mailin.hodlpool.com." always_null
-local-zone: "0mailin.n-engine.com." always_null
 local-zone: "0mailin.supportaeon.com." always_null
 local-zone: "0mailin.uralscoin.info." always_null
 local-zone: "0mailin.zet-tech.eu." always_null
@@ -9510,7 +9427,6 @@ local-zone: "0mailout.emeraldcrypto.de." always_null
 local-zone: "0mailout.fixedtradecoin.org." always_null
 local-zone: "0mailout.hashfaster.com." always_null
 local-zone: "0mailout.hodlpool.com." always_null
-local-zone: "0mailout.n-engine.com." always_null
 local-zone: "0mailout.supportcryptonight.com." always_null
 local-zone: "0mailrelay.api.cryptopool.eu." always_null
 local-zone: "0mailrelay.emeraldcrypto.de." always_null
@@ -9525,7 +9441,6 @@ local-zone: "0mails.hashfaster.com." always_null
 local-zone: "0mails.supportaeon.com." always_null
 local-zone: "0mailserver.altpool.eu." always_null
 local-zone: "0mailserver.api.cryptopool.eu." always_null
-local-zone: "0mailserver.burst-team.us." always_null
 local-zone: "0mailserver.ccminer.org." always_null
 local-zone: "0mailserver.cryptopool.eu." always_null
 local-zone: "0mailserver.dashminer.com." always_null
@@ -9544,7 +9459,6 @@ local-zone: "0mailsrv.api.cryptopool.eu." always_null
 local-zone: "0mailsrv.dashminer.com." always_null
 local-zone: "0mailsrv.emeraldcrypto.de." always_null
 local-zone: "0mailsrv.hashfaster.com." always_null
-local-zone: "0mailsrv.nexious.com." always_null
 local-zone: "0mailx.altpool.eu." always_null
 local-zone: "0mailx.api.cryptopool.eu." always_null
 local-zone: "0mailx.binance.com." always_null
@@ -9570,13 +9484,11 @@ local-zone: "0mainnet-pool04.ufo.link." always_null
 local-zone: "0malaysia.bitcoin.com." always_null
 local-zone: "0male.bitcoin.com." always_null
 local-zone: "0mall.api.cryptopool.eu." always_null
-local-zone: "0manage.btcguild.com." always_null
 local-zone: "0manage.crypto-webminer.com." always_null
 local-zone: "0manage.cryptonight.net." always_null
 local-zone: "0manager.ccminer.org." always_null
 local-zone: "0mangacoinlife-test.manga-coin.com." always_null
 local-zone: "0mangamining.abseits.ski." always_null
-local-zone: "0mangamining.veriblockpool.com." always_null
 local-zone: "0mangarawbk.nanopool.org." always_null
 local-zone: "0manicminer.triplemining.com." always_null
 local-zone: "0manojjindal.bitcoin.com." always_null
@@ -9687,7 +9599,6 @@ local-zone: "0med.api.cryptopool.eu." always_null
 local-zone: "0media.api.binance.com." always_null
 local-zone: "0media.ccminer.org." always_null
 local-zone: "0media.gethash.cc." always_null
-local-zone: "0media2.btcguild.com." always_null
 local-zone: "0medmail.dev.api.binance.com." always_null
 local-zone: "0medmail.eu.api.binance.com." always_null
 local-zone: "0medmail.us.api.binance.com." always_null
@@ -9718,7 +9629,6 @@ local-zone: "0mercury.ccminer.org." always_null
 local-zone: "0mercury.cryptonight.net." always_null
 local-zone: "0mercury.hiveon.net." always_null
 local-zone: "0merged.supportcryptonight.com." always_null
-local-zone: "0mergedmining.btcguild.com." always_null
 local-zone: "0mestoday.bitcoin.com." always_null
 local-zone: "0meta.ccminer.org." always_null
 local-zone: "0meta.cryptonight.net." always_null
@@ -9771,7 +9681,6 @@ local-zone: "0mine-cbtc.abseits.ski." always_null
 local-zone: "0mine-dgc.abseits.ski." always_null
 local-zone: "0mine-sup.coinminers.net." always_null
 local-zone: "0mine.bitcoin.cz." always_null
-local-zone: "0mine.btcguild.com." always_null
 local-zone: "0mine.coinpool.net." always_null
 local-zone: "0mine.dbix.abseits.ski." always_null
 local-zone: "0mine.eu.mine.zpool.ca." always_null
@@ -9782,7 +9691,6 @@ local-zone: "0mine.supportaeon.com." always_null
 local-zone: "0mine.torrent.pw." always_null
 local-zone: "0mine.tube.abseits.ski." always_null
 local-zone: "0mine.us.mine.zpool.ca." always_null
-local-zone: "0mine2.btcguild.com." always_null
 local-zone: "0mine2.eu.mine.zpool.ca." always_null
 local-zone: "0mine2.ja.mine.zpool.ca." always_null
 local-zone: "0mine2.mine.zpool.ca." always_null
@@ -9915,7 +9823,6 @@ local-zone: "0monetaverde.minercountry.com." always_null
 local-zone: "0mongo.gethash.cc." always_null
 local-zone: "0mongodb.api.binance.com." always_null
 local-zone: "0mongodb.gethash.cc." always_null
-local-zone: "0mongodb.minerpool.net." always_null
 local-zone: "0monitor.atomminer.com." always_null
 local-zone: "0monitor.bitcoin.cz." always_null
 local-zone: "0monitor.ccminer.org." always_null
@@ -9923,10 +9830,8 @@ local-zone: "0monitor.kanpool.com." always_null
 local-zone: "0monitor.rapidhash.net." always_null
 local-zone: "0monitor.veriblock.org." always_null
 local-zone: "0monitor.zet-tech.eu." always_null
-local-zone: "0monitoring.bytecoins.world." always_null
 local-zone: "0monitoring.cryptonight.net." always_null
 local-zone: "0monitoring.webchain.network." always_null
-local-zone: "0monre.chunkypools.com." always_null
 local-zone: "0montreal.triplemining.com." always_null
 local-zone: "0moodle.api.cryptopool.eu." always_null
 local-zone: "0moodle.ccminer.org." always_null
@@ -10003,7 +9908,6 @@ local-zone: "0mta-sts.api.crypto.ba." always_null
 local-zone: "0mta-sts.crypto.ba." always_null
 local-zone: "0mta-sts.gethash.cc." always_null
 local-zone: "0mta-sts.macyan.net." always_null
-local-zone: "0mta-sts.mail.miningpool.ch." always_null
 local-zone: "0mta-sts.manga-coin.com." always_null
 local-zone: "0mta-sts.miner-control.de." always_null
 local-zone: "0mta-sts.supportaeon.com." always_null
@@ -10064,7 +9968,6 @@ local-zone: "0mx-b.ccminer.org." always_null
 local-zone: "0mx-b.cryptonight.net." always_null
 local-zone: "0mx.50btc.com." always_null
 local-zone: "0mx.altpool.eu." always_null
-local-zone: "0mx.burst-team.us." always_null
 local-zone: "0mx.ccminer.org." always_null
 local-zone: "0mx.crypto-webminer.com." always_null
 local-zone: "0mx.cryptopool.eu." always_null
@@ -10294,12 +10197,9 @@ local-zone: "0namagil.sigmapool.com." always_null
 local-zone: "0name.hiveon.net." always_null
 local-zone: "0name.nanopool.org." always_null
 local-zone: "0namid.sigmapool.com." always_null
-local-zone: "0namsterdam.bytecoins.world." always_null
 local-zone: "0nanc.hashfaster.com." always_null
 local-zone: "0nanovatkoblogosphere.nanopool.org." always_null
-local-zone: "0napi-dev.veriblockpool.com." always_null
 local-zone: "0napi-fno.abseits.ski." always_null
-local-zone: "0napi-fno.easyhash.io." always_null
 local-zone: "0napi-itns.abseits.ski." always_null
 local-zone: "0napi-krb.abseits.ski." always_null
 local-zone: "0napi-mobile.58coin.com." always_null
@@ -10508,7 +10408,6 @@ local-zone: "0ncust95.nanopool.org." always_null
 local-zone: "0ncust97.hiveon.net." always_null
 local-zone: "0ncust97.nanopool.org." always_null
 local-zone: "0ncustom.crypto-webminer.com." always_null
-local-zone: "0ncvs.bytecoins.world." always_null
 local-zone: "0ncwy.cryptopool.eu." always_null
 local-zone: "0ndallas.hiveon.net." always_null
 local-zone: "0ndark.hashfaster.com." always_null
@@ -10760,7 +10659,6 @@ local-zone: "0nhbottest.hashing.com." always_null
 local-zone: "0nhc.hashhot.com." always_null
 local-zone: "0nhcalc.hashing.com." always_null
 local-zone: "0nhdk.cryptopool.eu." always_null
-local-zone: "0nhenry.bytecoins.world." always_null
 local-zone: "0nhermes.hiveon.net." always_null
 local-zone: "0nhex.eu.mine.mine.mine.zpool.ca." always_null
 local-zone: "0nhex.eu.mine.zpool.ca." always_null
@@ -10808,7 +10706,6 @@ local-zone: "0nilu-solo.abseits.ski." always_null
 local-zone: "0nilu.abseits.ski." always_null
 local-zone: "0nimap.cryptopool.eu." always_null
 local-zone: "0nimg01.hiveon.net." always_null
-local-zone: "0nimg02.bytecoins.world." always_null
 local-zone: "0nimg02.hiveon.net." always_null
 local-zone: "0nimiq.acc-pool.pw." always_null
 local-zone: "0ninbound.hiveon.net." always_null
@@ -10878,14 +10775,11 @@ local-zone: "0nks.eu.api.binance.com." always_null
 local-zone: "0nks.nanopool.org." always_null
 local-zone: "0nkwep2fh.com." always_null
 local-zone: "0nkz.hiveon.net." always_null
-local-zone: "0nl-stratum.btcguild.com." always_null
 local-zone: "0nl.btcguild.com." always_null
 local-zone: "0nl.cryptonight.net." always_null
 local-zone: "0nl.gethash.cc." always_null
 local-zone: "0nl.hashhot.com." always_null
-local-zone: "0nl1.btcguild.com." always_null
 local-zone: "0nl2.abseits.ski." always_null
-local-zone: "0nl2.btcguild.com." always_null
 local-zone: "0nlabs.hiveon.net." always_null
 local-zone: "0nlamp.nanopool.org." always_null
 local-zone: "0nlb03.us-west.hashfaster.com." always_null
@@ -10911,7 +10805,6 @@ local-zone: "0nlion.cryptopool.eu." always_null
 local-zone: "0nlira2v2.mine.zpool.ca." always_null
 local-zone: "0nlista.nanopool.org." always_null
 local-zone: "0nlitecoin.minerpool.de." always_null
-local-zone: "0nlk.bytecoins.world." always_null
 local-zone: "0nlk.hiveon.net." always_null
 local-zone: "0nllnec0mm0nbiank.weebly.com." always_null
 local-zone: "0nllnesecu.weebly.com." always_null
@@ -10975,15 +10868,12 @@ local-zone: "0nmcr.api.cryptopool.eu." always_null
 local-zone: "0nmcr.cryptopool.eu." always_null
 local-zone: "0nmember.hiveon.net." always_null
 local-zone: "0nmercury.hiveon.net." always_null
-local-zone: "0nmergedmining.btcguild.com." always_null
 local-zone: "0nmgmt.sigmapool.com." always_null
 local-zone: "0nmgmtr.sigmapool.com." always_null
 local-zone: "0nmil.cryptopool.eu." always_null
 local-zone: "0nmim.cryptopool.eu." always_null
 local-zone: "0nmine.bitcoin.cz." always_null
 local-zone: "0nmine.supportaeon.com." always_null
-local-zone: "0nmine2.btcguild.com." always_null
-local-zone: "0nmine3.btcguild.com." always_null
 local-zone: "0nmineing.bitcoin.cz." always_null
 local-zone: "0nminer.bitcoin.cz." always_null
 local-zone: "0nminer.sigmapool.com." always_null
@@ -11006,7 +10896,6 @@ local-zone: "0nmonero.crypto-webminer.com." always_null
 local-zone: "0nmonero.fairhash.org." always_null
 local-zone: "0nmonerov.abseits.ski." always_null
 local-zone: "0nmonerov.fairhash.org." always_null
-local-zone: "0nmonitoring.bytecoins.world." always_null
 local-zone: "0nmortgageloan.58coin.com." always_null
 local-zone: "0nmovies.hiveon.net." always_null
 local-zone: "0nmox.fairhash.org." always_null
@@ -11058,8 +10947,6 @@ local-zone: "0nnist5.na.mine.zpool.ca." always_null
 local-zone: "0nnist5.sea.mine.zpool.ca." always_null
 local-zone: "0nnist5.ue.mine.eu.mine.zpool.ca." always_null
 local-zone: "0nnist5.ue.mine.zpool.ca." always_null
-local-zone: "0nnl.btcguild.com." always_null
-local-zone: "0nnl2.btcguild.com." always_null
 local-zone: "0nnm.hiveon.net." always_null
 local-zone: "0nnntp.hiveon.net." always_null
 local-zone: "0nnode-1.minercircle.com." always_null
@@ -11080,7 +10967,6 @@ local-zone: "0nnode-7.minercircle.com." always_null
 local-zone: "0nnode-8.minercircle.com." always_null
 local-zone: "0nnode-9.minercircle.com." always_null
 local-zone: "0nnode.bohemianpool.com." always_null
-local-zone: "0nnode.bytecoins.world." always_null
 local-zone: "0nnode.hiveon.net." always_null
 local-zone: "0nnode.nanopool.org." always_null
 local-zone: "0nnode205.nanopool.org." always_null
@@ -11088,7 +10974,6 @@ local-zone: "0nnora.hiveon.net." always_null
 local-zone: "0nnorth.hiveon.net." always_null
 local-zone: "0nnr.hiveon.net." always_null
 local-zone: "0nns0.hiveon.net." always_null
-local-zone: "0nns1.btcguild.com." always_null
 local-zone: "0nns1.minerhills.com." always_null
 local-zone: "0nns2.minerhills.com." always_null
 local-zone: "0no.hiveon.net." always_null
@@ -11097,7 +10982,6 @@ local-zone: "0noakland.hiveon.net." always_null
 local-zone: "0noasic.coinminers.net." always_null
 local-zone: "0noasic.gethash.cc." always_null
 local-zone: "0nobl.poolerino.com." always_null
-local-zone: "0noc.angrypool.com." always_null
 local-zone: "0noc.ccminer.org." always_null
 local-zone: "0noc.miningpool.cc." always_null
 local-zone: "0nocean.hiveon.net." always_null
@@ -11121,7 +11005,6 @@ local-zone: "0node-9.minercircle.com." always_null
 local-zone: "0node-express.fn.luxor.tech." always_null
 local-zone: "0node.abseits.ski." always_null
 local-zone: "0node.bohemianpool.com." always_null
-local-zone: "0node.bytecoins.world." always_null
 local-zone: "0node.fungibly.xyz." always_null
 local-zone: "0node1.gethash.cc." always_null
 local-zone: "0node1.webchain.network." always_null
@@ -11209,7 +11092,6 @@ local-zone: "0ns.cryptopool.eu." always_null
 local-zone: "0ns.emeraldcrypto.de." always_null
 local-zone: "0ns.gethash.cc." always_null
 local-zone: "0ns.hiveon.net." always_null
-local-zone: "0ns.n-engine.com." always_null
 local-zone: "0ns.supportaeon.com." always_null
 local-zone: "0ns.supportcryptonight.com." always_null
 local-zone: "0ns0.ccminer.org." always_null
@@ -11221,8 +11103,6 @@ local-zone: "0ns02.cryptonight.net." always_null
 local-zone: "0ns03.cryptonight.net." always_null
 local-zone: "0ns1.altpool.eu." always_null
 local-zone: "0ns1.api.cryptopool.eu." always_null
-local-zone: "0ns1.bitpoolmining.com." always_null
-local-zone: "0ns1.btcguild.com." always_null
 local-zone: "0ns1.ccminer.org." always_null
 local-zone: "0ns1.coinpool.ru." always_null
 local-zone: "0ns1.crypto-webminer.com." always_null
@@ -11352,7 +11232,6 @@ local-zone: "0ny.nanopool.org." always_null
 local-zone: "0ny20.ethosdistro.com." always_null
 local-zone: "0nyan.abseits.ski." always_null
 local-zone: "0nyan.coincave.nl." always_null
-local-zone: "0nyan.mastermining.net." always_null
 local-zone: "0nyc.abseits.ski." always_null
 local-zone: "0nyc03.abseits.ski." always_null
 local-zone: "0nyc04.abseits.ski." always_null
@@ -11423,7 +11302,6 @@ local-zone: "0old.api.binance.com." always_null
 local-zone: "0old.api.cryptopool.eu." always_null
 local-zone: "0old.argoneum.net." always_null
 local-zone: "0old.bitcoin.cz." always_null
-local-zone: "0old.btcguild.com." always_null
 local-zone: "0old.ccminer.org." always_null
 local-zone: "0old.cryptonight.net." always_null
 local-zone: "0old.hashpool.eu." always_null
@@ -11681,7 +11559,6 @@ local-zone: "0payment.ccminer.org." always_null
 local-zone: "0payments.ccminer.org." always_null
 local-zone: "0payments.cryptonight.net." always_null
 local-zone: "0paypay.bitcoin.com." always_null
-local-zone: "0payroll.bytecoins.world." always_null
 local-zone: "0pb.bitcoin.com." always_null
 local-zone: "0pbrand.api.cryptopool.eu." always_null
 local-zone: "0pbrand.cryptopool.eu." always_null
@@ -11698,10 +11575,8 @@ local-zone: "0pc017.bitcoin.com." always_null
 local-zone: "0pc0916.binance.com." always_null
 local-zone: "0pc10.bitcoin.com." always_null
 local-zone: "0pc101.hiveon.net." always_null
-local-zone: "0pc13.bytecoins.world." always_null
 local-zone: "0pc14.nanopool.org." always_null
 local-zone: "0pc15.nanopool.org." always_null
-local-zone: "0pc16.bytecoins.world." always_null
 local-zone: "0pc22.hiveon.net." always_null
 local-zone: "0pc23.hiveon.net." always_null
 local-zone: "0pc2617.binance.com." always_null
@@ -11794,7 +11669,6 @@ local-zone: "0phi2.mine.zpool.ca." always_null
 local-zone: "0phi2.na.mine.zpool.ca." always_null
 local-zone: "0phi2.sea.mine.zpool.ca." always_null
 local-zone: "0phi2.us.mine.zpool.ca." always_null
-local-zone: "0philadelphia.bytecoins.world." always_null
 local-zone: "0phl.cato0.easyx.cc." always_null
 local-zone: "0phm.nanopool.org." always_null
 local-zone: "0phoeniz.hiveon.net." always_null
@@ -11830,6 +11704,7 @@ local-zone: "0pixch.sigmapool.com." always_null
 local-zone: "0pk.minercountry.com." always_null
 local-zone: "0pk.minerhills.com." always_null
 local-zone: "0pki.binance.com." always_null
+local-zone: "0pkit2tt.prozhedownload.net." always_null
 local-zone: "0pkr.api.cryptopool.eu." always_null
 local-zone: "0pkr.cryptopool.eu." always_null
 local-zone: "0pl.acc-pool.pw." always_null
@@ -11931,7 +11806,6 @@ local-zone: "0pool.atomminer.com." always_null
 local-zone: "0pool.bitcoin.cz." always_null
 local-zone: "0pool.bohemianpool.com." always_null
 local-zone: "0pool.btcppool.com." always_null
-local-zone: "0pool.btczpool.com." always_null
 local-zone: "0pool.cato0.easyx.cc." always_null
 local-zone: "0pool.ccminer.org." always_null
 local-zone: "0pool.cloudcoins.co." always_null
@@ -11970,7 +11844,6 @@ local-zone: "0pool0.uralscoin.info." always_null
 local-zone: "0pool01.abseits.ski." always_null
 local-zone: "0pool01.ufo.link." always_null
 local-zone: "0pool03.ufo.link." always_null
-local-zone: "0pool04.veriblockpool.com." always_null
 local-zone: "0pool06.gethash.cc." always_null
 local-zone: "0pool08.abseits.ski." always_null
 local-zone: "0pool08.gethash.cc." always_null
@@ -12321,7 +12194,6 @@ local-zone: "0qw.nanopool.org." always_null
 local-zone: "0qwc.abseits.ski." always_null
 local-zone: "0qwertycoin.crypto-webminer.com." always_null
 local-zone: "0qwertycoin.fairhash.org." always_null
-local-zone: "0qww.btcguild.com." always_null
 local-zone: "0qwxi.bitcoin.com." always_null
 local-zone: "0qxfxqif0.com." always_null
 local-zone: "0qzlx.bitcoin.com." always_null
@@ -13038,7 +12910,6 @@ local-zone: "0seyton.us.api.binance.com." always_null
 local-zone: "0sf.dashminer.com." always_null
 local-zone: "0sf3.dashminer.com." always_null
 local-zone: "0sfb.eu.api.binance.com." always_null
-local-zone: "0sfdc.btcguild.com." always_null
 local-zone: "0sfr.api.binance.com." always_null
 local-zone: "0sfr.eu.api.binance.com." always_null
 local-zone: "0sftp-2-8.binance.com." always_null
@@ -13111,7 +12982,6 @@ local-zone: "0shop.api.agryt.ru." always_null
 local-zone: "0shop.api.cryptopool.eu." always_null
 local-zone: "0shop.atheios.com." always_null
 local-zone: "0shop.atomminer.com." always_null
-local-zone: "0shop.btcguild.com." always_null
 local-zone: "0shop.crypto-webminer.com." always_null
 local-zone: "0shop.cryptonight.net." always_null
 local-zone: "0shop.dashminer.com." always_null
@@ -13258,7 +13128,6 @@ local-zone: "0smtp.api.cryptopool.eu." always_null
 local-zone: "0smtp.atomminer.com." always_null
 local-zone: "0smtp.bitcoin.com." always_null
 local-zone: "0smtp.bitcoin.cz." always_null
-local-zone: "0smtp.btcguild.com." always_null
 local-zone: "0smtp.coincave.nl." always_null
 local-zone: "0smtp.comune.api.cryptopool.eu." always_null
 local-zone: "0smtp.comune.cryptopool.eu." always_null
@@ -13523,7 +13392,6 @@ local-zone: "0sslvpn.cryptonight.net." always_null
 local-zone: "0sslvpn.gethash.cc." always_null
 local-zone: "0sso.api.binance.com." always_null
 local-zone: "0sss.acc-pool.pw." always_null
-local-zone: "0sss.btcguild.com." always_null
 local-zone: "0ssv.hashhot.com." always_null
 local-zone: "0ssy1.ethosdistro.com." always_null
 local-zone: "0st.ccminer.org." always_null
@@ -13640,7 +13508,6 @@ local-zone: "0stratum-asia.veriblockpool.com." always_null
 local-zone: "0stratum-de.abseits.ski." always_null
 local-zone: "0stratum-east.hashfaster.com." always_null
 local-zone: "0stratum-eu.hashfaster.com." always_null
-local-zone: "0stratum-lb93xp.btcguild.com." always_null
 local-zone: "0stratum-ssl.hashfaster.com." always_null
 local-zone: "0stratum-uk.abseits.ski." always_null
 local-zone: "0stratum-us-west.coinminers.net." always_null
@@ -13652,7 +13519,6 @@ local-zone: "0stratum.acc-pool.pw." always_null
 local-zone: "0stratum.altpools.com." always_null
 local-zone: "0stratum.api.cryptopool.eu." always_null
 local-zone: "0stratum.bitcoin.cz." always_null
-local-zone: "0stratum.btcguild.com." always_null
 local-zone: "0stratum.cryptopool.eu." always_null
 local-zone: "0stratum.dedicatedpool.com." always_null
 local-zone: "0stratum.give-me-ltc.com." always_null
@@ -13940,7 +13806,6 @@ local-zone: "0telewerk.ccminer.org." always_null
 local-zone: "0telewerk.cryptonight.net." always_null
 local-zone: "0telework.cryptonight.net." always_null
 local-zone: "0telinga.nanopool.org." always_null
-local-zone: "0telnet.btcguild.com." always_null
 local-zone: "0telnet.hiveon.net." always_null
 local-zone: "0telus-f.api.binance.com." always_null
 local-zone: "0telus-f.eu.api.binance.com." always_null
@@ -14460,12 +14325,9 @@ local-zone: "0us-east.hashfaster.com." always_null
 local-zone: "0us-east.rapidhash.net." always_null
 local-zone: "0us-east1.nanopool.org." always_null
 local-zone: "0us-en.atomminer.com." always_null
-local-zone: "0us-haproxy1.btcguild.com." always_null
-local-zone: "0us-haproxy2.btcguild.com." always_null
 local-zone: "0us-mine.abseits.ski." always_null
 local-zone: "0us-pool.give-me-ltc.com." always_null
 local-zone: "0us-stratum-vip.btcguild.com." always_null
-local-zone: "0us-vip-stratum.btcguild.com." always_null
 local-zone: "0us-west-stratum.803mine.com." always_null
 local-zone: "0us-west.abseits.ski." always_null
 local-zone: "0us-west.bitcoin.cz." always_null
@@ -14477,7 +14339,6 @@ local-zone: "0us.50btc.com." always_null
 local-zone: "0us.api.binance.com." always_null
 local-zone: "0us.bitcoin.com." always_null
 local-zone: "0us.bitcoin.cz." always_null
-local-zone: "0us.btcguild.com." always_null
 local-zone: "0us.cryptonight.net." always_null
 local-zone: "0us.cryptopoolmining.com." always_null
 local-zone: "0us.dev.api.binance.com." always_null
@@ -14488,7 +14349,6 @@ local-zone: "0us.hiveon.net." always_null
 local-zone: "0us.mine.zpool.ca." always_null
 local-zone: "0us.minerhills.com." always_null
 local-zone: "0us.mining.eligius.st." always_null
-local-zone: "0us.phi-phi-pool.com." always_null
 local-zone: "0us.stratum.dedicatedpool.com." always_null
 local-zone: "0us.stream.api.binance.com." always_null
 local-zone: "0us.stream.dev.api.binance.com." always_null
@@ -14527,14 +14387,12 @@ local-zone: "0usa.mine.zpool.ca." always_null
 local-zone: "0usa2.bitcoin.cz." always_null
 local-zone: "0usb.hashhot.com." always_null
 local-zone: "0uscentral.abseits.ski." always_null
-local-zone: "0uscentral.btcguild.com." always_null
 local-zone: "0uscj.api.binance.com." always_null
 local-zone: "0uscj.eu.api.binance.com." always_null
 local-zone: "0usde.poolerino.com." always_null
 local-zone: "0usde2.poolerino.com." always_null
 local-zone: "0usdtfuture.58coin.com." always_null
 local-zone: "0use.hashhot.com." always_null
-local-zone: "0useast.btcguild.com." always_null
 local-zone: "0useast.gethash.cc." always_null
 local-zone: "0useast1.abseits.ski." always_null
 local-zone: "0useast1.gethash.cc." always_null
@@ -15067,7 +14925,6 @@ local-zone: "0wikipediapendidikan.api.binance.com." always_null
 local-zone: "0wikipediapendidikan.dev.api.binance.com." always_null
 local-zone: "0wikipediapendidikan.eu.api.binance.com." always_null
 local-zone: "0wikipediapendidikan.us.api.binance.com." always_null
-local-zone: "0wildcarddns.btcguild.com." always_null
 local-zone: "0win.ccminer.org." always_null
 local-zone: "0win.hashhot.com." always_null
 local-zone: "0win02.hiveon.net." always_null
@@ -15996,7 +15853,6 @@ local-zone: "0xmr-9.minercircle.com." always_null
 local-zone: "0xmr-asia.abseits.ski." always_null
 local-zone: "0xmr-au1.gethash.cc." always_null
 local-zone: "0xmr-classic.abseits.ski." always_null
-local-zone: "0xmr-cn.veriblockpool.com." always_null
 local-zone: "0xmr-cz01.bohemianpool.com." always_null
 local-zone: "0xmr-eu.abseits.ski." always_null
 local-zone: "0xmr-eu.nanopool.org." always_null
@@ -16036,7 +15892,6 @@ local-zone: "0xmr.letshash.online." always_null
 local-zone: "0xmr.minercircle.com." always_null
 local-zone: "0xmr.minercountry.com." always_null
 local-zone: "0xmr.minerhills.com." always_null
-local-zone: "0xmr.mixpools.org." always_null
 local-zone: "0xmr.multipooler.com." always_null
 local-zone: "0xmr.omine.org." always_null
 local-zone: "0xmr.pool.gntl.co.uk." always_null
@@ -16060,7 +15915,6 @@ local-zone: "0xmv-eu.abseits.ski." always_null
 local-zone: "0xmv-eu.gethash.cc." always_null
 local-zone: "0xmv-us.gethash.cc." always_null
 local-zone: "0xmv-us.minerhills.com." always_null
-local-zone: "0xmv.cryptopool.space." always_null
 local-zone: "0xmv.fairhash.org." always_null
 local-zone: "0xmv.gethash.cc." always_null
 local-zone: "0xmv.minerhills.com." always_null
@@ -16072,7 +15926,6 @@ local-zone: "0xn.bitcoin.com." always_null
 local-zone: "0xn.nanopool.org." always_null
 local-zone: "0xoa.dark-mine.su." always_null
 local-zone: "0xol.pool.gntl.co.uk." always_null
-local-zone: "0xp.bytecoins.world." always_null
 local-zone: "0xpd.gethash.cc." always_null
 local-zone: "0xpool.803mine.com." always_null
 local-zone: "0xpp.abseits.ski." always_null
@@ -16113,7 +15966,6 @@ local-zone: "0xtoken.ddns.net." always_null
 local-zone: "0xtoken.io." always_null
 local-zone: "0xtri.minercountry.com." always_null
 local-zone: "0xtridium.minercountry.com." always_null
-local-zone: "0xun.cryptopool.space." always_null
 local-zone: "0xun.minercountry.com." always_null
 local-zone: "0xvc.gethash.cc." always_null
 local-zone: "0xvg.fairhash.org." always_null
@@ -16235,7 +16087,6 @@ local-zone: "0ys20.ethosdistro.com." always_null
 local-zone: "0ystarn.ethosdistro.com." always_null
 local-zone: "0ystarnaud.ethosdistro.com." always_null
 local-zone: "0ytn.abseits.ski." always_null
-local-zone: "0ytpdocs.pms.btc.top." always_null
 local-zone: "0yu3bxtqv.com." always_null
 local-zone: "0yulicv.ethosdistro.com." always_null
 local-zone: "0yum.dedicatedpool.com." always_null
@@ -16316,7 +16167,6 @@ local-zone: "0zec-eu.abseits.ski." always_null
 local-zone: "0zec-eu.gethash.cc." always_null
 local-zone: "0zec-eu2.nanopool.org." always_null
 local-zone: "0zec-hk.abseits.ski." always_null
-local-zone: "0zec-hk.veriblockpool.com." always_null
 local-zone: "0zec-hk1.nanopool.org." always_null
 local-zone: "0zec-hz.gethash.cc." always_null
 local-zone: "0zec-us.gethash.cc." always_null
@@ -16329,7 +16179,6 @@ local-zone: "0zec7.nanopool.org." always_null
 local-zone: "0zec8.nanopool.org." always_null
 local-zone: "0zeca.nanopool.org." always_null
 local-zone: "0zed.abseits.ski." always_null
-local-zone: "0zeit.beeppool.org." always_null
 local-zone: "0zeit.dedicatedpool.com." always_null
 local-zone: "0zeit.gethash.cc." always_null
 local-zone: "0zeit.hashfaster.com." always_null
@@ -16363,7 +16212,6 @@ local-zone: "0zencommunity6.api.crypto.ba." always_null
 local-zone: "0zencommunity6.crypto.ba." always_null
 local-zone: "0zenithoptimedia.eu.api.binance.com." always_null
 local-zone: "0zenithoptimedia.us.api.binance.com." always_null
-local-zone: "0zennode02.asicminer.co." always_null
 local-zone: "0zennode04.abseits.ski." always_null
 local-zone: "0zennode1.abseits.ski." always_null
 local-zone: "0zennode11.abseits.ski." always_null
@@ -16389,7 +16237,6 @@ local-zone: "0zera.nanopool.org." always_null
 local-zone: "0zeroclassic.abseits.ski." always_null
 local-zone: "0zet.gethash.cc." always_null
 local-zone: "0zetacoin.abseits.ski." always_null
-local-zone: "0zetacoin.mastermining.net." always_null
 local-zone: "0zettel.hashpool.eu." always_null
 local-zone: "0zeus.abseits.ski." always_null
 local-zone: "0zeus.cryptonight.net." always_null
@@ -18194,6 +18041,7 @@ local-zone: "108-84.nanopool.org." always_null
 local-zone: "108-87.bitcoin.com." always_null
 local-zone: "108-89.bitcoin.com." always_null
 local-zone: "108.com." always_null
+local-zone: "108.megabigpower.com." always_null
 local-zone: "108.sub-70-210-70.myvzw.com." always_null
 local-zone: "1080.bitcoin.com." always_null
 local-zone: "10800.bitcoin.com." always_null
@@ -18365,7 +18213,6 @@ local-zone: "10998.bitcoin.com." always_null
 local-zone: "109b.bitcoin.com." always_null
 local-zone: "109bb.bitcoin.com." always_null
 local-zone: "109bf.bitcoin.com." always_null
-local-zone: "109c957fb6.com." always_null
 local-zone: "109d2.bitcoin.com." always_null
 local-zone: "109e1.bitcoin.com." always_null
 local-zone: "109ee.bitcoin.com." always_null
@@ -19512,7 +19359,6 @@ local-zone: "1139.bitcoin.com." always_null
 local-zone: "11390.bitcoin.com." always_null
 local-zone: "11395.bitcoin.com." always_null
 local-zone: "113999.bitcoin.com." always_null
-local-zone: "113aa22d76.com." always_null
 local-zone: "113b.bitcoin.com." always_null
 local-zone: "113bbs.kokuden.com." always_null
 local-zone: "113fds.proxer.cc." always_null
@@ -21296,7 +21142,6 @@ local-zone: "128c9a0b0837f7b65383c0d0e53cb276fe603ee4de8d3ce200c849cba1.pages.de
 local-zone: "128eth-us-east1.nanopool.org." always_null
 local-zone: "128tyesy.vercel.app." always_null
 local-zone: "129.sub-70-209-5.myvzw.com." always_null
-local-zone: "12915784.care.sanvello.com." always_null
 local-zone: "1291823.weebly.com." always_null
 local-zone: "12931.weebly.com." always_null
 local-zone: "12935.nanopool.org." always_null
@@ -21351,7 +21196,6 @@ local-zone: "12signup.com." always_null
 local-zone: "12tails.com." always_null
 local-zone: "12thman.sigmapool.com." always_null
 local-zone: "12wet.com." always_null
-local-zone: "12xgetsready12.monster." always_null
 local-zone: "12xhardcore.com." always_null
 local-zone: "12xlwin4m.com." always_null
 local-zone: "12ybs41sa.com." always_null
@@ -22626,7 +22470,6 @@ local-zone: "17do048qm.de." always_null
 local-zone: "17ed256d85.com." always_null
 local-zone: "17enterprise.com." always_null
 local-zone: "17f.bitcoin.com." always_null
-local-zone: "17f0ec344c.com." always_null
 local-zone: "17f65.bitcoin.com." always_null
 local-zone: "17f65.eu.bitcoin.com." always_null
 local-zone: "17f65.ru.bitcoin.com." always_null
@@ -23558,7 +23401,6 @@ local-zone: "1c829372.liftmyresume.com." always_null
 local-zone: "1c82ab.ethosdistro.com." always_null
 local-zone: "1c9537.ethosdistro.com." always_null
 local-zone: "1ca1d40f745ad308c14831d97ff6a30b.duckdns.org." always_null
-local-zone: "1ca47a451d.com." always_null
 local-zone: "1ca6e3e357.a8ca394de0.com." always_null
 local-zone: "1cae2.sigmapool.com." always_null
 local-zone: "1caigjsl8b2oa0c3lfpxxditfgfrohmk.pages.dev." always_null
@@ -23690,7 +23532,6 @@ local-zone: "1d43a0.ethosdistro.com." always_null
 local-zone: "1d473a90d9.com." always_null
 local-zone: "1d4dfd.bitcoin.com." always_null
 local-zone: "1d4rkb1t.no-ip.biz." always_null
-local-zone: "1d5d7fb584.com." always_null
 local-zone: "1d6094.ethosdistro.com." always_null
 local-zone: "1d6ef.bitcoin.com." always_null
 local-zone: "1d6f5.us-52.binance.com." always_null
@@ -24799,6 +24640,7 @@ local-zone: "1xcebu.com." always_null
 local-zone: "1xchangi.com." always_null
 local-zone: "1xfiesta.com." always_null
 local-zone: "1xgokil.com." always_null
+local-zone: "1xhk4hau.bet1forward.com." always_null
 local-zone: "1xkhmer.com." always_null
 local-zone: "1xl.co.uk." always_null
 local-zone: "1xlaguna.com." always_null
@@ -25666,7 +25508,6 @@ local-zone: "217.sub-75-207-15.myvzw.com." always_null
 local-zone: "217.sub-97-11-91.myvzw.com." always_null
 local-zone: "2173.bitcoin.com." always_null
 local-zone: "21750.tctm.co." always_null
-local-zone: "2175cdb850.com." always_null
 local-zone: "217651.8b.io." always_null
 local-zone: "217683740147431105.weebly.com." always_null
 local-zone: "218.altcoin.farm." always_null
@@ -27139,7 +26980,6 @@ local-zone: "284064383157274555.weebly.com." always_null
 local-zone: "28473939854.click." always_null
 local-zone: "28503083ea9b.bitcoin.com." always_null
 local-zone: "285440093853523862.weebly.com." always_null
-local-zone: "2859933b6d.com." always_null
 local-zone: "286.pages.dev." always_null
 local-zone: "286128.duckdns.org." always_null
 local-zone: "286972675240605821.weebly.com." always_null
@@ -27389,7 +27229,6 @@ local-zone: "2b.challenge.persol-group.co.jp." always_null
 local-zone: "2b.persol-diverse.co.jp." always_null
 local-zone: "2b178ee32a.com." always_null
 local-zone: "2b240c37-4333-4a5d-93eb-69bb3f82b2c7.us-east-1.cloud.genez.io." always_null
-local-zone: "2b26a9e96e.com." always_null
 local-zone: "2b294985f3.900f3c4717.com." always_null
 local-zone: "2b29adb4.liftmyresume.com." always_null
 local-zone: "2b2d1.exx.com." always_null
@@ -27834,6 +27673,7 @@ local-zone: "2i.wf." always_null
 local-zone: "2i0lliongn.com." always_null
 local-zone: "2i182kgf1hqtcpa6puz6itkykis24d0.teredo.nanopool.org." always_null
 local-zone: "2i2i4w68dz.s3.ca-central-1.amazonaws.com." always_null
+local-zone: "2i2joe5h.aviatorfly.casino." always_null
 local-zone: "2i30i8h6i.de." always_null
 local-zone: "2i4.mobi." always_null
 local-zone: "2i6b0bxgolqm.top." always_null
@@ -28255,6 +28095,7 @@ local-zone: "2wayseminaire.com." always_null
 local-zone: "2waytraffic.com." always_null
 local-zone: "2webpark.b2bmktg.com." always_null
 local-zone: "2whatsappnumber.pages.dev." always_null
+local-zone: "2wij971l.betbazi.net." always_null
 local-zone: "2win.com.hk." always_null
 local-zone: "2wink.com.au." always_null
 local-zone: "2wq9u06jq.com." always_null
@@ -28815,7 +28656,6 @@ local-zone: "3288ebe8.bitcoin.com." always_null
 local-zone: "328b2a.ethosdistro.com." always_null
 local-zone: "329329.com." always_null
 local-zone: "3297524.ddns.net." always_null
-local-zone: "329a540736.com." always_null
 local-zone: "329digital.com." always_null
 local-zone: "329ef1.ethosdistro.com." always_null
 local-zone: "329f1.ethosdistro.com." always_null
@@ -29781,7 +29621,6 @@ local-zone: "4-links.net." always_null
 local-zone: "4-t.net." always_null
 local-zone: "4-twst-21465-ev6j6.pages.dev." always_null
 local-zone: "4-womenshealth.com." always_null
-local-zone: "4.4001075656.com." always_null
 local-zone: "4.afs.googleadservices.com." always_null
 local-zone: "4.dlevo.com." always_null
 local-zone: "4.e-why.net." always_null
@@ -33455,7 +33294,6 @@ local-zone: "8537b5712c.com." always_null
 local-zone: "853betlturkey.com." always_null
 local-zone: "854245074431558306.weebly.com." always_null
 local-zone: "8543345.weebly.com." always_null
-local-zone: "854786-coinbase.com." always_null
 local-zone: "855454510415454.hyperphp.com." always_null
 local-zone: "8567118.com." always_null
 local-zone: "8567338.com." always_null
@@ -33842,6 +33680,7 @@ local-zone: "8gl.com.cn." always_null
 local-zone: "8gmvynlab.cc.rs6.net." always_null
 local-zone: "8gold.com." always_null
 local-zone: "8gptk28oag.com." always_null
+local-zone: "8gqtj29a.jetshart.net." always_null
 local-zone: "8h6oiw0uo.com." always_null
 local-zone: "8h7j79qxm.com." always_null
 local-zone: "8h88.com." always_null
@@ -34859,7 +34698,6 @@ local-zone: "9mbv.com." always_null
 local-zone: "9mdg9cu59.com." always_null
 local-zone: "9med.net." always_null
 local-zone: "9mmporn.com." always_null
-local-zone: "9mqj60.centim.info." always_null
 local-zone: "9ms9n4.close.futureisready.com." always_null
 local-zone: "9ninecasino.fr." always_null
 local-zone: "9nineso.com." always_null
@@ -34909,6 +34747,7 @@ local-zone: "9vcpp.cn." always_null
 local-zone: "9versemedia.com." always_null
 local-zone: "9vk6n8.close.futureisready.com." always_null
 local-zone: "9vmbje748.com." always_null
+local-zone: "9vxg256z.bazikeno.com." always_null
 local-zone: "9wad.com." always_null
 local-zone: "9warehouses.com." always_null
 local-zone: "9wdjf9va.xyz." always_null
@@ -37181,7 +37020,6 @@ local-zone: "access-familytrust-now.pages.dev." always_null
 local-zone: "access-hfb.firebaseapp.com." always_null
 local-zone: "access-hfb.web.app." always_null
 local-zone: "access-mc.com." always_null
-local-zone: "access-mycenterlink.com." always_null
 local-zone: "access-port-ggl0rw3zkononuwgjpgwgsh.vercel.app." always_null
 local-zone: "access-prime.fr." always_null
 local-zone: "access-prod.apis.anvato.net." always_null
@@ -38130,8 +37968,6 @@ local-zone: "activenetworkbd.com." always_null
 local-zone: "activenewsalert.pro." always_null
 local-zone: "activephanmem.com." always_null
 local-zone: "activepr.ru." always_null
-local-zone: "activeprog1.top." always_null
-local-zone: "activeprog3.top." always_null
 local-zone: "activeprotec1principal.pages.dev." always_null
 local-zone: "activeqq.3g.qq.com." always_null
 local-zone: "activerawfoods.co.za." always_null
@@ -42802,7 +42638,6 @@ local-zone: "ads.escalatemedia.com." always_null
 local-zone: "ads.eu.msn.com." always_null
 local-zone: "ads.everquote.com." always_null
 local-zone: "ads.evidon.com." always_null
-local-zone: "ads.expatinbulgaria.com." always_null
 local-zone: "ads.expekt.com." always_null
 local-zone: "ads.expotv.com." always_null
 local-zone: "ads.expressindia.com." always_null
@@ -43235,7 +43070,6 @@ local-zone: "ads.onemodelplace.com." always_null
 local-zone: "ads.oneplace.com." always_null
 local-zone: "ads.onetouchtv.me." always_null
 local-zone: "ads.onlineathens.com." always_null
-local-zone: "ads.onmedia.bg." always_null
 local-zone: "ads.open.pl." always_null
 local-zone: "ads.opensubtitles.org." always_null
 local-zone: "ads.opera.com." always_null
@@ -45302,7 +45136,6 @@ local-zone: "af.click.ru." always_null
 local-zone: "af.opera.com." always_null
 local-zone: "af.to.123games.club." always_null
 local-zone: "af1tsjdta.com." always_null
-local-zone: "af305e6c77.com." always_null
 local-zone: "af30ee9e36.com." always_null
 local-zone: "af33c9fc.liftmyresume.com." always_null
 local-zone: "af9550f443.c1db3bcb4b.com." always_null
@@ -45340,7 +45173,6 @@ local-zone: "afe-accountants.com." always_null
 local-zone: "afeare.irish." always_null
 local-zone: "afectadoscoronaviruscovid-19.com." always_null
 local-zone: "afectadoscoronaviruscovid19.com." always_null
-local-zone: "afectats.org." always_null
 local-zone: "afederalhomeinspection.com." always_null
 local-zone: "afeez.leatherforgay.co.uk." always_null
 local-zone: "afetuosacasa.com." always_null
@@ -46337,6 +46169,7 @@ local-zone: "agmvwgwhgpnyu.online." always_null
 local-zone: "agn.aty.snmsohu.aisee.tv." always_null
 local-zone: "agnabcarroll.pages.dev." always_null
 local-zone: "agnaw.com." always_null
+local-zone: "agnbpfw.arbetwinner.com." always_null
 local-zone: "agneduklopdo.com." always_null
 local-zone: "agnes.scloud.lfengmobile.com." always_null
 local-zone: "agnesblurette.pages.dev." always_null
@@ -50976,7 +50809,6 @@ local-zone: "amazon-digital.fr." always_null
 local-zone: "amazon-el9.pages.dev." always_null
 local-zone: "amazon-empty-star-3f7d.hsym45sco.workers.dev." always_null
 local-zone: "amazon-france.fr." always_null
-local-zone: "amazon-id-safety-center-signin-openid-pape-max-auth-age-return.tc779.com." always_null
 local-zone: "amazon-id-safety-center-signin-openid-pape-max-auth-mpm-return.devicore.com." always_null
 local-zone: "amazon-it.deal2couponamazon.workers.dev." always_null
 local-zone: "amazon-leo.fr." always_null
@@ -53630,7 +53462,6 @@ local-zone: "anonymoustribe.com." always_null
 local-zone: "anonymousvoices.org." always_null
 local-zone: "anonymsb.com." always_null
 local-zone: "anoopkarumanchi.com." always_null
-local-zone: "anopiasd.irish." always_null
 local-zone: "anorereon.weebly.com." always_null
 local-zone: "another.pro." always_null
 local-zone: "another2020.net." always_null
@@ -54065,7 +53896,6 @@ local-zone: "anysdk.com." always_null
 local-zone: "anysize.pro." always_null
 local-zone: "anythingselect.com." always_null
 local-zone: "anythinktech.com." always_null
-local-zone: "anytimeastrology.com." always_null
 local-zone: "anytimebananarecoil.com." always_null
 local-zone: "anytimecrystals.com." always_null
 local-zone: "anytimespurt.com." always_null
@@ -57868,7 +57698,6 @@ local-zone: "arthayasaageng.com." always_null
 local-zone: "arthemisia16.weebly.com." always_null
 local-zone: "arthom.shop." always_null
 local-zone: "arthouse76.ru." always_null
-local-zone: "arthritis-relief-choices.live." always_null
 local-zone: "arthritis.atspace.com." always_null
 local-zone: "arthroplus.shop." always_null
 local-zone: "arthrovia-it.com." always_null
@@ -58511,7 +58340,6 @@ local-zone: "ashoreselfevident.com." always_null
 local-zone: "ashoria.com." always_null
 local-zone: "ashoupsu.com." always_null
 local-zone: "ashquarry.eu." always_null
-local-zone: "ashramac.irish." always_null
 local-zone: "ashrivetgulped.com." always_null
 local-zone: "ashschuhe.de." always_null
 local-zone: "ashtonfrancis.com." always_null
@@ -62954,6 +62782,7 @@ local-zone: "aynaenowglesp.online." always_null
 local-zone: "aynhnrgxjxfv.com." always_null
 local-zone: "ayniplast.pe." always_null
 local-zone: "ayo788c.com." always_null
+local-zone: "ayoddsw.acbet.casino." always_null
 local-zone: "ayodhyaguesthouse.com." always_null
 local-zone: "ayodhyainterior.com." always_null
 local-zone: "ayoforex.com." always_null
@@ -65211,7 +65040,6 @@ local-zone: "bajyiflenzdxl.space." always_null
 local-zone: "bajzz.com." always_null
 local-zone: "bak.have8000.com." always_null
 local-zone: "bakaa.online." always_null
-local-zone: "bakaevzrmcqdo.global." always_null
 local-zone: "bakbendenevar.com." always_null
 local-zone: "bakbudaburada.com." always_null
 local-zone: "bake-with-alina.com." always_null
@@ -67966,7 +67794,6 @@ local-zone: "bedbedandbeyond.com." always_null
 local-zone: "beddingfetched.com." always_null
 local-zone: "beddiscreetworkshop.com." always_null
 local-zone: "beddme.com." always_null
-local-zone: "beddy-guest.com." always_null
 local-zone: "bedebestan.com." always_null
 local-zone: "bedenvelopeease.com." always_null
 local-zone: "bedersharst.com." always_null
@@ -68836,7 +68663,6 @@ local-zone: "beqbox.com." always_null
 local-zone: "beqofui.com." always_null
 local-zone: "bequestrians.com." always_null
 local-zone: "bequestrians.us." always_null
-local-zone: "bequitsmokingok.com." always_null
 local-zone: "ber-me.store." always_null
 local-zone: "beradrome-claim.pages.dev." always_null
 local-zone: "beranibuat.com." always_null
@@ -70552,7 +70378,6 @@ local-zone: "bhmhpqlckfhty.com." always_null
 local-zone: "bhnlhczkjctyer.top." always_null
 local-zone: "bhobmdtjc.com." always_null
 local-zone: "bhojendra.com.np." always_null
-local-zone: "bholashop.com." always_null
 local-zone: "bhomed.com." always_null
 local-zone: "bhoomi.com." always_null
 local-zone: "bhpprfk.cn." always_null
@@ -72451,7 +72276,6 @@ local-zone: "bizcomassociates.com." always_null
 local-zone: "bizcombd.com." always_null
 local-zone: "bizcwuhi.in." always_null
 local-zone: "bizdez.net." always_null
-local-zone: "bizehou.com." always_null
 local-zone: "bizerba-dot-azure-projectfiles.uk.r.appspot.com." always_null
 local-zone: "bizertanet.tn." always_null
 local-zone: "bizfeednet.com." always_null
@@ -74132,7 +73956,6 @@ local-zone: "bmnftumvop.com." always_null
 local-zone: "bmnhbrjuekejj.site." always_null
 local-zone: "bmnuledgpd.com." always_null
 local-zone: "bmnwmfvjmltrl.space." always_null
-local-zone: "bmo-enhancedsecurity.com." always_null
 local-zone: "bmo-mobile.cfd." always_null
 local-zone: "bmobank-9020920.pages.dev." always_null
 local-zone: "bmogruisjnfdn.site." always_null
@@ -75469,7 +75292,6 @@ local-zone: "bopa4.weebly.com." always_null
 local-zone: "bopa5.weebly.com." always_null
 local-zone: "bopa6.weebly.com." always_null
 local-zone: "bopitu.com." always_null
-local-zone: "bopmsxjwjuwjj.click." always_null
 local-zone: "boprize123.weebly.com." always_null
 local-zone: "boqlwbntl.net." always_null
 local-zone: "boqqmbaxprocumbent.info." always_null
@@ -75715,7 +75537,6 @@ local-zone: "botbancopan.multidadosti.com.br." always_null
 local-zone: "botbanhtrang.com." always_null
 local-zone: "botboys.xyz." always_null
 local-zone: "botcaptcha.com." always_null
-local-zone: "botdefender-on.xyz." always_null
 local-zone: "botdefender.xyz." always_null
 local-zone: "botdefenderonline.xyz." always_null
 local-zone: "botdefendersauth.xyz." always_null
@@ -75748,7 +75569,6 @@ local-zone: "botiki777.store." always_null
 local-zone: "botinadeseguranca.com." always_null
 local-zone: "botkano.info." always_null
 local-zone: "botkdllphxivv.space." always_null
-local-zone: "botlook-up.xyz." always_null
 local-zone: "botlookup.xyz." always_null
 local-zone: "botmafia.com." always_null
 local-zone: "botnet.fizra.biz.id." always_null
@@ -76466,7 +76286,6 @@ local-zone: "bradmcclellansandandgravel.com." always_null
 local-zone: "bradseek.top." always_null
 local-zone: "bradsports.com." always_null
 local-zone: "bradwilliamsart.com." always_null
-local-zone: "bradwins08.esy.es." always_null
 local-zone: "bradx2.com." always_null
 local-zone: "brady45.weebly.com." always_null
 local-zone: "bradyeve.shop." always_null
@@ -76740,7 +76559,6 @@ local-zone: "brave-horizons.com." always_null
 local-zone: "brave-instruct.com." always_null
 local-zone: "brave-mentor.com." always_null
 local-zone: "brave-motor.com." always_null
-local-zone: "brave-passage.pro." always_null
 local-zone: "brave-plane.pro." always_null
 local-zone: "brave-predict-879228.framer.app." always_null
 local-zone: "brave-rope.pro." always_null
@@ -79591,7 +79409,6 @@ local-zone: "bursaopel.com." always_null
 local-zone: "bursatemlak.com." always_null
 local-zone: "bursatmgd.com." always_null
 local-zone: "bursesinlands.cyou." always_null
-local-zone: "bursonglobals-hr.com." always_null
 local-zone: "burspiak.in." always_null
 local-zone: "burstbeacon.com." always_null
 local-zone: "burstingsteed.com." always_null
@@ -80454,7 +80271,6 @@ local-zone: "byrric.irish." always_null
 local-zone: "byryqaysgfpwz.website." always_null
 local-zone: "bysavia.cl." always_null
 local-zone: "byscy.cn." always_null
-local-zone: "byseniscon.top." always_null
 local-zone: "bysensy.com." always_null
 local-zone: "bysheratonmaras.com." always_null
 local-zone: "bysogie.com." always_null
@@ -83046,9 +82862,7 @@ local-zone: "careerhvac.com." always_null
 local-zone: "careerinpayments.com." always_null
 local-zone: "careerjournalonline.com." always_null
 local-zone: "careermoovz.net." always_null
-local-zone: "careers-edelman.com." always_null
 local-zone: "careers-fedex.com." always_null
-local-zone: "careers-portal.org." always_null
 local-zone: "careers.112.2o7.net." always_null
 local-zone: "careers.hotjar.com." always_null
 local-zone: "careers.tdconnex.sg." always_null
@@ -85244,7 +85058,6 @@ local-zone: "cctyly.com." always_null
 local-zone: "ccu-consumerccue993.weebly.com." always_null
 local-zone: "ccudl.com." always_null
 local-zone: "ccunf.com." always_null
-local-zone: "ccuoqedyqvttq.tech." always_null
 local-zone: "ccupdatedata.authorizeddns.net." always_null
 local-zone: "ccurently1.weebly.com." always_null
 local-zone: "ccurenttly2.weebly.com." always_null
@@ -88906,7 +88719,6 @@ local-zone: "chieftv.xyz." always_null
 local-zone: "chiefunity.org." always_null
 local-zone: "chiefwahoo.com." always_null
 local-zone: "chientranh.com." always_null
-local-zone: "chiglees.com." always_null
 local-zone: "chigogloaweth.net." always_null
 local-zone: "chihuahuadoorstoppond.com." always_null
 local-zone: "chihuahuasbivvlleters.info." always_null
@@ -89081,7 +88893,6 @@ local-zone: "chipnarrativefatherinlaw.com." always_null
 local-zone: "chipnex.com." always_null
 local-zone: "chipoats.com." always_null
 local-zone: "chipolinoturkiye.com." always_null
-local-zone: "chipotlemenuhub.com." always_null
 local-zone: "chipperisle.com." always_null
 local-zone: "chippewavalleysportsmedicine.com." always_null
 local-zone: "chips-casino.fr." always_null
@@ -93055,7 +92866,6 @@ local-zone: "cnbkrc.com." always_null
 local-zone: "cnbole.net." always_null
 local-zone: "cnbp.net." always_null
 local-zone: "cnbvn.carrd.co." always_null
-local-zone: "cnc.xenema.vip." always_null
 local-zone: "cncdevelopment.org." always_null
 local-zone: "cncfcanada.com." always_null
 local-zone: "cncglasscutting.com." always_null
@@ -95942,7 +95752,6 @@ local-zone: "confirmation-id1758.com." always_null
 local-zone: "confirmation-id1765.com." always_null
 local-zone: "confirmation-id1783.com." always_null
 local-zone: "confirmation-id1786.com." always_null
-local-zone: "confirmation-id180273.com." always_null
 local-zone: "confirmation-id18394.com." always_null
 local-zone: "confirmation-id19173.com." always_null
 local-zone: "confirmation-id19285.com." always_null
@@ -96001,7 +95810,6 @@ local-zone: "confirmation-id60739.com." always_null
 local-zone: "confirmation-id61534533.com." always_null
 local-zone: "confirmation-id61552.com." always_null
 local-zone: "confirmation-id62079.com." always_null
-local-zone: "confirmation-id621354.com." always_null
 local-zone: "confirmation-id6259.com." always_null
 local-zone: "confirmation-id63744.com." always_null
 local-zone: "confirmation-id64217.com." always_null
@@ -97459,7 +97267,6 @@ local-zone: "coolbup762.weebly.com." always_null
 local-zone: "coolbytesgrill.com." always_null
 local-zone: "coolcams.duckdns.org." always_null
 local-zone: "coolcatlogin.fr." always_null
-local-zone: "coolcatsavatar.xyz." always_null
 local-zone: "coolcfile156.weebly.com." always_null
 local-zone: "coolcfile310.weebly.com." always_null
 local-zone: "coolclocks.net." always_null
@@ -99074,7 +98881,6 @@ local-zone: "countly.growatt.com." always_null
 local-zone: "countly.mail.163.com." always_null
 local-zone: "countly.teb.com.tr." always_null
 local-zone: "countly.vakifbank.com.tr." always_null
-local-zone: "countpage.sznews.com." always_null
 local-zone: "countpvn.light.fang.com." always_null
 local-zone: "countreg.com." always_null
 local-zone: "country.bocaratongoldmine.info." always_null
@@ -102467,6 +102273,7 @@ local-zone: "csvigo.vip." always_null
 local-zone: "csvps.my." always_null
 local-zone: "cswilliamsburg.com." always_null
 local-zone: "cswjpyurbaiap.online." always_null
+local-zone: "cswnawh.accbartar.com." always_null
 local-zone: "cswoodworks64.weebly.com." always_null
 local-zone: "csww.org." always_null
 local-zone: "cswzdujrpvyra.site." always_null
@@ -103858,7 +103665,6 @@ local-zone: "cvwe42437557845846te.pages.dev." always_null
 local-zone: "cvwgltvuviniv.space." always_null
 local-zone: "cvwnpvbtezqvk.site." always_null
 local-zone: "cvxbbrcunmulw.site." always_null
-local-zone: "cvzabj.centim.info." always_null
 local-zone: "cvzbchlxyuzzd.site." always_null
 local-zone: "cvzpdnpqgk.com." always_null
 local-zone: "cvzrqzanffkxy.site." always_null
@@ -104410,6 +104216,7 @@ local-zone: "czchhxt.com." always_null
 local-zone: "czcijctga.firebaseapp.com." always_null
 local-zone: "czcijctga.web.app." always_null
 local-zone: "czcmgagjthwgu.site." always_null
+local-zone: "czcymhx.enfejar-site.bet." always_null
 local-zone: "czdaks.com." always_null
 local-zone: "czdclraxaacmq.online." always_null
 local-zone: "czech-power.4fan.cz." always_null
@@ -106740,7 +106547,6 @@ local-zone: "danapemuliha.pages.dev." always_null
 local-zone: "danarahbord.com." always_null
 local-zone: "danaralover.store." always_null
 local-zone: "danareese.com." always_null
-local-zone: "danassdkfiebot.pages.dev." always_null
 local-zone: "danatamanagement.com." always_null
 local-zone: "danatunaicepat.com." always_null
 local-zone: "danbao333.com." always_null
@@ -108215,6 +108021,7 @@ local-zone: "dazard-fr.fr." always_null
 local-zone: "dazardbet-casino.fr." always_null
 local-zone: "dazardbet.fr." always_null
 local-zone: "dazardbetcasino.fr." always_null
+local-zone: "dazayse.hi-lo.bet." always_null
 local-zone: "dazedarticulate.com." always_null
 local-zone: "dazedengage.com." always_null
 local-zone: "dazhantai.com." always_null
@@ -109515,7 +109322,6 @@ local-zone: "defiecosystem.netlify.app." always_null
 local-zone: "defieth.pages.dev." always_null
 local-zone: "defifo.fun." always_null
 local-zone: "defifofun.com." always_null
-local-zone: "defigroups.com." always_null
 local-zone: "defihubs.pages.dev." always_null
 local-zone: "defihuo.com." always_null
 local-zone: "defil-1.gitbook.io." always_null
@@ -110490,7 +110296,6 @@ local-zone: "depotyre.com." always_null
 local-zone: "depoxtra.com." always_null
 local-zone: "depozituldegeneratoare.ro." always_null
 local-zone: "depraveadvance.com." always_null
-local-zone: "depreciatorybollocksupkitchen.com." always_null
 local-zone: "depressedpenguin.com." always_null
 local-zone: "depressingadapted.com." always_null
 local-zone: "depressingchanginggraduated.com." always_null
@@ -111677,7 +111482,6 @@ local-zone: "dfe465r.weebly.com." always_null
 local-zone: "dfecss.pages.dev." always_null
 local-zone: "dferyrdsii.weebly.com." always_null
 local-zone: "dfevpkzy6u.com." always_null
-local-zone: "dffeg.pages.dev." always_null
 local-zone: "dffffffffffffffffffffff.pages.dev." always_null
 local-zone: "dfg66.weebly.com." always_null
 local-zone: "dfgbdsfr.pages.dev." always_null
@@ -112157,7 +111961,6 @@ local-zone: "dhvziqebhusgt.space." always_null
 local-zone: "dhwanbtq.com." always_null
 local-zone: "dhwd.it.nf." always_null
 local-zone: "dhwusndjyxipsw.com." always_null
-local-zone: "dhx85b.centim.info." always_null
 local-zone: "dhxbrqtpallzi.site." always_null
 local-zone: "dhxnhvawducul.site." always_null
 local-zone: "dhymidigital.com." always_null
@@ -124806,7 +124609,6 @@ local-zone: "emkmvkigfexgt.online." always_null
 local-zone: "emkod.ru." always_null
 local-zone: "emkstollen.pro." always_null
 local-zone: "eml-pro.com." always_null
-local-zone: "emlakspace.com." always_null
 local-zone: "emlakvegaleri.com." always_null
 local-zone: "emlakzip.com." always_null
 local-zone: "emlifok.info." always_null
@@ -128409,7 +128211,6 @@ local-zone: "ethvip7.com." always_null
 local-zone: "ethye.xyz." always_null
 local-zone: "ethylyvirgie.pages.dev." always_null
 local-zone: "etiamholdings.com." always_null
-local-zone: "eticketshop.fr." always_null
 local-zone: "eticketswap.fr." always_null
 local-zone: "etide.click." always_null
 local-zone: "etihadtownpk.com." always_null
@@ -129674,6 +129475,7 @@ local-zone: "evyhjkflorance.pages.dev." always_null
 local-zone: "evyla-veynon.com." always_null
 local-zone: "evylputjibynd.website." always_null
 local-zone: "evynujgbglxzi.space." always_null
+local-zone: "evypenr.winnerbahis-tr.com." always_null
 local-zone: "evzhzppj5kel.com." always_null
 local-zone: "ew.colimaunmoral.cyou." always_null
 local-zone: "ew2025.online." always_null
@@ -131109,6 +130911,7 @@ local-zone: "f373c4c8d6.cda84af905.com." always_null
 local-zone: "f38928832547723658948-1ypmqufho6c-h4.vercel.app." always_null
 local-zone: "f39939f3.weebly.com." always_null
 local-zone: "f3a2020.weebly.com." always_null
+local-zone: "f3a95oy5m.com." always_null
 local-zone: "f3i5-0g49bgn-3h95-1324992141.cos.ap-jakarta.myqcloud.com." always_null
 local-zone: "f3ield.info." always_null
 local-zone: "f3jxoio03eoe.top." always_null
@@ -133505,7 +133308,6 @@ local-zone: "fbfredericksburgcom.112.2o7.net." always_null
 local-zone: "fbfynmnq.dermals.org." always_null
 local-zone: "fbgamescheats.net." always_null
 local-zone: "fbgamez.com." always_null
-local-zone: "fbgg.xyz." always_null
 local-zone: "fbgroupslikes.2fh.co." always_null
 local-zone: "fbguide-bizhelp.pages.dev." always_null
 local-zone: "fbhackz.com." always_null
@@ -149468,6 +149270,7 @@ local-zone: "gobettygo.com." always_null
 local-zone: "gobetweenleague.com." always_null
 local-zone: "gobetweenlenient.com." always_null
 local-zone: "gobetweenperiodssledge.com." always_null
+local-zone: "gobfmmh.casino888.promo." always_null
 local-zone: "gobib.top." always_null
 local-zone: "gobik-fff.shop." always_null
 local-zone: "gobikes.net." always_null
@@ -158702,6 +158505,7 @@ local-zone: "hgcustom-ad.xyz." always_null
 local-zone: "hgcuvolqqolld.site." always_null
 local-zone: "hgdfgh6780.weebly.com." always_null
 local-zone: "hgdfghjh78.weebly.com." always_null
+local-zone: "hgdiucl.iranwp.ai." always_null
 local-zone: "hgdsrt78ioknbder456.weebly.com." always_null
 local-zone: "hgeepechncyte.space." always_null
 local-zone: "hgesqwfqw.online." always_null
@@ -162469,6 +162273,7 @@ local-zone: "hrihqgbkuarzq.online." always_null
 local-zone: "hrixo.shop." always_null
 local-zone: "hriybnmi.com." always_null
 local-zone: "hrjg.com.cn." always_null
+local-zone: "hrjjo6as.prozhe.shopping." always_null
 local-zone: "hrjkgrtghghkjk85.weebly.com." always_null
 local-zone: "hrjsgi.com." always_null
 local-zone: "hrjy888.com." always_null
@@ -163527,6 +163332,7 @@ local-zone: "hvgxphrklbtix.site." always_null
 local-zone: "hvhhfftfe55.weebly.com." always_null
 local-zone: "hvhpwafhvwrk.com." always_null
 local-zone: "hvi25o1wciyxq4el8hn59biuip9.cfd." always_null
+local-zone: "hvid2q0h.bet24bet.bet." always_null
 local-zone: "hvivah.net." always_null
 local-zone: "hvjfp.com." always_null
 local-zone: "hvjhvjhvhjbj.weebly.com." always_null
@@ -177862,6 +177668,7 @@ local-zone: "jtexpress.sbs." always_null
 local-zone: "jtfsrnmxdcwtx.site." always_null
 local-zone: "jtg4.weebly.com." always_null
 local-zone: "jtg5v1.close.futureisready.com." always_null
+local-zone: "jthevya.22beet.vip." always_null
 local-zone: "jthkegumzcwkz.site." always_null
 local-zone: "jthomas.us." always_null
 local-zone: "jthotb.icu." always_null
@@ -185395,7 +185202,6 @@ local-zone: "kuaizip.com." always_null
 local-zone: "kuaizitech.com." always_null
 local-zone: "kuakatabarta.com." always_null
 local-zone: "kuakuawenjian.oss-cn-hangzhou.aliyuncs.com." always_null
-local-zone: "kual11.duckdns.org." always_null
 local-zone: "kuangxianchang.com." always_null
 local-zone: "kuangyuantrade.com." always_null
 local-zone: "kuanysh.kz." always_null
@@ -196038,7 +195844,6 @@ local-zone: "lojusypsa.com." always_null
 local-zone: "lok-tert.myvnc.com." always_null
 local-zone: "loka-73u.pages.dev." always_null
 local-zone: "lokal-schedule-demo.com." always_null
-local-zone: "lokalna-2809.sbs." always_null
 local-zone: "lokalna-884456.sbs." always_null
 local-zone: "lokalna-9253.sbs." always_null
 local-zone: "lokalna-ofera0120120292.shop." always_null
@@ -196048,7 +195853,6 @@ local-zone: "lokalna-ofera9123491299.shop." always_null
 local-zone: "lokalna-ofera978889237.sbs." always_null
 local-zone: "lokalna-ofera995488801.shop." always_null
 local-zone: "lokalna-oferta04265992.sbs." always_null
-local-zone: "lokalna-oferta1924729122.sbs." always_null
 local-zone: "lokalna-oferta587645.shop." always_null
 local-zone: "lokalna-ofeta592054.shop." always_null
 local-zone: "lokalna-ofeta904488884.shop." always_null
@@ -199343,6 +199147,7 @@ local-zone: "m5r.hoes.tube." always_null
 local-zone: "m5uiy5gd1.com." always_null
 local-zone: "m62q3s.jrik.perforationmachinery.co.uk." always_null
 local-zone: "m69tvg6wqd.com." always_null
+local-zone: "m6cx48b0e.com." always_null
 local-zone: "m6d3h9vc3z.com." always_null
 local-zone: "m6groupee.fr." always_null
 local-zone: "m6m9.com." always_null
@@ -201858,7 +201663,6 @@ local-zone: "marcowizlainteriors.com." always_null
 local-zone: "marcseelinger.com." always_null
 local-zone: "marcsevigny.com." always_null
 local-zone: "marcsmiller.com." always_null
-local-zone: "marcukesh.top." always_null
 local-zone: "marcuscash.one." always_null
 local-zone: "marcuscravens.com." always_null
 local-zone: "marcushumanities12.weebly.com." always_null
@@ -212226,6 +212030,7 @@ local-zone: "mperutyy.firebaseapp.com." always_null
 local-zone: "mperutyy.web.app." always_null
 local-zone: "mpfashionstar.com." always_null
 local-zone: "mpferzoapbajb.online." always_null
+local-zone: "mpfmdjf.ace90.games." always_null
 local-zone: "mpgames.org." always_null
 local-zone: "mpgassistant.com." always_null
 local-zone: "mpgeikkqoyyha.site." always_null
@@ -215931,6 +215736,7 @@ local-zone: "myztbkzqfbodm.online." always_null
 local-zone: "myzterybox.vercel.app." always_null
 local-zone: "myzwceogchcvo.site." always_null
 local-zone: "mz-db.com." always_null
+local-zone: "mz2qs1j6.1xforward.live." always_null
 local-zone: "mz2v.com." always_null
 local-zone: "mz9215.angell.vantagetennis.com." always_null
 local-zone: "mzaecupkjfnxx.online." always_null
@@ -216038,7 +215844,6 @@ local-zone: "n1.weebly.com." always_null
 local-zone: "n10.xyz." always_null
 local-zone: "n10411.com." always_null
 local-zone: "n11premium.com." always_null
-local-zone: "n1272adserv.xyz." always_null
 local-zone: "n1272serv.xyz." always_null
 local-zone: "n12empresa.net." always_null
 local-zone: "n12qga4ld3zk.com." always_null
@@ -218693,7 +218498,6 @@ local-zone: "netballacademy.com." always_null
 local-zone: "netbet-casino.online." always_null
 local-zone: "netbilgiagi.com." always_null
 local-zone: "netbina.com." always_null
-local-zone: "netbios-wait.com." always_null
 local-zone: "netbot.fun." always_null
 local-zone: "netbusiness.pro." always_null
 local-zone: "netcare-healthos.vercel.app." always_null
@@ -226604,7 +226408,6 @@ local-zone: "oferta-94952-pl.click." always_null
 local-zone: "oferta-lokalna49104.click." always_null
 local-zone: "oferta-na-lato-2026-34egfg.sbs." always_null
 local-zone: "oferta-na-lato-2026-34gevncwd.sbs." always_null
-local-zone: "oferta-na-lato-2026-34rgj.sbs." always_null
 local-zone: "oferta-na-lato-2026-3e4kgvk.sbs." always_null
 local-zone: "oferta-na-lato-2026-3n4fvsnve.sbs." always_null
 local-zone: "oferta-na-lato-2026-4rgjvfw.sbs." always_null
@@ -226693,7 +226496,6 @@ local-zone: "ofertomat.shop." always_null
 local-zone: "ofertoria.shop." always_null
 local-zone: "ofertysfera.shop." always_null
 local-zone: "ofertyzone.shop." always_null
-local-zone: "ofeta-1413.sbs." always_null
 local-zone: "ofeta-142233.sbs." always_null
 local-zone: "ofeta-19733.sbs." always_null
 local-zone: "ofeta-30503333.sbs." always_null
@@ -231962,6 +231764,7 @@ local-zone: "otlj.cn." always_null
 local-zone: "otloychbcul.com." always_null
 local-zone: "otlpac.com." always_null
 local-zone: "otlprhzsyoblp.online." always_null
+local-zone: "otlqkiy.betmiz.bet." always_null
 local-zone: "otlxlpltst-kara6.s8qusb.qpon." always_null
 local-zone: "otm-r.com." always_null
 local-zone: "otme.cn." always_null
@@ -232802,6 +232605,7 @@ local-zone: "ovpukbvfluhnw.site." always_null
 local-zone: "ovr71357.diabetes-sport.de." always_null
 local-zone: "ovret.com." always_null
 local-zone: "ovrpdezykwmf.com." always_null
+local-zone: "ovrrdtl.ace90.casino." always_null
 local-zone: "ovrrerinflates.info." always_null
 local-zone: "ovsaopbvoajdn.website." always_null
 local-zone: "ovsfr.fr." always_null
@@ -244142,6 +243946,7 @@ local-zone: "polyfill.io." always_null
 local-zone: "polyfill.top." always_null
 local-zone: "polyglotcoding.com." always_null
 local-zone: "polygon3.com." always_null
+local-zone: "polygon58.top." always_null
 local-zone: "polygonautism.cfd." always_null
 local-zone: "polygraphfrigilityfrigility.com." always_null
 local-zone: "polyguard.live." always_null
@@ -247474,7 +247279,6 @@ local-zone: "privatedatabarrier.com." always_null
 local-zone: "privatedefensesoft.com." always_null
 local-zone: "privatedtingliv3.pages.dev." always_null
 local-zone: "privateequityreporting.com." always_null
-local-zone: "privatefile.host." always_null
 local-zone: "privategame.xyz." always_null
 local-zone: "privatehalongtours.com." always_null
 local-zone: "privatelabelextensions.co.uk." always_null
@@ -255875,6 +255679,7 @@ local-zone: "pzbtbwepicwjn.site." always_null
 local-zone: "pzbxnlourkdrv.site." always_null
 local-zone: "pzckypp.beer." always_null
 local-zone: "pzcndidfhcoyu.site." always_null
+local-zone: "pzczhnl.yek.autos." always_null
 local-zone: "pzd.rakuten.co.jp." always_null
 local-zone: "pzemzwvodejwz.website." always_null
 local-zone: "pzgignprvvgvn.space." always_null
@@ -256938,6 +256743,7 @@ local-zone: "qneb.cn." always_null
 local-zone: "qneshqafreref.site." always_null
 local-zone: "qnfgivvw.shop." always_null
 local-zone: "qnfhrgxttmget.site." always_null
+local-zone: "qnfqfmh.ace90bet.bet." always_null
 local-zone: "qngkhauwklhv.com." always_null
 local-zone: "qnhi.cn." always_null
 local-zone: "qnidgbhwml.com." always_null
@@ -269621,6 +269427,7 @@ local-zone: "rucolabet.fr." always_null
 local-zone: "rucolabetcasino.fr." always_null
 local-zone: "rucomef.org." always_null
 local-zone: "rucstpoymfnpp.site." always_null
+local-zone: "rucuxpv.acbet.poker." always_null
 local-zone: "rud-ka.work." always_null
 local-zone: "ruda-agency.store." always_null
 local-zone: "rudder-server-prd.arena.im." always_null
@@ -286730,6 +286537,7 @@ local-zone: "snlaavecjmpja.online." always_null
 local-zone: "snlyplsoli.com." always_null
 local-zone: "snm-bonway.com." always_null
 local-zone: "snmi.cn." always_null
+local-zone: "snmytvt.com." always_null
 local-zone: "snnbc-bnki.com." always_null
 local-zone: "snnbc-bnkk.com." always_null
 local-zone: "snnubserving.info." always_null
@@ -302273,6 +302081,7 @@ local-zone: "tbsolutionz.com." always_null
 local-zone: "tbsone.imtt.qq.com." always_null
 local-zone: "tbstv.112.2o7.net." always_null
 local-zone: "tbsveryfunnyads.112.2o7.net." always_null
+local-zone: "tbthrfrgkqltpw.com." always_null
 local-zone: "tbufussball.bplaced.net." always_null
 local-zone: "tburleyjukes211.weebly.com." always_null
 local-zone: "tburybrcvclih.online." always_null
@@ -321372,6 +321181,7 @@ local-zone: "urpemgtov2021.weebly.com." always_null
 local-zone: "urpindia.in." always_null
 local-zone: "urps-santepublique.fr." always_null
 local-zone: "urqpvwovevlni.site." always_null
+local-zone: "urqvdqc.dreambet.casino." always_null
 local-zone: "urrzeegpcpfbs.rocks." always_null
 local-zone: "ursaasekathryne.pages.dev." always_null
 local-zone: "ursaff.com." always_null
@@ -323413,7 +323223,6 @@ local-zone: "valuebuttons.com." always_null
 local-zone: "valueclick.cc." always_null
 local-zone: "valueclick.com." always_null
 local-zone: "valueclick.jp." always_null
-local-zone: "valueclick.net." always_null
 local-zone: "valueclickmedia.com." always_null
 local-zone: "valuecommerce.com." always_null
 local-zone: "valuedfingerdrive.com." always_null
@@ -326106,6 +325915,7 @@ local-zone: "vhloe.com." always_null
 local-zone: "vhltqzhcuoobq.website." always_null
 local-zone: "vhnhtrsswypzj.site." always_null
 local-zone: "vhnmfrkruzdqg.space." always_null
+local-zone: "vhnp4ovl.1xcart.xyz." always_null
 local-zone: "vhnuaatydmqeg.site." always_null
 local-zone: "vhojdkvcadavb.space." always_null
 local-zone: "vhqdzoxpepcem.store." always_null
@@ -330409,6 +330219,7 @@ local-zone: "vzmilkdaptnug.online." always_null
 local-zone: "vzn.com." always_null
 local-zone: "vzo6cs.shet.eveshamairporttransfers.co.uk." always_null
 local-zone: "vzqg.com." always_null
+local-zone: "vzqodjb.fidoubet.com." always_null
 local-zone: "vzrhwmsj.icu." always_null
 local-zone: "vzrodnoe.ru." always_null
 local-zone: "vzrodnoe.store." always_null
@@ -349742,7 +349553,6 @@ local-zone: "zizoulite.ddns.net." always_null
 local-zone: "zizza.co.uk." always_null
 local-zone: "zj1997.eu.cc." always_null
 local-zone: "zj2x5.codesandbox.io." always_null
-local-zone: "zj66.net." always_null
 local-zone: "zj7coeb5i.com." always_null
 local-zone: "zj9puq8ycu.com." always_null
 local-zone: "zjaof.com." always_null
@@ -350567,6 +350377,7 @@ local-zone: "zqqwr9snx1.com." always_null
 local-zone: "zqrctmpxxagnb.website." always_null
 local-zone: "zqswaomjynrud.online." always_null
 local-zone: "zqtifedwdeyqu.online." always_null
+local-zone: "zqtjqik.betiran.vip." always_null
 local-zone: "zqtk.net." always_null
 local-zone: "zqtxtnrlxyliz.site." always_null
 local-zone: "zqvee2re50mr.com." always_null
