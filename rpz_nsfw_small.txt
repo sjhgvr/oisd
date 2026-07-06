@@ -1,16 +1,16 @@
-; Version: 202607052333
+; Version: 202607060007
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 36814
-; Last modified: 2026-07-05T23:33:39+0000
+; Entries: 36818
+; Last modified: 2026-07-06T00:07:27+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783292402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783296002 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -13606,6 +13606,8 @@ hotubi.com CNAME .
 *.hotubi.com CNAME .
 hotullu.co CNAME .
 *.hotullu.co CNAME .
+hotullu.tv CNAME .
+*.hotullu.tv CNAME .
 hotvideo.fr CNAME .
 *.hotvideo.fr CNAME .
 hotvideos.cc CNAME .
@@ -14116,6 +14118,8 @@ imlive.com CNAME .
 *.imlive.com CNAME .
 imon.webcam CNAME .
 *.imon.webcam CNAME .
+imotor.com CNAME .
+*.imotor.com CNAME .
 imperia-of-hentai.net CNAME .
 *.imperia-of-hentai.net CNAME .
 imporno.com CNAME .
