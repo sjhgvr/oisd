@@ -1,16 +1,16 @@
-; Version: 202607090805
+; Version: 202607090905
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 653576
-; Last modified: 2026-07-09T08:05:46+0000
+; Entries: 653574
+; Last modified: 2026-07-09T09:05:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783584002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783587601 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -90846,8 +90846,6 @@ biedronka.deals-zone.sbs CNAME .
 *.biedronka.deals-zone.sbs CNAME .
 biedronka.me CNAME .
 *.biedronka.me CNAME .
-biedronka.myamericanshop.sbs CNAME .
-*.biedronka.myamericanshop.sbs CNAME .
 biedronkal.shop CNAME .
 *.biedronkal.shop CNAME .
 biedronkamarket.shop CNAME .
