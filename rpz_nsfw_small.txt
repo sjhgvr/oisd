@@ -1,16 +1,16 @@
-; Version: 202607100807
+; Version: 202607100907
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37244
-; Last modified: 2026-07-10T08:07:24+0000
+; Entries: 37254
+; Last modified: 2026-07-10T09:07:07+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783670401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783674001 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -58,6 +58,10 @@ $TTL 30
 *.1080pok.com CNAME .
 10musume.com CNAME .
 *.10musume.com CNAME .
+1111066.xyz CNAME .
+*.1111066.xyz CNAME .
+1111073.xyz CNAME .
+*.1111073.xyz CNAME .
 118acs2.com CNAME .
 *.118acs2.com CNAME .
 11vids.com CNAME .
@@ -98,6 +102,8 @@ $TTL 30
 *.169bbs.com CNAME .
 16honeys.com CNAME .
 *.16honeys.com CNAME .
+16k.club CNAME .
+*.16k.club CNAME .
 171gifs.com CNAME .
 *.171gifs.com CNAME .
 177pica.com CNAME .
@@ -12936,6 +12942,8 @@ hentaidude.xxx CNAME .
 *.hentaidude.xxx CNAME .
 hentaied.com CNAME .
 *.hentaied.com CNAME .
+hentaienlinea.net CNAME .
+*.hentaienlinea.net CNAME .
 hentaienvy.com CNAME .
 *.hentaienvy.com CNAME .
 hentaiera.com CNAME .
@@ -25588,6 +25596,8 @@ qxciw.com CNAME .
 *.qxciw.com CNAME .
 qxi863.com CNAME .
 *.qxi863.com CNAME .
+qy0.ru CNAME .
+*.qy0.ru CNAME .
 r-34.xyz CNAME .
 *.r-34.xyz CNAME .
 r18.com CNAME .
