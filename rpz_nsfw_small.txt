@@ -1,16 +1,16 @@
-; Version: 202607092226
+; Version: 202607100026
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 36538
-; Last modified: 2026-07-09T22:26:23+0000
+; Entries: 36544
+; Last modified: 2026-07-10T00:26:47+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783634401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783641601 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -2624,6 +2624,8 @@ aussiematchzone.com CNAME .
 *.aussiematchzone.com CNAME .
 av-e-body.com CNAME .
 *.av-e-body.com CNAME .
+av-photograph.com CNAME .
+*.av-photograph.com CNAME .
 av-wiki.net CNAME .
 *.av-wiki.net CNAME .
 av01.media CNAME .
@@ -3504,6 +3506,8 @@ bellesa.co CNAME .
 *.bellesa.co CNAME .
 bellesaplus.co CNAME .
 *.bellesaplus.co CNAME .
+bellezascalle.com CNAME .
+*.bellezascalle.com CNAME .
 bellezashot.com CNAME .
 *.bellezashot.com CNAME .
 bellotube.com CNAME .
@@ -29620,6 +29624,8 @@ thaitubex.com CNAME .
 *.thaitubex.com CNAME .
 thaixtube.com CNAME .
 *.thaixtube.com CNAME .
+thankyou.com CNAME .
+*.thankyou.com CNAME .
 thatpervert.com CNAME .
 *.thatpervert.com CNAME .
 thatsitcomshow.com CNAME .
