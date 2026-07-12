@@ -1,16 +1,16 @@
-; Version: 202607121005
+; Version: 202607121205
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 656784
-; Last modified: 2026-07-12T10:05:40+0000
+; Entries: 656782
+; Last modified: 2026-07-12T12:05:29+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783850402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783857601 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -448202,8 +448202,6 @@ profialabs.com CNAME .
 *.profialabs.com CNAME .
 profibaubedarf.com CNAME .
 *.profibaubedarf.com CNAME .
-proficator.com CNAME .
-*.proficator.com CNAME .
 proficient.top CNAME .
 *.proficient.top CNAME .
 proficredit.pl CNAME .
