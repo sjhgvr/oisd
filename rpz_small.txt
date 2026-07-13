@@ -1,16 +1,16 @@
-; Version: 202607130907
+; Version: 202607131407
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 112506
-; Last modified: 2026-07-13T09:07:46+0000
+; Entries: 112504
+; Last modified: 2026-07-13T14:07:00+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783933202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783951201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -5524,8 +5524,6 @@ accuratecoal.com CNAME .
 *.accuratecoal.com CNAME .
 accuratephrase.com CNAME .
 *.accuratephrase.com CNAME .
-accuratewistful.com CNAME .
-*.accuratewistful.com CNAME .
 accuratewithprocessors.net CNAME .
 *.accuratewithprocessors.net CNAME .
 accusationfastidious.com CNAME .
