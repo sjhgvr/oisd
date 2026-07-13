@@ -1,16 +1,16 @@
-; Version: 202607131508
+; Version: 202607131608
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 38796
-; Last modified: 2026-07-13T15:08:53+0000
+; Entries: 38800
+; Last modified: 2026-07-13T16:08:06+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783954801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783958402 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -1038,6 +1038,8 @@ acg01.com CNAME .
 *.acg01.com CNAME .
 acgmhn.com CNAME .
 *.acgmhn.com CNAME .
+acgsu.vip CNAME .
+*.acgsu.vip CNAME .
 acmejoy.com CNAME .
 *.acmejoy.com CNAME .
 acmejoy.nl CNAME .
@@ -1406,6 +1408,8 @@ aiexotic.com CNAME .
 *.aiexotic.com CNAME .
 aimeimei520.com CNAME .
 *.aimeimei520.com CNAME .
+ainexa.top CNAME .
+*.ainexa.top CNAME .
 ainsfwtools.com CNAME .
 *.ainsfwtools.com CNAME .
 ainudez.com CNAME .
