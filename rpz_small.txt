@@ -1,16 +1,16 @@
-; Version: 202607140106
+; Version: 202607140307
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 112626
-; Last modified: 2026-07-14T01:06:45+0000
+; Entries: 112624
+; Last modified: 2026-07-14T03:07:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783990801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1783998001 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -17168,8 +17168,6 @@ betgorebysson.club CNAME .
 *.betgorebysson.club CNAME .
 betissantos.com CNAME .
 *.betissantos.com CNAME .
-betmasquerainchan.com CNAME .
-*.betmasquerainchan.com CNAME .
 betmenaff.com CNAME .
 *.betmenaff.com CNAME .
 betotodilea.com CNAME .
