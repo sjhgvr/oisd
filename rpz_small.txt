@@ -1,16 +1,16 @@
-; Version: 202607152006
+; Version: 202607160105
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 110580
-; Last modified: 2026-07-15T20:06:49+0000
+; Entries: 110574
+; Last modified: 2026-07-16T01:05:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784145601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784163602 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -6946,8 +6946,6 @@ adimg.com.com CNAME .
 *.adimg.com.com CNAME .
 adimg.liba.com CNAME .
 *.adimg.liba.com CNAME .
-adimg.uve.weibo.com CNAME .
-*.adimg.uve.weibo.com CNAME .
 adimg1.chosun.com CNAME .
 *.adimg1.chosun.com CNAME .
 adimgs.sapo.pt CNAME .
@@ -18396,8 +18394,6 @@ boothmythevergreen.com CNAME .
 *.boothmythevergreen.com CNAME .
 bootingunpickedusable.com CNAME .
 *.bootingunpickedusable.com CNAME .
-bootpreload.uve.weibo.com CNAME .
-*.bootpreload.uve.weibo.com CNAME .
 bootscritp.com CNAME .
 *.bootscritp.com CNAME .
 bootstraplugin.com CNAME .
@@ -29608,8 +29604,6 @@ data963.click CNAME .
 *.data963.click CNAME .
 databoilrecommendation.com CNAME .
 *.databoilrecommendation.com CNAME .
-datacollection.uve.weibo.com CNAME .
-*.datacollection.uve.weibo.com CNAME .
 datacollector-dra.dt.hicloud.com CNAME .
 *.datacollector-dra.dt.hicloud.com CNAME .
 datacollector-drru.dt.dbankcloud.ru CNAME .
@@ -82820,8 +82814,6 @@ sdk4push.com CNAME .
 *.sdk4push.com CNAME .
 sdkapi-prod.dfinery.ai CNAME .
 *.sdkapi-prod.dfinery.ai CNAME .
-sdkapp.uve.weibo.com CNAME .
-*.sdkapp.uve.weibo.com CNAME .
 sdkauth.hpplay.cn CNAME .
 *.sdkauth.hpplay.cn CNAME .
 sdkc.vervegroupinc.net CNAME .
@@ -98210,6 +98202,8 @@ uvbiyrhzsqcoq.space CNAME .
 *.uvbiyrhzsqcoq.space CNAME .
 uvd9re60w.com CNAME .
 *.uvd9re60w.com CNAME .
+uve.weibo.com CNAME .
+*.uve.weibo.com CNAME .
 uveitisabaffingine.cyou CNAME .
 *.uveitisabaffingine.cyou CNAME .
 uvfckyovekkqh.space CNAME .
