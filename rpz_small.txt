@@ -1,16 +1,16 @@
-; Version: 202607181106
+; Version: 202607181706
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 111484
-; Last modified: 2026-07-18T11:06:22+0000
+; Entries: 111496
+; Last modified: 2026-07-18T17:06:56+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784372401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784394001 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -7488,8 +7488,6 @@ adpointbreakrtb.com CNAME .
 *.adpointbreakrtb.com CNAME .
 adpone.com CNAME .
 *.adpone.com CNAME .
-adpool.bet CNAME .
-*.adpool.bet CNAME .
 adpopcorn.com CNAME .
 *.adpopcorn.com CNAME .
 adport.net CNAME .
@@ -8354,8 +8352,6 @@ ads.tvpl.vn CNAME .
 *.ads.tvpl.vn CNAME .
 ads.twdcgrid.com CNAME .
 *.ads.twdcgrid.com CNAME .
-ads.twitch.tv CNAME .
-*.ads.twitch.tv CNAME .
 ads.ultimate-guitar.com CNAME .
 *.ads.ultimate-guitar.com CNAME .
 ads.ultraviewer.net CNAME .
@@ -18182,8 +18178,6 @@ bmmlztvqsngih.online CNAME .
 *.bmmlztvqsngih.online CNAME .
 bmmwa.info CNAME .
 *.bmmwa.info CNAME .
-bmndx.com CNAME .
-*.bmndx.com CNAME .
 bmnhbrjuekejj.site CNAME .
 *.bmnhbrjuekejj.site CNAME .
 bmnuledgpd.com CNAME .
@@ -34624,6 +34618,8 @@ edenai.go2cloud.org CNAME .
 *.edenai.go2cloud.org CNAME .
 edexpvvr.com CNAME .
 *.edexpvvr.com CNAME .
+edge.ads.twitch.tv CNAME .
+*.edge.ads.twitch.tv CNAME .
 edge.xtriks.com CNAME .
 *.edge.xtriks.com CNAME .
 edgeadserver-delivery.reviveservers.com CNAME .
@@ -39136,6 +39132,8 @@ filter-eu.srvqck23.com CNAME .
 *.filter-eu.srvqck23.com CNAME .
 filter-eu.srvqck25.com CNAME .
 *.filter-eu.srvqck25.com CNAME .
+filter-eu.srvqck27.com CNAME .
+*.filter-eu.srvqck27.com CNAME .
 filter-eu.tat-adz.com CNAME .
 *.filter-eu.tat-adz.com CNAME .
 filter-eu.techdoor.com CNAME .
@@ -39350,6 +39348,8 @@ filter.srvqck23.com CNAME .
 *.filter.srvqck23.com CNAME .
 filter.srvqck25.com CNAME .
 *.filter.srvqck25.com CNAME .
+filter.srvqck27.com CNAME .
+*.filter.srvqck27.com CNAME .
 filter.tat-adz.com CNAME .
 *.filter.tat-adz.com CNAME .
 filter.techdoor.com CNAME .
@@ -48442,6 +48442,8 @@ icon.eu.awmndw.com CNAME .
 *.icon.eu.awmndw.com CNAME .
 icon.eu.bbmnd.com CNAME .
 *.icon.eu.bbmnd.com CNAME .
+icon.eu.bmndx.com CNAME .
+*.icon.eu.bmndx.com CNAME .
 icon.eu.cpmndl.com CNAME .
 *.icon.eu.cpmndl.com CNAME .
 icon.eu.eemnd.com CNAME .
@@ -82464,10 +82466,16 @@ s.zixuntop.com CNAME .
 *.s.zixuntop.com CNAME .
 s.zline0.com CNAME .
 *.s.zline0.com CNAME .
+s.zlink1.com CNAME .
+*.s.zlink1.com CNAME .
 s.zlink4.com CNAME .
 *.s.zlink4.com CNAME .
 s.zlink7.com CNAME .
 *.s.zlink7.com CNAME .
+s.zlink8.com CNAME .
+*.s.zlink8.com CNAME .
+s.zlinkb.com CNAME .
+*.s.zlinkb.com CNAME .
 s.zlinkn.com CNAME .
 *.s.zlinkn.com CNAME .
 s.zlinkr.com CNAME .
@@ -87506,8 +87514,6 @@ srvqck1.com CNAME .
 *.srvqck1.com CNAME .
 srvqck2.com CNAME .
 *.srvqck2.com CNAME .
-srvqck27.com CNAME .
-*.srvqck27.com CNAME .
 srvqck3.com CNAME .
 *.srvqck3.com CNAME .
 srvr.dmvs-apac.com CNAME .
@@ -88436,6 +88442,8 @@ static.srvqck24.com CNAME .
 *.static.srvqck24.com CNAME .
 static.srvqck26.com CNAME .
 *.static.srvqck26.com CNAME .
+static.srvqck27.com CNAME .
+*.static.srvqck27.com CNAME .
 static.srvqk.com CNAME .
 *.static.srvqk.com CNAME .
 static.strongmetrics.io CNAME .
@@ -106232,6 +106240,8 @@ xml-eu-v4.srvqck23.com CNAME .
 *.xml-eu-v4.srvqck23.com CNAME .
 xml-eu-v4.srvqck25.com CNAME .
 *.xml-eu-v4.srvqck25.com CNAME .
+xml-eu-v4.srvqck27.com CNAME .
+*.xml-eu-v4.srvqck27.com CNAME .
 xml-eu-v4.starvalue-3.online CNAME .
 *.xml-eu-v4.starvalue-3.online CNAME .
 xml-eu-v4.sttsxplc.online CNAME .
@@ -106372,6 +106382,8 @@ xml-eu.srvqck21.com CNAME .
 *.xml-eu.srvqck21.com CNAME .
 xml-eu.srvqck23.com CNAME .
 *.xml-eu.srvqck23.com CNAME .
+xml-eu.srvqck27.com CNAME .
+*.xml-eu.srvqck27.com CNAME .
 xml-eu.sttsxplc.online CNAME .
 *.xml-eu.sttsxplc.online CNAME .
 xml-eu.svdva-e.online CNAME .
@@ -106642,6 +106654,8 @@ xml-v4.srvqck23.com CNAME .
 *.xml-v4.srvqck23.com CNAME .
 xml-v4.srvqck25.com CNAME .
 *.xml-v4.srvqck25.com CNAME .
+xml-v4.srvqck27.com CNAME .
+*.xml-v4.srvqck27.com CNAME .
 xml-v4.starvalue-4.online CNAME .
 *.xml-v4.starvalue-4.online CNAME .
 xml-v4.strongkeyword.com CNAME .
@@ -107100,6 +107114,8 @@ xml.srvqck25.com CNAME .
 *.xml.srvqck25.com CNAME .
 xml.srvqck26.com CNAME .
 *.xml.srvqck26.com CNAME .
+xml.srvqck27.com CNAME .
+*.xml.srvqck27.com CNAME .
 xml.srvqk.com CNAME .
 *.xml.srvqk.com CNAME .
 xml.srvqk1.com CNAME .
@@ -109768,6 +109784,8 @@ yzyzkatyeco.com CNAME .
 *.yzyzkatyeco.com CNAME .
 z.5xntkn9je414bv.cyou CNAME .
 *.z.5xntkn9je414bv.cyou CNAME .
+z.cdn.adpool.bet CNAME .
+*.z.cdn.adpool.bet CNAME .
 z.cdn.braun634.com CNAME .
 *.z.cdn.braun634.com CNAME .
 z.dkt-ib.com CNAME .
@@ -110644,20 +110662,14 @@ zlgfuyslcpekc.site CNAME .
 *.zlgfuyslcpekc.site CNAME .
 zlink0.com CNAME .
 *.zlink0.com CNAME .
-zlink1.com CNAME .
-*.zlink1.com CNAME .
 zlink2.com CNAME .
 *.zlink2.com CNAME .
 zlink3.com CNAME .
 *.zlink3.com CNAME .
 zlink6.com CNAME .
 *.zlink6.com CNAME .
-zlink8.com CNAME .
-*.zlink8.com CNAME .
 zlink9.com CNAME .
 *.zlink9.com CNAME .
-zlinkb.com CNAME .
-*.zlinkb.com CNAME .
 zlinkc.com CNAME .
 *.zlinkc.com CNAME .
 zlinkd.com CNAME .
