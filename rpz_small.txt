@@ -1,16 +1,16 @@
-; Version: 202607172305
+; Version: 202607180619
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 111226
-; Last modified: 2026-07-17T23:05:43+0000
+; Entries: 111224
+; Last modified: 2026-07-18T06:19:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784329202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784347201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -32366,8 +32366,6 @@ dogcbhkupqzor.website CNAME .
 *.dogcbhkupqzor.website CNAME .
 doghalf.com CNAME .
 *.doghalf.com CNAME .
-dogliscoran.com CNAME .
-*.dogliscoran.com CNAME .
 dogmenaesir.cfd CNAME .
 *.dogmenaesir.cfd CNAME .
 dogt.xyz CNAME .
