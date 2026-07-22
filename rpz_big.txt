@@ -1,16 +1,16 @@
-; Version: 202607221805
+; Version: 202607222000
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 661982
-; Last modified: 2026-07-22T18:05:25+0000
+; Entries: 661980
+; Last modified: 2026-07-22T20:00:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784743201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784750426 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -123296,8 +123296,6 @@ cdn-netmeraprod.turktelekom.com.tr CNAME .
 *.cdn-netmeraprod.turktelekom.com.tr CNAME .
 cdn-new-ad.wtzw.com CNAME .
 *.cdn-new-ad.wtzw.com CNAME .
-cdn-otf-cas.prfct.cc CNAME .
-*.cdn-otf-cas.prfct.cc CNAME .
 cdn-partners-references.lesoir.be CNAME .
 *.cdn-partners-references.lesoir.be CNAME .
 cdn-plugin-sync-upgrade-juui.hismarttv.com CNAME .
