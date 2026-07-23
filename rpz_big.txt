@@ -1,16 +1,16 @@
-; Version: 202607232005
+; Version: 202607232029
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 664324
-; Last modified: 2026-07-23T20:05:45+0000
+; Entries: 664322
+; Last modified: 2026-07-23T20:29:08+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784836801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784838543 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -283286,8 +283286,6 @@ ic-mecs.org CNAME .
 *.ic-mecs.org CNAME .
 ic0xjh.com CNAME .
 *.ic0xjh.com CNAME .
-ic24.lt CNAME .
-*.ic24.lt CNAME .
 ic7.co CNAME .
 *.ic7.co CNAME .
 ica.su CNAME .
