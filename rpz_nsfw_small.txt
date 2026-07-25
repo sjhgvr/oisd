@@ -1,16 +1,16 @@
-; Version: 202607242325
+; Version: 202607250106
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 39148
-; Last modified: 2026-07-24T23:25:30+0000
+; Entries: 39150
+; Last modified: 2026-07-25T01:06:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784934002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1784941201 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -17972,6 +17972,8 @@ lendirqu.tv CNAME .
 *.lendirqu.tv CNAME .
 lendovideos.com CNAME .
 *.lendovideos.com CNAME .
+lenglengbb.com CNAME .
+*.lenglengbb.com CNAME .
 lenkino.adult CNAME .
 *.lenkino.adult CNAME .
 lenporno.bet CNAME .
