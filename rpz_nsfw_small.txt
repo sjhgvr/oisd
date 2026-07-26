@@ -1,16 +1,16 @@
-; Version: 202607260614
+; Version: 202607260906
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 39190
-; Last modified: 2026-07-26T06:14:30+0000
+; Entries: 39196
+; Last modified: 2026-07-26T09:06:46+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785038401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785056401 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -33286,6 +33286,8 @@ tumblrgallery.xyz CNAME .
 *.tumblrgallery.xyz CNAME .
 tumblrpics.com CNAME .
 *.tumblrpics.com CNAME .
+tumblrviewer.co CNAME .
+*.tumblrviewer.co CNAME .
 tumblrviewer.com CNAME .
 *.tumblrviewer.com CNAME .
 tuoi69x.blog CNAME .
@@ -38960,6 +38962,10 @@ zhestkoe.xyz CNAME .
 *.zhestkoe.xyz CNAME .
 zhibogouwu.com CNAME .
 *.zhibogouwu.com CNAME .
+zhongzidi.com CNAME .
+*.zhongzidi.com CNAME .
+zhongziso.com CNAME .
+*.zhongziso.com CNAME .
 zhornyhub.com CNAME .
 *.zhornyhub.com CNAME .
 zipforme.com CNAME .
