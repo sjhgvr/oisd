@@ -1,16 +1,16 @@
-; Version: 202607272306
+; Version: 202607280006
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 39396
-; Last modified: 2026-07-27T23:06:41+0000
+; Entries: 39400
+; Last modified: 2026-07-28T00:06:55+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785193201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785196801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -12872,6 +12872,8 @@ h-game18.xyz CNAME .
 *.h-game18.xyz CNAME .
 h-onnano.co CNAME .
 *.h-onnano.co CNAME .
+h-taikendan.net CNAME .
+*.h-taikendan.net CNAME .
 h0930.com CNAME .
 *.h0930.com CNAME .
 h25109.com CNAME .
@@ -18252,6 +18254,8 @@ liebelib.mobi CNAME .
 *.liebelib.mobi CNAME .
 liebelib.net CNAME .
 *.liebelib.net CNAME .
+liepaja.lv CNAME .
+*.liepaja.lv CNAME .
 lieuxdedrague.fr CNAME .
 *.lieuxdedrague.fr CNAME .
 lifeout.com CNAME .
