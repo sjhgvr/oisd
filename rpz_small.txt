@@ -1,16 +1,16 @@
-; Version: 202607300306
+; Version: 202607301006
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 113876
-; Last modified: 2026-07-30T03:06:18+0000
+; Entries: 113874
+; Last modified: 2026-07-30T10:06:13+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785380401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785405601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -7562,8 +7562,6 @@ adrino.io CNAME .
 *.adrino.io CNAME .
 adriver.ru CNAME .
 *.adriver.ru CNAME .
-adroitcertain.com CNAME .
-*.adroitcertain.com CNAME .
 adroitdeceitcongestion.com CNAME .
 *.adroitdeceitcongestion.com CNAME .
 adroitham.com CNAME .
