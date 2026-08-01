@@ -1,16 +1,16 @@
-; Version: 202608012007
+; Version: 202608012312
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 111512
-; Last modified: 2026-08-01T20:07:29+0000
+; Entries: 111516
+; Last modified: 2026-08-01T23:12:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785614401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785625201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1464,6 +1464,8 @@ $TTL 30
 *.2omfz9ygz2.com CNAME .
 2orln75bry.com CNAME .
 *.2orln75bry.com CNAME .
+2osb.com CNAME .
+*.2osb.com CNAME .
 2osq127yy.com CNAME .
 *.2osq127yy.com CNAME .
 2p1kreiqg.de CNAME .
@@ -102616,6 +102618,8 @@ weblog.woowa.in CNAME .
 *.weblog.woowa.in CNAME .
 weblog.zdnet.co.kr CNAME .
 *.weblog.zdnet.co.kr CNAME .
+webls.net CNAME .
+*.webls.net CNAME .
 webmaghome.com CNAME .
 *.webmaghome.com CNAME .
 webmasterplan.de CNAME .
