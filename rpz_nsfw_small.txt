@@ -1,16 +1,16 @@
-; Version: 202608021908
+; Version: 202608022108
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41476
-; Last modified: 2026-08-02T19:08:24+0000
+; Entries: 41474
+; Last modified: 2026-08-02T21:08:54+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785697201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785704401 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -6926,8 +6926,6 @@ cin.wtf CNAME .
 *.cin.wtf CNAME .
 cindymovies.com CNAME .
 *.cindymovies.com CNAME .
-cinelerra.org CNAME .
-*.cinelerra.org CNAME .
 cinemacult.com CNAME .
 *.cinemacult.com CNAME .
 cinemafive12.com CNAME .
