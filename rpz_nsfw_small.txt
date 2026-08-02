@@ -1,16 +1,16 @@
-; Version: 202608020708
+; Version: 202608020808
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43010
-; Last modified: 2026-08-02T07:08:25+0000
+; Entries: 43014
+; Last modified: 2026-08-02T08:08:29+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785654001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1785657601 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -3080,6 +3080,8 @@ astalavr.com CNAME .
 *.astalavr.com CNAME .
 asthub.com CNAME .
 *.asthub.com CNAME .
+astian.org CNAME .
+*.astian.org CNAME .
 asunhot.com CNAME .
 *.asunhot.com CNAME .
 asupan.media CNAME .
@@ -3162,6 +3164,8 @@ av-photograph.com CNAME .
 *.av-photograph.com CNAME .
 av-subthai.cc CNAME .
 *.av-subthai.cc CNAME .
+av-th.io CNAME .
+*.av-th.io CNAME .
 av-wiki.net CNAME .
 *.av-wiki.net CNAME .
 av01.media CNAME .
