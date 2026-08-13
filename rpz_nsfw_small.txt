@@ -1,16 +1,16 @@
-; Version: 202608131427
+; Version: 202608131529
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 42470
-; Last modified: 2026-08-13T14:27:43+0000
+; Entries: 42472
+; Last modified: 2026-08-13T15:29:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1786629602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1786633201 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -30454,6 +30454,8 @@ s-pass.org CNAME .
 *.s-pass.org CNAME .
 s-xxx.com CNAME .
 *.s-xxx.com CNAME .
+sabzmedia.com CNAME .
+*.sabzmedia.com CNAME .
 sadairaqchat.com CNAME .
 *.sadairaqchat.com CNAME .
 sadistic.pl CNAME .
