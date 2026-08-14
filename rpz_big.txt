@@ -1,16 +1,16 @@
-; Version: 202608141405
+; Version: 202608141437
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 532442
-; Last modified: 2026-08-14T14:05:22+0000
+; Entries: 532440
+; Last modified: 2026-08-14T14:37:10+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1786716001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1786718223 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -417202,8 +417202,6 @@ smartsaverhub-eu.shop CNAME .
 *.smartsaverhub-eu.shop CNAME .
 smartsavermarket.com CNAME .
 *.smartsavermarket.com CNAME .
-smartscan.ro CNAME .
-*.smartscan.ro CNAME .
 smartschool.com.au CNAME .
 *.smartschool.com.au CNAME .
 smartsecuredt.com CNAME .
