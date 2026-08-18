@@ -1,16 +1,16 @@
-; Version: 202608180105
+; Version: 202608180213
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 117960
-; Last modified: 2026-08-18T01:05:02+0000
+; Last modified: 2026-08-18T02:13:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787014801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787018401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1790,6 +1790,8 @@ $TTL 30
 *.3120jpllh.de CNAME .
 314gqd3es.de CNAME .
 *.314gqd3es.de CNAME .
+31528c02be.com CNAME .
+*.31528c02be.com CNAME .
 316feq0nc.de CNAME .
 *.316feq0nc.de CNAME .
 317796hmh.de CNAME .
@@ -4144,8 +4146,6 @@ $TTL 30
 *.89.12b2xh3i9culz5v8xbj5vkgknr.cyou CNAME .
 890fromzen.net CNAME .
 *.890fromzen.net CNAME .
-892e0efce9.31528c02be.com CNAME .
-*.892e0efce9.31528c02be.com CNAME .
 892qownplzgvfkcwzlvtb8ez.cfd CNAME .
 *.892qownplzgvfkcwzlvtb8ez.cfd CNAME .
 896cf3d1ed.e336cd5f3c.com CNAME .
