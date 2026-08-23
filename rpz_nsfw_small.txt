@@ -1,16 +1,16 @@
-; Version: 202608231205
+; Version: 202608231624
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43098
-; Last modified: 2026-08-23T12:05:53+0000
+; Entries: 43102
+; Last modified: 2026-08-23T16:24:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787486401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787500801 86400 3600 604800 30
  NS localhost.
 01tube.com CNAME .
 *.01tube.com CNAME .
@@ -20828,6 +20828,8 @@ lolpol.com CNAME .
 *.lolpol.com CNAME .
 lolpol2.com CNAME .
 *.lolpol2.com CNAME .
+lolpol3.com CNAME .
+*.lolpol3.com CNAME .
 lolsex.eu CNAME .
 *.lolsex.eu CNAME .
 londonts.com CNAME .
@@ -21180,6 +21182,8 @@ m3pd.com CNAME .
 *.m3pd.com CNAME .
 ma-queue.com CNAME .
 *.ma-queue.com CNAME .
+maal69.nl CNAME .
+*.maal69.nl CNAME .
 maal69.video CNAME .
 *.maal69.video CNAME .
 maalbuzz.com CNAME .
