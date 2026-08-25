@@ -1,16 +1,16 @@
-; Version: 202608241405
+; Version: 202608250104
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 117078
-; Last modified: 2026-08-24T14:05:21+0000
+; Entries: 117080
+; Last modified: 2026-08-25T01:04:51+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787580001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1787619601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -8564,6 +8564,8 @@ ads.sportradar.com CNAME .
 *.ads.sportradar.com CNAME .
 ads.sportslocalmedia.com CNAME .
 *.ads.sportslocalmedia.com CNAME .
+ads.stardima.com CNAME .
+*.ads.stardima.com CNAME .
 ads.starzd.online CNAME .
 *.ads.starzd.online CNAME .
 ads.starzd.pro CNAME .
