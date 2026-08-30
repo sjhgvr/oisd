@@ -1,16 +1,16 @@
-; Version: 202608302004
+; Version: 202608302020
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 540884
-; Last modified: 2026-08-30T20:04:50+0000
+; Entries: 540882
+; Last modified: 2026-08-30T20:20:29+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788120002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788121224 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -384404,8 +384404,6 @@ realcasino.fr CNAME .
 *.realcasino.fr CNAME .
 realcasino1.fr CNAME .
 *.realcasino1.fr CNAME .
-realcastmedia.com CNAME .
-*.realcastmedia.com CNAME .
 realcitsgroup.com CNAME .
 *.realcitsgroup.com CNAME .
 realclever.com CNAME .
