@@ -1,16 +1,16 @@
-; Version: 202608312005
+; Version: 202608312036
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 541604
-; Last modified: 2026-08-31T20:05:02+0000
+; Entries: 541602
+; Last modified: 2026-08-31T20:36:47+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788206401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788208599 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -4670,8 +4670,6 @@ $TTL 30
 *.2026wojasviponline.shop CNAME .
 2026workclothes.shop CNAME .
 *.2026workclothes.shop CNAME .
-202ch.com CNAME .
-*.202ch.com CNAME .
 202warehouses.net CNAME .
 *.202warehouses.net CNAME .
 202xs.com CNAME .
