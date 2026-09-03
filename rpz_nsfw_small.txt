@@ -1,16 +1,16 @@
-; Version: 202609030828
+; Version: 202609031008
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43984
-; Last modified: 2026-09-03T08:28:43+0000
+; Entries: 43986
+; Last modified: 2026-09-03T10:08:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788422401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788429601 86400 3600 604800 30
  NS localhost.
 007dc.com CNAME .
 *.007dc.com CNAME .
@@ -1592,6 +1592,8 @@ afiporn.net CNAME .
 *.afiporn.net CNAME .
 aflamaljins.com CNAME .
 *.aflamaljins.com CNAME .
+aflamk1.net CNAME .
+*.aflamk1.net CNAME .
 aflamsex69.net CNAME .
 *.aflamsex69.net CNAME .
 aflamsx.com CNAME .
