@@ -1,16 +1,16 @@
-; Version: 202609031706
+; Version: 202609031816
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 125900
-; Last modified: 2026-09-03T17:06:09+0000
+; Entries: 125896
+; Last modified: 2026-09-03T18:16:23+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788454802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788458401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -25326,8 +25326,6 @@ click-eu-v4.expmclck.com CNAME .
 *.click-eu-v4.expmclck.com CNAME .
 click-eu-v4.expmidclk.com CNAME .
 *.click-eu-v4.expmidclk.com CNAME .
-click-eu-v4.plarclck.com CNAME .
-*.click-eu-v4.plarclck.com CNAME .
 click-eu-v4.preclkmn.com CNAME .
 *.click-eu-v4.preclkmn.com CNAME .
 click-eu-v4.preclksize.com CNAME .
@@ -25402,8 +25400,6 @@ click-v4.junteamexclkmid.com CNAME .
 *.click-v4.junteamexclkmid.com CNAME .
 click-v4.mkrclkuno.com CNAME .
 *.click-v4.mkrclkuno.com CNAME .
-click-v4.plarclck.com CNAME .
-*.click-v4.plarclck.com CNAME .
 click-v4.preclkmn.com CNAME .
 *.click-v4.preclkmn.com CNAME .
 click-v4.preclksize.com CNAME .
@@ -25464,8 +25460,6 @@ click.localnews.click CNAME .
 *.click.localnews.click CNAME .
 click.oneplus.cn CNAME .
 *.click.oneplus.cn CNAME .
-click.plarclck.com CNAME .
-*.click.plarclck.com CNAME .
 click.preclkmn.com CNAME .
 *.click.preclkmn.com CNAME .
 click.preclksize.com CNAME .
@@ -81404,6 +81398,8 @@ planttrains.space CNAME .
 *.planttrains.space CNAME .
 planurycrit.cfd CNAME .
 *.planurycrit.cfd CNAME .
+plarclck.com CNAME .
+*.plarclck.com CNAME .
 plarimocl.com CNAME .
 *.plarimocl.com CNAME .
 plarimoexocli.com CNAME .
