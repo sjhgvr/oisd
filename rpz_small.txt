@@ -1,16 +1,16 @@
-; Version: 202609041205
+; Version: 202609042218
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 126218
-; Last modified: 2026-09-04T12:05:47+0000
+; Last modified: 2026-09-04T22:18:20+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788523202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788559201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -23604,8 +23604,6 @@ cdn.doubleverify.com CNAME .
 *.cdn.doubleverify.com CNAME .
 cdn.dsmstats.com CNAME .
 *.cdn.dsmstats.com CNAME .
-cdn.dsspn.com CNAME .
-*.cdn.dsspn.com CNAME .
 cdn.eksiup.com CNAME .
 *.cdn.eksiup.com CNAME .
 cdn.empower.net CNAME .
@@ -36806,6 +36804,8 @@ dspunion.com CNAME .
 *.dspunion.com CNAME .
 dsraozxhfuifo.site CNAME .
 *.dsraozxhfuifo.site CNAME .
+dsspn.com CNAME .
+*.dsspn.com CNAME .
 dstha9.com CNAME .
 *.dstha9.com CNAME .
 dstimaariracon.org CNAME .
