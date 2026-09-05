@@ -1,16 +1,16 @@
-; Version: 202609050832
+; Version: 202609050908
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 44102
-; Last modified: 2026-09-05T08:32:48+0000
+; Entries: 44100
+; Last modified: 2026-09-05T09:08:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788595201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788598801 86400 3600 604800 30
  NS localhost.
 007dc.com CNAME .
 *.007dc.com CNAME .
@@ -31928,8 +31928,6 @@ sensationalvideo.com CNAME .
 *.sensationalvideo.com CNAME .
 senseluxury.com CNAME .
 *.senseluxury.com CNAME .
-sensitivecontent.info CNAME .
-*.sensitivecontent.info CNAME .
 sensualagenda.com CNAME .
 *.sensualagenda.com CNAME .
 sensualgirls.org CNAME .
