@@ -1,16 +1,16 @@
-; Version: 202609050005
+; Version: 202609050105
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 540066
-; Last modified: 2026-09-05T00:05:53+0000
+; Last modified: 2026-09-05T01:05:52+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788566402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788570001 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -27166,6 +27166,8 @@ ads-link.net CNAME .
 *.ads-link.net CNAME .
 ads-links.com CNAME .
 *.ads-links.com CNAME .
+ads-m.rustore.ru CNAME .
+*.ads-m.rustore.ru CNAME .
 ads-marketing-vivofs.vivo.com.cn CNAME .
 *.ads-marketing-vivofs.vivo.com.cn CNAME .
 ads-media.gameforge.com CNAME .
@@ -149154,8 +149156,6 @@ download.windowsupdate.lflinkup.com CNAME .
 *.download.windowsupdate.lflinkup.com CNAME .
 download.yrnvtklot.com CNAME .
 *.download.yrnvtklot.com CNAME .
-download2.huduntech.com CNAME .
-*.download2.huduntech.com CNAME .
 download77.com CNAME .
 *.download77.com CNAME .
 downloada.dewmobile.net CNAME .
