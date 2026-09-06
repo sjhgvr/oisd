@@ -1,16 +1,16 @@
-; Version: 202609061105
+; Version: 202609061147
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 538636
-; Last modified: 2026-09-06T11:05:57+0000
+; Entries: 538634
+; Last modified: 2026-09-06T11:47:36+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788692401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788695251 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -436410,8 +436410,6 @@ stealthsafetycontrol.com CNAME .
 *.stealthsafetycontrol.com CNAME .
 stealthsvcverification.weebly.com CNAME .
 *.stealthsvcverification.weebly.com CNAME .
-steam-account.ru CNAME .
-*.steam-account.ru CNAME .
 steam-accounts.net CNAME .
 *.steam-accounts.net CNAME .
 steam-cards.com CNAME .
