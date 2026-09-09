@@ -1,16 +1,16 @@
-; Version: 202609091941
+; Version: 202609092042
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 44240
-; Last modified: 2026-09-09T19:41:55+0000
+; Entries: 44242
+; Last modified: 2026-09-09T20:42:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788980401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1788984001 86400 3600 604800 30
  NS localhost.
 007dc.com CNAME .
 *.007dc.com CNAME .
@@ -8758,6 +8758,8 @@ desibf.click CNAME .
 *.desibf.click CNAME .
 desibf.com CNAME .
 *.desibf.com CNAME .
+desibf.com.co CNAME .
+*.desibf.com.co CNAME .
 desibhabhi.best CNAME .
 *.desibhabhi.best CNAME .
 desiboobs.club CNAME .
