@@ -1,16 +1,16 @@
-; Version: 202609101806
+; Version: 202609101817
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 494960
-; Last modified: 2026-09-10T18:06:28+0000
+; Entries: 494958
+; Last modified: 2026-09-10T18:17:09+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789063202 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789064224 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -360456,8 +360456,6 @@ roobet-officiel.fr CNAME .
 *.roobet-officiel.fr CNAME .
 roobet-promo.fr CNAME .
 *.roobet-promo.fr CNAME .
-roobet.com CNAME .
-*.roobet.com CNAME .
 roobet2.fr CNAME .
 *.roobet2.fr CNAME .
 roobetaffiliates.com CNAME .
