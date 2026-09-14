@@ -1,16 +1,16 @@
-; Version: 202609141607
+; Version: 202609141708
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 45092
-; Last modified: 2026-09-14T16:07:42+0000
+; Entries: 45090
+; Last modified: 2026-09-14T17:08:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789401602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789405201 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -16180,8 +16180,6 @@ helixstudios.com CNAME .
 *.helixstudios.com CNAME .
 hellaporn.com CNAME .
 *.hellaporn.com CNAME .
-hellclan.co.uk CNAME .
-*.hellclan.co.uk CNAME .
 hellmoms.com CNAME .
 *.hellmoms.com CNAME .
 hello.porn CNAME .
