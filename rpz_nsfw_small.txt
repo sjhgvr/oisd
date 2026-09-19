@@ -1,16 +1,16 @@
-; Version: 202609190518
+; Version: 202609190607
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 44166
-; Last modified: 2026-09-19T05:18:06+0000
+; Last modified: 2026-09-19T06:07:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789794002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789797601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -552,6 +552,8 @@ $TTL 30
 *.3gpkings.info CNAME .
 3hentai.net CNAME .
 *.3hentai.net CNAME .
+3hentai.online CNAME .
+*.3hentai.online CNAME .
 3hentai.to CNAME .
 *.3hentai.to CNAME .
 3iks.org CNAME .
@@ -718,8 +720,6 @@ $TTL 30
 *.51shucheng.net CNAME .
 51sptv.com CNAME .
 *.51sptv.com CNAME .
-51yxxg.com CNAME .
-*.51yxxg.com CNAME .
 520cc.cc CNAME .
 *.520cc.cc CNAME .
 520mojing.com CNAME .
