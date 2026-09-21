@@ -1,16 +1,16 @@
-; Version: 202609212234
+; Version: 202609212334
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 43770
-; Last modified: 2026-09-21T22:34:36+0000
+; Last modified: 2026-09-21T23:34:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790028002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790031601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -21196,6 +21196,8 @@ lkprd.site CNAME .
 *.lkprd.site CNAME .
 llcam.com CNAME .
 *.llcam.com CNAME .
+llgjy60.com CNAME .
+*.llgjy60.com CNAME .
 llsp.me CNAME .
 *.llsp.me CNAME .
 lmlib.com CNAME .
@@ -21218,8 +21220,6 @@ localflirtalert.com CNAME .
 *.localflirtalert.com CNAME .
 localhussies.com CNAME .
 *.localhussies.com CNAME .
-locallink.com.br CNAME .
-*.locallink.com.br CNAME .
 localtranshookups.com CNAME .
 *.localtranshookups.com CNAME .
 localvibesconnection.com CNAME .
