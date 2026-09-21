@@ -1,16 +1,16 @@
-; Version: 202609210136
+; Version: 202609210208
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 44042
-; Last modified: 2026-09-21T01:36:14+0000
+; Entries: 44040
+; Last modified: 2026-09-21T02:08:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789952401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1789956002 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -14496,8 +14496,6 @@ goldendesi.com CNAME .
 *.goldendesi.com CNAME .
 goldengate.hu CNAME .
 *.goldengate.hu CNAME .
-goldenseaapart.com CNAME .
-*.goldenseaapart.com CNAME .
 goldfaps.com CNAME .
 *.goldfaps.com CNAME .
 goldgay.tv CNAME .
