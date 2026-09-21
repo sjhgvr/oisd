@@ -1,16 +1,16 @@
-; Version: 202609212040
+; Version: 202609212136
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43770
-; Last modified: 2026-09-21T20:40:58+0000
+; Entries: 43772
+; Last modified: 2026-09-21T21:36:17+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790020802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790024402 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -20232,6 +20232,8 @@ klikbokep.com CNAME .
 *.klikbokep.com CNAME .
 klpbbs.com CNAME .
 *.klpbbs.com CNAME .
+klubnichka.live CNAME .
+*.klubnichka.live CNAME .
 klwllt.com CNAME .
 *.klwllt.com CNAME .
 kmacg20.com CNAME .
@@ -20746,10 +20748,10 @@ lenawethole.com CNAME .
 *.lenawethole.com CNAME .
 lendirqu.com CNAME .
 *.lendirqu.com CNAME .
+lendirqu.guru CNAME .
+*.lendirqu.guru CNAME .
 lendirqu.wtf CNAME .
 *.lendirqu.wtf CNAME .
-lendirqu.xyz CNAME .
-*.lendirqu.xyz CNAME .
 lendovideos.com CNAME .
 *.lendovideos.com CNAME .
 lengkuge.com CNAME .
