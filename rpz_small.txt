@@ -1,16 +1,16 @@
-; Version: 202609241808
+; Version: 202609241908
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 114722
-; Last modified: 2026-09-24T18:08:43+0000
+; Entries: 114728
+; Last modified: 2026-09-24T19:08:02+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790272801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790276401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -12242,6 +12242,8 @@ analytics.claudelog.com CNAME .
 *.analytics.claudelog.com CNAME .
 analytics.clic2buy.com CNAME .
 *.analytics.clic2buy.com CNAME .
+analytics.click-or-die.ru CNAME .
+*.analytics.click-or-die.ru CNAME .
 analytics.clientify.net CNAME .
 *.analytics.clientify.net CNAME .
 analytics.cloud.coveo.com CNAME .
@@ -37876,6 +37878,8 @@ eventlog.jackpot.de CNAME .
 *.eventlog.jackpot.de CNAME .
 eventlog.outbrain.com CNAME .
 *.eventlog.outbrain.com CNAME .
+eventlog.setka.ru CNAME .
+*.eventlog.setka.ru CNAME .
 eventlogger.soundcloud.com CNAME .
 *.eventlogger.soundcloud.com CNAME .
 eventrecorder.cm.bloomberg.com CNAME .
@@ -54498,8 +54502,8 @@ justenantrum.com CNAME .
 *.justenantrum.com CNAME .
 justey.com CNAME .
 *.justey.com CNAME .
-justice.maybeoneday.ch CNAME .
-*.justice.maybeoneday.ch CNAME .
+justice.hls.lol CNAME .
+*.justice.hls.lol CNAME .
 justid.io CNAME .
 *.justid.io CNAME .
 justifytartexterior.com CNAME .
@@ -62894,6 +62898,8 @@ metrics.taimi.com CNAME .
 *.metrics.taimi.com CNAME .
 metrics.ted.com CNAME .
 *.metrics.ted.com CNAME .
+metrics.temptcdn.com CNAME .
+*.metrics.temptcdn.com CNAME .
 metrics.thefeed.com CNAME .
 *.metrics.thefeed.com CNAME .
 metrics.timewarnercable.com CNAME .
