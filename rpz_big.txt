@@ -1,16 +1,16 @@
-; Version: 202609260917
+; Version: 202609260948
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 487506
-; Last modified: 2026-09-26T09:17:01+0000
+; Entries: 487504
+; Last modified: 2026-09-26T09:48:40+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790413201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790416113 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -92030,8 +92030,6 @@ cdn.advg.agency CNAME .
 *.cdn.advg.agency CNAME .
 cdn.advstatistics.com CNAME .
 *.cdn.advstatistics.com CNAME .
-cdn.adxcontent.com CNAME .
-*.cdn.adxcontent.com CNAME .
 cdn.affiliatable.io CNAME .
 *.cdn.affiliatable.io CNAME .
 cdn.afwpc.com CNAME .
