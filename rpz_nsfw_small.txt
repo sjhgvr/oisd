@@ -1,16 +1,16 @@
-; Version: 202609270907
+; Version: 202609271020
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 43570
-; Last modified: 2026-09-27T09:07:30+0000
+; Entries: 43574
+; Last modified: 2026-09-27T10:20:35+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790499601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790503202 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -9486,6 +9486,8 @@ doujinblog.org CNAME .
 *.doujinblog.org CNAME .
 doujindesu.tv CNAME .
 *.doujindesu.tv CNAME .
+doujinfast.com CNAME .
+*.doujinfast.com CNAME .
 doujinnomori.com CNAME .
 *.doujinnomori.com CNAME .
 doujinrepublic.com CNAME .
@@ -25922,6 +25924,8 @@ ososedki.com CNAME .
 *.ososedki.com CNAME .
 osovideos.com CNAME .
 *.osovideos.com CNAME .
+otakaravideo.com CNAME .
+*.otakaravideo.com CNAME .
 otomekoe.moe CNAME .
 *.otomekoe.moe CNAME .
 otomi-games.com CNAME .
