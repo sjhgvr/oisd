@@ -1,16 +1,16 @@
-; Version: 202610010707
+; Version: 202610010807
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41310
-; Last modified: 2026-10-01T07:07:35+0000
+; Entries: 41314
+; Last modified: 2026-10-01T08:07:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790838001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790841601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -15500,6 +15500,8 @@ hnext.jp CNAME .
 *.hnext.jp CNAME .
 hnjichao.com CNAME .
 *.hnjichao.com CNAME .
+hnlydsp.com CNAME .
+*.hnlydsp.com CNAME .
 hnt.co.jp CNAME .
 *.hnt.co.jp CNAME .
 ho5ho.com CNAME .
@@ -16316,6 +16318,8 @@ hsck.la CNAME .
 *.hsck.la CNAME .
 hsck123.com CNAME .
 *.hsck123.com CNAME .
+hsclsv.com CNAME .
+*.hsclsv.com CNAME .
 hsex.icu CNAME .
 *.hsex.icu CNAME .
 hsex.tv CNAME .
