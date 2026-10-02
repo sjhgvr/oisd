@@ -1,16 +1,16 @@
-; Version: 202610021707
+; Version: 202610021807
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 41188
-; Last modified: 2026-10-02T17:07:58+0000
+; Entries: 41196
+; Last modified: 2026-10-02T18:07:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790960401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790964001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -18,10 +18,16 @@ $TTL 30
 *.0001xhamster.com CNAME .
 007dc.com CNAME .
 *.007dc.com CNAME .
+01-06.com CNAME .
+*.01-06.com CNAME .
 01tube.com CNAME .
 *.01tube.com CNAME .
 01tube.vip CNAME .
 *.01tube.vip CNAME .
+0202012.xyz CNAME .
+*.0202012.xyz CNAME .
+0202013.xyz CNAME .
+*.0202013.xyz CNAME .
 0202014.xyz CNAME .
 *.0202014.xyz CNAME .
 021sex.net CNAME .
@@ -298,6 +304,8 @@ $TTL 30
 *.1hanime.com CNAME .
 1imgporn.site CNAME .
 *.1imgporn.site CNAME .
+1kejian.com CNAME .
+*.1kejian.com CNAME .
 1kkk.com CNAME .
 *.1kkk.com CNAME .
 1mature.shop CNAME .
