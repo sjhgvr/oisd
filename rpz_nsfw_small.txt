@@ -1,16 +1,16 @@
-; Version: 202610030307
+; Version: 202610030436
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40940
-; Last modified: 2026-10-03T03:07:46+0000
+; Entries: 40944
+; Last modified: 2026-10-03T04:36:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1790996402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791000002 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -28182,6 +28182,8 @@ pyamal.com CNAME .
 *.pyamal.com CNAME .
 qayporn.com CNAME .
 *.qayporn.com CNAME .
+qaz-wsx.net CNAME .
+*.qaz-wsx.net CNAME .
 qazashka.cc CNAME .
 *.qazashka.cc CNAME .
 qaztube.com CNAME .
@@ -31782,6 +31784,8 @@ siza.tv CNAME .
 *.siza.tv CNAME .
 sj33.cn CNAME .
 *.sj33.cn CNAME .
+sjmanhua.com CNAME .
+*.sjmanhua.com CNAME .
 sjs66.com CNAME .
 *.sjs66.com CNAME .
 sjs66.net CNAME .
