@@ -1,16 +1,16 @@
-; Version: 202610041109
+; Version: 202610041237
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40772
-; Last modified: 2026-10-04T11:09:11+0000
+; Entries: 40776
+; Last modified: 2026-10-04T12:37:43+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791111601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791115201 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -8114,6 +8114,8 @@ desibp.cam CNAME .
 *.desibp.cam CNAME .
 desibp.im CNAME .
 *.desibp.im CNAME .
+desibp2.com CNAME .
+*.desibp2.com CNAME .
 desichicks.org CNAME .
 *.desichicks.org CNAME .
 desichudai.best CNAME .
@@ -31364,6 +31366,8 @@ shemalezoom.com CNAME .
 *.shemalezoom.com CNAME .
 shenqixiangsu.com CNAME .
 *.shenqixiangsu.com CNAME .
+shenqizhe.com CNAME .
+*.shenqizhe.com CNAME .
 shenshiai.net CNAME .
 *.shenshiai.net CNAME .
 sherisranch.com CNAME .
