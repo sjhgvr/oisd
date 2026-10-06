@@ -1,16 +1,16 @@
-; Version: 202610061005
+; Version: 202610061105
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 481302
-; Last modified: 2026-10-06T10:05:29+0000
+; Entries: 481330
+; Last modified: 2026-10-06T11:05:28+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791280802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791284401 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -66904,6 +66904,10 @@ biedronka-food.shop CNAME .
 *.biedronka-food.shop CNAME .
 biedronka-homeappliances.shop CNAME .
 *.biedronka-homeappliances.shop CNAME .
+biedronka-life.shop CNAME .
+*.biedronka-life.shop CNAME .
+biedronka-mixer.shop CNAME .
+*.biedronka-mixer.shop CNAME .
 biedronka-online.shop CNAME .
 *.biedronka-online.shop CNAME .
 biedronka-outlet.shop CNAME .
@@ -167946,6 +167950,8 @@ fraelaputback.com CNAME .
 *.fraelaputback.com CNAME .
 fragablefriends.com CNAME .
 *.fragablefriends.com CNAME .
+fragcup.games CNAME .
+*.fragcup.games CNAME .
 fragfusion.com CNAME .
 *.fragfusion.com CNAME .
 fragile-tutorial.com CNAME .
@@ -236302,6 +236308,8 @@ laxnws.112.2o7.net CNAME .
 *.laxnws.112.2o7.net CNAME .
 laxpalsy.com CNAME .
 *.laxpalsy.com CNAME .
+laxperi.shop CNAME .
+*.laxperi.shop CNAME .
 laxprs.112.2o7.net CNAME .
 *.laxprs.112.2o7.net CNAME .
 laxpsd.112.2o7.net CNAME .
@@ -253304,8 +253312,6 @@ m5r.hoes.tube CNAME .
 *.m5r.hoes.tube CNAME .
 m5uiy5gd1.com CNAME .
 *.m5uiy5gd1.com CNAME .
-m5x9rc.lat CNAME .
-*.m5x9rc.lat CNAME .
 m5xp8qn.casa CNAME .
 *.m5xp8qn.casa CNAME .
 m6-awq.shop CNAME .
@@ -258512,6 +258518,8 @@ mazarine-ap.com CNAME .
 *.mazarine-ap.com CNAME .
 mazarine-cufflinks.shop CNAME .
 *.mazarine-cufflinks.shop CNAME .
+mazarine-stockings.shop CNAME .
+*.mazarine-stockings.shop CNAME .
 mazcas.com CNAME .
 *.mazcas.com CNAME .
 mazeblock.com CNAME .
@@ -259354,6 +259362,8 @@ mebleprime.shop CNAME .
 *.mebleprime.shop CNAME .
 meblepro.shop CNAME .
 *.meblepro.shop CNAME .
+mebles.shop CNAME .
+*.mebles.shop CNAME .
 mebleshome.shop CNAME .
 *.mebleshome.shop CNAME .
 mebleswhome.shop CNAME .
@@ -264202,6 +264212,8 @@ militantwitnessfelon.com CNAME .
 *.militantwitnessfelon.com CNAME .
 militaria-discount.shop CNAME .
 *.militaria-discount.shop CNAME .
+militaria-outdoor.shop CNAME .
+*.militaria-outdoor.shop CNAME .
 militaria-outlet.com CNAME .
 *.militaria-outlet.com CNAME .
 militaria-pl-sprzedanie.sbs CNAME .
@@ -264216,6 +264228,8 @@ militaria-sell.shop CNAME .
 *.militaria-sell.shop CNAME .
 militaria.cervera.help CNAME .
 *.militaria.cervera.help CNAME .
+militaria.pl-market.shop CNAME .
+*.militaria.pl-market.shop CNAME .
 militaria.ro-marelbo.shop CNAME .
 *.militaria.ro-marelbo.shop CNAME .
 militaria.storepl.shop CNAME .
@@ -307326,6 +307340,8 @@ pelnarioxaa.info CNAME .
 *.pelnarioxaa.info CNAME .
 pelnazyskowow.com CNAME .
 *.pelnazyskowow.com CNAME .
+pelonirta.com CNAME .
+*.pelonirta.com CNAME .
 pelouses-vertes.fr CNAME .
 *.pelouses-vertes.fr CNAME .
 pelquo.click CNAME .
@@ -358686,6 +358702,8 @@ savyfew.pro CNAME .
 *.savyfew.pro CNAME .
 saway-astylishrefresh.shop CNAME .
 *.saway-astylishrefresh.shop CNAME .
+saway-comfortable.shop CNAME .
+*.saway-comfortable.shop CNAME .
 saway-cosypl.shop CNAME .
 *.saway-cosypl.shop CNAME .
 saway-fashiontrends.shop CNAME .
@@ -358742,6 +358760,8 @@ sawayonline-pl.shop CNAME .
 *.sawayonline-pl.shop CNAME .
 sawayoutlet-pl.shop CNAME .
 *.sawayoutlet-pl.shop CNAME .
+sawaypl-online.shop CNAME .
+*.sawaypl-online.shop CNAME .
 sawayrabat-sale.shop CNAME .
 *.sawayrabat-sale.shop CNAME .
 sawaysale-pl.shop CNAME .
@@ -375694,6 +375714,12 @@ smx.nu CNAME .
 *.smx.nu CNAME .
 smy.iheart.com CNAME .
 *.smy.iheart.com CNAME .
+smyk-babysfavoritethings.shop CNAME .
+*.smyk-babysfavoritethings.shop CNAME .
+smyk-babysupplies.shop CNAME .
+*.smyk-babysupplies.shop CNAME .
+smyk-childrenclothing.shop CNAME .
+*.smyk-childrenclothing.shop CNAME .
 smyk-discount.com CNAME .
 *.smyk-discount.com CNAME .
 smyk-plco.com CNAME .
@@ -440158,6 +440184,8 @@ vfhkljw5f6ss.com CNAME .
 *.vfhkljw5f6ss.com CNAME .
 vfjbsbxoqgdeayhu.com CNAME .
 *.vfjbsbxoqgdeayhu.com CNAME .
+vfjgr.6wdklo3.pics CNAME .
+*.vfjgr.6wdklo3.pics CNAME .
 vfjktzbecbede.space CNAME .
 *.vfjktzbecbede.space CNAME .
 vfjoawcligjcs.online CNAME .
