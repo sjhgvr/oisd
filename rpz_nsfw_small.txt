@@ -1,16 +1,16 @@
-; Version: 202610060107
+; Version: 202610060707
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 40558
-; Last modified: 2026-10-06T01:07:09+0000
+; Entries: 40560
+; Last modified: 2026-10-06T07:07:42+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791248402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791270001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -6732,6 +6732,8 @@ cheekylocals.com CNAME .
 *.cheekylocals.com CNAME .
 cheemsporn.net CNAME .
 *.cheemsporn.net CNAME .
+chengduren.org CNAME .
+*.chengduren.org CNAME .
 cherryaffair.com CNAME .
 *.cherryaffair.com CNAME .
 cherrygasp.com CNAME .
