@@ -1,16 +1,16 @@
-; Version: 202610081719
+; Version: 202610081756
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 480136
-; Last modified: 2026-10-08T17:19:29+0000
+; Entries: 480134
+; Last modified: 2026-10-08T17:56:46+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791478802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791482200 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -390304,8 +390304,6 @@ streamsearchclub.com CNAME .
 *.streamsearchclub.com CNAME .
 streamsearchwizard.com CNAME .
 *.streamsearchwizard.com CNAME .
-streamseek.net CNAME .
-*.streamseek.net CNAME .
 streamssitesearch.com CNAME .
 *.streamssitesearch.com CNAME .
 streamstv.pro CNAME .
