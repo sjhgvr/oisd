@@ -1,16 +1,16 @@
-; Version: 202610092121
+; Version: 202610100007
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 39018
-; Last modified: 2026-10-09T21:21:07+0000
+; Entries: 39020
+; Last modified: 2026-10-10T00:07:38+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791572401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791583201 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -30400,6 +30400,8 @@ smood.ch CNAME .
 *.smood.ch CNAME .
 smotreti-porno-online.sbs CNAME .
 *.smotreti-porno-online.sbs CNAME .
+smotretporno.baby CNAME .
+*.smotretporno.baby CNAME .
 smotretporno.digital CNAME .
 *.smotretporno.digital CNAME .
 smotretporno.watch CNAME .
