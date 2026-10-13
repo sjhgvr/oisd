@@ -1,16 +1,16 @@
-; Version: 202610130932
+; Version: 202610131007
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 945578
-; Last modified: 2026-10-13T09:32:14+0000
+; Last modified: 2026-10-13T10:07:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791882001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1791885601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -884928,6 +884928,8 @@ wuxiants402.com CNAME .
 *.wuxiants402.com CNAME .
 wuxiants403.com CNAME .
 *.wuxiants403.com CNAME .
+wuxiants457.com CNAME .
+*.wuxiants457.com CNAME .
 wuxiants46.com CNAME .
 *.wuxiants46.com CNAME .
 wuxiants495.com CNAME .
@@ -886762,8 +886764,6 @@ wxtcs.com CNAME .
 *.wxtcs.com CNAME .
 wxts.wuxiants398.com CNAME .
 *.wxts.wuxiants398.com CNAME .
-wxts.wuxiants457.com CNAME .
-*.wxts.wuxiants457.com CNAME .
 wxts.wuxiants473.com CNAME .
 *.wxts.wuxiants473.com CNAME .
 wxts.wuxiants563.com CNAME .
