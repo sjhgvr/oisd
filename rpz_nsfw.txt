@@ -1,16 +1,16 @@
-; Version: 202610151439
+; Version: 202610151535
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 946476
-; Last modified: 2026-10-15T14:39:46+0000
+; Entries: 946480
+; Last modified: 2026-10-15T15:35:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792072801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792076401 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -16862,6 +16862,8 @@ $TTL 30
 *.365daigou.com CNAME .
 365dianhua.com CNAME .
 *.365dianhua.com CNAME .
+365duit.com CNAME .
+*.365duit.com CNAME .
 365erotiek.nl CNAME .
 *.365erotiek.nl CNAME .
 365faps.com CNAME .
@@ -855762,6 +855764,8 @@ victorieheaven.blogspot.com CNAME .
 *.victorieheaven.blogspot.com CNAME .
 victormuscle.blogspot.com CNAME .
 *.victormuscle.blogspot.com CNAME .
+victorpa.com CNAME .
+*.victorpa.com CNAME .
 victorsdungeon.com CNAME .
 *.victorsdungeon.com CNAME .
 victorsportcelebs.blogspot.com CNAME .
