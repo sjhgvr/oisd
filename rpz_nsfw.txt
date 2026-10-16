@@ -1,16 +1,16 @@
-; Version: 202610162206
+; Version: 202610162306
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 948938
-; Last modified: 2026-10-16T22:06:56+0000
+; Entries: 949018
+; Last modified: 2026-10-16T23:06:14+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792188002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792191601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -501888,6 +501888,8 @@ maiyiderichangmanhua.org.cn CNAME .
 *.maiyiderichangmanhua.org.cn CNAME .
 maiyiderichangmanhuadaquan.net.cn CNAME .
 *.maiyiderichangmanhuadaquan.net.cn CNAME .
+maiyiderichangmianfeiyuedu.net.cn CNAME .
+*.maiyiderichangmianfeiyuedu.net.cn CNAME .
 maiyiderichangzaixianguankan.org.cn CNAME .
 *.maiyiderichangzaixianguankan.org.cn CNAME .
 maiyifu.org CNAME .
@@ -505064,6 +505066,8 @@ manwa2manhuazaixian.org.cn CNAME .
 *.manwa2manhuazaixian.org.cn CNAME .
 manwa2taiwanzaixian.net.cn CNAME .
 *.manwa2taiwanzaixian.net.cn CNAME .
+manwamanhuamianfeiyuedu.org.cn CNAME .
+*.manwamanhuamianfeiyuedu.org.cn CNAME .
 manwamanhuaquanji.net.cn CNAME .
 *.manwamanhuaquanji.net.cn CNAME .
 manwawang.com CNAME .
@@ -517170,6 +517174,8 @@ meimeidaohang.com CNAME .
 *.meimeidaohang.com CNAME .
 meimeidongman.net.cn CNAME .
 *.meimeidongman.net.cn CNAME .
+meimeijiuhaolequanji.org.cn CNAME .
+*.meimeijiuhaolequanji.org.cn CNAME .
 meimeipornn.cc CNAME .
 *.meimeipornn.cc CNAME .
 meimeiyounanpengyoule1.org.cn CNAME .
@@ -534410,6 +534416,8 @@ mogaiduanjuaidianshiju.org.cn CNAME .
 *.mogaiduanjuaidianshiju.org.cn CNAME .
 mogaiduanjuaidianshijuguankan.org.cn CNAME .
 *.mogaiduanjuaidianshijuguankan.org.cn CNAME .
+mogaiduanjuaidianshijuzaixian.net.cn CNAME .
+*.mogaiduanjuaidianshijuzaixian.net.cn CNAME .
 mogaiduanjuaigaibianjuji.org.cn CNAME .
 *.mogaiduanjuaigaibianjuji.org.cn CNAME .
 mogaiduanjuaigaibianjujiheji.net.cn CNAME .
@@ -534434,6 +534442,8 @@ mogaiduanjuaijujizaixianquanji.org.cn CNAME .
 *.mogaiduanjuaijujizaixianquanji.org.cn CNAME .
 mogaijuaiduanjulongaotian.org.cn CNAME .
 *.mogaijuaiduanjulongaotian.org.cn CNAME .
+mogaijuaiduanjulongaotianheji.net.cn CNAME .
+*.mogaijuaiduanjulongaotianheji.net.cn CNAME .
 mogaijuaiduanjulongaotianjuqing.org.cn CNAME .
 *.mogaijuaiduanjulongaotianjuqing.org.cn CNAME .
 mogaijuaiduanjulongaotianquanji.org.cn CNAME .
@@ -534460,6 +534470,8 @@ mogaijuaimanjuzaixianguankan.net.cn CNAME .
 *.mogaijuaimanjuzaixianguankan.net.cn CNAME .
 mogaijuaimanjuzaixiankanju.net.cn CNAME .
 *.mogaijuaimanjuzaixiankanju.net.cn CNAME .
+mogaijuaimanjuzaixianshipin.org.cn CNAME .
+*.mogaijuaimanjuzaixianshipin.org.cn CNAME .
 mogaimanjuaibanguankandizhi.org.cn CNAME .
 *.mogaimanjuaibanguankandizhi.org.cn CNAME .
 mogaimanjuaibanguankanrukou.net.cn CNAME .
@@ -534526,6 +534538,8 @@ moguilianrendiyiji.net.cn CNAME .
 *.moguilianrendiyiji.net.cn CNAME .
 moguilianrendiyiji.org.cn CNAME .
 *.moguilianrendiyiji.org.cn CNAME .
+moguilianrendongmanquanji.net.cn CNAME .
+*.moguilianrendongmanquanji.net.cn CNAME .
 moguilianrenzaixian.net.cn CNAME .
 *.moguilianrenzaixian.net.cn CNAME .
 mogupornav0.cc CNAME .
@@ -539162,6 +539176,8 @@ mowangniximanhua.net.cn CNAME .
 *.mowangniximanhua.net.cn CNAME .
 mowangniximanhua.org.cn CNAME .
 *.mowangniximanhua.org.cn CNAME .
+mowangshuangchongshenghuo.net.cn CNAME .
+*.mowangshuangchongshenghuo.net.cn CNAME .
 mowangshuangchongshenghuo.org.cn CNAME .
 *.mowangshuangchongshenghuo.org.cn CNAME .
 mowaxcuts.blogspot.com CNAME .
@@ -539298,8 +539314,12 @@ mozhoutaibanguankan.net.cn CNAME .
 *.mozhoutaibanguankan.net.cn CNAME .
 mozhoutaibanguankan.org.cn CNAME .
 *.mozhoutaibanguankan.org.cn CNAME .
+mozhoutaibanmanhua.org.cn CNAME .
+*.mozhoutaibanmanhua.org.cn CNAME .
 mozhoutaibanzaixian.net.cn CNAME .
 *.mozhoutaibanzaixian.net.cn CNAME .
+mozhouxialashi.net.cn CNAME .
+*.mozhouxialashi.net.cn CNAME .
 mozhouxialashi.org.cn CNAME .
 *.mozhouxialashi.org.cn CNAME .
 mozhouzhouzaijing.net.cn CNAME .
@@ -564462,6 +564482,8 @@ nishafun.godaddysites.com CNAME .
 *.nishafun.godaddysites.com CNAME .
 nishangguzheng.com CNAME .
 *.nishangguzheng.com CNAME .
+nishanhanmanhua.net.cn CNAME .
+*.nishanhanmanhua.net.cn CNAME .
 nishasexy.pages.dev CNAME .
 *.nishasexy.pages.dev CNAME .
 nishasexycelebs.blogspot.com CNAME .
@@ -574076,6 +574098,8 @@ nvporn.com CNAME .
 *.nvporn.com CNAME .
 nvpujiaoyudiersiji.org.cn CNAME .
 *.nvpujiaoyudiersiji.org.cn CNAME .
+nvpujiaoyudiersijiziyuan.net.cn CNAME .
+*.nvpujiaoyudiersijiziyuan.net.cn CNAME .
 nvpuyushaoye.org.cn CNAME .
 *.nvpuyushaoye.org.cn CNAME .
 nvpuyushaoyequanji.org.cn CNAME .
@@ -591454,6 +591478,8 @@ paora-dvds.blogspot.com CNAME .
 *.paora-dvds.blogspot.com CNAME .
 paowenwu3.com CNAME .
 *.paowenwu3.com CNAME .
+paozaiwojiadeheitiantongxue.net.cn CNAME .
+*.paozaiwojiadeheitiantongxue.net.cn CNAME .
 paozaiwojiadeheitiantongxue.org.cn CNAME .
 *.paozaiwojiadeheitiantongxue.org.cn CNAME .
 paozaiwojiadelameiquanji.net.cn CNAME .
@@ -676080,6 +676106,8 @@ qianhejiangkaifarijiquanji.org.cn CNAME .
 *.qianhejiangkaifarijiquanji.org.cn CNAME .
 qianhejiangkaifarijiwanzhengban.net.cn CNAME .
 *.qianhejiangkaifarijiwanzhengban.net.cn CNAME .
+qianhekaifariji.net.cn CNAME .
+*.qianhekaifariji.net.cn CNAME .
 qianhekaifariji.org.cn CNAME .
 *.qianhekaifariji.org.cn CNAME .
 qianhemanhuadaquan.org.cn CNAME .
@@ -691754,6 +691782,8 @@ ribendianyinglianmuqingjie.net.cn CNAME .
 *.ribendianyinglianmuqingjie.net.cn CNAME .
 ribendianyinglianmuqingjie.org.cn CNAME .
 *.ribendianyinglianmuqingjie.org.cn CNAME .
+ribenfuqizhijianwaiyuzhengchangma.org.cn CNAME .
+*.ribenfuqizhijianwaiyuzhengchangma.org.cn CNAME .
 ribenhaokandedianyingmianfeituijian.net.cn CNAME .
 *.ribenhaokandedianyingmianfeituijian.net.cn CNAME .
 ribenhuayangshaonianshaonv.net.cn CNAME .
@@ -692374,6 +692404,8 @@ riju3.net.cn CNAME .
 *.riju3.net.cn CNAME .
 riju9.net.cn CNAME .
 *.riju9.net.cn CNAME .
+rijubeishushu.org.cn CNAME .
+*.rijubeishushu.org.cn CNAME .
 rijumuxingzaikanwanzhengbandianshijiu.cn CNAME .
 *.rijumuxingzaikanwanzhengbandianshijiu.cn CNAME .
 rijuqinmiairen6.org.cn CNAME .
@@ -759242,6 +759274,8 @@ shekushuangnanzhu.net.cn CNAME .
 *.shekushuangnanzhu.net.cn CNAME .
 shekushuangnanzhu.org.cn CNAME .
 *.shekushuangnanzhu.org.cn CNAME .
+shekuyishi.net.cn CNAME .
+*.shekuyishi.net.cn CNAME .
 shekuyishi.org.cn CNAME .
 *.shekuyishi.org.cn CNAME .
 shel-dd.com CNAME .
@@ -764762,6 +764796,8 @@ shuangzitoxianshengdongman.org.cn CNAME .
 *.shuangzitoxianshengdongman.org.cn CNAME .
 shuangzitoxianshengdongmanziyuan.net.cn CNAME .
 *.shuangzitoxianshengdongmanziyuan.net.cn CNAME .
+shuangzitoxianshengquanji.net.cn CNAME .
+*.shuangzitoxianshengquanji.net.cn CNAME .
 shuazibu.com.cn CNAME .
 *.shuazibu.com.cn CNAME .
 shuba3.xyz CNAME .
@@ -765026,6 +765062,8 @@ shuronglaoweimanhua.net.cn CNAME .
 *.shuronglaoweimanhua.net.cn CNAME .
 shuronglaoweimanhua.org.cn CNAME .
 *.shuronglaoweimanhua.org.cn CNAME .
+shuronglaoweimanhuaquanji.org.cn CNAME .
+*.shuronglaoweimanhuaquanji.org.cn CNAME .
 shuronglaoweimianfeiyuedu.net.cn CNAME .
 *.shuronglaoweimianfeiyuedu.net.cn CNAME .
 shurporno.com CNAME .
@@ -766746,6 +766784,8 @@ simibaby.com.cn CNAME .
 *.simibaby.com.cn CNAME .
 simierbaby.com CNAME .
 *.simierbaby.com CNAME .
+simijiaoxuemanhuaquanben.net.cn CNAME .
+*.simijiaoxuemanhuaquanben.net.cn CNAME .
 simijiaoxuemanhuaquanji.org.cn CNAME .
 *.simijiaoxuemanhuaquanji.org.cn CNAME .
 simijiaoxuemianfeiyuedu.net.cn CNAME .
@@ -802618,6 +802658,8 @@ tankporn.net CNAME .
 *.tankporn.net CNAME .
 tanlanzhidao37.net.cn CNAME .
 *.tanlanzhidao37.net.cn CNAME .
+tanlanzhidao37.org.cn CNAME .
+*.tanlanzhidao37.org.cn CNAME .
 tanlinedmodels.com CNAME .
 *.tanlinedmodels.com CNAME .
 tannachy.com CNAME .
@@ -811874,6 +811916,8 @@ tench.net.cn CNAME .
 *.tench.net.cn CNAME .
 tencia.itch.io CNAME .
 *.tencia.itch.io CNAME .
+tencountdongman.org.cn CNAME .
+*.tencountdongman.org.cn CNAME .
 tencountzaixian.net.cn CNAME .
 *.tencountzaixian.net.cn CNAME .
 tendanceq.blogspot.com CNAME .
@@ -829966,6 +830010,8 @@ touxijie.com CNAME .
 *.touxijie.com CNAME .
 touxingjiuyuetian.net.cn CNAME .
 *.touxingjiuyuetian.net.cn CNAME .
+touxingjiuyuezaixian.org.cn CNAME .
+*.touxingjiuyuezaixian.org.cn CNAME .
 touykia86.xyz CNAME .
 *.touykia86.xyz CNAME .
 touyue.cfd CNAME .
@@ -841642,10 +841688,14 @@ tushudenvpengyou.org.cn CNAME .
 *.tushudenvpengyou.org.cn CNAME .
 tushudenvyouquanji.net.cn CNAME .
 *.tushudenvyouquanji.net.cn CNAME .
+tushudenvyouzaixian.org.cn CNAME .
+*.tushudenvyouzaixian.org.cn CNAME .
 tushuguandenvyou.net.cn CNAME .
 *.tushuguandenvyou.net.cn CNAME .
 tushuguandenvyoudongmanquanji.net.cn CNAME .
 *.tushuguandenvyoudongmanquanji.net.cn CNAME .
+tushuguandenvyoumanhua.net.cn CNAME .
+*.tushuguandenvyoumanhua.net.cn CNAME .
 tushuguandenvyouquanji.net.cn CNAME .
 *.tushuguandenvyouquanji.net.cn CNAME .
 tushuguandenvyouzaixian.org.cn CNAME .
@@ -878304,6 +878354,8 @@ weizhuangxuezhamanhua.org.cn CNAME .
 *.weizhuangxuezhamanhua.org.cn CNAME .
 weizhuangxuezhaquanji.net.cn CNAME .
 *.weizhuangxuezhaquanji.net.cn CNAME .
+weizhuangxuezhaquanji.org.cn CNAME .
+*.weizhuangxuezhaquanji.org.cn CNAME .
 weizhuangxuezhaweishanjian.net.cn CNAME .
 *.weizhuangxuezhaweishanjian.net.cn CNAME .
 weizhuangxuezhaweishanjian.org.cn CNAME .
@@ -879668,6 +879720,8 @@ wewangrenxuenvmanhua.org.cn CNAME .
 *.wewangrenxuenvmanhua.org.cn CNAME .
 wewangrenxuenvmanhuadaquan.net.cn CNAME .
 *.wewangrenxuenvmanhuadaquan.net.cn CNAME .
+wewangrenxuenvmanhuamianfeiyuedu.org.cn CNAME .
+*.wewangrenxuenvmanhuamianfeiyuedu.org.cn CNAME .
 wewangrenxuenvquanji.net.cn CNAME .
 *.wewangrenxuenvquanji.net.cn CNAME .
 wewangrenxuenvzaixianguankan.net.cn CNAME .
@@ -884690,6 +884744,8 @@ wodehaomamawanzhengbangeci.org.cn CNAME .
 *.wodehaomamawanzhengbangeci.org.cn CNAME .
 wodehaomennainiumamasuyuting.org.cn CNAME .
 *.wodehaomennainiumamasuyuting.org.cn CNAME .
+wodeheimaonanyou.net.cn CNAME .
+*.wodeheimaonanyou.net.cn CNAME .
 wodeheimaonanyou.org.cn CNAME .
 *.wodeheimaonanyou.org.cn CNAME .
 wodeheimaonanyou16ji.net.cn CNAME .
@@ -886424,6 +886480,8 @@ woxihuannidezaixian.net.cn CNAME .
 *.woxihuannidezaixian.net.cn CNAME .
 woximov.cc CNAME .
 *.woximov.cc CNAME .
+woxinliweixianquanji.net.cn CNAME .
+*.woxinliweixianquanji.net.cn CNAME .
 woxpx.com CNAME .
 *.woxpx.com CNAME .
 woxumov.cc CNAME .
@@ -896714,6 +896772,8 @@ xiaohuademimi.org.cn CNAME .
 *.xiaohuademimi.org.cn CNAME .
 xiaohuademimidongman.org.cn CNAME .
 *.xiaohuademimidongman.org.cn CNAME .
+xiaohuademimizx.net.cn CNAME .
+*.xiaohuademimizx.net.cn CNAME .
 xiaohuang.icu CNAME .
 *.xiaohuang.icu CNAME .
 xiaohuangdedipan.cn CNAME .
@@ -900028,6 +900088,8 @@ xlsilingmanhua.org.cn CNAME .
 *.xlsilingmanhua.org.cn CNAME .
 xlsilingquanji.org.cn CNAME .
 *.xlsilingquanji.org.cn CNAME .
+xlsilingzaixian.net.cn CNAME .
+*.xlsilingzaixian.net.cn CNAME .
 xlsjia.com CNAME .
 *.xlsjia.com CNAME .
 xlsluts.com CNAME .
@@ -909118,6 +909180,8 @@ xumin.cc CNAME .
 *.xumin.cc CNAME .
 xumu7.net.cn CNAME .
 *.xumu7.net.cn CNAME .
+xumuyuxujiemanhua.org.cn CNAME .
+*.xumuyuxujiemanhua.org.cn CNAME .
 xumuyuxujiemianfeikan.org.cn CNAME .
 *.xumuyuxujiemianfeikan.org.cn CNAME .
 xumuyuxujiequanji.net.cn CNAME .
@@ -909176,6 +909240,8 @@ xunweihotpot.com CNAME .
 *.xunweihotpot.com CNAME .
 xunxianghuaduolinranfanzhang.org.cn CNAME .
 *.xunxianghuaduolinranfanzhang.org.cn CNAME .
+xunxianghuaduoquanji.org.cn CNAME .
+*.xunxianghuaduoquanji.org.cn CNAME .
 xunxunbaobei.cn CNAME .
 *.xunxunbaobei.cn CNAME .
 xunyuanfalv.com CNAME .
@@ -928056,6 +928122,8 @@ yehuajimanhuadaquan.net.cn CNAME .
 *.yehuajimanhuadaquan.net.cn CNAME .
 yehuajimanhuadaquan.org.cn CNAME .
 *.yehuajimanhuadaquan.org.cn CNAME .
+yehuajimianfeiyuedu.org.cn CNAME .
+*.yehuajimianfeiyuedu.org.cn CNAME .
 yehucaobi.com CNAME .
 *.yehucaobi.com CNAME .
 yehuo.cyou CNAME .
@@ -929466,6 +929534,8 @@ yibenjingpinzhongwenzimuzaixian.org.cn CNAME .
 *.yibenjingpinzhongwenzimuzaixian.org.cn CNAME .
 yibenmanhuachuangtianya.net.cn CNAME .
 *.yibenmanhuachuangtianya.net.cn CNAME .
+yibenmanhuachuangtianya.org.cn CNAME .
+*.yibenmanhuachuangtianya.org.cn CNAME .
 yibiaotianxia.com CNAME .
 *.yibiaotianxia.com CNAME .
 yibinbangni.com CNAME .
@@ -930456,6 +930526,8 @@ yishijiejiujiu.net.cn CNAME .
 *.yishijiejiujiu.net.cn CNAME .
 yishijiejiujiu.org.cn CNAME .
 *.yishijiejiujiu.org.cn CNAME .
+yishijiejiujiumanhua.net.cn CNAME .
+*.yishijiejiujiumanhua.net.cn CNAME .
 yishijiejiujiumanhua.org.cn CNAME .
 *.yishijiejiujiumanhua.org.cn CNAME .
 yishijiejiujiuzaixian.net.cn CNAME .
@@ -937664,6 +937736,8 @@ yuseedigital.online CNAME .
 *.yuseedigital.online CNAME .
 yusencs.com CNAME .
 *.yusencs.com CNAME .
+yusenglvzhiyezaixian.net.cn CNAME .
+*.yusenglvzhiyezaixian.net.cn CNAME .
 yusenkj.cn CNAME .
 *.yusenkj.cn CNAME .
 yushangtu.net CNAME .
@@ -942618,6 +942692,8 @@ zhifuyouhuomanhuaxialashi.org.cn CNAME .
 *.zhifuyouhuomanhuaxialashi.org.cn CNAME .
 zhifuyouhuomianfeiyuedu.net.cn CNAME .
 *.zhifuyouhuomianfeiyuedu.net.cn CNAME .
+zhifuyouhuozaixian.net.cn CNAME .
+*.zhifuyouhuozaixian.net.cn CNAME .
 zhigaodiannet.com CNAME .
 *.zhigaodiannet.com CNAME .
 zhigaokt.com.cn CNAME .
@@ -942960,6 +943036,8 @@ zhonghuishengye.com CNAME .
 *.zhonghuishengye.com CNAME .
 zhongjiangchengweini.net.cn CNAME .
 *.zhongjiangchengweini.net.cn CNAME .
+zhongjiangchengweini.org.cn CNAME .
+*.zhongjiangchengweini.org.cn CNAME .
 zhongjiangchengweiniquanji.net.cn CNAME .
 *.zhongjiangchengweiniquanji.net.cn CNAME .
 zhongjiangchengweinizaixian.org.cn CNAME .
@@ -943196,6 +943274,8 @@ zhouyi123.com CNAME .
 *.zhouyi123.com CNAME .
 zhouyijiudixingxing.net.cn CNAME .
 *.zhouyijiudixingxing.net.cn CNAME .
+zhouyijiudixingxing.org.cn CNAME .
+*.zhouyijiudixingxing.org.cn CNAME .
 zhouyijiudixingxing40.net.cn CNAME .
 *.zhouyijiudixingxing40.net.cn CNAME .
 zhouyijiudixingxingmanhua.org.cn CNAME .
