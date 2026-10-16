@@ -1,16 +1,16 @@
-; Version: 202610160206
+; Version: 202610160333
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 946844
-; Last modified: 2026-10-16T02:06:26+0000
+; Entries: 946848
+; Last modified: 2026-10-16T03:33:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792116002 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792119601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -240636,6 +240636,8 @@ drbokep.xyz CNAME .
 *.drbokep.xyz CNAME .
 drbokep18.com CNAME .
 *.drbokep18.com CNAME .
+drbokep18.org CNAME .
+*.drbokep18.org CNAME .
 drcg.cc CNAME .
 *.drcg.cc CNAME .
 drchale.com.cn CNAME .
@@ -799324,6 +799326,8 @@ tabooer.com CNAME .
 *.tabooer.com CNAME .
 tabooescorts.com CNAME .
 *.tabooescorts.com CNAME .
+taboofamfun.com CNAME .
+*.taboofamfun.com CNAME .
 taboofamily.co CNAME .
 *.taboofamily.co CNAME .
 taboofamily.net CNAME .
