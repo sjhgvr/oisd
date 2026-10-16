@@ -1,16 +1,16 @@
-; Version: 202610161634
+; Version: 202610161935
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 38552
-; Last modified: 2026-10-16T16:34:26+0000
+; Entries: 38562
+; Last modified: 2026-10-16T19:35:39+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792166401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792177201 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -9876,14 +9876,24 @@ fapopedia.net CNAME .
 *.fapopedia.net CNAME .
 faporn.link CNAME .
 *.faporn.link CNAME .
+fappeningb.com CNAME .
+*.fappeningb.com CNAME .
+fappeningbk.com CNAME .
+*.fappeningbk.com CNAME .
 fappeningbook.com CNAME .
 *.fappeningbook.com CNAME .
+fappeningclub.com CNAME .
+*.fappeningclub.com CNAME .
 fappeningleaks.com CNAME .
 *.fappeningleaks.com CNAME .
+fappeningzone.com CNAME .
+*.fappeningzone.com CNAME .
 fappenist.com CNAME .
 *.fappenist.com CNAME .
 fappis.com CNAME .
 *.fappis.com CNAME .
+fappnet.com CNAME .
+*.fappnet.com CNAME .
 fapptime.com CNAME .
 *.fapptime.com CNAME .
 fapreactor.com CNAME .
