@@ -1,16 +1,16 @@
-; Version: 202610170432
+; Version: 202610170534
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 949038
-; Last modified: 2026-10-17T04:32:36+0000
+; Entries: 949042
+; Last modified: 2026-10-17T05:34:34+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792209602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792213202 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -143186,6 +143186,8 @@ bokepi.info CNAME .
 *.bokepi.info CNAME .
 bokepi.me CNAME .
 *.bokepi.me CNAME .
+bokepi.net CNAME .
+*.bokepi.net CNAME .
 bokepi.tv CNAME .
 *.bokepi.tv CNAME .
 bokepi13.pro CNAME .
@@ -484416,6 +484418,8 @@ livecamtube.org CNAME .
 *.livecamtube.org CNAME .
 livecamtv.de CNAME .
 *.livecamtv.de CNAME .
+livecamvip.com CNAME .
+*.livecamvip.com CNAME .
 livecamwebcam.com CNAME .
 *.livecamwebcam.com CNAME .
 livecamwebchat.com CNAME .
