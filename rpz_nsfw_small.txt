@@ -1,16 +1,16 @@
-; Version: 202610161935
+; Version: 202610170432
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 38562
-; Last modified: 2026-10-16T19:35:39+0000
+; Entries: 38564
+; Last modified: 2026-10-17T04:32:55+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792177201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792209602 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -10034,6 +10034,8 @@ feet9.com CNAME .
 *.feet9.com CNAME .
 feetfinder.com CNAME .
 *.feetfinder.com CNAME .
+feetloversonly.com CNAME .
+*.feetloversonly.com CNAME .
 feetluv.com CNAME .
 *.feetluv.com CNAME .
 feetplaza.com CNAME .
