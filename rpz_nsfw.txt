@@ -1,16 +1,16 @@
-; Version: 202610191339
+; Version: 202610191409
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 947756
-; Last modified: 2026-10-19T13:39:10+0000
+; Entries: 947760
+; Last modified: 2026-10-19T14:09:01+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792414802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792418402 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -603136,6 +603136,8 @@ pinayflix.cv CNAME .
 *.pinayflix.cv CNAME .
 pinayflix.day CNAME .
 *.pinayflix.day CNAME .
+pinayflix.es CNAME .
+*.pinayflix.es CNAME .
 pinayflix.foo CNAME .
 *.pinayflix.foo CNAME .
 pinayflix.fun CNAME .
@@ -603280,6 +603282,8 @@ pinayone.xyz CNAME .
 *.pinayone.xyz CNAME .
 pinayot.com CNAME .
 *.pinayot.com CNAME .
+pinayot.org CNAME .
+*.pinayot.org CNAME .
 pinaypie.biz CNAME .
 *.pinaypie.biz CNAME .
 pinaypie.bz CNAME .
