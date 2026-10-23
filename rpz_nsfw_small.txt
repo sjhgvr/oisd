@@ -1,16 +1,16 @@
-; Version: 202610222016
+; Version: 202610230007
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37712
-; Last modified: 2026-10-22T20:16:25+0000
+; Entries: 37714
+; Last modified: 2026-10-23T00:07:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792699201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792713601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -11478,6 +11478,8 @@ gatagold.com CNAME .
 *.gatagold.com CNAME .
 gatasdacapital.com CNAME .
 *.gatasdacapital.com CNAME .
+gatasdovale.com CNAME .
+*.gatasdovale.com CNAME .
 gataslindas.com CNAME .
 *.gataslindas.com CNAME .
 gatavirtual.com CNAME .
