@@ -1,16 +1,16 @@
-; Version: 202610241406
+; Version: 202610241434
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 471978
-; Last modified: 2026-10-24T14:06:19+0000
+; Entries: 471976
+; Last modified: 2026-10-24T14:34:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792850401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792852464 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -308444,8 +308444,6 @@ plesk.breeconsulting.net CNAME .
 *.plesk.breeconsulting.net CNAME .
 plesk.cheriwildes.com CNAME .
 *.plesk.cheriwildes.com CNAME .
-plesk.page CNAME .
-*.plesk.page CNAME .
 pleskor.shop CNAME .
 *.pleskor.shop CNAME .
 plethoramobile.com CNAME .
