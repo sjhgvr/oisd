@@ -1,16 +1,16 @@
-; Version: 202610241408
+; Version: 202610241424
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 949778
-; Last modified: 2026-10-24T14:08:05+0000
+; Entries: 949776
+; Last modified: 2026-10-24T14:24:01+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792850401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792851834 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -814372,8 +814372,6 @@ textalexisgolden.com CNAME .
 *.textalexisgolden.com CNAME .
 textalexismonroe.com CNAME .
 *.textalexismonroe.com CNAME .
-textcasting.org CNAME .
-*.textcasting.org CNAME .
 textcindystarfall.com CNAME .
 *.textcindystarfall.com CNAME .
 textdatingservice.com CNAME .
