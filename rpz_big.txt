@@ -1,16 +1,16 @@
-; Version: 202610241906
+; Version: 202610242005
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 471838
-; Last modified: 2026-10-24T19:06:19+0000
+; Entries: 471840
+; Last modified: 2026-10-24T20:05:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792868401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792872001 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -159444,6 +159444,8 @@ finsightpro.net CNAME .
 *.finsightpro.net CNAME .
 finsy1-et20.cfd CNAME .
 *.finsy1-et20.cfd CNAME .
+finsy9-et15.cfd CNAME .
+*.finsy9-et15.cfd CNAME .
 fintarioso.com CNAME .
 *.fintarioso.com CNAME .
 fintarioso.net CNAME .
