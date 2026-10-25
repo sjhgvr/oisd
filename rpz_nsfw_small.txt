@@ -1,16 +1,16 @@
-; Version: 202610242340
+; Version: 202610250439
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37316
-; Last modified: 2026-10-24T23:40:42+0000
+; Entries: 37322
+; Last modified: 2026-10-25T04:39:32+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792882801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792900801 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -930,6 +930,8 @@ $TTL 30
 *.91rb.net CNAME .
 91selfie.com CNAME .
 *.91selfie.com CNAME .
+91short.com CNAME .
+*.91short.com CNAME .
 91splt.app CNAME .
 *.91splt.app CNAME .
 91torture.com CNAME .
@@ -7508,6 +7510,8 @@ desihub.cc CNAME .
 *.desihub.cc CNAME .
 desihub.city CNAME .
 *.desihub.city CNAME .
+desihub.sh CNAME .
+*.desihub.sh CNAME .
 desihub.top CNAME .
 *.desihub.top CNAME .
 desihub.tv CNAME .
@@ -32010,6 +32014,8 @@ uncutmasti.com CNAME .
 *.uncutmasti.com CNAME .
 uncutmaza.gg CNAME .
 *.uncutmaza.gg CNAME .
+uncutmaza.movie CNAME .
+*.uncutmaza.movie CNAME .
 uncutmaza.org CNAME .
 *.uncutmaza.org CNAME .
 uncutnow.net CNAME .
