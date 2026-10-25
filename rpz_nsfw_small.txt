@@ -1,16 +1,16 @@
-; Version: 202610251224
+; Version: 202610251644
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37288
-; Last modified: 2026-10-25T12:24:18+0000
+; Entries: 37290
+; Last modified: 2026-10-25T16:44:47+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792922401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1792944002 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -8228,6 +8228,8 @@ dropmms.co CNAME .
 *.dropmms.co CNAME .
 dropmms.com CNAME .
 *.dropmms.com CNAME .
+dropmms.forum CNAME .
+*.dropmms.forum CNAME .
 dropmms.fun CNAME .
 *.dropmms.fun CNAME .
 dropmms.net CNAME .
