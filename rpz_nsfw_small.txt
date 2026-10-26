@@ -1,16 +1,16 @@
-; Version: 202610261438
+; Version: 202610261540
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37212
-; Last modified: 2026-10-26T14:38:42+0000
+; Entries: 37214
+; Last modified: 2026-10-26T15:40:21+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793023201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793026801 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -16878,6 +16878,8 @@ kek-sik.com CNAME .
 *.kek-sik.com CNAME .
 kekenet.com CNAME .
 *.kekenet.com CNAME .
+kekeshici.com CNAME .
+*.kekeshici.com CNAME .
 kekishi.com CNAME .
 *.kekishi.com CNAME .
 keksik.me CNAME .
