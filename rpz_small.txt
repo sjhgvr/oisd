@@ -1,16 +1,16 @@
-; Version: 202610271217
+; Version: 202610271407
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 118778
-; Last modified: 2026-10-27T12:17:14+0000
+; Entries: 118776
+; Last modified: 2026-10-27T14:07:12+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793102402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793109601 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -7852,8 +7852,6 @@ adcell.de CNAME .
 *.adcell.de CNAME .
 adcenter-api.cashwalk.co CNAME .
 *.adcenter-api.cashwalk.co CNAME .
-adcenter.cx CNAME .
-*.adcenter.cx CNAME .
 adcenter.net CNAME .
 *.adcenter.net CNAME .
 adcentriconline.com CNAME .
