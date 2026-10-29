@@ -1,16 +1,16 @@
-; Version: 202610290138
+; Version: 202610290246
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 37080
-; Last modified: 2026-10-29T01:38:21+0000
+; Entries: 37084
+; Last modified: 2026-10-29T02:46:49+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793235602 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793239202 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -29372,6 +29372,8 @@ stripchat.fans CNAME .
 *.stripchat.fans CNAME .
 stripchat.global CNAME .
 *.stripchat.global CNAME .
+stripchat.io CNAME .
+*.stripchat.io CNAME .
 stripchat.ooo CNAME .
 *.stripchat.ooo CNAME .
 stripchat.org CNAME .
@@ -32496,6 +32498,8 @@ vipsevgilim.com CNAME .
 *.vipsevgilim.com CNAME .
 vipsexvault.com CNAME .
 *.vipsexvault.com CNAME .
+vipshop.com CNAME .
+*.vipshop.com CNAME .
 viptransex.net CNAME .
 *.viptransex.net CNAME .
 viptube.com CNAME .
