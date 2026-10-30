@@ -1,16 +1,16 @@
-; Version: 202610301506
+; Version: 202610301606
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 980070
-; Last modified: 2026-10-30T15:06:57+0000
+; Entries: 980074
+; Last modified: 2026-10-30T16:06:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793372401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793376001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -361890,6 +361890,8 @@ gqplumi.cn CNAME .
 *.gqplumi.cn CNAME .
 gqr924.sbs CNAME .
 *.gqr924.sbs CNAME .
+gqrf.com.cn CNAME .
+*.gqrf.com.cn CNAME .
 gqrnum.top CNAME .
 *.gqrnum.top CNAME .
 gqrsub.top CNAME .
@@ -695182,6 +695184,8 @@ pwv256.sbs CNAME .
 *.pwv256.sbs CNAME .
 pww541.sbs CNAME .
 *.pww541.sbs CNAME .
+pwwd.com.cn CNAME .
+*.pwwd.com.cn CNAME .
 pwxgko.cn CNAME .
 *.pwxgko.cn CNAME .
 pwxxx.icu CNAME .
