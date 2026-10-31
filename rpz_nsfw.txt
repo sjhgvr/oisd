@@ -1,16 +1,16 @@
-; Version: 202610310607
+; Version: 202610310731
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 980626
-; Last modified: 2026-10-31T06:07:31+0000
+; Entries: 980628
+; Last modified: 2026-10-31T07:31:56+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793426402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793430001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -624406,6 +624406,8 @@ pimphoes.com CNAME .
 *.pimphoes.com CNAME .
 pimpinpalace.com CNAME .
 *.pimpinpalace.com CNAME .
+pimpleak.com CNAME .
+*.pimpleak.com CNAME .
 pimplife.com CNAME .
 *.pimplife.com CNAME .
 pimpmilf.com CNAME .
