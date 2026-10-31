@@ -1,16 +1,16 @@
-; Version: 202610311545
+; Version: 202610311734
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 980666
-; Last modified: 2026-10-31T15:45:11+0000
+; Entries: 980664
+; Last modified: 2026-10-31T17:34:14+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793458802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793466001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -94666,8 +94666,6 @@ aroma-fortuna.com CNAME .
 *.aroma-fortuna.com CNAME .
 aroma-fresca.com CNAME .
 *.aroma-fresca.com CNAME .
-aroma-lounge.jp CNAME .
-*.aroma-lounge.jp CNAME .
 aroma-premium.net CNAME .
 *.aroma-premium.net CNAME .
 aroma168.lol CNAME .
