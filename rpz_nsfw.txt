@@ -1,16 +1,16 @@
-; Version: 202611021733
+; Version: 202611021934
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 972070
-; Last modified: 2026-11-02T17:33:00+0000
+; Entries: 972072
+; Last modified: 2026-11-02T19:34:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793638802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793646001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -421772,6 +421772,8 @@ incestflix.date CNAME .
 *.incestflix.date CNAME .
 incestflix.ru CNAME .
 *.incestflix.ru CNAME .
+incestflix.zone CNAME .
+*.incestflix.zone CNAME .
 incestflixx.com CNAME .
 *.incestflixx.com CNAME .
 incestfuck.pro CNAME .
