@@ -1,16 +1,16 @@
-; Version: 202611022206
+; Version: 202611030218
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 119892
-; Last modified: 2026-11-02T22:06:02+0000
+; Last modified: 2026-11-03T02:18:22+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793656801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793671201 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1472,6 +1472,8 @@ $TTL 30
 *.1fd92n6t8.de CNAME .
 1fe6b5ca5a.5ea748c035.com CNAME .
 *.1fe6b5ca5a.5ea748c035.com CNAME .
+1fede51fa6.com CNAME .
+*.1fede51fa6.com CNAME .
 1fp9k4zrm.com CNAME .
 *.1fp9k4zrm.com CNAME .
 1futnsio0.com CNAME .
@@ -4600,8 +4602,6 @@ $TTL 30
 *.804uptpbx.com CNAME .
 8052qydk7.com CNAME .
 *.8052qydk7.com CNAME .
-8058780d2e.1fede51fa6.com CNAME .
-*.8058780d2e.1fede51fa6.com CNAME .
 80753325p.com CNAME .
 *.80753325p.com CNAME .
 8088insensor.net CNAME .
