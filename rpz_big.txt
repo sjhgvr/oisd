@@ -1,16 +1,16 @@
-; Version: 202611040811
+; Version: 202611040905
 ; Title: oisd big
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 464358
-; Last modified: 2026-11-04T08:11:58+0000
+; Entries: 464362
+; Last modified: 2026-11-04T09:05:03+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793779201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793782801 86400 3600 604800 30
  NS localhost.
 0--foodwarez.da.ru CNAME .
 *.0--foodwarez.da.ru CNAME .
@@ -134726,6 +134726,8 @@ e-ad-monitor.huya.com CNAME .
 *.e-ad-monitor.huya.com CNAME .
 e-ads.com CNAME .
 *.e-ads.com CNAME .
+e-afiliacao.estadao.com.br CNAME .
+*.e-afiliacao.estadao.com.br CNAME .
 e-agripass.info CNAME .
 *.e-agripass.info CNAME .
 e-assr-education-securite-routiere.fr CNAME .
@@ -361002,6 +361004,8 @@ smartad.10010.com CNAME .
 *.smartad.10010.com CNAME .
 smartadexchange.xyz CNAME .
 *.smartadexchange.xyz CNAME .
+smartads.estadao.com.br CNAME .
+*.smartads.estadao.com.br CNAME .
 smartads.tech CNAME .
 *.smartads.tech CNAME .
 smartadserver.com CNAME .
