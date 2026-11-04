@@ -1,16 +1,16 @@
-; Version: 202611032307
+; Version: 202611040319
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 973168
-; Last modified: 2026-11-03T23:07:38+0000
+; Entries: 973166
+; Last modified: 2026-11-04T03:19:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793746802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793761202 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -548398,8 +548398,6 @@ moehd.top CNAME .
 *.moehd.top CNAME .
 moehentai.tv CNAME .
 *.moehentai.tv CNAME .
-moeimg.fan CNAME .
-*.moeimg.fan CNAME .
 moeimg.net CNAME .
 *.moeimg.net CNAME .
 moeimg.red CNAME .
