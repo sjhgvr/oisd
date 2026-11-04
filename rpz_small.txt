@@ -1,16 +1,16 @@
-; Version: 202611040812
+; Version: 202611040905
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 120248
-; Last modified: 2026-11-04T08:12:50+0000
+; Entries: 120252
+; Last modified: 2026-11-04T09:05:25+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793779201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793782801 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -36578,6 +36578,8 @@ dzyuqtbjjtfpg.site CNAME .
 *.dzyuqtbjjtfpg.site CNAME .
 dzz8yyd41.com CNAME .
 *.dzz8yyd41.com CNAME .
+e-afiliacao.estadao.com.br CNAME .
+*.e-afiliacao.estadao.com.br CNAME .
 e-bannerx.com CNAME .
 *.e-bannerx.com CNAME .
 e-m.fr CNAME .
@@ -91472,6 +91474,8 @@ smartad.10010.com CNAME .
 *.smartad.10010.com CNAME .
 smartadexchange.xyz CNAME .
 *.smartadexchange.xyz CNAME .
+smartads.estadao.com.br CNAME .
+*.smartads.estadao.com.br CNAME .
 smartads.tech CNAME .
 *.smartads.tech CNAME .
 smartadserver.com CNAME .
