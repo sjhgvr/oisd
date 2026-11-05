@@ -1,16 +1,16 @@
-; Version: 202611052107
+; Version: 202611052206
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 121302
-; Last modified: 2026-11-05T21:07:43+0000
+; Entries: 121304
+; Last modified: 2026-11-05T22:06:33+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793912402 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1793916002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -15156,6 +15156,8 @@ antiadblock.uiiumovie.in CNAME .
 *.antiadblock.uiiumovie.in CNAME .
 antiadblockcore.com CNAME .
 *.antiadblockcore.com CNAME .
+antiadblockguard.com CNAME .
+*.antiadblockguard.com CNAME .
 antiadblocksystems.com CNAME .
 *.antiadblocksystems.com CNAME .
 antibioticdaybreak.com CNAME .
