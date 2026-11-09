@@ -1,16 +1,16 @@
-; Version: 202611090008
+; Version: 202611090206
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 986446
-; Last modified: 2026-11-09T00:08:20+0000
+; Last modified: 2026-11-09T02:06:57+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794182401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794189601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -622254,6 +622254,8 @@ phimheo.bio CNAME .
 *.phimheo.bio CNAME .
 phimheo.blog CNAME .
 *.phimheo.blog CNAME .
+phimheo.bond CNAME .
+*.phimheo.bond CNAME .
 phimheo.cam CNAME .
 *.phimheo.cam CNAME .
 phimheo.club CNAME .
@@ -667672,8 +667674,6 @@ pornprospics.pages.dev CNAME .
 *.pornprospics.pages.dev CNAME .
 pornprostube.com CNAME .
 *.pornprostube.com CNAME .
-pornprosusa.com CNAME .
-*.pornprosusa.com CNAME .
 pornprosvidz.blogspot.com CNAME .
 *.pornprosvidz.blogspot.com CNAME .
 pornprotal.com CNAME .
