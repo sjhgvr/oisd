@@ -1,16 +1,16 @@
-; Version: 202611082333
+; Version: 202611090008
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 986442
-; Last modified: 2026-11-08T23:33:21+0000
+; Entries: 986446
+; Last modified: 2026-11-09T00:08:20+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794178802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794182401 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -897476,6 +897476,8 @@ vlxvn.biz CNAME .
 *.vlxvn.biz CNAME .
 vlxvn.blog CNAME .
 *.vlxvn.blog CNAME .
+vlxvn.bond CNAME .
+*.vlxvn.bond CNAME .
 vlxvn.click CNAME .
 *.vlxvn.click CNAME .
 vlxvn.club CNAME .
@@ -897484,6 +897486,8 @@ vlxvn.co CNAME .
 *.vlxvn.co CNAME .
 vlxvn.com CNAME .
 *.vlxvn.com CNAME .
+vlxvn.cool CNAME .
+*.vlxvn.cool CNAME .
 vlxvn.diy CNAME .
 *.vlxvn.diy CNAME .
 vlxvn.fan CNAME .
