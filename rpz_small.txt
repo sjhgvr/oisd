@@ -1,16 +1,16 @@
-; Version: 202611100505
+; Version: 202611100752
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 121042
-; Last modified: 2026-11-10T05:05:54+0000
+; Entries: 121040
+; Last modified: 2026-11-10T07:52:20+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794286801 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794294003 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -43856,8 +43856,6 @@ free-cdn.oss-cn-shanghai.aliyuncs.com CNAME .
 *.free-cdn.oss-cn-shanghai.aliyuncs.com CNAME .
 free-datings.com CNAME .
 *.free-datings.com CNAME .
-free.srcdn.xyz CNAME .
-*.free.srcdn.xyz CNAME .
 freeadd.me CNAME .
 *.freeadd.me CNAME .
 freealremark.org CNAME .
