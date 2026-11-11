@@ -1,16 +1,16 @@
-; Version: 202611110507
+; Version: 202611110606
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 974664
-; Last modified: 2026-11-11T05:07:42+0000
+; Entries: 974668
+; Last modified: 2026-11-11T06:06:04+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794373201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794376801 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -356790,6 +356790,8 @@ gogo.at CNAME .
 *.gogo.at CNAME .
 gogo2000.com CNAME .
 *.gogo2000.com CNAME .
+gogoala.com.cn CNAME .
+*.gogoala.com.cn CNAME .
 gogoangels.com CNAME .
 *.gogoangels.com CNAME .
 gogoanime.com.es CNAME .
@@ -777058,6 +777060,8 @@ shaoyemanhuamianfeiyuedu.net.cn CNAME .
 *.shaoyemanhuamianfeiyuedu.net.cn CNAME .
 shaoyifutijian.com CNAME .
 *.shaoyifutijian.com CNAME .
+shaoyuanbai.cn CNAME .
+*.shaoyuanbai.cn CNAME .
 shaozhijixie.com CNAME .
 *.shaozhijixie.com CNAME .
 shaozy.cn CNAME .
