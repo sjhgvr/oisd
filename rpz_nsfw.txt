@@ -1,16 +1,16 @@
-; Version: 202611120708
+; Version: 202611121406
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 974910
-; Last modified: 2026-11-12T07:08:01+0000
+; Entries: 974912
+; Last modified: 2026-11-12T14:06:59+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794466802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794492001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -265894,6 +265894,8 @@ erofight.net CNAME .
 *.erofight.net CNAME .
 erofiles.com CNAME .
 *.erofiles.com CNAME .
+erofilm.co CNAME .
+*.erofilm.co CNAME .
 erofilmpjes.nl CNAME .
 *.erofilmpjes.nl CNAME .
 erofilmy.net CNAME .
