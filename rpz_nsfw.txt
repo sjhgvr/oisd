@@ -1,16 +1,16 @@
-; Version: 202611150607
+; Version: 202611150706
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 982558
-; Last modified: 2026-11-15T06:07:01+0000
+; Entries: 982560
+; Last modified: 2026-11-15T07:06:41+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794722401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794726001 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -806826,6 +806826,8 @@ speculumtube.com CNAME .
 *.speculumtube.com CNAME .
 speculumvideos.com CNAME .
 *.speculumvideos.com CNAME .
+speech2type.com CNAME .
+*.speech2type.com CNAME .
 speed-doujin.com CNAME .
 *.speed-doujin.com CNAME .
 speeddatingsex.com CNAME .
