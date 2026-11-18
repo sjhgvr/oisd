@@ -1,16 +1,16 @@
-; Version: 202611180635
+; Version: 202611181206
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 992756
-; Last modified: 2026-11-18T06:35:11+0000
+; Entries: 992754
+; Last modified: 2026-11-18T12:06:44+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1794981601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795003201 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -58466,8 +58466,6 @@ adult-ullu-video.blogspot.com CNAME .
 *.adult-ullu-video.blogspot.com CNAME .
 adult-us.com CNAME .
 *.adult-us.com CNAME .
-adult-v.com CNAME .
-*.adult-v.com CNAME .
 adult-vdeo.blogspot.com CNAME .
 *.adult-vdeo.blogspot.com CNAME .
 adult-verify.com CNAME .
