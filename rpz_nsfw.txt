@@ -1,16 +1,16 @@
-; Version: 202611181206
+; Version: 202611181934
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 992754
-; Last modified: 2026-11-18T12:06:44+0000
+; Entries: 992750
+; Last modified: 2026-11-18T19:34:26+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795003201 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795028402 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -685276,8 +685276,6 @@ primehardcore.com CNAME .
 *.primehardcore.com CNAME .
 primehentai.com CNAME .
 *.primehentai.com CNAME .
-primehooters.com CNAME .
-*.primehooters.com CNAME .
 primehub.me CNAME .
 *.primehub.me CNAME .
 primehub.wiki CNAME .
@@ -685316,8 +685314,6 @@ primeporn.club CNAME .
 *.primeporn.club CNAME .
 primeporn.ink CNAME .
 *.primeporn.ink CNAME .
-primeporn.net CNAME .
-*.primeporn.net CNAME .
 primeporn.us.com CNAME .
 *.primeporn.us.com CNAME .
 primeporn4k.com CNAME .
