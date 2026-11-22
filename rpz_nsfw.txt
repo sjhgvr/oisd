@@ -1,16 +1,16 @@
-; Version: 202611220933
+; Version: 202611221332
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 997010
-; Last modified: 2026-11-22T09:33:29+0000
+; Entries: 997012
+; Last modified: 2026-11-22T13:32:16+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795338001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795352401 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -74884,6 +74884,8 @@ alicious-chamber.blogspot.com CNAME .
 *.alicious-chamber.blogspot.com CNAME .
 aliclonepro.xyz CNAME .
 *.aliclonepro.xyz CNAME .
+aliddell106.com CNAME .
+*.aliddell106.com CNAME .
 alidian.com CNAME .
 *.alidian.com CNAME .
 alief6.cyou CNAME .
