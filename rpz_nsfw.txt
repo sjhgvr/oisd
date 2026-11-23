@@ -1,16 +1,16 @@
-; Version: 202611230035
+; Version: 202611230107
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 997276
-; Last modified: 2026-11-23T00:35:08+0000
+; Entries: 997278
+; Last modified: 2026-11-23T01:07:49+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795392001 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795395601 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -555514,6 +555514,8 @@ minicomicsdumptruck.blogspot.com CNAME .
 *.minicomicsdumptruck.blogspot.com CNAME .
 minicrazy.cn CNAME .
 *.minicrazy.cn CNAME .
+minienterprises.in CNAME .
+*.minienterprises.in CNAME .
 minierotica.com CNAME .
 *.minierotica.com CNAME .
 minifokdag.nl CNAME .
