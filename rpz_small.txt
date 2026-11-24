@@ -1,16 +1,16 @@
-; Version: 202611240206
+; Version: 202611240511
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 125280
-; Last modified: 2026-11-24T02:06:07+0000
+; Last modified: 2026-11-24T05:11:30+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795485601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795496401 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -72,6 +72,8 @@ $TTL 30
 *.0282ecdaf0.5b4c971817.com CNAME .
 029519cbdc.com CNAME .
 *.029519cbdc.com CNAME .
+029d52f978.com CNAME .
+*.029d52f978.com CNAME .
 02b38ee0a0.fa79b54337.com CNAME .
 *.02b38ee0a0.fa79b54337.com CNAME .
 02e4a0ea60.com CNAME .
@@ -3988,8 +3990,6 @@ $TTL 30
 *.6mrhrbfqw9.com CNAME .
 6mujth3wgx.com CNAME .
 *.6mujth3wgx.com CNAME .
-6mwwun92mc6hwj2c.cmu8y2wm12ooip4nm.cfd CNAME .
-*.6mwwun92mc6hwj2c.cmu8y2wm12ooip4nm.cfd CNAME .
 6n528aywi9.com CNAME .
 *.6n528aywi9.com CNAME .
 6nzhw9kn5948ztnx2nlju.cfd CNAME .
@@ -7608,8 +7608,6 @@ ad8.hottestasians.pics CNAME .
 *.ad8.hottestasians.pics CNAME .
 ad81b5514f.91b20f7c8f.com CNAME .
 *.ad81b5514f.91b20f7c8f.com CNAME .
-ad8fcd6370.029d52f978.com CNAME .
-*.ad8fcd6370.029d52f978.com CNAME .
 ad999.biz CNAME .
 *.ad999.biz CNAME .
 adaction.de CNAME .
@@ -26958,6 +26956,8 @@ cmsuausybkdkj.online CNAME .
 *.cmsuausybkdkj.online CNAME .
 cmtrk.com CNAME .
 *.cmtrk.com CNAME .
+cmu8y2wm12ooip4nm.cfd CNAME .
+*.cmu8y2wm12ooip4nm.cfd CNAME .
 cmyvivsamx.in CNAME .
 *.cmyvivsamx.in CNAME .
 cmyyrxuwxglbs.space CNAME .
@@ -71404,8 +71404,6 @@ mtrokjdgwtrhw.space CNAME .
 *.mtrokjdgwtrhw.space CNAME .
 mtscxmuhtzkui.site CNAME .
 *.mtscxmuhtzkui.site CNAME .
-mtt1uj.nq95ihw6l9bwzuy.cfd CNAME .
-*.mtt1uj.nq95ihw6l9bwzuy.cfd CNAME .
 mttkrmejmzbpu.space CNAME .
 *.mttkrmejmzbpu.space CNAME .
 mtueecezoqlmx.site CNAME .
@@ -74336,6 +74334,8 @@ npzjrlkmmjjtxe.com CNAME .
 *.npzjrlkmmjjtxe.com CNAME .
 nq6jitu4y.com CNAME .
 *.nq6jitu4y.com CNAME .
+nq95ihw6l9bwzuy.cfd CNAME .
+*.nq95ihw6l9bwzuy.cfd CNAME .
 nqddcruxvklfa.site CNAME .
 *.nqddcruxvklfa.site CNAME .
 nqdinqyxhptrg.site CNAME .
