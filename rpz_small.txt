@@ -1,16 +1,16 @@
-; Version: 202611240511
+; Version: 202611240613
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
 ; Entries: 125280
-; Last modified: 2026-11-24T05:11:30+0000
+; Last modified: 2026-11-24T06:13:58+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795496401 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795500002 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -1458,8 +1458,6 @@ $TTL 30
 *.1fp9k4zrm.com CNAME .
 1g.8un3nbur69v8vvnn.cyou CNAME .
 *.1g.8un3nbur69v8vvnn.cyou CNAME .
-1g.qt3jfqeblhqzrzqt.cyou CNAME .
-*.1g.qt3jfqeblhqzrzqt.cyou CNAME .
 1g46ls536.de CNAME .
 *.1g46ls536.de CNAME .
 1gbjadpsq.de CNAME .
@@ -1492,8 +1490,6 @@ $TTL 30
 *.1i8c0f11.de CNAME .
 1igare0jn.de CNAME .
 *.1igare0jn.de CNAME .
-1irx.kor54ifwhyrug2.cyou CNAME .
-*.1irx.kor54ifwhyrug2.cyou CNAME .
 1itot7tm.de CNAME .
 *.1itot7tm.de CNAME .
 1iw9r46xh5.com CNAME .
@@ -2268,8 +2264,6 @@ $TTL 30
 *.2v6pb5xbhunnmy8o.cfd CNAME .
 2vcb9onxjm.com CNAME .
 *.2vcb9onxjm.com CNAME .
-2vfpjcpy351cwug.63xr7vjq6v9xhp.cyou CNAME .
-*.2vfpjcpy351cwug.63xr7vjq6v9xhp.cyou CNAME .
 2w7urj3f2.com CNAME .
 *.2w7urj3f2.com CNAME .
 2waky.com CNAME .
@@ -3584,8 +3578,6 @@ $TTL 30
 *.5rgh87i44.zo5etlmx5mzx7wxcw.cyou CNAME .
 5ro76jxwweylgt18rm56qw.cfd CNAME .
 *.5ro76jxwweylgt18rm56qw.cfd CNAME .
-5rwx.hf8z1m8f618irqhqoy1oq7.cyou CNAME .
-*.5rwx.hf8z1m8f618irqhqoy1oq7.cyou CNAME .
 5sghirlr5b.com CNAME .
 *.5sghirlr5b.com CNAME .
 5t5z6augl3.com CNAME .
@@ -3594,8 +3586,6 @@ $TTL 30
 *.5tei0pomwk.com CNAME .
 5tf1zp1jgb.com CNAME .
 *.5tf1zp1jgb.com CNAME .
-5tgkx4vff.qe1zwooolvi6tozubf.cyou CNAME .
-*.5tgkx4vff.qe1zwooolvi6tozubf.cyou CNAME .
 5toft8or7on8tt.com CNAME .
 *.5toft8or7on8tt.com CNAME .
 5tvcz6ovxvxxptj71te9ipl7hggw.cyou CNAME .
@@ -3612,8 +3602,6 @@ $TTL 30
 *.5uzpwjwkb.com CNAME .
 5v19ql3xi1.com CNAME .
 *.5v19ql3xi1.com CNAME .
-5v61.hb72kvmlnbjjxu3zogjbw52.cyou CNAME .
-*.5v61.hb72kvmlnbjjxu3zogjbw52.cyou CNAME .
 5v8xnjmivocmuh6zul.cfd CNAME .
 *.5v8xnjmivocmuh6zul.cfd CNAME .
 5vbs96dea.com CNAME .
@@ -3730,6 +3718,8 @@ $TTL 30
 *.63r2vxacp0pr.com CNAME .
 63voy9ciyi14.com CNAME .
 *.63voy9ciyi14.com CNAME .
+63xr7vjq6v9xhp.cyou CNAME .
+*.63xr7vjq6v9xhp.cyou CNAME .
 642596c296.com CNAME .
 *.642596c296.com CNAME .
 642d97196d.5b19d257db.com CNAME .
@@ -4470,8 +4460,6 @@ $TTL 30
 *.7w7kditsz.com CNAME .
 7whiocvyyikrw7i3fv5.cfd CNAME .
 *.7whiocvyyikrw7i3fv5.cfd CNAME .
-7wm.iq28131hrcygj2.cyou CNAME .
-*.7wm.iq28131hrcygj2.cyou CNAME .
 7woqerclqww6j678em.cfd CNAME .
 *.7woqerclqww6j678em.cfd CNAME .
 7wrxo2xh.iriscreative.co CNAME .
@@ -4790,8 +4778,6 @@ $TTL 30
 *.8nez1htme.2zllggttjyyx7y.cyou CNAME .
 8nkqg8j1iyn2vl63q2wbncx6x7b4m42f6p.cfd CNAME .
 *.8nkqg8j1iyn2vl63q2wbncx6x7b4m42f6p.cfd CNAME .
-8nqp2.ur5tyhny69q53nntcz.cyou CNAME .
-*.8nqp2.ur5tyhny69q53nntcz.cyou CNAME .
 8o5v23yip.com CNAME .
 *.8o5v23yip.com CNAME .
 8o9jjl21flk8hj.cyou CNAME .
@@ -50110,6 +50096,8 @@ hb3l6o.yughbny41r6qo4ylw6mrf4l.cyou CNAME .
 *.hb3l6o.yughbny41r6qo4ylw6mrf4l.cyou CNAME .
 hb4muqyf.ujoxqluovwwvy79p5rz2h.cyou CNAME .
 *.hb4muqyf.ujoxqluovwwvy79p5rz2h.cyou CNAME .
+hb72kvmlnbjjxu3zogjbw52.cyou CNAME .
+*.hb72kvmlnbjjxu3zogjbw52.cyou CNAME .
 hb7fo8o4hy81viw.cfd CNAME .
 *.hb7fo8o4hy81viw.cfd CNAME .
 hb94dnbe.de CNAME .
@@ -50674,6 +50662,8 @@ heyptsfbxntii.site CNAME .
 *.heyptsfbxntii.site CNAME .
 hf5rbejvpwds.com CNAME .
 *.hf5rbejvpwds.com CNAME .
+hf8z1m8f618irqhqoy1oq7.cyou CNAME .
+*.hf8z1m8f618irqhqoy1oq7.cyou CNAME .
 hfcqcubumdrpp.website CNAME .
 *.hfcqcubumdrpp.website CNAME .
 hfcwirfmfgyzk.site CNAME .
@@ -55482,6 +55472,8 @@ iq.afterpay.com CNAME .
 *.iq.afterpay.com CNAME .
 iq.sixaxisllc.com CNAME .
 *.iq.sixaxisllc.com CNAME .
+iq28131hrcygj2.cyou CNAME .
+*.iq28131hrcygj2.cyou CNAME .
 iqareoownsabn.site CNAME .
 *.iqareoownsabn.site CNAME .
 iqbrephakndpv.online CNAME .
@@ -60474,6 +60466,8 @@ kopetaweedle.com CNAME .
 *.kopetaweedle.com CNAME .
 kopeukasrsiha.com CNAME .
 *.kopeukasrsiha.com CNAME .
+kor54ifwhyrug2.cyou CNAME .
+*.kor54ifwhyrug2.cyou CNAME .
 koreomneity.com CNAME .
 *.koreomneity.com CNAME .
 korexo.com CNAME .
@@ -84818,6 +84812,8 @@ qe.k5pl3cz4qub6ymv663vl3.cyou CNAME .
 *.qe.k5pl3cz4qub6ymv663vl3.cyou CNAME .
 qe18u1qxviwlwyp9i.cfd CNAME .
 *.qe18u1qxviwlwyp9i.cfd CNAME .
+qe1zwooolvi6tozubf.cyou CNAME .
+*.qe1zwooolvi6tozubf.cyou CNAME .
 qe9wckxig.com CNAME .
 *.qe9wckxig.com CNAME .
 qebyweotemowl.online CNAME .
@@ -85770,6 +85766,8 @@ qsuyonnbxx.com CNAME .
 *.qsuyonnbxx.com CNAME .
 qszcdmiwrcxrk.com CNAME .
 *.qszcdmiwrcxrk.com CNAME .
+qt3jfqeblhqzrzqt.cyou CNAME .
+*.qt3jfqeblhqzrzqt.cyou CNAME .
 qt4wieces3.com CNAME .
 *.qt4wieces3.com CNAME .
 qtakjjwgvumvj.space CNAME .
@@ -109616,6 +109614,8 @@ uqxjearmigixi.site CNAME .
 *.uqxjearmigixi.site CNAME .
 uqzerigoovncc.online CNAME .
 *.uqzerigoovncc.online CNAME .
+ur5tyhny69q53nntcz.cyou CNAME .
+*.ur5tyhny69q53nntcz.cyou CNAME .
 ur9grh7xbm8lw6.rest CNAME .
 *.ur9grh7xbm8lw6.rest CNAME .
 urablqistynjk.online CNAME .
