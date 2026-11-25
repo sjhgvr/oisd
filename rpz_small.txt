@@ -1,16 +1,16 @@
-; Version: 202611251307
+; Version: 202611251922
 ; Title: oisd small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 125848
-; Last modified: 2026-11-25T13:07:23+0000
+; Entries: 125846
+; Last modified: 2026-11-25T19:22:48+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795611601 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795633202 86400 3600 604800 30
  NS localhost.
 0-02.net CNAME .
 *.0-02.net CNAME .
@@ -73090,8 +73090,6 @@ neobasnet.timeout.ru CNAME .
 *.neobasnet.timeout.ru CNAME .
 neocounter.neoworx-blog-tools.net CNAME .
 *.neocounter.neoworx-blog-tools.net CNAME .
-neoffic.com CNAME .
-*.neoffic.com CNAME .
 neonewszone.lat CNAME .
 *.neonewszone.lat CNAME .
 neousaunce.com CNAME .
