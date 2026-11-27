@@ -1,16 +1,16 @@
-; Version: 202611271245
+; Version: 202611271808
 ; Title: oisd nsfw_small
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 34950
-; Last modified: 2026-11-27T12:45:30+0000
+; Entries: 34952
+; Last modified: 2026-11-27T18:08:47+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795780802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795802401 86400 3600 604800 30
  NS localhost.
 010zaixian.com CNAME .
 *.010zaixian.com CNAME .
@@ -28868,6 +28868,8 @@ tipbang.com CNAME .
 *.tipbang.com CNAME .
 tippelstraat.nl CNAME .
 *.tippelstraat.nl CNAME .
+tipsy.chat CNAME .
+*.tipsy.chat CNAME .
 titanmen.com CNAME .
 *.titanmen.com CNAME .
 titi.biz CNAME .
