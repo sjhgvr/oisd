@@ -1,16 +1,16 @@
-; Version: 202611271245
+; Version: 202611271347
 ; Title: oisd nsfw
 ; Description: Block. Don't break.
 ; Syntax: Response Policy Zone
-; Entries: 985618
-; Last modified: 2026-11-27T12:45:05+0000
+; Entries: 985624
+; Last modified: 2026-11-27T13:47:23+0000
 ; Expires: 1 hours
 ; License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
 ; Maintainer: Stephan van Ruth
 ; Homepage: https://oisd.nl
 
 $TTL 30
-@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795780802 86400 3600 604800 30
+@ IN SOA rpz.oisd.nl. hostmaster.rpz.oisd.nl. 1795784401 86400 3600 604800 30
  NS localhost.
 0-0.asia CNAME .
 *.0-0.asia CNAME .
@@ -12548,8 +12548,12 @@ $TTL 30
 *.2048dj02.com CNAME .
 2048dj03.com CNAME .
 *.2048dj03.com CNAME .
+2048dj2.com CNAME .
+*.2048dj2.com CNAME .
 2048hjd.info CNAME .
 *.2048hjd.info CNAME .
+2048jd.com CNAME .
+*.2048jd.com CNAME .
 2048xxx.com CNAME .
 *.2048xxx.com CNAME .
 204905.com CNAME .
@@ -51090,6 +51094,8 @@ aa-vip-leyusport.com CNAME .
 *.aa-vip-leyusport.com CNAME .
 aa.dikclehn.cc CNAME .
 *.aa.dikclehn.cc CNAME .
+aa.edgyuvfu.cc CNAME .
+*.aa.edgyuvfu.cc CNAME .
 aa023.com CNAME .
 *.aa023.com CNAME .
 aa032.com CNAME .
